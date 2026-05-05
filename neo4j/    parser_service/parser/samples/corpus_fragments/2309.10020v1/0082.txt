@@ -1,0 +1,53 @@
+Evolution of modeling paradigm. As summarized in Figure 6.1, we are witnessing the transition
+from task-specific models towards general-purpose assistants across language, vision, and multi-
+modal research.
+We started with task-specific models that are trained on small-scale well-annotated data. This
+results in dedicated models (Anderson et al., 2018; Li et al., 2019a; Yu et al., 2019) for each task or
+even each dataset.
+We then transitioned to the phase of pre-trained models, with the pretrain-then-finetune paradigm
+widely adopted across both NLP and vision-language (VL) research. During pre-training, the model
+can take advantages of large-scale, web-crawled noisy data, for example, millions to billions of
+image-text pairs (Chen et al., 2020d; Wang et al., 2022a), or billions of text tokens (Devlin et al.,
+2019; Liu et al., 2019). However, it is still mostly task-specific finetuned, requiring similarly small-
+scale, well-annotated data as the ones used in training task-specific models. This paradigm has led
+to many well-known models, such as BERT (Devlin et al., 2019), RoBERTa (Liu et al., 2019) in
+NLP, and UNITER (Chen et al., 2020d), OSCAR (Li et al., 2020b) in VL. These early VL founda-
+tion models were considered to be large-scale (trained with 10M image-text pairs), but may be of
+intermediate or even small size in today’s view (billions of pairs).
+Nowadays, we are entering a new era of generalist modeling, where the pre-training has been fur-
+ther scaled up to trillions of text tokens (Gao et al., 2023b). For downstream adaptation, these gen-
+eralist models have shown strong performance with in-context few-shot learning on a few demon-
+stration examples, or even zero-shot evaluation. These models are what we now refer as large lan-
+guage/multimodal models, including the GPT family (OpenAI, 2022, 2023a), PaLM family (Chowd-
+hery et al., 2022; Driess et al., 2023), LLaMa (Touvron et al., 2023), Flamingo (Alayrac et al., 2022).
+Based on the generalist models, the pipeline of building instruction-following models covered in
+Chapter 5, similarly follows the pretrain-then-finetune paradigm. For example, Alpaca (Taori et al.,
+2023), is built on top of the pre-trained LLaMa (Touvron et al., 2023), then finetuned on a smaller-
+scale instruction tuning dataset. Similarly, for instruction-following VL models ( e.g. LLaV A (Li
+et al., 2023e)), an additional stage of image-text alignment pre-training is introduced to align the
+visual representations to the frozen LLM first, followed by visual instruction tuning.
+New modeling paradigm: chaining tools with LLM. LLMs (Brown et al., 2020; Chowdhery
+et al., 2022; OpenAI, 2023a) have demonstrated exceptional abilities to tackle new tasks with only a
+few examples or textual instructions, showing the promise of serving as general-purpose foundations
+for many applications. Despite being versatile and impressive, they encounter challenges with the
+basic functionalities, such as mathematical reasoning and information retrieval. Furthermore, a
+fundamental limitation of not only LLMs but also other large-scale models nowadays, is that they
+only represent the world described by their training data, which will inevitably become outdated
+over time. Regularly re-training the model with the latest information is simply not feasible.
+Meanwhile, many tasks with real-world impact cannot be readily tackled by by LLMs alone. For
+example, accessing up-to-date information and performing computations, can be done via existing
+tools (e.g. , search engine or calculator). Hence, recent research in language modeling has explored
+a new modeling paradigm by supplementing LLMs with external NLP tools (Nakano et al., 2021;
+Huang et al., 2022b; Ahn et al., 2022), including calculators, search engines, translation systems,
+calendars, or even API calls on other models.
+The above studies mainly focus on a single modality, i.e., language, in which the output of the tools
+are in text format, thereby can naturally be fed into LLMs as additional knowledge. However, we live
+in a multimodal world and a truly intelligent agent should be able to perform advanced multimodal
+reasoning and actions. How to enable LLMs with perception of multimodal signals via tool using,
+is the focus of the remaining part of this chapter.
+6.2 Multimodal Agent
+There are several representative works on building multimodal agent with tool use of vision experts,
+including VISPROG (Gupta and Kembhavi, 2022b), Visual ChatGPT (Wu et al., 2023a) and MM-
+ReAct (Yang* et al., 2023). VISPROG is the very first work on using programming language to
+chain different vision tools with a LLM. Visual ChatGPT enables dialogue-based image editing by
+78

@@ -1,0 +1,171 @@
+205
+Литература
+ 
+ 
+1.
+ 
+Cybersecurity Campaign Playbook / HARVARD Kennedy School 
+Belfer Center for Science and International Affairs [
+Электронный
+ 
+ресурс
+]
+. 
+–
+ 
+URL
+ 
+: 
+https://www.belfercenter.org/CyberPlaybook
+ 
+2.
+ 
+Что
+ 
+безопаснее
+: 
+Lin
+ux или Windows? / COMSS.ONE 
+[Электронный ресурс]
+. 
+–
+ 
+URL: 
+https://www.comss.ru/page.php?
+id=6942
+ 
+3.
+ 
+10 основных способов защиты Microsoft 365 для бизнес
+-
+планов / Microsoft.com [Электронный ресурс]
+. 
+–
+ 
+URL: 
+https://docs.microsoft.com
+/ru
+-
+ru/microsoft
+-
+365/admin/security
+-
+and
+-
+compliance/secure
+-
+your
+-
+business
+-
+data
+ 
+4.
+ 
+ГОСТ Р 53113.1
+-
+2008 Информационная технология (ИТ). 
+Защита информационных технологий и автоматизированных 
+систем от угроз информационной безопасности, реализуемых 
+с использованием
+ 
+скрытых каналов. Часть 1. Общие 
+поло
+-
+жения 
+–
+ 
+Введ. 2009
+-
+10
+-
+01. 
+–
+ 
+М.: Изд
+-
+во стандартов, 2018. 
+–
+ 
+16 с.: ил.
+ 
+5.
+ 
+Astra Linux «Орел» Common Edition: есть ли жизнь после 
+Windows / Хабр [Электронный ресурс]
+. 
+–
+ 
+URL
+: 
+https
+://
+habr
+.
+com
+/
+ru
+/
+company
+/
+astralinux
+/
+blog
+/470808/
+ 
+6.
+ 
+Astra Linux® Common Edition ОПЕРАЦИОННАЯ СИСТЕМА 
+ОБЩЕГО НАЗНАЧЕНИЯ / Научно
+-
+производственное 
+объединение РусБИТех
+ 
+[Электронный ресурс]
+. 
+–
+ 
+URL: https://astralinux.ru/products/astra
+-
+linux
+-
+common
+-
+edition/
+ 
+7.
+ 
+Network_Security_Assessment_Know_Your_Network
+-
+_3rd_edition / ZLibrary [
+Электронный
+ 
+ресурс
+]
+. 
+–
+ 
+URL: https://b
+-
+ok.cc/book/2952307/2d1812
+ 
+8.
+ 
+Security Battleground: an Executive Field Manual by Michael Fey, 
+Brian Kenyon, Kevin Reardon, Bradon Rogers, Charles Derek 
+Ross / BookDepository [
+Электронный
+ 
+ресурс
+]
+.
+ 
+–
+ 
+URL: https://www.bookdepository.com/Security
+-
+Battleground
+-
+Michael
+-
+Fey/9781934053461

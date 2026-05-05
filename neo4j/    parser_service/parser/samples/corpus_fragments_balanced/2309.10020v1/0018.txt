@@ -1,0 +1,42 @@
+Image EncoderText Encoder
+Image
+Label
+Image Encoder
+ImageText
+Image EncoderImage Encoder
+ImageAug1Aug2
+Image Encoder
+ImageMasking
+Target on Masked Patches
+(a) Supervised Learning(b) CLIP(c) Image-only (non-)contrastive learning(d) Masked image modeling
+Figure 2.2: A high-level overview of different approaches to learn general image representations, in-
+cluding supervised learning (Krizhevsky et al., 2012), contrastive language-image pre-training (Rad-
+ford et al., 2021; Jia et al., 2021), and image-only self-supervised learning, including contrastive
+learning (Chen et al., 2020a; He et al., 2020), non-contrastive learning (Grill et al., 2020; Chen and
+He, 2021), and masked image modeling (Bao et al., 2022; He et al., 2022a).
+MaskedImageModelingBEiTSimMIMMAEiBOTBEiTv2Data2vecBEVTVideoMAE
+MaskFeatEVAMultimodal FusionLXMERTUNITERViLTALBEFMETERVLMoBLIPSimVLMCoCaGITPaLIFlamingo
+GLIPRegion/Pixel-level Pre-trainingGLIPv2Grounding-DINOOWL-ViTSAMSegGPTSEEMX-Decoder
+Supervised Learning
+JFT-300MImageNet-1KImageNet-21kJFT-3BIG-3.6BMOFIBiTViT-22B
+Contrastive Language-ImagePre-trainingOpenCLIPALIGNFlorenceBASICFLIPK-LiteImageBindUniCLLiTSLIPSTAIRFILIPCoCa
+DeLIPxCLIP
+CLIP
+Image-only (Non-) Contrastive LearningSimCLRBYOLSimSiamBarlow twinsVICRegSWaVDINO
+MoCoCPCCMCDIMEsViT
+Image BackbonesAlexNetResNetViTSwin
+Figure 2.3: An overview of the topics covered in this chapter and representative works in each topic.
+We start from supervised learning and CLIP, and then move on to image-only self-supervised learn-
+ing, including contrastive learning, non-contrastive learning, and masked image modeling. Lastly,
+we discuss pre-training methods that empower multimodal fusion, region-level and pixel-level im-
+age understanding.
+sification datasets are shown in Table 2.1. The labels are typically in the form of fine-grained image
+entities with a long-tailed distribution. Though classical, this approach has been very powerful for
+learning universal image representations. For example, JFT-300M (Sun et al., 2017) has been used
+for training the BiT (“Big Transfer”) models (Kolesnikov et al., 2020), and JFT-3B (Zhai et al.,
+2022a) has been used to scale up the training of a plain vision transformer (Dosovitskiy et al., 2021)
+to 22B in model size. LiT (Zhai et al., 2022b) proposes to first learn the image backbone on JFT-
+3B (Zhai et al., 2022a), and keep it frozen and learn another text tower to align the image and text
+embedding space to make the model open-vocabulary and is capable of performing zero-shot image
+classification.
+14

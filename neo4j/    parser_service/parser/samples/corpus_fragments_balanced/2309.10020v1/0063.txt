@@ -1,0 +1,25 @@
+Figure 4.17: SegGPT (Wang et al., 2023j) proposes to perform in-context learning for image seg-
+mentation. Image credit: Wang et al. (2023j).
+Figure 4.18: Hummingbird (Bala ˇzevi´c et al., 2023) is proposed for in-context visual scene under-
+standing through nearest-neighbor retrieval. Image credit: Balaˇzevi´c et al. (2023).
+strategy is akin to earlier works that build classification models based on K-nearest-neighbor but
+differently applied to dense prediction tasks.
+Discussion. In-context learning is arguably an appealing feature. On one hand, there are a number
+of works that attempt to bridge vision with LLM so as to inherit the in-context learning capability
+such as Flamingo (Alayrac et al., 2022) and Kosmos-1 (Huang et al., 2023b). On the other hand,
+researchers resort to pure vision-based in-context learning to address vision-specific tasks such as
+image segmentation, depth estimation, etc. Thus far, there is no single model that can take multi-
+modal inputs and predict different types of outputs as well in an in-context learning manner, which
+may render a promising future direction along this line.
+4.5 Summary and Discussion
+To the end, an illustrative summary of the works that have been covered in this chapter is shown
+in Figure 4.19. There is a clear trend in the vision community to build open-world, unified and
+interactive vision models. Nevertheless, there are still some intrinsic differences between vision and
+language. First, vision differs from language in that it captures the physical world with raw signals.
+We need to develop some sophisticated tokenization methods to compress the raw data into compact
+“tokens”. In the language domain, this can be easily done by using some well-established heuristic
+tokenizers (Sennrich et al., 2016). Second, unlike language, vision data itself is not labeled and
+thus difficult to convey information or knowledge. It always requires human labors to annotate the
+visual contents in either a semantic or spatial manner. Third, language data is homogeneous while
+vision data and tasks are heterogeneous. Last but not least, storing vision data is much more costly
+59

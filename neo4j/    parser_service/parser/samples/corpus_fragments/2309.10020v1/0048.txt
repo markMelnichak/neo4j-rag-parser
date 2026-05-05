@@ -1,0 +1,54 @@
+Replace labels with texts, and use text encoder to 
+encode all concepts as they are language tokens
+(a)
+semantic
+Image Region Pixel
+Label e.g, ViT
+e.g., UniCL
+e.g., DETR e.g., Mask2Former
+e.g., GLIP e.g., OpenSeeD
+Image Classification Object Detection Image Segmentation
+granularity
+Text
+ (b)
+Figure 4.2: (a) As proposed in CLIP (Radford et al., 2021), replacing labels with textual descriptions
+and using a text encoder to encode them can feasibly convert closed-set problems to open-set ones.
+Image credit from Yang et al. (2022b). (b) A number of works have been proposed to transform dif-
+ferent computer vision tasks by replacing the label space with language space, such as UniCL (Yang
+et al., 2022b), GLIP (Li et al., 2022f) and OpenSeeD (Zhang et al., 2023e).
+the traditional vision tasks optimize the log-likelihood of assigning label y = c to an image, often
+represented as a feature vector u ∈ R P :
+log P(y = c|u) = log expwc·u
+PK
+i=1 expwi·u
+, (4.1)
+where w ∈ R K×P is the projection matrix. Instead of using a pre-determined project matrix w, the
+CLIP method uses a text encoder Enctext to for the projection:
+vi = Enctext(Concept i), (4.2)
+where v plays the role of w in Eq. (4.1). The reason why a text encoder can help achieve open-set
+recognition is that all textual concepts are embedded in the same feature space through large-scale
+pre-training, and the feature distributions are coherent to the semantic meanings without the need of
+a pre-defined vocabulary. As such, the aligned visual-semantic space can be easily transferred to a
+wide range of image recognition tasks in a zero-shot manner. Please refer to Chapter 2 for a detailed
+discussion. In the following, we focus our discussion on the region-level and pixel-level models.
+After the release of the CLIP model (Radford et al., 2021), a number of open-set vision models have
+been developed using large amounts of text-image pairs for visual understanding at different levels
+of granularity (Yang et al., 2022b; Zhang et al., 2023e; Li et al., 2022f; Ghiasi et al., 2022a), rang-
+ing from image-level tasks (e.g., image classification Deng et al. (2009), image-text retrieval, image
+captioning Chen et al. (2015)), region-level localization ( e.g., object detection and phrase ground-
+ing Plummer et al. (2015)), to pixel-level grouping tasks ( e.g., image segmentation and referring
+segmentation Long et al. (2015); Kirillov et al. (2019); Hafiz and Bhat (2020)). These models can
+be categorized along the following three dimensions: model initialization, design and training.
+Model initialization. There are different initialization methods for open-set model training.
+• CLIP initialized. Many recent open-set models are trained by using a pre-trained model such
+as CLIP for initialization since a pre-trained model already provides a well-aligned (but often
+coarse-grained) visual-semantic feature space. For example, OVR-CNN (Zareian et al., 2021)
+and RegionCLIP (Zhong et al., 2022b) use a CLIP-style pre-trained ResNet (He et al., 2016) as
+the vision encoder and a pre-trained RPN (Ren et al., 2015) to extract regional features. Like-
+wise, MaskCLIP (Zhou et al., 2022a) and FreeSeg (Qin et al., 2023b) exploit the CLIP model
+to extract dense labels for pixels. FC-CLIP (Yu et al., 2023a) uses a frozen convolution network
+ConvNeXt (Liu et al., 2022b) in CLIP to encode input images of various resolutions.
+• CLIP augmented. Instead of initializing a model with CLIP parameters, other methods initialize
+the model parameters as usually (e.g., setting random values to model parameters), but use the
+pre-trained CLIP to help model training.For example, ViLD (Gu et al., 2022) augments the model
+44

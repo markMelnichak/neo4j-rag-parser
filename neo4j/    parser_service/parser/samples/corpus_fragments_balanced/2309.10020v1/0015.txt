@@ -1,0 +1,42 @@
+supervised methods to the recent language-image contrastive methods, and extend the discussion
+on image representations from image-level to region-level and pixel-level (Chapter 2). Recently,
+generative AI is becoming increasingly popular, where vision generative foundation models have
+been developed. In Chapter 3, we discuss large pre-trained text-to-image models, and various ways
+that the community leverage the generative foundation models to develop new techniques to make
+them better aligned with human intents. Inspired by the recent advances in NLP that LLMs serve as
+general-purpose assistants for a wide range of language tasks in daily life, the computer vision com-
+munity has been anticipating and attempting to build general-purpose visual assistants. We discuss
+three different ways to build general-purpose assistants. Inspired by the spirit of LLMs, Chapter 4
+focuses on unifying different vision models of understanding and generation without explicitly in-
+corporating LLMs in modeling. In contrast, Chapter 5 and Chapter 6 focus on embracing LLMs to
+build general-purpose visual assistants, by explicitly augmenting LLMs in modeling. Specifically,
+Chapter 5 describes end-to-end training methods, and Chapter 6 focuses on training-free approaches
+that chain various vision models to LLMs.
+How to read the paper. Different readers have different backgrounds, and may have different
+purposes of reading this paper. Here, we provide a few guidance.
+• Each chapter is mostly self-contained. If you have a clear goal and a clear research direction
+that you want to focus on, then just jump to the corresponding chapter. For example, if you are
+interested in building a mini prototype using OpenAI’s multimodal GPT-4, then you can directly
+jump to Chapter 5.
+• If you are a beginner of multimodal foundation models, and are interested in getting a glimpse
+of the cutting-edge research, we highly recommend that you read the whole paper chapter by
+chapter in order, as the early chapters serve as the building blocks of later chapters, and each
+chapter provides the description of the key concepts to help you understand the basic ideas, and a
+comprehensive literature review that to help you grasp the landscape and state of the art.
+• If you already have rich experience in multimodal foundation models and are familiar with the
+literature, feel free to jump to specific chapters you want to read. In particular, we include in most
+chapters a section to discuss advanced topics and sometimes provide our own perspectives, based
+on the up-to-date literature. For example, in Chapter 6, we discuss several important aspects of
+multimodal agents in tool use, including tool creation and its connection to retrieval-augmented
+methods.
+1.4 Related Materials: Slide Decks and Pre-recorded Talks
+This survey paper extends what we present in the CVPR 2023 tutorial by covering the most recent
+advances in the field. Below, we provide a list of slide decks and pre-recorded talks, which are
+related to the topics in each chapter, for references.
+• Chapter 2: Visual and Vision-Language Pre-training (Youtube, Bilibili)
+• Chapter 3: Alignments in Text-to-Image Generation (Youtube, Bilibili)
+• Chapter 4: From Representation to Interface: The Evolution of Foundation for Vision Under-
+standing (Youtube, Bilibili)
+• Chapter 5: Large Multimodal Models (Youtube, Bilibili)
+• Chapter 6: Multimodal Agents: Chaining Multimodal Experts with LLMs (Youtube, Bilibili)
+11

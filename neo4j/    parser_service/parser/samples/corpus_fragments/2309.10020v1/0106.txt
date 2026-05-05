@@ -1,0 +1,52 @@
+Kawar, B., Zada, S., Lang, O., Tov, O., Chang, H., Dekel, T., Mosseri, I., and Irani, M. (2023).
+Imagic: Text-based real image editing with diffusion models. In Proceedings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition, pages 6007–6017.
+Kazemzadeh, S., Ordonez, V ., Matten, M., and Berg, T. (2014). Referitgame: Referring to objects
+in photographs of natural scenes. In EMNLP.
+Kim, W., Son, B., and Kim, I. (2021). ViLT: Vision-and-language transformer without convolution
+or region supervision. In ICML.
+Kingma, D. P. and Welling, M. (2013). Auto-encoding variational bayes. arXiv preprint
+arXiv:1312.6114.
+Kirillov, A., He, K., Girshick, R., Rother, C., and Doll ´ar, P. (2019). Panoptic segmentation. In
+CVPR.
+Kirillov, A., Mintun, E., Ravi, N., Mao, H., Rolland, C., Gustafson, L., Xiao, T., Whitehead, S.,
+Berg, A. C., Lo, W.-Y ., et al. (2023). Segment anything.arXiv preprint arXiv:2304.02643.
+Koh, J. Y ., Fried, D., and Salakhutdinov, R. (2023). Generating images with multimodal language
+models. arXiv preprint arXiv:2305.17216.
+Kojima, T., Gu, S. S., Reid, M., Matsuo, Y ., and Iwasawa, Y . (2022). Large language models are
+zero-shot reasoners. arXiv preprint arXiv:2205.11916.
+Kokkinos, I. (2017). Ubernet: Training a universal convolutional neural network for low-, mid-,
+and high-level vision using diverse datasets and limited memory. In Proceedings of the IEEE
+conference on computer vision and pattern recognition, pages 6129–6138.
+Kolesnikov, A., Beyer, L., Zhai, X., Puigcerver, J., Yung, J., Gelly, S., and Houlsby, N. (2020). Big
+transfer (bit): General visual representation learning. In ECCV.
+Kolesnikov, A., Pinto, A. S., Beyer, L., Zhai, X., Harmsen, J., and Houlsby, N. (2022). Uvim: A uni-
+fied modeling approach for vision with learned guiding codes. arXiv preprint arXiv:2205.10337.
+Krizhevsky, A., Sutskever, I., and Hinton, G. E. (2012). Imagenet classification with deep convolu-
+tional neural networks. In NeurIPS.
+Kumari, N., Zhang, B., Zhang, R., Shechtman, E., and Zhu, J.-Y . (2023). Multi-concept customiza-
+tion of text-to-image diffusion. In Proceedings of the IEEE/CVF Conference on Computer Vision
+and Pattern Recognition, pages 1931–1941.
+Kuo, W., Bertsch, F., Li, W., Piergiovanni, A., Saffar, M., and Angelova, A. (2022). Findit: Gener-
+alized localization with natural language queries. In ECCV.
+Lai, X., Tian, Z., Chen, Y ., Li, Y ., Yuan, Y ., Liu, S., and Jia, J. (2023). Lisa: Reasoning segmentation
+via large language model. arXiv preprint arXiv:2308.00692.
+Lamb, A., Dumoulin, V ., and Courville, A. (2016). Discriminative regularization for generative
+models. arXiv preprint arXiv:1602.03220.
+Lambert, J., Liu, Z., Sener, O., Hays, J., and Koltun, V . (2020). Mseg: A composite dataset for
+multi-domain semantic segmentation. In Proceedings of the IEEE/CVF conference on computer
+vision and pattern recognition, pages 2879–2888.
+Larsen, A. B. L., Sønderby, S. K., Larochelle, H., and Winther, O. (2016). Autoencoding beyond
+pixels using a learned similarity metric. In International conference on machine learning, pages
+1558–1566. PMLR.
+Laurenc ¸on, H., Saulnier, L., Tronchon, L., Bekman, S., Singh, A., Lozhkov, A., Wang, T., Karam-
+cheti, S., Rush, A. M., Kiela, D., et al. (2023). Obelisc: An open web-scale filtered dataset of
+interleaved image-text documents. arXiv preprint arXiv:2306.16527.
+Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V ., Goyal, N., K ¨uttler, H., Lewis, M., Yih,
+W.-t., Rockt¨aschel, T., et al. (2020). Retrieval-augmented generation for knowledge-intensive nlp
+tasks. In NeurIPS.
+Li, B., Liu, H., Chen, L., Lee, Y . J., Li, C., and Liu, Z. (2023a). Benchmarking and analyzing
+generative data for visual recognition. arXiv preprint arXiv:2307.13697.
+Li, B., Wang, R., Wang, G., Ge, Y ., Ge, Y ., and Shan, Y . (2023b). Seed-bench: Benchmarking
+multimodal llms with generative comprehension. arXiv preprint arXiv:2307.16125.
+102

@@ -1,0 +1,10 @@
+21
+[181] A. Yang, A. Nagrani, P. H. Seo, A. Miech, J. Pont-Tuset, I. Laptev,
+J. Sivic, and C. Schmid, “Vid2seq: Large-scale pretraining of a visual
+language model for dense video captioning,” in Proceedings of the
+IEEE/CVF Conference on Computer Vision and Pattern Recognition ,
+2023, pp. 10 714–10 726.
+[182] N. Nashid, M. Sintaha, and A. Mesbah, “Retrieval-based prompt
+selection for code-related few-shot learning,” in 2023 IEEE/ACM 45th
+International Conference on Software Engineering (ICSE) , 2023, pp.
+2450–2462.

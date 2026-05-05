@@ -1,0 +1,39 @@
+How to pre-train a strong image backbone?
+Label SupervisionLanguage SupervisionImage-only Self-supervision
+Contrastive LearningNon-Contrastive LearningMasked Image Modeling
+Further pre-training for multimodal fusion and fine-grained image understanding
+Multimodal FusionRegion-level Pre-trainingPixel-level Pre-training
+(Section 2.2)(Section 2.3)(Section 2.4)
+Synergy among them(Section 2.5)
+(Section 2.6)
+(Section 2.1)
+Figure 2.1: An overview of the structure of Chapter 2.
+• Image-only self-supervision: There is also a vast amount of literature on exploring image-only
+self-supervised learning methods to learn image representations. As the name indicates, the super-
+vision signals are mined from the images themselves, and popular methods range from contrastive
+learning (Chen et al., 2020a; He et al., 2020), non-contrastive learning (Grill et al., 2020; Chen
+and He, 2021; Caron et al., 2021), to masked image modeling (Bao et al., 2022; He et al., 2022a).
+An illustration of these learning methods is shown in Figure 2.2. Besides the methods of pre-
+training image backbones, we will also discuss pre-training methods that allow multimodal fusion
+(e.g., CoCa (Yu et al., 2022a), Flamingo (Alayrac et al., 2022)), region-level and pixel-level image
+understanding (e.g., GLIP (Li et al., 2022e) and SAM (Kirillov et al., 2023)). These methods typi-
+cally rely on a pre-trained image encoder or a pre-trained image-text encoder pair. Figure 2.3 shows
+an overview of the topics covered in this chapter and some representative works in each topic.
+2.2 Supervised Pre-training
+Supervised pre-training on large-scale human-labeled datasets, such as ImageNet (Krizhevsky et al.,
+2012) and ImageNet21K (Ridnik et al., 2021), has emerged as a widely adopted approach to ac-
+quiring transferable visual representations. It aims to map an image to a discrete label, which is
+associated with a visual concept. This approach has greatly expedited progress in designing various
+vision backbone architectures ( e.g., AlexNet (Krizhevsky et al., 2012), ResNet (He et al., 2016),
+vision transformer (Dosovitskiy et al., 2021), and Swin transformer (Liu et al., 2021)), and is the
+testbed for all the modern vision backbones. It also powered computer vision tasks across the whole
+spectrum, ranging from image classification, object detection/segmentation, visual question answer-
+ing, image captioning, to video action recognition. However, the effectiveness of learned represen-
+tations is often limited by the scale and diversity of supervisions in pre-training datasets, as human
+annotation is expensive.
+Large-scale datasets. For larger-scale pre-training, noisy labels can be derived in large quantities
+from image-text pairs crawled from the Web. Using noisy labels, many industrial labs have suc-
+cessfully constructed comprehensive classification datasets using semi-automatic pipelines, such as
+JFT (Sun et al., 2017; Zhai et al., 2022a) and I2E (Wu et al., 2023d), or by leveraging proprietary
+data like Instagram hashtags (Singh et al., 2022b). The statistics of existing large-scale image clas-
+13

@@ -1,0 +1,13 @@
+• We provide a comprehensive and timely survey on modern multimodal foundation models, not
+only covering well-established models for visual representation learning and image generation,
+but also summarizing emerging topics for the past 6 months inspired by LLMs, including unified
+vision models, training and chaining with LLMs. • The paper is positioned to provide the audiences with the perspective to advocate a transition in
+developing multimodal foundation models. On top of great modeling successes for specific vi-
+sion problems, we are moving towards building general-purpose assistants that can follow human
+intents to complete a wide range of computer vision tasks in the wild. We provide in-depth discus-
+sions on these advanced topics, demonstrating the potential of developing general-purpose visual
+assistants. 1.1 What are Multimodal Foundation Models? As elucidated in the Stanford foundation model paper (Bommasani et al., 2021), AI has been under-
+going a paradigm shift with the rise of models (e.g., BERT, GPT family, CLIP (Radford et al., 2021)
+and DALL-E (Ramesh et al., 2021a)) trained on broad data that can be adapted to a wide range of
+downstream tasks. They call these models foundation models to underscore their critically central
+6

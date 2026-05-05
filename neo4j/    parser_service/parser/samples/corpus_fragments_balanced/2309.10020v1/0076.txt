@@ -1,0 +1,72 @@
+VisionLLMEmbodiedGPTLlama-Adapter V2
+MIMIC-IT
+SpeechGPT
+Video-LLaMA
+mPlug-OwlPandaGPTContextual DET
+GILL
+LLaVA-Med
+ChatBridge
+X-LLMMetaVL
+Valley
+Emerging Topics
+VideochatInstructBLIP
+GPT4Flamingo
+LLaMAVicuna
+MiniGPT-4LLaVA
+AlpacaMultiModl-GPTOtter
+LAVIN
+March 14April 16March 30April 27May 5May 11May 29June 13June 6May 22May 15
+PMC-VQA
+PathAsstIdealGPT
+LMEyeInternGPT
+LVLM-eHubLAMMOCRPOPE
+MayAprilMarch June
+(a) The surge of papers on LMMs from March 14, 2023 to June 19, 2023. Those with an underline
+indicate benchmarks, otherwise indicate models.
+Video
+Multitask Instruct with Established Datasets
+InstructViT
+MultiInstructInstructBLIP
+More Modalities (Beyond VL)ChatBridgePandaGPTX-LLMSpeechGPTOCR-BenchPOPE
+Robustness
+Evaluation
+LLaMA-Adapter v2Efficient Adaptation
+GILLImage Generation
+LAVIN
+Multimodal GPT
+MiniGPT-4(Zhu et al. 2023)
+Flamingo
+Multimodal GPT4Seminal LMM
+LLaVA(Liu et al. 2023)
+Video-LLaMAValleyVideochat
+EmbodiedGPTEmbodiedAgent
+VisionLLMDense PredictionContextual DET
+Qwen-VLMultimodal In-Context LearningOtter/MIMIC-ITM3ITMetaVL
+OpenFlamingo
+LAMM
+PathAsstPMC-VQAApplicationsLLaVA-Med
+PaLM-EKOSMOS-1
+LVM-eHUB
+LLaVA-BenchMMEMM-VETVisIT-Bench
+Med-FlamingoMed-PaLM-M
+mPlug-Owl
+TouchStone
+SEED-Bench
+MM-BenchStableLLaVALRV-Instruction 
+DataSVIT
+Polite FlamingoVIGC
+LLaVARInstructionGPT-4
+(b) Summary and categorization of papers on LMMs.
+Figure 5.11: Review and summary for the emerged LMM literature. Due to space constraints, some
+methods are not displayed visually, but we aim to address them in the accompanying text.
+as in LLaV A, but further includes region description to prompt GPT-4, in addition to the caption and
+box data as shown in Figure 5.9 (a). The data is scaled up to 3.2 million, which is 20 times larger
+than the data used in LLaV A.
+Unlike existing studies that primarily focus on positive instruction samples, LRV-Instruction (Liu
+et al., 2023a) includes both positive and negative instructions for more robust instruction-tuning.
+Other examples along this line include LLaV AR (Zhang et al., 2023o) that adds OCR-related
+instruction-tuning data for text-rich image understanding, and StableLLaV A (Li et al., 2023o)
+that considers model-synthesized images for image-dialogue data. Polite Flamingo (Chen et al.,
+2023b) trains LLM to re-write the instruct data. Instead of leveraging GPT-4 for data generation,
+VIGC (Wang et al., 2023a) considers to utilize LMM to generate instruction-tuning data and progres-
+72

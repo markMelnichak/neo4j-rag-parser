@@ -1,0 +1,62 @@
+Fig. 24: Timeline of some of the most representative LLM frameworks (so far). In addition to large language models with our
+#parameters threshold, we included a few representative works, which pushed the limits of language models, and paved the way
+for their success (e.g. vanilla Transformer, BERT, GPT-1), as well as some small language models. ♣ shows entities that serve
+not only as models but also as approaches. ♦ shows only approaches.
+the decoder has a third sub-layer, which performs multi-head
+attention over the output of the encoder stack. The attention
+function can be described as mapping a query and a set of key-
+value pairs to an output, where the query, keys, values, and
+output are all vectors. The output is computed as a weighted
+sum of the values, where the weight assigned to each value
+is computed by a compatibility function of the query with the
+corresponding key. Instead of performing a single attention
+function with dmodel dimensional keys, values and queries,
+it is found to be beneficial to linearly project the queries,
+keys and values h with different, learned linear projections to
+dk, dk and dv dimensions, respectively. Positional encoding is
+incorporated to fuse information about the relative or absolute
+position of the tokens in the sequence.
+2) Encoder-Only: For this family, at each stage, the atten-
+tion layers can access all the words in the initial sentence.
+The pre-training of these models usually consist of some-
+how corrupting a given sentence (for instance, by masking
+random words in it) and tasking the model with finding or
+reconstructing the initial sentence. Encoder models are great
+for tasks requiring an understanding of the full sequence,
+such as sentence classification, named entity recognition, and
+extractive question answering. One prominent encoder only
+model is BERT (Bidirectional Encoder Representations from
+Transformers), proposed in [24].
+3) Decoder-Only: For these models, at each stage, for any
+word, the attention layers can only access the words positioned
+before that in the sentence. These models are also sometimes
+called auto-regressive models. The pretraining of these models
+is usually formulated as predicting the next word (or token)
+in the sequence. The decoder-only models are best suited for
+tasks involving text generation. GPT models are prominent
+example of this model category.
+4) Encoder-Decoder: These models use both encoder and
+decoder, and are sometimes called sequence-to-sequence mod-
+els. At each stage, the attention layers of the encoder can access
+all the words in the initial sentence, whereas the attention
+layers of the decoder only accesses the words positioned before
+a given word in the input. These models are usually pre-
+trained using the objectives of encoder or decoder models, but
+usually involve something a bit more complex. For instance,
+some models are pretrained by replacing random spans of text
+(that can contain several words) with a single mask special
+word, and the objective is then to predict the text that this
+mask word replaces. Encoder-decoder models are best suited
+for tasks about generating new sentences conditioned on a
+given input, such as summarization, translation, or generative
+question answering.
+B. Data Cleaning
+Data quality is crucial to the performance of language
+models trained on them. Data cleaning techniques such as
+filtering, deduplication, are shown to have a big impact on
+the model performance.
+As an example, in Falcon40B [124], Penedo et al. showed
+that properly filtered and deduplicated web data alone can lead
+to powerful models; even significantly outperforming models
+from the state-of-the-art trained on The Pile. Despite extensive
+filtering, they were able to obtain five trillion tokens from

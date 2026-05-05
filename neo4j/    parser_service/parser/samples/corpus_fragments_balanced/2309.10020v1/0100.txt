@@ -1,0 +1,52 @@
+Chen, T., Kornblith, S., Norouzi, M., and Hinton, G. (2020a). A simple framework for contrastive
+learning of visual representations. In ICML.
+Chen, T., Kornblith, S., Swersky, K., Norouzi, M., and Hinton, G. E. (2020b). Big self-supervised
+models are strong semi-supervised learners. NeurIPS.
+Chen, T., Saxena, S., Li, L., Fleet, D. J., and Hinton, G. (2022c). Pix2seq: A language modeling
+framework for object detection. In ICLR.
+Chen, T., Saxena, S., Li, L., Lin, T.-Y ., Fleet, D. J., and Hinton, G. (2022d). A unified sequence
+interface for vision tasks. arXiv preprint arXiv:2206.07669.
+Chen, W., Hu, H., Chen, X., Verga, P., and Cohen, W. W. (2022e). Murag: Multimodal
+retrieval-augmented generator for open question answering over images and text. arXiv preprint
+arXiv:2210.02928.
+Chen, W., Hu, H., Li, Y ., Rui, N., Jia, X., Chang, M.-W., and Cohen, W. W. (2023f). Subject-driven
+text-to-image generation via apprenticeship learning. arXiv preprint arXiv:2304.00186.
+Chen, W., Hu, H., Saharia, C., and Cohen, W. W. (2022f). Re-imagen: Retrieval-augmented text-to-
+image generator. arXiv preprint arXiv:2209.14491.
+Chen, X., Ding, M., Wang, X., Xin, Y ., Mo, S., Wang, Y ., Han, S., Luo, P., Zeng, G., and Wang,
+J. (2022g). Context autoencoder for self-supervised representation learning. arXiv preprint
+arXiv:2202.03026.
+Chen, X., Djolonga, J., Padlewski, P., Mustafa, B., Changpinyo, S., Wu, J., Ruiz, C. R., Goodman,
+S., Wang, X., Tay, Y ., et al. (2023g). Pali-x: On scaling up a multilingual vision and language
+model. arXiv preprint arXiv:2305.18565.
+Chen, X., Fan, H., Girshick, R., and He, K. (2020c). Improved baselines with momentum contrastive
+learning. arXiv preprint arXiv:2003.04297.
+Chen, X., Fang, H., Lin, T., Vedantam, R., Gupta, S., Doll´ar, P., and Zitnick, C. L. (2015). Microsoft
+COCO captions: Data collection and evaluation server. arXiv preprint arXiv:1504.00325.
+Chen, X. and He, K. (2021). Exploring simple siamese representation learning. In CVPR.
+Chen, X., Wang, X., Changpinyo, S., Piergiovanni, A., Padlewski, P., Salz, D., Goodman, S., Gryc-
+ner, A., Mustafa, B., Beyer, L., et al. (2022h). Pali: A jointly-scaled multilingual language-image
+model. arXiv preprint arXiv:2209.06794.
+Chen, X., Xie, S., and He, K. (2021b). An empirical study of training self-supervised vision trans-
+formers. In ICCV.
+Chen, X., Zhao, Z., Yu, F., Zhang, Y ., and Duan, M. (2021c). Conditional diffusion for interactive
+segmentation. In Proceedings of the IEEE/CVF International Conference on Computer Vision ,
+pages 7345–7354.
+Chen, X., Zhao, Z., Zhang, Y ., Duan, M., Qi, D., and Zhao, H. (2022i). Focalclick: Towards practical
+interactive image segmentation. InProceedings of the IEEE/CVF Conference on Computer Vision
+and Pattern Recognition, pages 1300–1309.
+Chen, Y .-C., Li, L., Yu, L., El Kholy, A., Ahmed, F., Gan, Z., Cheng, Y ., and Liu, J. (2020d).
+UNITER: Universal image-text representation learning. In ECCV.
+Chen, Z., Duan, Y ., Wang, W., He, J., Lu, T., Dai, J., and Qiao, Y . (2022j). Vision transformer
+adapter for dense predictions. arXiv preprint arXiv:2205.08534.
+Cheng, B., Misra, I., Schwing, A. G., Kirillov, A., and Girdhar, R. (2022). Masked-attention mask
+transformer for universal image segmentation. In Proceedings of the IEEE/CVF Conference on
+Computer Vision and Pattern Recognition, pages 1290–1299.
+Cherti, M., Beaumont, R., Wightman, R., Wortsman, M., Ilharco, G., Gordon, C., Schuhmann, C.,
+Schmidt, L., and Jitsev, J. (2023). Reproducible scaling laws for contrastive language-image
+learning. In CVPR.
+Cho, J., Lei, J., Tan, H., and Bansal, M. (2021). Unifying vision-and-language tasks via text gener-
+ation. In ICML.
+Cho, J., Li, L., Yang, Z., Gan, Z., Wang, L., and Bansal, M. (2023). Diagnostic benchmark and
+iterative inpainting for layout-guided image generation. arXiv preprint arXiv:2304.06671.
+96

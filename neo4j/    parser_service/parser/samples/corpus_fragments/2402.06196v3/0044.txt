@@ -1,0 +1,130 @@
+Large
+Language
+Models
+Parameters
+Availability
+Originality
+Type
+Small LM
+# of params <1B
+Medium LM
+1B < # of params <10B
+Large LM
+10B < # of params <100B
+Very Large LM
+100B < # of params
+Tuned
+Fine tuning
+Original
+PublicPrivate
+Foundation
+Instruction
+Chat
+Fine tuned models that are originally
+based on original models.
+Example: Alpaca (based on LLaMA)
+Original models that are not fine
+tuned or based on any other
+pretrained model.
+Example: LLaMA
+Model weights are publicly released
+and is available.
+Example: LLaMA
+Model weights are NOT publicly
+released and is NOT available.
+Example: GPT-4
+Pretrained model with no instruction
+or chat fine-tuning.
+Example: MPT-7B
+Pretrained model that is
+also fine-tuned on
+instruction following.
+Example: MPT-7B-instruct
+Pretrained model that is
+also fine-tuned on chat.
+Example: MPT-7B-chat
+Fig. 43: LLM categorizations.
+TABLE VIII: Coding capability comparison.
+Model HumanEval
+Gemini Ultra 74.4
+Gemini Pro 67.7
+GPT-4 67
+WizardCoder 15B 57.3
+phi-1 1.3B 50.6
+Code Llama 48.8
+GPT-3.5 48.1
+OctoCoder 46.2
+phi-1-small 45
+PaLM 2-S 37.6
+InstructCodeT5+ 16B 35
+Mistral 7B 30.5
+LLaMA 2 29.9
+phi-1-base 29
+Codex-12B 28.81
+PaLM 540B 26.2
+CodeT5+ 2B 24.2
+LLaMA 65B 23.7
+LLaMA 33B 21.7
+PaLM 62B 15.9
+LLaMA 13B 15.8
+LaMDA 137B 14
+MIM-350M 13.7
+LLaMA 7B 10.5
+PaLM 8B 3.6
+Arithmetic reasoning is another challenging reasoning ca-
+pability to achieve. GSM8K for example contains grade school
+mathematical questions with respect to their answers. Table IX
+provides an insight for different model comparisons.
+TABLE IX: Arithmetic reasoning comparison.
+Model GSM8k MATH
+Gemini Ultra 94.4 53.2
+GPT-4 87.1 42.5
+Gemini Pro 86.5 32.6
+ToRA 70B 84.3 49.7
+MathCoder-L-70B 83.9 -
+MetaMath 70B 82.3 26
+MuggleMATH 70B 82.3 -
+MathCoder-CL-34B 81.7 45.2
+ToRA-Code 34B 80.7 50.8
+MetaMath-Mistral-7B 77.7 -
+Arithmo2-Mistral-7B 76.4 -
+ToRA-Code 13B 75.8 48.1
+Arithmo-Mistral-7B 74.7 -
+MathCoder-CL-13B 74.1 35.9
+MuggleMATH 13B 74 -
+CodeT5+ 73.8 -
+KwaiYiiMath 13B 73.3 -
+ToRA-Code 7B 72.6 44.6
+MathCoder-L-13B 72.6 29.9
+MetaMath 13B 71 22.5
+LLaMA 65B 69.7 10.6
+MuggleMATH 7B 68.4 -
+MathCoder-CL-7B 67.8 23.3
+MetaMath 7B 66.4 19.4
+RFT 70B 64.8 -
+MathCoder-L-7B 64.2 -
+Orca 2-13B 59.14 -
+U-PaLM 58.5 -
+PaLM-540B 58.1 8.8
+LLaMA 2 70B 56.8 -
+RFT 13B 55.3 -
+LLaMA 33B 53.1 7.1
+Mistral 7B 52.2 13.1
+RFT 7B 51.2 -
+LLaMA 65B 50.9 20.5
+Orca 2-7B 47.23 -
+Text-davinci-002 40.7 19.1
+LLaMA 33B 35.6 3.9
+GPT-Neo-2.7B 19.5 -
+LLaMA 7B 18.1 2.9
+PaLM 540B 17.9 8.8
+LLaMA 13B 17.8 3.9
+LLaMA 7B 11 2.9
+GPT-Neo-125M 7.5 -
+PaLM 8B 4.1 1.5
+GPT-2 - 5.4
+GPT-3 175B - 5.2
+PaLM 62B - 4.4
+GPT-3-13B - 3
+LLaMA 7B 11 2.9
+PaLM 8B - 1.5

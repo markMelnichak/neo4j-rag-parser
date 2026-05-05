@@ -1,0 +1,23 @@
+Unified Models with Emerging Capabilities
+Vision & Multimodal
+1
+•BERT•GPT-2Language •GPT-3•LLaMA•ChatGPT•GPT-4
+Task-SpecificModels
+•Sentiment•Translation
+Pre-trainedModels General-purpose Assistants
+•Flamingo•PaLM-E•MoCo•CLIP•DALLE•Classification•Retrieval•Style Transfer
+-In-context-learning-Chain-of-thoughts-Instruction-following-Interactive
+1 2 3 4
+Multimodal Foundation Models
+Language Foundation Models
+Foundation Models
+? Figure 1.1: Illustration of foundation model development trajectory for language and vision/multi-
+modality. Among the four categories, the first category is the task-specific model, and the last three
+categories belong to foundation models, where these foundation models for language and vision
+are grouped in green and blue blocks, respectively. Some prominent properties of models in each
+category are highlighted. By comparing the models between language and vision, we are foreseeing
+that the transition of multimodal foundation models follows a similar trend: from the pre-trained
+model for specific purpose, to unified models and general-purpose assistants. However, research
+exploration is needed to figure out the best recipe, which is indicated as the question mark in the
+figure, as multimodal GPT-4 and Gemini stay private. In this paper, we limit the scope of multimodal foundation models to the vision and vision-language
+domains.

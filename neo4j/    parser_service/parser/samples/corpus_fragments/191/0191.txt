@@ -1,0 +1,38 @@
+194 
+ 
+Под
+робнее о DictVectorizer можно прочитать здесь: [43]. Пример 
+использования этого класса для указанных данных приведен в лис-
+тинге 26. 
+Лист
+инг 26 
+# -*- codi
+ng: utf-8 -*- 
+from sklearn.feature_extraction import DictVectorizer 
+..... 
+enc = DictVectorizer() 
+train_dic = data_train[['LocationNormalized', 'ContractTime']].to_dict('records') 
+test_dic = data_test[['LocationNormalized', 'ContractTime']].to_dict('records') 
+X_train_categ = enc.fit_transform(train_dic) 
+X_test_categ = enc.transform(test_dic) 
+При эт
+ом считается, что в data_train загружены данные обуча-
+ющей выборки, а в data_test – данные, на которых будет проверяться 
+работа модели. 
+В результате работы кода из листинга 26 train_dic (также как 
+и test_dic) будет содержать множество записей, таких как: 
+{['LocationNormalized': 'UK', 'ContractTime': 'permanent'], 
+['LocationNormalized': 'Bradford', 'ContractTime': 'permanent']}. 
+X_train_categ будет содержать данные, представленные на рисунке 58. 
+ 
+Рису
+нок 58. Преобразованные данные 
+Интерпр
+етировать их можно сл
+едующим о
+бразом. X_t
+rain_categ – 
+эт
+о по сути матрица, но только не в классическом формате. Если 
+точнее, то X_train_categ – это разреженная матрица, которая в сокра-
+щенном виде описывает некую полную матрицу (назовем ее X_Full).

@@ -1,0 +1,111 @@
+precision for model weights. Reducing the precision of the
+weights can be used to reduce the size of the model and also
+make it faster. As an example, Float-32 operations compared
+to Int-8 operations are slower. This process, which is called
+quantization, can be applied in different phases. Main ap-
+proaches for model quantization can be categorized as: post
+training quantization and quantization-aware training. Post-
+training quantization is concerned with quantized trained mod-
+els in two well-known methods: dynamic and static. Dynamic
+post-training quantization computes the range of quantization
+on the runtime and is slower compared to static. Quantization-
+aware training adds quantization criteria into training, and
+a quantized model is trained and optimized during training
+process. This approach ensures that the end model will have
+good performance and also does not need to be quantized after
+training.
+IV. H OW LLM S ARE USED AND AUGMENTED
+Once the LLMs are trained, we can use them to generate
+desired outputs for a variety of tasks. LLMs can be used
+directly through basic prompting. However, in order to exploit
+their full potential or to address some of the shortcomings,
+we need to augment the models through some external means.
+In this section we first provide a brief overview of the main
+shortcoming of LLMs, with a deeper look at the issue of
+hallucination. We then describe how prompting and some aug-
+mentation approaches can not only address those limitations
+but also be used to augment the capabilities of LLMs going
+as far as turning an LLM into a full-blown AI agent with the
+ability to interface with the external world.
+A. LLM limitations
+It is important to remember that LLMs are trained to predict
+a token. While fine-tuning and alignment improves their per-
+formance and adds different dimensions to their abilities, there
+are still some important limitations that come up, particularly
+if they are used naively. Some of them include the following:
+• They don’t have state/memory. LLMs on their own
+cannot remember even what was sent to them in the
+previous prompt. That is an important limitation for
+many of the use cases that require some form of state.
+• They are stochastic/probabilistic. If you send the same
+prompt to an LLM several times, you are likely to get
+different responses. While there are parameters, and
+in particular the temperature, to limit the variability
+in the response, this is an inherent property of their
+training that can create issues.
+• They have stale information and, on their own, don’t
+have access to external data. An LLM on its own does
+not even know about the current time or day and does
+not have access to any information that was not present
+in its training set.
+• They are generally very large. This means that many
+costly GPU machines are needed for training and
+serving. In some cases, largest models have poor
+SLAs, particularly in terms of latency.
+• They hallucinate. LLMs do not have a notion of
+”truth” and they have usually been trained on a mix
+of good and bad content. They can produce very
+plausible but untruthful answers.
+While the previous limitations can all become important
+for some applications, it is worth for us to dive a bit into the
+last one, hallucinations, since it has gathered a lot of interest
+over the past few months and it has also sparked many of the
+prompt approaches and LLM augmentation methods we will
+later describe.
+Hallucination: In the realm of Large Language Models
+(LLMs), the phenomenon of ”hallucinations” has garnered
+significant attention. Defined in the literature, notably in the
+”Survey of Hallucination in Natural Language Generation”
+paper [145], hallucination in an LLM is characterized as
+”the generation of content that is nonsensical or unfaithful
+to the provided source.” This terminology, although rooted in
+psychological parlance, has been appropriated within the field
+of artificial intelligence.
+Hallucinations in LLMs can be broadly categorized into
+two types:
+1) Intrinsic Hallucinations: These directly conflict with
+the source material, introducing factual inaccuracies
+or logical inconsistencies.
+2) Extrinsic Hallucinations : These, while not contra-
+dicting, are unverifiable against the source, encom-
+passing speculative or unconfirmable elements.
+The definition of ’source’ in LLM contexts varies with the
+task. In dialogue-based tasks, it refers to ’world knowledge’,
+whereas in text summarization, it pertains to the input text
+itself. This distinction plays a crucial role in evaluating and
+interpreting hallucinations. The impact of hallucinations is also
+highly context-dependent. For instance, in creative endeavors
+like poem writing, hallucinations might be deemed acceptable
+or even beneficial.
+LLMs, trained on diverse datasets including the internet,
+books, and Wikipedia, generate text based on probabilistic
+models without an inherent understanding of truth or falsity.
+Recent advancements like instruct tuning and Reinforcement
+Learning from Human Feedback (RLHF) have attempted to
+steer LLMs towards more factual outputs, but the fundamental
+probabilistic nature and its inherent limitations remain. A
+recent study, “Sources of Hallucination by Large Language
+Models on Inference Tasks” [146], highlights two key aspects
+contributing to hallucinations in LLMs: the veracity prior and
+the relative frequency heuristic, underscoring the complexities
+inherent in LLM training and output generation.
+Effective automated measurement of hallucinations in
+LLMs requires a combination of statistical and model-based
+metrics.
+Statistical Metrics:
+• Metrics like ROUGE [147] and BLEU [148] are com-
+mon for assessing text similarity, focusing on intrinsic
+hallucinations.
+• Advanced metrics such as PARENT [149], PARENT-
+T [150], and Knowledge F1 [151] are utilized when
+structured knowledge sources are available. These

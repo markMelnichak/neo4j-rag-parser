@@ -1,0 +1,25 @@
+6.3.2 Capabilities
+Figure 6.6 shows the representative capabilities and application scenarios that MM-REACT demon-
+strates, including visual math and text reasoning, understanding visual-conditioned jokes/memes,
+spatial/coordinate understanding, visual planning and prediction, multi-image reasoning, multi-hop
+document understanding, open-world concept understanding, video analysis and summarization.
+In addition, we show an example of the full response from MM-R EACT on multi-image reasoning
+in Figure 6.7, which may not be easily achievable by visual instruction tuning in Chapter 5. For
+more comprehensive examples of all emerging capabilities of MM-REACT, we refer the reader to
+the original paper.
+How much did I spend on grocery?
+You spent $25.97 on groceries at The Shop Store #100 in Chicago, IL. 
+How much in total did I spend on travel?
+You spent $1299.90 on airfare and $43.83 on an Uber ride for a total of $1343.73 on 
+travel.
+How much in total did I pay for taxes?
+You paid $323.23 in total for taxes. This includes $321.90 for taxes and fees for the ﬂight 
+purchase and $1.33 for sales tax for the Windmill Family Restaurant expenses.
+Receipt 1: Receipt 2:
+Receipt 3:
+ Receipt 4:
+How much did I spend on dining out?
+You spent $23.45 on dining out at the Windmill Family Restaurant. 
+Figure 6.7: Examples of MM-R EACT’s capabilities and application scenarios: multi-image rea-
+soning. Image credit: Yang* et al. (2023).
+83

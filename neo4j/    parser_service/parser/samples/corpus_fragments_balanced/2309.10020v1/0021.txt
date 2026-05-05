@@ -1,0 +1,54 @@
+Text EncoderImage Encoder
+ImageText
+Image EncoderText Decoder
+Image
+Image Encoder
+Image(a) CLIP(b) VirTex/SimVLM(c) CoCa
+Text Encoder
+Text
+Text Decoder
+Text
+Contrastive lossCaptioning lossContrastive lossCaptioning loss
+Figure 2.6: A high-level comparison of contrastive loss and captioning loss for image encoder pre-
+training. (a) CLIP (Radford et al., 2021) uses contrastive loss alone for pre-training, which enables
+zero-shot image classification and has demonstrated strong scaling behavior. (b) VirTex (Desai
+and Johnson, 2021) uses captioning loss alone for pre-training. SimVLM (Wang et al., 2022g)
+uses prefix language modeling for pre-training in a much larger scale. The model architecture is
+similar to multimodal language models (e.g., GIT (Wang et al., 2022a) and Flamingo (Alayrac et al.,
+2022)), but VirTex and SimVLM aim to pre-train the image encoder from scratch. (c) CoCa (Yu
+et al., 2022a) uses both contrastive and captioning losses for pre-training. The model architecture
+is similar to ALBEF (Li et al., 2021b), but CoCa aims to pre-train the image encoder from scratch,
+instead of using a pre-trained one.
+performance. LaCLIP (Fan et al., 2023a) shows that CLIP can be improved via rewriting the noisy
+and short alt-text using large language models such as ChatGPT.
+• Interpretability: The image representation is typically a dense feature vector. In order to im-
+prove the interpretability of the shared image-text embedding space, STAIR (Chen et al., 2023a)
+proposes to map images and text to a high-dimensional, sparse, embedding space, where each
+dimension in the sparse embedding is a (sub-)word in a large dictionary in which the predicted
+non-negative scalar corresponds to the weight associated with the token. The authors show that
+STAIR achieves better performance than the vanilla CLIP with improved interpretability.
+• More modalities: The idea of contrastive learning is general, and can go beyond just image and
+text modalities. For example, as shown in Figure 2.5, ImageBind (Girdhar et al., 2023) proposes
+to encode six modalities into a common embedding space, including images, text, audio, depth,
+thermal, and IMU modalities. In practice, a pre-trained CLIP model is used and kept frozen
+during training, which indicates that other modality encoders are learned to align to the CLIP
+embedding space, so that the trained model can be applied to new applications such as audio-to-
+image generation and multimodal LLMs (e.g., PandaGPT (Su et al., 2023)).
+Objective function. The use of contrastive loss alone is powerful, especially when the model is
+scaled up. However, other objective functions can also be applied.
+• Fine-grained supervision: Instead of using a simple dot-product to calculate the similarity of an
+image-text pair, the supervision can be made more fine-grained via learning word-patch alignment.
+In FILIP (Yao et al., 2022b), the authors propose to first compute the loss by calculating the token-
+wise similarity, and then aggregating the matrix by max-pooling for word-patch alignment.
+• Contrastive captioner: Besides the contrastive learning branch, CoCa (Yu et al., 2022a) (shown
+in Figure 2.6(c)) adds a generative loss to improve performance and allow new capabilities that
+require multimodal fusion ( e.g., image captioning and VQA). This is similar to many fusion-
+encoder-based vision-language models such as ALBEF (Li et al., 2021b), but with the key differ-
+ence in that CoCa aims to learn a better image encoder from scratch. A detailed discussion on
+multimodal fusion is in Section 2.6.1.
+• Captioning loss alone: How about using the captioning loss alone to pre-train an image encoder?
+Actually, before CLIP was invented, VirTex (Desai and Johnson, 2021) (shown in Figure 2.6(b))
+and ICMLM (Sariyildiz et al., 2020) learn encoders using a single image captioning loss, but the
+scale is very small (restricted to COCO images) and the performance is poor. CLIP also shows
+that contrastive pre-training is a much better choice. In SimVLM (Wang et al., 2022g), the authors
+17

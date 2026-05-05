@@ -1,0 +1,95 @@
+popular approach along this line, in which they introduced a
+framework for improving the instruction-following capabilities
+of pre-trained language models by bootstrapping their own
+generations. Their pipeline generates instructions, input, and
+output samples from a language model, then filters invalid or
+similar ones before using them to fine tune the original model.
+G. Alignment
+AI Alignment is the process of steering AI systems towards
+human goals, preferences, and principles. LLMs, pre-trained
+for word prediction, often exhibit unintended behaviors. For
+example, they might generate contents that are toxic, harmful,
+misleading and biased.
+Instruction tuning, discussed above, gets LLMs a step
+closer to being aligned. However, in many cases, it is important
+to include further steps to improve the alignment of the model
+and avoid unintended behaviors 3. We review the most popular
+approaches to alignment in this subsection.
+RLHF (reinforcement learning from human feedback) and
+RLAIF (reinforcement learning from AI feedback) are two
+popular approaches. RLHF uses a reward model to learn
+alignment from human feedback. This reward model, after
+being tuned, is able to rate different outputs and score them
+according to their alignment preferences given by humans. The
+reward model gives feedback to the original LLM and this
+feedback is used to tune the LLM further [137]. Reinforcement
+learning from AI feedback on the other hand, directly connects
+a pretrained and well-aligned model to the LLM and helps it
+to learn from larger and more aligned models [138].
+In another recent work (known as DPO) [139], Rafailov
+et al. discussed that RLHF is a complex and often unstable
+procedure, and tried to address this with a new approach. They
+leveraged a mapping between reward functions and optimal
+policies to show that this constrained reward maximization
+problem can be optimized exactly with a single stage of policy
+training, essentially solving a classification problem on the
+human preference data. The resulting algorithm, which they
+called Direct Preference Optimization (DPO), is stable, per-
+formant, and computationally lightweight, eliminating the need
+for fitting a reward model, sampling from the LM during fine-
+tuning, or performing significant hyperparameter tuning. They
+observed that fine-tuning with DPO exceeds RLHF’s ability to
+control sentiment of generations and improves response quality
+in summarization. Fig 30 shows the high-level comparison
+between DPO vs RLHF.
+Even more recently Ethayarajh et al. proposed a new align-
+ment approach called the Kahneman-Tversky Optimization
+(KTO) [136]. Unlike existing state-of-the-art approaches, KTO
+does not require paired preference data ( x, yw, yl), and it
+only needs (x,y) and knowledge of whether y is desirable or
+undesirable. KTO-aligned models are shown to be good or
+better than DPO-aligned models at scales from 1B to 30B,
+despite not using paired preferences. KTO is also far easier to
+use in the real world than preference optimization methods, as
+the kind of data it needs is far more abundant. As an example,
+3According to very recent research by Ethayarajh et al. [136], further
+alignment besides SFT mainly improves models of at least 7B parameters.
+For smaller models, SFT is sufficient.
+Fig. 30: DPO optimizes for human preferences while avoiding
+reinforcement learning. Existing methods for fine-tuning lan-
+guage models with human feedback first fit a reward model
+to a dataset of prompts and human preferences over pairs of
+responses, and then use RL to find a policy that maximizes
+the learned reward. In contrast, DPO directly optimizes for
+the policy best satisfying the preferences with a simple classi-
+fication objective, without an explicit reward function or RL.
+Courtesy of [139].
+every retail company has a lot of customer interaction data and
+whether that interaction was successful (e.g., purchase made)
+or unsuccessful (e.g., no purchase made). However, they have
+little to no counterfactual data (i.e., what would have made
+an unsuccessful customer interaction yl into a successful one
+yw). Fig 31 shows a high-level comparison between KTO and
+other alignment approaches discussed above.
+Fig. 31: LLM alignment involves supervised finetuning fol-
+lowed by optimizing a human-centered loss (HALO). How-
+ever, the paired preferences that existing approaches need are
+hard-to-obtain. In contrast, KTO uses a far more abundant
+kind of data, making it much easier to use in the real world.
+Courtesy of [136].
+H. Decoding Strategies
+Decoding refers to the process of text generation using pre-
+trained LLMs. Given an input prompt, the tokenizer translates
+each token in the input text into a corresponding token ID.
+Then, the language model uses these token IDs as input and
+predicts the next most likely token (or a sequence of tokens).
+Finally, the model generates logits, which are converted to
+probabilities using a softmax function. Different decoding
+strategies have been proposed. Some of the most popular ones
+are greedy search, beam search, as well as different sample
+techniques such as top-K, top-P (Nucleus sampling).
+1) Greedy Search: Greedy search takes the most probable
+token at each step as the next token in the sequence, discarding
+all other potential options. As you can imagine, this is a simple
+approach and can loose a lot of temporal consistency and
+coherency. It only considers the most probable token at each

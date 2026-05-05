@@ -1,0 +1,51 @@
+Sun, Y ., Yang, Y ., Peng, H., Shen, Y ., Yang, Y ., Hu, H., Qiu, L., and Koike, H. (2023b). Imagebrush:
+Learning visual in-context instructions for exemplar-based image manipulation. arXiv preprint
+arXiv:2308.00906.
+Sun, Y ., Zhu, C., Zheng, S., Zhang, K., Shui, Z., Yu, X., Zhao, Y ., Li, H., Zhang, Y ., Zhao, R., et al.
+(2023c). Pathasst: Redefining pathology through generative foundation ai assistant for pathology.
+arXiv preprint arXiv:2305.15072.
+Sur´ıs, D., Menon, S., and V ondrick, C. (2023). Vipergpt: Visual inference via python execution for
+reasoning. arXiv preprint arXiv:2303.08128.
+Tan, H. and Bansal, M. (2019). LXMERT: Learning cross-modality encoder representations from
+transformers. In EMNLP.
+Tang, L., Xiao, H., and Li, B. (2023a). Can sam segment anything? when sam meets camouflaged
+object detection. arXiv preprint arXiv:2304.04709.
+Tang, Z., Yang, Z., Zhu, C., Zeng, M., and Bansal, M. (2023b). Any-to-any generation via compos-
+able diffusion.
+Tao, C., Zhu, X., Su, W., Huang, G., Li, B., Zhou, J., Qiao, Y ., Wang, X., and Dai, J. (2023). Siamese
+image modeling for self-supervised vision representation learning. In CVPR.
+Taori, R., Gulrajani, I., Zhang, T., Dubois, Y ., Li, X., Guestrin, C., Liang, P., and Hashimoto,
+T. B. (2023). Stanford alpaca: An instruction-following llama model. https://github.com/
+tatsu-lab/stanford_alpaca.
+Team, M. N. (2023). Introducing mpt-7b: A new standard for open-source, ly usable llms. Accessed:
+2023-03-28.
+Thomee, B., Shamma, D. A., Friedland, G., Elizalde, B., Ni, K., Poland, D., Borth, D., and Li, L.-J.
+(2016). Yfcc100m: The new data in multimedia research. Communications of the ACM.
+Tian, Y ., Krishnan, D., and Isola, P. (2020a). Contrastive multiview coding. InECCV.
+Tian, Z., Shen, C., and Chen, H. (2020b). Conditional convolutions for instance segmentation. In
+Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020,
+Proceedings, Part I 16, pages 282–298. Springer.
+Tong, Z., Song, Y ., Wang, J., and Wang, L. (2022). Videomae: Masked autoencoders are data-
+efficient learners for self-supervised video pre-training. NeurIPS.
+Touvron, H., Cord, M., Douze, M., Massa, F., Sablayrolles, A., and J ´egou, H. (2021). Training
+data-efficient image transformers & distillation through attention. In ICML.
+Touvron, H., Lavril, T., Izacard, G., Martinet, X., Lachaux, M.-A., Lacroix, T., Rozi `ere, B., Goyal,
+N., Hambro, E., Azhar, F., et al. (2023). Llama: Open and efficient foundation language models.
+arXiv preprint arXiv:2302.13971.
+Tschannen, M., Kumar, M., Steiner, A., Zhai, X., Houlsby, N., and Beyer, L. (2023). Image cap-
+tioners are scalable vision learners too. arXiv preprint arXiv:2306.07915.
+Tu, T., Azizi, S., Driess, D., Schaekermann, M., Amin, M., Chang, P.-C., Carroll, A., Lau, C., Tanno,
+R., Ktena, I., et al. (2023). Towards generalist biomedical ai. arXiv preprint arXiv:2307.14334.
+Vahdat, A. and Kautz, J. (2020). Nvae: A deep hierarchical variational autoencoder.
+van den Oord, A., Vinyals, O., and Kavukcuoglu, K. (2017). Neural discrete representation learning.
+In NeurIPS.
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., and Polo-
+sukhin, I. (2017). Attention is all you need. In NeurIPS.
+Vicuna (2023). Vicuna: An open-source chatbot impressing GPT-4 with 90%* chatgpt quality.
+https://vicuna.lmsys.org/.
+Vinyals, O., Toshev, A., Bengio, S., and Erhan, D. (2015). Show and tell: A neural image caption
+generator. In CVPR.
+Vinyals, O., Toshev, A., Bengio, S., and Erhan, D. (2016). Show and tell: Lessons learned from the
+2015 mscoco image captioning challenge. IEEE transactions on pattern analysis and machine
+intelligence, 39(4):652–663.
+111

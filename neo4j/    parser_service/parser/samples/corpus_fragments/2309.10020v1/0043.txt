@@ -1,0 +1,35 @@
+Figure 3.14: Illustration of in-context concept customization without test-time finetuning. Image
+credit: Chen et al. (2023f).
+from text to latent features in the cross-attention layers for concept customization, learned from
+multiple sets of concept images. The study facilitates the ability to embed multiple customized
+visual concepts in a single text prompt. Instead of learning from multiple sets of input images,
+Break-A-Scene (Avrahami et al., 2023a) explores extracting multiple visual concepts in a single
+image. The study augments input images with segmentation masks to pinpoint the intended target
+concepts and subsequently transforms them into a series of concept embeddings denoted as [Vi].
+Customization without test-time finetuning. While the concept customization studies, as de-
+scribed above, have achieved good visual quality, the necessity for test-time finetuning hinders
+its application in real-world settings. Most end users and application platforms lack the compute
+resources required for finetuning, not to mention the complexities of finetuning process. This nat-
+urally leads to the question: can we take concept images as input conditions, and achieve concept
+customization without finetuning?
+The input/output format of the imagined system is similar to the retrieval-augmented genera-
+tion (Chen et al., 2022f), which aims to ease the image generation by conditioning on a retrieved
+similar image. The system supports extra image inputs that contain relevant information for the
+generation process. By altering the conditioning images during the training phase, the model can
+potentially achieve a broad in-context learning capability, producing images that align with the given
+input examples. In line with this framework, SuTI (Chen et al., 2023f) trains a single model to imitate
+the finetuned subject-specific experts, and generates images conditioning on both text and subject
+input images, as shown in Figure 3.14. As a result, the trained model can perform in-context concept
+customization without test-time finetuning, and generalize to unseen subjects and descriptions. An-
+other concurrent work, InstantBooth (Shi et al., 2023a), also shows remarkable results in generating
+images that are not only aligned with language but also preserve identities, with a single forward
+pass.
+Summary and trends. The field of visual concept customization has advanced from finetuning em-
+beddings during the testing stage, to directly performing in-context image generation with a frozen
+model. The in-context generation pipeline, which incorporates additional image inputs, shows re-
+markable potentials in real-world applications. In this subsection, we have explored two applications
+of this approach: facilitating generation through the retrieval of pertinent images (Chen et al., 2022f),
+and personalizing visual concepts by conditioning them on subject images (Chen et al., 2023f; Shi
+et al., 2023a). An intriguing direction is to unify the diverse uses of image inputs, directed by
+descriptive textual instructions. We elaborate on this idea in the following sub-section.
+39

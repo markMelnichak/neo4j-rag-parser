@@ -1,0 +1,37 @@
+MultiModalGPT-4
+10
+GPT-4 Technical Report, OpenAI
+•Model Details: Unknown•Capability: Strong zero-shot visual understanding & reasoning on many user-oriented tasks in the wild
+How can we build Multimodal GPT-4 like models?
+Figure 5.4: OpenAI Multimodal GPT-4. Visual examples are from OpenAI (2023a).
+no clue how this new ability is achieved (probably because they are not tightened to any established
+academic tasks/datasets), but all are determined that these are exciting results. It naturally raises a
+question: how can we build Multimodal GPT-4 like models?
+To answer it, we start to review the big models from OpenAI, by highlighting the most appealing
+properties for each model in Figure 5.5. There are several key observations: (i) GPT-2 (Radford
+et al., 2019) is the auto-regressive counterpart in the BERT era (Devlin et al., 2019) for the pre-
+train-then-finetune paradigm. Compared with GPT-2, GPT-3 (Brown et al., 2020) is a 175B model
+trained on web-scale text corpus, which exhibits two emerging properties with a frozen model:
+in-context-learning (Brown et al., 2020) and chain-of-thoughts (CoT) reasoning (Wei et al., 2022a).
+This means, without any additional training, the model can tackle a wide range of new problems with
+just a few task-specific examples and by properly prompting it step-by-step, respectively. It further
+leads to the modeling paradigm from task-specific finetuning to prompting frozen models, where
+the latter shows higher generalizability and lower adaptation cost in task transfer.(ii) ChatGPT and
+InstructGPT (Ouyang et al., 2022) show the importance of instruction-following and alignment with
+human intents for LLMs, by finetuning the base language model GPT-3/GPT-3.5 on high quality
+instruction-following data, and improving them with a reward model via reinforcement learning
+with human feedback. (iii) GPT-4 not only improves the language ability of previous models, but
+also allows visual signals as additional input for visual understanding and reasoning. We see that the
+newer generation model maintains/improves the existing properties of the previous ones, and enable
+new properties.
+In other words, from GPT-3 to GPT-4, we see two new properties: instruction-following and multi-
+modal input. This reveals the gap between existing LMMs (e.g., Flamingo) and multimodal GPT-4:
+how to perform instruction-following and alignment research in the multimodal space, which is the
+focus of this chapter.
+5.2 Pre-requisite: Instruction Tuning in Large Language Models
+Note that instruction-following is a notion originated in NLP. To study the intuition behind it and
+have a full picture of its history, we first revisit instruction tuning with LLMs.
+Traditional language data. As a typical data instance in NLP, sequence-to-sequence (seq2seq)
+representation is widely adopted for many language tasks: each data instance consists of two parts:
+one sequence as the input and another sequence as the output. We provide two examples in Fig-
+64

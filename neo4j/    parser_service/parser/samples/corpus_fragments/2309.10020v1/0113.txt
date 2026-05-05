@@ -1,0 +1,53 @@
+Reed, S., Zolna, K., Parisotto, E., Colmenarejo, S. G., Novikov, A., Barth-Maron, G., Gimenez,
+M., Sulsky, Y ., Kay, J., Springenberg, J. T., et al. (2022). A generalist agent. arXiv preprint
+arXiv:2205.06175.
+Ren, S., He, K., Girshick, R., and Sun, J. (2015). Faster r-cnn: Towards real-time object detection
+with region proposal networks. In NeurIPS.
+Ridnik, T., Ben-Baruch, E., Noy, A., and Zelnik-Manor, L. (2021). Imagenet-21k pretraining for the
+masses. arXiv preprint arXiv:2104.10972.
+Rombach, R., Blattmann, A., Lorenz, D., Esser, P., and Ommer, B. (2021). High-resolution image
+synthesis with latent diffusion models.
+Rombach, R., Blattmann, A., Lorenz, D., Esser, P., and Ommer, B. (2022). High-resolution image
+synthesis with latent diffusion models. In CVPR.
+Ronneberger, O., Fischer, P., and Brox, T. (2015). U-net: Convolutional networks for biomedical
+image segmentation. In Medical Image Computing and Computer-Assisted Intervention–MICCAI
+2015: 18th International Conference, Munich, Germany, October 5-9, 2015, Proceedings, Part
+III 18, pages 234–241. Springer.
+Roy, S., Wald, T., Koehler, G., Rokuss, M. R., Disch, N., Holzschuh, J., Zimmerer, D., and Maier-
+Hein, K. H. (2023). Sam. md: Zero-shot medical image segmentation capabilities of the segment
+anything model. arXiv preprint arXiv:2304.05396.
+Ruan, L. and Jin, Q. (2022). Survey: Transformer based video-language pre-training. AI Open.
+Ruiz, N., Li, Y ., Jampani, V ., Pritch, Y ., Rubinstein, M., and Aberman, K. (2023). Dreambooth:
+Fine tuning text-to-image diffusion models for subject-driven generation. In Proceedings of the
+IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 22500–22510.
+Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z., Karpathy, A., Khosla,
+A., Bernstein, M., et al. (2015). Imagenet large scale visual recognition challenge. IJCV.
+Saharia, C., Chan, W., Saxena, S., Li, L., Whang, J., Denton, E., Ghasemipour, S. K. S., Ayan, B. K.,
+Mahdavi, S. S., Lopes, R. G., et al. (2022). Photorealistic text-to-image diffusion models with
+deep language understanding. arXiv preprint arXiv:2205.11487.
+Sariyildiz, M. B., Perez, J., and Larlus, D. (2020). Learning visual representations with caption
+annotations. In ECCV.
+Schick, T., Dwivedi-Yu, J., Dess `ı, R., Raileanu, R., Lomeli, M., Zettlemoyer, L., Cancedda, N.,
+and Scialom, T. (2023). Toolformer: Language models can teach themselves to use tools. arXiv
+preprint arXiv:2302.04761.
+Schuhmann, C., Beaumont, R., Vencu, R., Gordon, C., Wightman, R., Cherti, M., Coombes, T.,
+Katta, A., Mullis, C., Wortsman, M., et al. (2022). Laion-5b: An open large-scale dataset for
+training next generation image-text models. NeurIPS.
+Schuhmann, C., Vencu, R., Beaumont, R., Kaczmarczyk, R., Mullis, C., Katta, A., Coombes, T.,
+Jitsev, J., and Komatsuzaki, A. (2021). Laion-400m: Open dataset of clip-filtered 400 million
+image-text pairs. arXiv preprint arXiv:2111.02114.
+Schwenk, D., Khandelwal, A., Clark, C., Marino, K., and Mottaghi, R. (2022). A-okvqa: A bench-
+mark for visual question answering using world knowledge. arXiv preprint arXiv:2206.01718.
+Sennrich, R., Haddow, B., and Birch, A. (2016). Neural machine translation of rare words with
+subword units. In ACL.
+Shao, S., Li, Z., Zhang, T., Peng, C., Yu, G., Zhang, X., Li, J., and Sun, J. (2019). Objects365: A
+large-scale, high-quality dataset for object detection. In ICCV.
+Shao, W., Hu, Y ., Gao, P., Lei, M., Zhang, K., Meng, F., Xu, P., Huang, S., Li, H., Qiao,
+Y ., et al. (2023). Tiny lvlm-ehub: Early multimodal experiments with bard. arXiv preprint
+arXiv:2308.03729.
+ShareGPT (2023). https://sharegpt.com/.
+Sharma, P., Ding, N., Goodman, S., and Soricut, R. (2018). Conceptual captions: A cleaned, hyper-
+nymed, image alt-text dataset for automatic image captioning. In ACL.
+Shen, Q., Yang, X., and Wang, X. (2023a). Anything-3d: Towards single-view anything reconstruc-
+tion in the wild. arXiv preprint arXiv:2304.10261.
+109

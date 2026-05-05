@@ -1,0 +1,51 @@
+Luo, H., Bao, J., Wu, Y ., He, X., and Li, T. (2023b). Segclip: Patch aggregation with learnable
+centers for open-vocabulary semantic segmentation. In International Conference on Machine
+Learning, pages 23033–23044. PMLR.
+Luo, R., Zhao, Z., Yang, M., Dong, J., Qiu, M., Lu, P., Wang, T., and Wei, Z. (2023c). Valley: Video
+assistant with large language model enhanced ability. arXiv preprint arXiv:2306.07207.
+Luo, W., Xing, J., Milan, A., Zhang, X., Liu, W., and Kim, T.-K. (2021). Multiple object tracking:
+A literature review. Artificial intelligence, 293:103448.
+Ma, J. and Wang, B. (2023). Segment anything in medical images.arXiv preprint arXiv:2304.12306.
+Ma, Z., Hong, X., and Shangguan, Q. (2023). Can sam count anything? an empirical study on sam
+counting. arXiv preprint arXiv:2304.10817.
+Mao, J., Huang, J., Toshev, A., Camburu, O., Yuille, A. L., and Murphy, K. (2016). Generation and
+comprehension of unambiguous object descriptions. In CVPR.
+Margffoy-Tuay, E., P´erez, J. C., Botero, E., and Arbel´aez, P. (2018). Dynamic multimodal instance
+segmentation guided by natural language queries. In Proceedings of the European Conference on
+Computer Vision (ECCV), pages 630–645.
+Marino, K., Chen, X., Parikh, D., Gupta, A., and Rohrbach, M. (2021). Krisp: Integrating implicit
+and symbolic knowledge for open-domain knowledge-based vqa. In CVPR.
+Mazumder, M., Banbury, C., Yao, X., Karla ˇs, B., Rojas, W. G., Diamos, S., Diamos, G., He, L.,
+Kiela, D., Jurado, D., et al. (2022). Dataperf: Benchmarks for data-centric ai development. arXiv
+preprint arXiv:2207.10062.
+McGuinness, K. and O’connor, N. E. (2010). A comparative evaluation of interactive segmentation
+algorithms. Pattern Recognition, 43(2):434–444.
+Meng, C., He, Y ., Song, Y ., Song, J., Wu, J., Zhu, J.-Y ., and Ermon, S. (2021). Sdedit: Guided
+image synthesis and editing with stochastic differential equations. InInternational Conference on
+Learning Representations.
+Mertan, A., Duff, D. J., and Unal, G. (2022). Single image depth estimation: An overview. Digital
+Signal Processing, 123:103441.
+Miech, A., Zhukov, D., Alayrac, J.-B., Tapaswi, M., Laptev, I., and Sivic, J. (2019). Howto100m:
+Learning a text-video embedding by watching hundred million narrated video clips. In ICCV.
+Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013). Efficient estimation of word representations
+in vector space. arXiv preprint arXiv:1301.3781.
+Minderer, M., Gritsenko, A., Stone, A., Neumann, M., Weissenborn, D., Dosovitskiy, A., Mahen-
+dran, A., Arnab, A., Dehghani, M., Shen, Z., Wang, X., Zhai, X., Kipf, T., and Houlsby, N.
+(2022). Simple open-vocabulary object detection with vision transformers.
+Misra, I. and Maaten, L. v. d. (2020). Self-supervised learning of pretext-invariant representations.
+In CVPR.
+Misra, I., Shrivastava, A., Gupta, A., and Hebert, M. (2016). Cross-stitch networks for multi-task
+learning. In Proceedings of the IEEE conference on computer vision and pattern recognition ,
+pages 3994–4003.
+Monajatipoor, M., Li, L. H., Rouhsedaghat, M., Yang, L. F., and Chang, K.-W. (2023). Metavl:
+Transferring in-context learning ability from language models to vision-language models. arXiv
+preprint arXiv:2306.01311.
+Moor, M., Huang, Q., Wu, S., Yasunaga, M., Zakka, C., Dalmia, Y ., Reis, E. P., Rajpurkar, P.,
+and Leskovec, J. (2023). Med-flamingo: a multimodal medical few-shot learner. arXiv preprint
+arXiv:2307.15189.
+Mortensen, E. N. and Barrett, W. A. (1998). Interactive segmentation with intelligent scissors.
+Graphical models and image processing, 60(5):349–384.
+Mottaghi, R., Chen, X., Liu, X., Cho, N.-G., Lee, S.-W., Fidler, S., Urtasun, R., and Yuille, A.
+(2014). The role of context for object detection and semantic segmentation in the wild. In Pro-
+ceedings of the IEEE conference on computer vision and pattern recognition, pages 891–898.
+106

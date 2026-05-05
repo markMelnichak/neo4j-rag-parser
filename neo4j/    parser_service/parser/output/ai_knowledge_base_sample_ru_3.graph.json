@@ -1,0 +1,540 @@
+{
+  "source": "ai_knowledge_base_sample_ru_3.pdf",
+  "nodes": [
+    {
+      "label": "Concept",
+      "name": "Transformer",
+      "normalized_name": "transformer",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Summarization",
+      "normalized_name": "summarization",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Question Answering",
+      "normalized_name": "question answering",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "PyTorch",
+      "normalized_name": "pytorch",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Neural Network",
+      "normalized_name": "neural network",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Embedding",
+      "normalized_name": "embedding",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Image Segmentation",
+      "normalized_name": "image segmentation",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Mistral",
+      "normalized_name": "mistral",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "vLLM",
+      "normalized_name": "vllm",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Instruction Tuning",
+      "normalized_name": "instruction tuning",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Context Window",
+      "normalized_name": "context window",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Mixture of Experts",
+      "normalized_name": "mixture of experts",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Sparse Routing",
+      "normalized_name": "sparse routing",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Retrieval-Augmented Generation",
+      "normalized_name": "retrieval-augmented generation",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Quantization",
+      "normalized_name": "quantization",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Vector Index",
+      "normalized_name": "vector index",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "CLIP",
+      "normalized_name": "clip",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Zero-Shot Classification",
+      "normalized_name": "zero-shot classification",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Contrastive Learning",
+      "normalized_name": "contrastive learning",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Joint Embedding Space",
+      "normalized_name": "joint embedding space",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Image Retrieval",
+      "normalized_name": "image retrieval",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "SAM",
+      "normalized_name": "sam",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Prompt Encoding",
+      "normalized_name": "prompt encoding",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Mask Representation",
+      "normalized_name": "mask representation",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_3.pdf",
+      "description": null
+    }
+  ],
+  "relations": [
+    {
+      "from_name": "Mistral",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Новые языковые модели Mistral является моделью Transformer и применяется для Text Generation, Summarization и Question Answering.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Mistral",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Question Answering",
+      "to_label": "Task",
+      "evidence": "Новые языковые модели Mistral является моделью Transformer и применяется для Text Generation, Summarization и Question Answering.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Mistral",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Summarization",
+      "to_label": "Task",
+      "evidence": "Новые языковые модели Mistral является моделью Transformer и применяется для Text Generation, Summarization и Question Answering.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Mistral",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "В инженерных обзорах Mistral часто реализуется в vLLM и PyTorch.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Mistral",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "vLLM",
+      "to_label": "Framework",
+      "evidence": "В инженерных обзорах Mistral часто реализуется в vLLM и PyTorch.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Mistral",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Instruction Tuning",
+      "to_label": "Method",
+      "evidence": "Mistral использует Instruction Tuning при адаптации к прикладным сценариям.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Mistral",
+      "from_label": "Model",
+      "type": "RELATED_TO",
+      "to_name": "Context Window",
+      "to_label": "Concept",
+      "evidence": "В ряде материалов Mistral также связывают с Concept Context Window, потому что размер контекстного окна влияет на качество работы языковой модели.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Transformer",
+      "from_label": "Concept",
+      "type": "USED_FOR",
+      "to_name": "Summarization",
+      "to_label": "Task",
+      "evidence": "Mixtral является моделью Transformer и используется для Text Generation и Summarization.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "PyTorch",
+      "from_label": "Framework",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "vLLM",
+      "to_label": "Framework",
+      "evidence": "В производственных сценариях Mixtral реализуется в PyTorch и vLLM.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Retrieval-Augmented Generation",
+      "from_label": "Method",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Qwen является моделью Transformer и применяется для Question Answering и Retrieval-Augmented Generation.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Retrieval-Augmented Generation",
+      "from_label": "Method",
+      "type": "USED_FOR",
+      "to_name": "Question Answering",
+      "to_label": "Task",
+      "evidence": "Qwen является моделью Transformer и применяется для Question Answering и Retrieval-Augmented Generation.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Instruction Tuning",
+      "from_label": "Method",
+      "type": "USES",
+      "to_name": "Quantization",
+      "to_label": "Method",
+      "evidence": "Qwen использует Instruction Tuning и Quantization.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Retrieval-Augmented Generation",
+      "from_label": "Method",
+      "type": "RELATED_TO",
+      "to_name": "Vector Index",
+      "to_label": "Concept",
+      "evidence": "Qwen также связан с Concept Vector Index, потому что в сценариях Retrieval-Augmented Generation важную роль играет индексирование эмбеддингов.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "CLIP",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Neural Network",
+      "to_label": "Concept",
+      "evidence": "Мультимодальные и визуальные модели CLIP является моделью Neural Network и используется для Image Retrieval и Zero-Shot Classification.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "CLIP",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Zero-Shot Classification",
+      "to_label": "Task",
+      "evidence": "Мультимодальные и визуальные модели CLIP является моделью Neural Network и используется для Image Retrieval и Zero-Shot Classification.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "CLIP",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Image Retrieval",
+      "to_label": "Task",
+      "evidence": "Мультимодальные и визуальные модели CLIP является моделью Neural Network и используется для Image Retrieval и Zero-Shot Classification.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "CLIP",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Neural Network",
+      "to_label": "Concept",
+      "evidence": "Мультимодальные и визуальные модели CLIP является моделью Neural Network и используется для Image Retrieval и Zero-Shot Classification.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "CLIP",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Contrastive Learning",
+      "to_label": "Method",
+      "evidence": "CLIP использует Contrastive Learning и часто реализуется в PyTorch.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "CLIP",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "CLIP использует Contrastive Learning и часто реализуется в PyTorch.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "CLIP",
+      "from_label": "Model",
+      "type": "RELATED_TO",
+      "to_name": "Joint Embedding Space",
+      "to_label": "Concept",
+      "evidence": "В статьях по мультимодальному обучению CLIP связан с Concept Joint Embedding Space, поскольку изображения и тексты проецируются в общее пространство представлений.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "CLIP",
+      "from_label": "Model",
+      "type": "RELATED_TO",
+      "to_name": "Embedding",
+      "to_label": "Concept",
+      "evidence": "В статьях по мультимодальному обучению CLIP связан с Concept Joint Embedding Space, поскольку изображения и тексты проецируются в общее пространство представлений.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "SAM",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Neural Network",
+      "to_label": "Concept",
+      "evidence": "SAM является моделью Neural Network и применяется для Image Segmentation.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "SAM",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Image Segmentation",
+      "to_label": "Task",
+      "evidence": "SAM является моделью Neural Network и применяется для Image Segmentation.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "SAM",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Prompt Encoding",
+      "to_label": "Method",
+      "evidence": "SAM использует Prompt Encoding и может быть реализован в PyTorch.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "SAM",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "SAM использует Prompt Encoding и может быть реализован в PyTorch.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "SAM",
+      "from_label": "Model",
+      "type": "RELATED_TO",
+      "to_name": "Mask Representation",
+      "to_label": "Concept",
+      "evidence": "Кроме того, SAM связан с Concept Mask Representation, потому что сегментационные модели формируют представление объекта в виде маски.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Mixture of Experts",
+      "from_label": "Method",
+      "type": "RELATED_TO",
+      "to_name": "Sparse Routing",
+      "to_label": "Method",
+      "evidence": "Sparse Routing связано с Mixture of Experts, потому что маршрутизация определяет, какие эксперты активируются на конкретном входе.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Contrastive Learning",
+      "from_label": "Method",
+      "type": "RELATED_TO",
+      "to_name": "Joint Embedding Space",
+      "to_label": "Concept",
+      "evidence": "Joint Embedding Space связано с Contrastive Learning, так как контрастивное обучение формирует согласованное пространство признаков.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Contrastive Learning",
+      "from_label": "Method",
+      "type": "RELATED_TO",
+      "to_name": "Embedding",
+      "to_label": "Concept",
+      "evidence": "Joint Embedding Space связано с Contrastive Learning, так как контрастивное обучение формирует согласованное пространство признаков.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Retrieval-Augmented Generation",
+      "from_label": "Method",
+      "type": "USES",
+      "to_name": "Vector Index",
+      "to_label": "Concept",
+      "evidence": "Vector Index связано с Retrieval-Augmented Generation, поскольку retrieval-сценарий опирается на поиск по векторам.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    },
+    {
+      "from_name": "Instruction Tuning",
+      "from_label": "Method",
+      "type": "RELATED_TO",
+      "to_name": "Context Window",
+      "to_label": "Concept",
+      "evidence": "Context Window связано с Instruction Tuning только косвенно, поэтому такая связь не должна автоматически появляться в графе без явного текстового маркера.",
+      "confidence": 0.85,
+      "rule": "rule",
+      "source": "ai_knowledge_base_sample_ru_3.pdf"
+    }
+  ]
+}

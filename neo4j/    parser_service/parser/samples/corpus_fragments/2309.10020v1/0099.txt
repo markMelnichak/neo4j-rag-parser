@@ -1,0 +1,53 @@
+Cai, T., Wang, X., Ma, T., Chen, X., and Zhou, D. (2023). Large language models as tool makers.
+arXiv preprint arXiv:2305.17126.
+Cai, Z., Kwon, G., Ravichandran, A., Bas, E., Tu, Z., Bhotika, R., and Soatto, S. (2022). X-detr: A
+versatile architecture for instance-wise vision-language tasks. In ECCV.
+Cao, L., Zhang, B., Chen, C., Yang, Y ., Du, X., Zhang, W., Lu, Z., and Zheng, Y . (2023). Less
+is more: Removing text-regions improves clip training efficiency and robustness. arXiv preprint
+arXiv:2305.05095.
+Carion, N., Massa, F., Synnaeve, G., Usunier, N., Kirillov, A., and Zagoruyko, S. (2020). End-to-end
+object detection with transformers. In ECCV.
+Caron, M., Bojanowski, P., Joulin, A., and Douze, M. (2018). Deep clustering for unsupervised
+learning of visual features. In ECCV.
+Caron, M., Misra, I., Mairal, J., Goyal, P., Bojanowski, P., and Joulin, A. (2020). Unsupervised
+learning of visual features by contrasting cluster assignments. NeurIPS.
+Caron, M., Touvron, H., Misra, I., J ´egou, H., Mairal, J., Bojanowski, P., and Joulin, A. (2021).
+Emerging properties in self-supervised vision transformers. In ICCV.
+Castrejon, L., Kundu, K., Urtasun, R., and Fidler, S. (2017). Annotating object instances with a
+polygon-rnn. In Proceedings of the IEEE conference on computer vision and pattern recognition,
+pages 5230–5238.
+Chang, H., Zhang, H., Barber, J., Maschinot, A., Lezama, J., Jiang, L., Yang, M.-H., Murphy,
+K., Freeman, W. T., Rubinstein, M., et al. (2023). Muse: Text-to-image generation via masked
+generative transformers. arXiv preprint arXiv:2301.00704.
+Chang, H., Zhang, H., Jiang, L., Liu, C., and Freeman, W. T. (2022). Maskgit: Masked generative
+image transformer. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+Recognition, pages 11315–11325.
+Changpinyo, S., Sharma, P., Ding, N., and Soricut, R. (2021). Conceptual 12m: Pushing web-scale
+image-text pre-training to recognize long-tail visual concepts. In CVPR.
+Chefer, H., Alaluf, Y ., Vinker, Y ., Wolf, L., and Cohen-Or, D. (2023). Attend-and-excite: Attention-
+based semantic guidance for text-to-image diffusion models. arXiv preprint arXiv:2301.13826.
+Chen, C., Zhang, B., Cao, L., Shen, J., Gunter, T., Jose, A. M., Toshev, A., Shlens, J., Pang, R., and
+Yang, Y . (2023a). Stair: Learning sparse text and image representation in grounded tokens.arXiv
+preprint arXiv:2301.13081.
+Chen, D., Liu, J., Dai, W., and Wang, B. (2023b). Visual instruction tuning with polite flamingo.
+arXiv preprint arXiv:2307.01003.
+Chen, F., Han, M., Zhao, H., Zhang, Q., Shi, J., Xu, S., and Xu, B. (2023c). X-llm: Bootstrapping
+advanced large language models by treating multi-modalities as foreign languages.arXiv preprint
+arXiv:2305.04160.
+Chen, F., Zhang, D., Han, M., Chen, X., Shi, J., Xu, S., and Xu, B. (2022a). Vlp: A survey on
+vision-language pre-training. arXiv preprint arXiv:2202.09061.
+Chen, K., Zhang, Z., Zeng, W., Zhang, R., Zhu, F., and Zhao, R. (2023d). Shikra: Unleashing
+multimodal llm’s referential dialogue magic. arXiv preprint arXiv:2306.15195.
+Chen, L., Zhai, M., He, J., and Mori, G. (2019). Object grounding via iterative context reasoning.
+In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops, pages
+0–0.
+Chen, L.-C., Papandreou, G., Schroff, F., and Adam, H. (2017). Rethinking atrous convolution for
+semantic image segmentation. arXiv preprint arXiv:1706.05587.
+Chen, M., Laina, I., and Vedaldi, A. (2023e). Training-free layout control with cross-attention
+guidance. arXiv preprint arXiv:2304.03373.
+Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. d. O., Kaplan, J., Edwards, H., Burda, Y .,
+Joseph, N., Brockman, G., et al. (2021a). Evaluating large language models trained on code.
+arXiv preprint arXiv:2107.03374.
+Chen, Q., Chen, X., Zeng, G., and Wang, J. (2022b). Group detr: Fast training convergence with
+decoupled one-to-many label assignment. arXiv preprint arXiv:2207.13085.
+95

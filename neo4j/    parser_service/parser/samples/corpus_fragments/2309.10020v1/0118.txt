@@ -1,0 +1,52 @@
+Xie, D., Wang, R., Ma, J., Chen, C., Lu, H., Yang, D., Shi, F., and Lin, X. (2023a). Edit everything:
+A text-guided generative system for images editing. arXiv preprint arXiv:2304.14006.
+Xie, X., Fu, L., Zhang, Z., Wang, Z., and Bai, X. (2022a). Toward understanding wordart: Corner-
+guided transformer for scene text recognition.
+Xie, Z., Lin, Y ., Yao, Z., Zhang, Z., Dai, Q., Cao, Y ., and Hu, H. (2021). Self-supervised learning
+with swin transformers. arXiv preprint arXiv:2105.04553.
+Xie, Z., Zhang, Z., Cao, Y ., Lin, Y ., Bao, J., Yao, Z., Dai, Q., and Hu, H. (2022b). Simmim: A
+simple framework for masked image modeling. In CVPR.
+Xie, Z., Zhang, Z., Cao, Y ., Lin, Y ., Wei, Y ., Dai, Q., and Hu, H. (2023b). On data scaling in masked
+image modeling. In CVPR.
+Xu, D., Ouyang, W., Wang, X., and Sebe, N. (2018). Pad-net: Multi-tasks guided prediction-and-
+distillation network for simultaneous depth estimation and scene parsing. In Proceedings of the
+IEEE Conference on Computer Vision and Pattern Recognition, pages 675–684.
+Xu, H., Yan, M., Li, C., Bi, B., Huang, S., Xiao, W., and Huang, F. (2021). E2e-vlp: End-to-end
+vision-language pre-training enhanced by visual learning.
+Xu, J., De Mello, S., Liu, S., Byeon, W., Breuel, T., Kautz, J., and Wang, X. (2022a). Groupvit:
+Semantic segmentation emerges from text supervision. In CVPR.
+Xu, J., Liu, S., Vahdat, A., Byeon, W., Wang, X., and De Mello, S. (2023a). Open-vocabulary
+panoptic segmentation with text-to-image diffusion models. In Proceedings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition, pages 2955–2966.
+Xu, P., Shao, W., Zhang, K., Gao, P., Liu, S., Lei, M., Meng, F., Huang, S., Qiao, Y ., and Luo, P.
+(2023b). Lvlm-ehub: A comprehensive evaluation benchmark for large vision-language models.
+arXiv preprint arXiv:2306.09265.
+Xu, R., Wang, X., Wang, T., Chen, Y ., Pang, J., and Lin, D. (2023c). Pointllm: Empowering large
+language models to understand point clouds. arXiv preprint arXiv:2308.16911.
+Xu, Z., Shen, Y ., and Huang, L. (2022b). Multiinstruct: Improving multi-modal zero-shot learning
+via instruction tuning. arXiv preprint arXiv:2212.10773.
+Yan, B., Jiang, Y ., Wu, J., Wang, D., Luo, P., Yuan, Z., and Lu, H. (2023). Universal instance
+perception as object discovery and retrieval. In Proceedings of the IEEE/CVF Conference on
+Computer Vision and Pattern Recognition, pages 15325–15336.
+Yang, B., Gu, S., Zhang, B., Zhang, T., Chen, X., Sun, X., Chen, D., and Wen, F. (2023a). Paint by
+example: Exemplar-based image editing with diffusion models. In Proceedings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition, pages 18381–18391.
+Yang, J., Gao, M., Li, Z., Gao, S., Wang, F., and Zheng, F. (2023b). Track anything: Segment
+anything meets videos. arXiv preprint arXiv:2304.11968.
+Yang, J., Li, C., Zhang, P., Xiao, B., Liu, C., Yuan, L., and Gao, J. (2022a). Unified contrastive
+learning in image-text-label space. In CVPR.
+Yang, J., Li, C., Zhang, P., Xiao, B., Yuan, L., Liu, C., and Gao, J. (2022b). Unicl: Unified con-
+trastive learning in image-text-label space. In CVPR.
+Yang, R., Song, L., Li, Y ., Zhao, S., Ge, Y ., Li, X., and Shan, Y . (2023c). Gpt4tools: Teaching large
+language model to use tools via self-instruction. arXiv preprint arXiv:2305.18752.
+Yang, Z., Gan, Z., Wang, J., Hu, X., Ahmed, F., Liu, Z., Lu, Y ., and Wang, L. (2021). Crossing the
+format boundary of text and boxes: Towards unified vision-language modeling. arXiv preprint
+arXiv:2111.12085.
+Yang, Z., Gan, Z., Wang, J., Hu, X., Ahmed, F., Liu, Z., Lu, Y ., and Wang, L. (2022c). Unitab:
+Unifying text and box outputs for grounded vision-language modeling. In European Conference
+on Computer Vision, pages 521–539. Springer.
+Yang, Z., Gan, Z., Wang, J., Hu, X., Lu, Y ., Liu, Z., and Wang, L. (2022d). An empirical study of
+gpt-3 for few-shot knowledge-based vqa. In AAAI.
+Yang*, Z., Li*, L., Wang*, J., Lin*, K., Azarnasab*, E., Ahmed*, F., Liu, Z., Liu, C., Zeng, M., and
+Wang, L. (2023). Mm-react: Prompting chatgpt for multimodal reasoning and action.
+114

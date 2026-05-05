@@ -1,0 +1,914 @@
+{
+  "source": "ai_knowledge_base_sample_ru_2.pdf",
+  "nodes": [
+    {
+      "label": "Model",
+      "name": "T5",
+      "normalized_name": "t5",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Transformer",
+      "normalized_name": "transformer",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Summarization",
+      "normalized_name": "summarization",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Machine Translation",
+      "normalized_name": "machine translation",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Question Answering",
+      "normalized_name": "question answering",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Fine-tuning",
+      "normalized_name": "fine-tuning",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Hugging Face Transformers",
+      "normalized_name": "hugging face transformers",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LLaMA",
+      "normalized_name": "llama",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "LoRA",
+      "normalized_name": "lora",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "RLHF",
+      "normalized_name": "rlhf",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "PyTorch",
+      "normalized_name": "pytorch",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Whisper",
+      "normalized_name": "whisper",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Neural Network",
+      "normalized_name": "neural network",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Speech Recognition",
+      "normalized_name": "speech recognition",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Speech Translation",
+      "normalized_name": "speech translation",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Audio Embedding",
+      "normalized_name": "audio embedding",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "U-Net",
+      "normalized_name": "u-net",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Image Segmentation",
+      "normalized_name": "image segmentation",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Backpropagation",
+      "normalized_name": "backpropagation",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "TensorFlow",
+      "normalized_name": "tensorflow",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Feature Map",
+      "normalized_name": "feature map",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Diffusion Model",
+      "normalized_name": "diffusion model",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Generative Model",
+      "normalized_name": "generative model",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Image Generation",
+      "normalized_name": "image generation",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Classifier-Free Guidance",
+      "normalized_name": "classifier-free guidance",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Latent Space",
+      "normalized_name": "latent space",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Preference Optimization",
+      "normalized_name": "preference optimization",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Parameter-Efficient Fine-Tuning",
+      "normalized_name": "parameter-efficient fine-tuning",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Feature Extraction",
+      "normalized_name": "feature extraction",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "NLP",
+      "normalized_name": "nlp",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Text Generation",
+      "normalized_name": "text generation",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Concept Audio Embedding",
+      "normalized_name": "concept audio embedding",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Concept Feature Map",
+      "normalized_name": "concept feature map",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Concept Latent Space",
+      "normalized_name": "concept latent space",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Parameter-Efficient",
+      "normalized_name": "parameter-efficient",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample_ru_2.pdf",
+      "description": null
+    }
+  ],
+  "relations": [
+    {
+      "from_name": "T5",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Новые языковые модели T5 является моделью класса Transformer и применяется для задач Summarization, Machine Translation и Question Answering.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "T5",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Summarization",
+      "to_label": "Task",
+      "evidence": "Новые языковые модели T5 является моделью класса Transformer и применяется для задач Summarization, Machine Translation и Question Answering.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "T5",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Machine Translation",
+      "to_label": "Task",
+      "evidence": "Новые языковые модели T5 является моделью класса Transformer и применяется для задач Summarization, Machine Translation и Question Answering.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "T5",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Question Answering",
+      "to_label": "Task",
+      "evidence": "Новые языковые модели T5 является моделью класса Transformer и применяется для задач Summarization, Machine Translation и Question Answering.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "T5",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Fine-tuning",
+      "to_label": "Method",
+      "evidence": "T5 использует Fine-tuning при адаптации к прикладным сценариям и нередко реализуется в Hugging Face Transformers.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_model",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "T5",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "Hugging Face Transformers",
+      "to_label": "Framework",
+      "evidence": "T5 использует Fine-tuning при адаптации к прикладным сценариям и нередко реализуется в Hugging Face Transformers.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "T5",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Если парсер работает корректно, то он должен распознать, что T5 является Model, Transformer относится к Concept, Summarization и Question Answering относятся к Task, Fine-tuning относится к Method, а Hugging Face Transformers должен быть отнесён к Framework.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Transformer",
+      "from_label": "Concept",
+      "type": "RELATED_TO",
+      "to_name": "Fine-tuning",
+      "to_label": "Method",
+      "evidence": "Если парсер работает корректно, то он должен распознать, что T5 является Model, Transformer относится к Concept, Summarization и Question Answering относятся к Task, Fine-tuning относится к Method, а Hugging Face Transformers должен быть отнесён к Framework.",
+      "confidence": 0.8,
+      "rule": "hybrid_related_to",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "LLaMA также является моделью типа Transformer и применяется для Text Generation, Summarization и Question Answering.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Summarization",
+      "to_label": "Task",
+      "evidence": "LLaMA также является моделью типа Transformer и применяется для Text Generation, Summarization и Question Answering.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Question Answering",
+      "to_label": "Task",
+      "evidence": "LLaMA также является моделью типа Transformer и применяется для Text Generation, Summarization и Question Answering.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Text Generation",
+      "to_label": "Task",
+      "evidence": "LLaMA также является моделью типа Transformer и применяется для Text Generation, Summarization и Question Answering.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "LoRA",
+      "to_label": "Method",
+      "evidence": "LLaMA использует LoRA при параметрически-эффективной адаптации, а также может использовать RLHF в более сложных схемах донастройки.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_model",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "RLHF",
+      "to_label": "Method",
+      "evidence": "LLaMA использует LoRA при параметрически-эффективной адаптации, а также может использовать RLHF в более сложных схемах донастройки.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_model",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "В инженерных экспериментах LLaMA реализуется в PyTorch и иногда разворачивается через Hugging Face Transformers.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "Hugging Face Transformers",
+      "to_label": "Framework",
+      "evidence": "В инженерных экспериментах LLaMA реализуется в PyTorch и иногда разворачивается через Hugging Face Transformers.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Для графовой базы знаний важно, чтобы отношения LLaMA is a Transformer model, LLaMA uses LoRA и LLaMA implemented in PyTorch были зафиксированы явно.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "LoRA",
+      "to_label": "Method",
+      "evidence": "Для графовой базы знаний важно, чтобы отношения LLaMA is a Transformer model, LLaMA uses LoRA и LLaMA implemented in PyTorch были зафиксированы явно.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_model",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Transformer",
+      "from_label": "Concept",
+      "type": "USES",
+      "to_name": "LoRA",
+      "to_label": "Method",
+      "evidence": "Для графовой базы знаний важно, чтобы отношения LLaMA is a Transformer model, LLaMA uses LoRA и LLaMA implemented in PyTorch были зафиксированы явно.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_concept",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "Для графовой базы знаний важно, чтобы отношения LLaMA is a Transformer model, LLaMA uses LoRA и LLaMA implemented in PyTorch были зафиксированы явно.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Whisper",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Neural Network",
+      "to_label": "Concept",
+      "evidence": "Whisper является моделью типа Neural Network и применяется для Speech Recognition и Speech Translation.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Whisper",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Speech Recognition",
+      "to_label": "Task",
+      "evidence": "Whisper является моделью типа Neural Network и применяется для Speech Recognition и Speech Translation.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Whisper",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Speech Translation",
+      "to_label": "Task",
+      "evidence": "Whisper является моделью типа Neural Network и применяется для Speech Recognition и Speech Translation.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Whisper",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Fine-tuning",
+      "to_label": "Method",
+      "evidence": "Whisper использует Fine-tuning и часто реализуется в PyTorch.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_model",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Whisper",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "Whisper использует Fine-tuning и часто реализуется в PyTorch.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "U-Net",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Neural Network",
+      "to_label": "Concept",
+      "evidence": "Компьютерное зрение U-Net является моделью типа Neural Network и широко используется для Image Segmentation.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "U-Net",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Image Segmentation",
+      "to_label": "Task",
+      "evidence": "Компьютерное зрение U-Net является моделью типа Neural Network и широко используется для Image Segmentation.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "U-Net",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Backpropagation",
+      "to_label": "Method",
+      "evidence": "В задачах компьютерного зрения U-Net использует Backpropagation и может быть реализован в TensorFlow.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_model",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "U-Net",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "TensorFlow",
+      "to_label": "Framework",
+      "evidence": "В задачах компьютерного зрения U-Net использует Backpropagation и может быть реализован в TensorFlow.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Diffusion Model",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Generative Model",
+      "to_label": "Concept",
+      "evidence": "Новые методы и концепты Diffusion Model относится к классу Generative Model и используется для Image Generation.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Diffusion Model",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Image Generation",
+      "to_label": "Task",
+      "evidence": "Новые методы и концепты Diffusion Model относится к классу Generative Model и используется для Image Generation.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Diffusion Model",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Classifier-Free Guidance",
+      "to_label": "Method",
+      "evidence": "В ряде обзоров Diffusion Model реализуется в PyTorch и использует Classifier-Free Guidance как специальный Method.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_model",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Diffusion Model",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "В ряде обзоров Diffusion Model реализуется в PyTorch и использует Classifier-Free Guidance как специальный Method.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Diffusion Model",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Classifier-Free Guidance",
+      "to_label": "Method",
+      "evidence": "Если система видит фразу о том, что Diffusion Model uses Classifier-Free Guidance, она должна строить связь между моделью и методом.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_model",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Diffusion Model",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "Если в тексте встречается предложение о том, что Diffusion Model is implemented in PyTorch, то должна строиться связь IMPLEMENTED_IN.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Audio Embedding",
+      "from_label": "Concept",
+      "type": "RELATED_TO",
+      "to_name": "Feature Extraction",
+      "to_label": "Method",
+      "evidence": "Audio Embedding связано с Feature Extraction, потому что извлечение аудиопризнаков является промежуточным шагом перед построением векторного представления.",
+      "confidence": 0.8,
+      "rule": "hybrid_related_to",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Latent Space",
+      "from_label": "Concept",
+      "type": "RELATED_TO",
+      "to_name": "Generative Model",
+      "to_label": "Concept",
+      "evidence": "Latent Space связано с Generative Model, поскольку многие генеративные архитектуры опираются на скрытое пространство представлений.",
+      "confidence": 0.8,
+      "rule": "hybrid_related_to",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "T5",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "T5 является моделью Transformer и используется для Summarization.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "T5",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Summarization",
+      "to_label": "Task",
+      "evidence": "T5 является моделью Transformer и используется для Summarization.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "LLaMA является моделью Transformer и использует LoRA и RLHF.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "LoRA",
+      "to_label": "Method",
+      "evidence": "LLaMA является моделью Transformer и использует LoRA и RLHF.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_model",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "RLHF",
+      "to_label": "Method",
+      "evidence": "LLaMA является моделью Transformer и использует LoRA и RLHF.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_model",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Transformer",
+      "from_label": "Concept",
+      "type": "USES",
+      "to_name": "LoRA",
+      "to_label": "Method",
+      "evidence": "LLaMA является моделью Transformer и использует LoRA и RLHF.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_concept",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Transformer",
+      "from_label": "Concept",
+      "type": "USES",
+      "to_name": "RLHF",
+      "to_label": "Method",
+      "evidence": "LLaMA является моделью Transformer и использует LoRA и RLHF.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_concept",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Whisper",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Neural Network",
+      "to_label": "Concept",
+      "evidence": "Whisper является моделью Neural Network и используется для Speech Recognition.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Whisper",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Speech Recognition",
+      "to_label": "Task",
+      "evidence": "Whisper является моделью Neural Network и используется для Speech Recognition.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "U-Net",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Neural Network",
+      "to_label": "Concept",
+      "evidence": "U-Net является моделью Neural Network и используется для Image Segmentation.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "U-Net",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Image Segmentation",
+      "to_label": "Task",
+      "evidence": "U-Net является моделью Neural Network и используется для Image Segmentation.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Diffusion Model",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Generative Model",
+      "to_label": "Concept",
+      "evidence": "Diffusion Model является моделью Generative Model и используется для Image Generation.",
+      "confidence": 0.92,
+      "rule": "hybrid_is_a",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Diffusion Model",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Image Generation",
+      "to_label": "Task",
+      "evidence": "Diffusion Model является моделью Generative Model и используется для Image Generation.",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "T5",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "Hugging Face Transformers",
+      "to_label": "Framework",
+      "evidence": "T5 реализуется в Hugging Face Transformers.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "LLaMA реализуется в PyTorch.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Whisper",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "Whisper реализуется в PyTorch.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "U-Net",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "TensorFlow",
+      "to_label": "Framework",
+      "evidence": "U-Net реализуется в TensorFlow.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Diffusion Model",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "Diffusion Model реализуется в PyTorch.",
+      "confidence": 0.88,
+      "rule": "hybrid_implemented_in",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Audio Embedding",
+      "from_label": "Concept",
+      "type": "RELATED_TO",
+      "to_name": "Feature Extraction",
+      "to_label": "Method",
+      "evidence": "Audio Embedding связано с Feature Extraction.",
+      "confidence": 0.8,
+      "rule": "hybrid_related_to",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    },
+    {
+      "from_name": "Latent Space",
+      "from_label": "Concept",
+      "type": "RELATED_TO",
+      "to_name": "Generative Model",
+      "to_label": "Concept",
+      "evidence": "Latent Space связано с Generative Model.",
+      "confidence": 0.8,
+      "rule": "hybrid_related_to",
+      "source": "ai_knowledge_base_sample_ru_2.pdf"
+    }
+  ]
+}

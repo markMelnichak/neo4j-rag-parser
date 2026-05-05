@@ -1,0 +1,53 @@
+OpenFlamingo (Awadalla et al., 2023) is an open source version of DeepMind’s Flamingo model,
+trained on Multimodal C4 dataset (Zhu et al., 2023b), which is a billions-scale corpus of inter-
+leaved image-text data. To explicitly enhance the multimodal in-context-learning ability of LMMs,
+MIMIC-IT (Li et al., 2023c) dataset is constructed, which is 2.4M multimodal instruction instances
+with in-context examples. By tuning OpenFlamingo on MIMIC-IT, a new model Otter is obtained
+with a stronger instruction-following ability. Using two image-text pairs as the context, Otter learns
+the concise answer style demonstrated by the examples, otherwise a tedious response is generated.
+Parameter-Efficient Training
+While finetuning very large models often leads to high performance, it is prohibitively expensive;
+For example, regular 16-bit finetuning of a LLaMA-65B model (Touvron et al., 2023) requires more
+than 780 GB of GPU memory (Dettmers et al., 2023). Therefore, it is critical to reduce the memory
+footprint of LLMs/LMMs, especially when it comes to improve the accessibility of large models to
+a wider community.
+Parameter-efficient training is an effective approach for LMM adaptation. It freezes most of the
+model parameters, and only allows a fraction of trainable parameters to update with domain-specific
+data. For example, LLaMA Adapter v2 (Gao et al., 2023b) and LA VIN (Luo et al., 2023a) only have
+14M and 3.8M trainable parameters, compared with 7B/13B LLM parameters, respectively. Another
+efficient training method is quantization. The recent QLoRA (Dettmers et al., 2023) finetunes 65B
+LLaMA for 24 hours on a single GPU, achieving 99.3% of the performance level of ChatGPT. Since
+instruction tuning typically involves a small amount of data, it makes parameter-efficient training
+or model quantization the practical approach, especially when with limited GPU resources. Both
+LoRA (Hu et al., 2021) and QLoRA are supported in LLaV A codebase to allow LMM training with
+less GPUs. It is empirically shown in Lu et al. (2023d) that LoRA/QLoRA can achieve similar per-
+formance with full-modal tuning when scaling LLaV A to 33B and 65B, when training with around
+150K instruct data and evaluating with LLaV A-Bench.
+Benchmarks
+While LMMs have shown excellent visual recognition and reasoning in an open-set manner with
+free-form text across many scenarios, the evaluation of LMMs is becoming an urgent and challeng-
+ing problem. Several related benchmarks have been developed to evaluate various aspects of LMMs,
+ranging from their specific abilities including OCR (Liu et al., 2023k), hallucination (POPE (Li
+et al., 2023l) and HaELM (Wang et al., 2023d)) and adversarial robustness (Zhao et al., 2023d), to
+comprehensive evaluation such as LAMM (Yin et al., 2023), LVLM-eHub (Xu et al., 2023b). We
+summarize the LMM evaluation benchmarks in Table 5.2. Among them, LLaV A-Bench is the first
+attempt to designed open-world visual chat benchmark specifically for LMM. Recently, early multi-
+modal experiments have been conducted to compare open-source LMM with commercial ones such
+as BingChat and Bard and LLaV A-Bench (Liu et al., 2023c) and LVLM-eHub (Shao et al., 2023).
+It is surprising that LMMs shows strong zero-shot OCR performance in the wild, without explicitly
+training on text recognition data. To shed light on the hidden mystery of OCR in LMMs, a com-
+prehensive empirical study is conducted in Liu et al. (2023k) to compare open-source LMMs on
+24 academic text recognition datasets, shown in Figure 5.13. Three observations are highlighted:
+(i) LLaV A consistently outperforms MiniGPT-4 on 21 out of 24 datasets, despite that the training
+data in LLaV A is an order of magnitude smaller.(ii) Training with significantly more training data
+leads to higher OCR performance, as demonstrated by BLIP2 (Li et al., 2023h) and mPLUG-Owl.
+(iii) In most cases, supervised SoTA results significantly outperform zero-shot LMM. However, it
+is worth noting that in the WordArt dataset (Xie et al., 2022a), which primarily features challenging
+artistic text, BLIP2 surpasses supervised SoTA. This reveals the potential of LMM in recognizing
+more complex text types.
+Applications
+The success of ChatGPT/GPT-4 in the general domain has inspired the interests in building assistants
+in the vertical domains such as medicine, gaming and education. Such domain-specific assistants
+can have the several advantages over the general domain counterpart: (i) training with high-quality
+domain-speicifc data makes the assistants more helpful; (ii) the model size can be smaller, with
+74

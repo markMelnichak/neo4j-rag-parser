@@ -1,0 +1,34 @@
+Figure 3.8: Examples of text instruction editing. Image credit: Brooks et al. (2023).
+Figure 3.9: The editing data generation pipeline proposed in InstructPix2Pix. Image credit: Brooks
+et al. (2023).
+layer. The main challenge is how to generate paired editing data. As shown in Figure 3.9, Instruct-
+Pix2Pix (Brooks et al., 2023) proposes to use a LMM (Brown et al., 2020) to generate a pair of
+an editing instruction and an edited caption from the original input caption, e.g., “have her ride a
+dragon,” “photograph of a girl riding a dragon,” and “photograph of a girl riding a horse.” The
+study then uses Prompt2Prompt (Hertz et al., 2022) to convert the original and edited caption pair
+to a pair of images before and after editing, corresponding to the GPT-generated editing instruction.
+The study generates over 450K samples to train the editing model. This data generation method has
+also been adopted in subsequent research, such as CM3Leon (Ge et al., 2023) for training general-
+purpose image-text-to-image models.
+Editing with external pre-trained models. Furthermore, recent studies show the efficacy of incor-
+porating external language and vision models for editing, as opposed to relying solely on a single
+model. Advancements in generalist segmentation models, such as SAM (Kirillov et al., 2023) and
+SEEM (Zou et al., 2023b), have paved the way for using segmentation models to ground the re-
+gion for text-based editing. Representative works include Instruct X-Decoder (Zou et al., 2023a),
+Grounded SAM inpainting (Liu et al., 2023h), Inpaint anything (Yu et al., 2023c), etc.. Another
+emerging trend is the allocation of various generation and editing tools through LMM. Studies such
+as VisualChatGPT (Wu et al., 2023a) can solve complicated visual editing that requires the collabo-
+ration of multiple generation and editing models in multiple steps.
+Summary and trends. Text-based editing models have made significant progress in their capa-
+bilities, leading to improved editing quality, expanded domain coverage, and more flexible user
+interface. For example, early studies require user-generated masks for object editing, while recent
+models can work on synthetically generated images without mask inputs, or even directly under-
+stand general text editing instructions. As we look to the future, we anticipate an all-encompassing
+generative foundation model that is capable of processing both image and text inputs. Within this
+framework, editing instructions would be a specialized form of text input, seamlessly integrated with
+the image description in T2I generation.
+3.4 Text Prompts Following
+Training with image-text pairs encourages T2I models to generate images that semantically corre-
+spond to the input text condition. However, the image generation training objective does not directly
+enforce generated images to exactly follow text prompts. Studies (Feng et al., 2022b; Chefer et al.,
+35

@@ -1,0 +1,47 @@
+Vocab.: Zebra, Antelope, Giraffe, 
+Ostrich, Sky, Water, Grass, Sand
+ Query: Owl on the left
+ Query: The tangerine on the plate.
+ Caption: A river in the 
+mountains under blue sky.
+Figure 4.13: A generalist model X-Decoder (Zou et al., 2023a) that unifies different vision and
+vision-language tasks in a functional manner. It uses a single decoder with the same suite of param-
+eters, but different routing mechanisms to tackle different tasks. Image credit: Zou et al. (2023a).
+Unified learning
+The barrier across tasks is gradually blurred thanks to the use of Transformers (Vaswani et al.,
+2017) and the development of open-set models as we discussed earlier. It is now possible to bind
+inputs from different modalities to learn a shared semantic space. A number of works (Zhang et al.,
+2022b; Zou et al., 2023a; Li et al., 2023g) have recently been proposed to unify vision and vision-
+language tasks by using one model for all . After pre-training, the single model can be applied to
+tackle all tasks in a zero-shot manner and the performance can be further improved via task-specific
+finetuning. Note that unified learning in this context differs from previous works of large-scale pre-
+training. Like GPT which serves as a universal language interface after pre-training, a unified vision
+model is not only a representation learning engine but also an interface that supports as many tasks
+as possible in a zero-shot manner. Below, we review a few representative works.
+GLIPv2 (Zhang et al., 2022b) is proposed by extending GLIP (Li et al., 2022f) to support a wide
+range of vision and vision-language tasks, including grounded captioning, visual question asnwer-
+ing, etc. GLIPv2 seamlessly integrates localization pre-training and Vision-Language Pre-training
+(VLP) through three distinct pre-training tasks: (i) phrase grounding, which serves as a vision-
+language adaptation of detection tasks; (ii) region-word contrastive learning, introducing a novel
+contrastive task at the region-word level; and (iii) masked language modeling. In a zero-shot man-
+ner, this pre-trained model can be applied to different tasks and attain plausible performance across
+the board. Unlike previous works (e.g., GPV (Gupta et al., 2022b)), it merges the localization mod-
+ule and vision-language matching module in a coherent manner, which makes model training from
+fused data much more efficient and effective.
+X-Decoder (Zou et al., 2023a) follows the generic design of encoder-decoder architecture. Given
+an input image, it first uses an image encoder to extract features at multiple scales. Afterward, a
+text encoder is used to encode a textual query into a sequence of embeddings. The visual features,
+textual queries and the non-semantic or latent queries are fed to a decoder to predict the outputs.
+Three critical designs are proposed to empower the generalization ability of X-Decoder to a variety
+of vision and vision-language tasks: (i) It defines two types of queries and outputs. Specifically, the
+queries for the decoder are categorized into latent queries and text queries, which undertake generic
+vision and vision-language tasks, respectively. Likewise, the output is categorized into pixel-level
+masks and semantic embeddings; (ii) A single text encoder is exploited to encode the textual corpus
+from all tasks. The common text encoder is used to encode referring phrases, text descriptions,
+and image captions in the task of referring segmentation, image-text retrieval and image captioning,
+respectively; (iii) It fully decouples the image and text encoder, and use all the outputs as queries.
+As such, it can learn from both intra-image supervisions and inter-image ones, which is essential
+to learn stronger pixel-level representations and support different granularity of tasks. As shown
+in Figure 4.13, the pre-trained model can support different tasks by taking different routing while
+sharing the same suite of parameters.
+55

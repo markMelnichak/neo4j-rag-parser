@@ -1,0 +1,95 @@
+B) Augmenting LLMs through
+external knowledge - RAG
+How LLMs Are Used and Augmented
+C) Using External Tools
+D) LLM Agents
+Functionality of an LLM-based agent
+Tool Access and Utilization
+Decision Making
+Prompt engineering techniques for agents
+Reasoning without Observation
+Reason and Act
+Dialog-Enabled Resolving Agents
+a) RAG-aware prompting techniques
+a) Tool-aware prompting techniques
+A) LLM limitations
+Hallucination
+Hallucination Quantification
+Automated metrics
+Human judgment
+Statistical Metrics
+Model-Based Metrics
+Scoring
+Comparative Analysis
+IE-Based Metrics
+QA-Based Metrics
+NLI-Based Metrics
+B) Using LLMs
+ Prompt Design and Engineering
+1) Chain of Thought
+Zero-Shot CoT
+Manual CoT
+5) Expert Prompting
+6) Chains
+2) Tree of Thought 7) Rails
+Topical Rails
+Fact-Checking Rails
+Jailbreaking Rails
+8) Automatic Prompt Engineering
+Prompt Generation
+Prompt Scoring
+Refinement and Iteration
+3) Self-Consistency
+4) Reflection
+Components of a RAG
+Retrieval 
+Generation 
+Augmentation
+RAG Tools
+LangChain 
+LlamaIndex
+HayStack
+Meltano
+Cohere Coral
+Flowise AI
+Fig. 36: How LLMs Are Used and Augmented.
+metrics, while effective, have limitations in capturing
+syntactic and semantic nuances.
+Model-Based Metrics:
+• IE-Based Metrics : Utilize Information Extraction
+models to simplify knowledge into relational tuples,
+then compare these with the source.
+• QA-Based Metrics: Assess the overlap between gen-
+erated content and the source through a question-
+answering framework (see [152]).
+• NLI-Based Metrics: Use Natural Language Inference
+datasets to evaluate the truthfulness of a generated
+hypothesis based on a given premise (see [153]).
+• Faithfulness Classification Metrics : Offer a refined
+assessment by creating task-specific datasets for a
+nuanced evaluation (see [154]).
+Despite advances in automated metrics, human judgment
+remains a vital piece. It typically involves two methodologies:
+1) Scoring: Human evaluators rate the level of halluci-
+nation within a predefined scale.
+2) Comparative Analysis : Evaluators compare gener-
+ated content against baseline or ground-truth refer-
+ences, adding an essential layer of subjective assess-
+ment.
+FactScore [155] is a recent example of a metric that can be
+used both for human and model-based evaluation. The metric
+breaks an LLM generation into “atomic facts”. The final score
+is computed as the sum of the accuracy of each atomic fact,
+giving each of them equal weight. Accuracy is a binary number
+that simply states whether the atomic fact is supported by the
+source. The authors implement different automation strategies
+that use LLMs to estimate this metric.
+Finally, mitigating hallucinations in LLMs is a multifaceted
+challenge, requiring tailored strategies to suit various applica-
+tions. Those include:
+• Product Design and User Interaction Strategies such
+as use case design, structuring the input/output, or
+providing mechanisms for user feedback.
+• Data Management and Continuous Improvement.
+Maintaining and analyzing a tracking set of hallucina-
+tions is essential for ongoing model improvement.

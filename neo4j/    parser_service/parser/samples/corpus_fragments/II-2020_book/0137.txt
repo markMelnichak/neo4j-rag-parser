@@ -1,0 +1,165 @@
+141
+ 
+Литература
+ 
+ 
+1.
+ 
+Режим доступа : 
+https://www.secuteck.ru/articles/nejronnye
+-
+seti
+-
+novyj
+-
+proryv
+-
+mneniya
+-
+ehkspertov
+ 
+2.
+ 
+Режим доступа
+ 
+: 
+https://ru.wik
+ipedia.org/wiki/Neuralink
+ 
+3.
+ 
+Urban, Tim. 
+Neuralink and the Brain’s Magical Future
+ 
+(
+англ
+.)
+ 
+[
+Текст
+] 
+/
+ 
+Urban, Tim
+ 
+// 
+Wait But 
+Why
+ 
+(20 April 2017).
+ 
+4.
+ 
+Masunaga, Samantha. 
+A quick guide to Elon Musk's new brain
+-
+implant company, Neuralink
+ 
+(
+англ
+.)
+ 
+[Текст] 
+/
+ 
+Masunaga, 
+Samantha 
+//
+ 
+Los Angeles Times
+ 
+(21 April 2017).
+ 
+5.
+ 
+Elon Musk
+ 
+is setting up a company that will link brains and 
+computers
+ 
+(
+англ
+.)
+ 
+[
+Текст
+] 
+// 
+ 
+Ars Technica (March 27, 2017). 
+ 
+6.
+ 
+Режим доступа : 
+https
+://
+hightech
+.
+fm
+/2020/03/20/
+intel
+-
+pohoiki
+-
+springs
+?
+is
+_
+ajax
+=1
+ 
+ 
+ 
+А. В. Ниценко, В. Ю. Шелепов, С. А. Большакова
+ 
+ 
+О НЕКОТОРЫХ ПОДХОДАХ 
+ 
+К АВТОМАТИЧЕСКОМУ ИЗВЛЕЧЕНИЮ 
+ИНФОРМАЦИИ ИЗ ТЕКСТА
+ 
+ 
+ГУ «Институт 
+проблем искусственного интеллекта», г. Донецк
+ 
+nav
+_
+box
+@
+mail
+.
+ru
+,
+ 
+vladislav
+.
+shelepov
+2012@
+yandex
+.
+ru
+,
+ 
+svetlako
+@
+yandex
+.
+ua
+ 
+ 
+ 
+О лемматизации
+ 
+ 
+Процедура лемматизации русских 
+словоформ на основе 
+словаря [1], описанная в работе [2], может быть существенно 
+ускорена путем преобразования словаря [1] к виду специаль
+-
+ного словаря лемматизации. Создание такого словаря вы
+пол
+-
+нено нами программно. Пример содержащейся в нем строки:
+ 
+ 
+абажурную|абажурный|прл ед жен вин

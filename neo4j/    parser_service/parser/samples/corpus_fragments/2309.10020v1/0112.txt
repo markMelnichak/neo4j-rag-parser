@@ -1,0 +1,51 @@
+Peng, Z., Wang, W., Dong, L., Hao, Y ., Huang, S., Ma, S., and Wei, F. (2023b). Kosmos-2: Ground-
+ing multimodal large language models to the world. arXiv preprint arXiv:2306.14824.
+Peters, M. E., Neumann, M., Logan IV , R. L., Schwartz, R., Joshi, V ., Singh, S., and Smith, N. A.
+(2019). Knowledge enhanced contextual word representations. arXiv preprint arXiv:1909.04164.
+Pham, H., Dai, Z., Ghiasi, G., Liu, H., Yu, A. W., Luong, M.-T., Tan, M., and Le, Q. V . (2021).
+Combined scaling for zero-shot transfer learning. arXiv preprint arXiv:2111.10050.
+Pi, R., Gao, J., Diao, S., Pan, R., Dong, H., Zhang, J., Yao, L., Han, J., Xu, H., and Zhang, L. K. T.
+(2023). Detgpt: Detect what you need via reasoning. arXiv preprint arXiv:2305.14167.
+Plummer, B. A., Wang, L., Cervantes, C. M., Caicedo, J. C., Hockenmaier, J., and Lazebnik, S.
+(2015). Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-
+sentence models. In ICCV.
+Pont-Tuset, J., Uijlings, J., Changpinyo, S., Soricut, R., and Ferrari, V . (2020). Connecting vision
+and language with localized narratives. In ECCV.
+Qian, C., Han, C., Fung, Y . R., Qin, Y ., Liu, Z., and Ji, H. (2023). Creator: Disentangling ab-
+stract and concrete reasonings of large language models through tool creation. arXiv preprint
+arXiv:2305.14318.
+Qian, R., Li, Y ., Xu, Z., Yang, M.-H., Belongie, S., and Cui, Y . (2022). Multimodal open-vocabulary
+video classification via pre-trained vision and language models.arXiv preprint arXiv:2207.07646.
+Qin, C., Zhang, S., Yu, N., Feng, Y ., Yang, X., Zhou, Y ., Wang, H., Niebles, J. C., Xiong, C.,
+Savarese, S., et al. (2023a). Unicontrol: A unified diffusion model for controllable visual genera-
+tion in the wild. arXiv preprint arXiv:2305.11147.
+Qin, J., Wu, J., Yan, P., Li, M., Yuxi, R., Xiao, X., Wang, Y ., Wang, R., Wen, S., Pan, X., and Wang,
+X. (2023b). Freeseg: Unified, universal and open-vocabulary image segmentation.
+Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A.,
+Mishkin, P., Clark, J., et al. (2021). Learning transferable visual models from natural language
+supervision. In ICML.
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I., et al. (2019). Language models
+are unsupervised multitask learners. OpenAI blog.
+Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y ., Li, W., and Liu, P. J.
+(2020). Exploring the limits of transfer learning with a unified text-to-text transformer. JMLR.
+Rahman, S., Khan, S., and Barnes, N. (2020). Improved visual-semantic alignment for zero-shot
+object detection. In Proceedings of the AAAI Conference on Artificial Intelligence , volume 34,
+pages 11932–11939.
+Rajiˇc, F., Ke, L., Tai, Y .-W., Tang, C.-K., Danelljan, M., and Yu, F. (2023). Segment anything meets
+point tracking. arXiv preprint arXiv:2307.01197.
+Ramesh, A., Dhariwal, P., Nichol, A., Chu, C., and Chen, M. (2022). Hierarchical text-conditional
+image generation with clip latents. arXiv preprint arXiv:2204.06125.
+Ramesh, A., Pavlov, M., Goh, G., Gray, S., V oss, C., Radford, A., Chen, M., and Sutskever, I.
+(2021a). Zero-Shot Text-to-Image Generation. In ICML.
+Ramesh, A., Pavlov, M., Goh, G., Gray, S., V oss, C., Radford, A., Chen, M., and Sutskever, I.
+(2021b). Zero-shot text-to-image generation. In International Conference on Machine Learning,
+pages 8821–8831. PMLR.
+Rao, Y ., Zhao, W., Chen, G., Tang, Y ., Zhu, Z., Huang, G., Zhou, J., and Lu, J. (2022). Dense-
+clip: Language-guided dense prediction with context-aware prompting. In Proceedings of the
+IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 18082–18091.
+Razavi, A., Van den Oord, A., and Vinyals, O. (2019). Generating diverse high-fidelity images with
+vq-vae-2. In NeurIPS.
+Redmon, J., Divvala, S., Girshick, R., and Farhadi, A. (2016). You only look once: Unified, real-
+time object detection. In Proceedings of the IEEE conference on computer vision and pattern
+recognition, pages 779–788.
+108

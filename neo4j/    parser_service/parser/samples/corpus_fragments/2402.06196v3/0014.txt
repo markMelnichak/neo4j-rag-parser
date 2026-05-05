@@ -1,0 +1,79 @@
+Paper Strcuture
+Early Pre-trained
+Language Models
+II Large Language Models
+A III HOW LLMS ARE BUILT
+A
+Data CleaningB
+Large Language
+Model FamiliesB
+Other Representative
+LLMsC
+Dominant LLM
+Architectures
+TokenizationsC
+Positional EncodingD
+Model Pre-trainingE
+Fine-tuning and
+Instruction TuningF
+AlignmentG
+Decoding StrategiesH
+I HOW LLMS ARE USED AND AUGMENTED
+A
+B
+LLM limitations
+Cost-Effective Training/Inference,
+Adaptation & CompressionI
+Using LLMs: Prompt Design
+and Engineering
+C Augmenting LLMs through
+external knowledge - RAG
+D Using External Tools
+E LLM Agents
+V POPULAR DATASETS FOR LLMS
+A Datasets for Basic Tasks: language
+modeling/understanding/generation
+B Datasets for Emergent: ICL, reasoning,
+instruction following
+C Datasets for Augmented: using
+external knowledge/tools
+VI PROMINENT LLMS’ PERFORMANCE
+ON BENCHMARKS
+A
+B
+VII CHALLENGES AND FUTURE DIRECTIONS
+A Smaller and more efficient
+Language Models
+LLMs’ Performance on Different Tasks
+Popular Metrics for Evaluating LLMs
+B New Post-attention
+Architectural Paradigms
+C Multi-modal Models
+D Improved LLM Usage and
+Augmentation techniques
+D Security and
+Ethical/Responsible AI
+Fig. 2: The paper structure.
+initialization is modified to account for the accumulation on
+the residual path and scaling the weights of residual layers,
+vocabulary size is expanded to 50,25, and context size is
+increased from 512 to 1024 tokens.
+3) Encoder-Decoder PLMs: In [52], Raffle et al. shows that
+almost all NLP tasks can be cast as a sequence-to-sequence
+generation task. Thus, an encoder-decoder language model, by
+design, is a unified model in that it can perform all natural
+language understanding and generation tasks. Representative
+encoder-decoder PLMs we will review below are T5, mT5,
+MASS, and BART.
+T5 [52] is a Text-to-Text Transfer Transformer (T5) model,
+where transfer learning is effectively exploited for NLP via an
+introduction of a unified framework in which all NLP tasks are
+cast as a text-to-text generation task. mT5 [53] is a multilingual
+variant of T5, which is pre-trained on a new Common Crawl-
+based dataset consisting of texts in 101 languages.
+MASS (MAsked Sequence to Sequence pre-training) [54]
+adopts the encoder-decoder framework to reconstruct a sen-
+tence fragment given the remaining part of the sentence. The
+encoder takes a sentence with randomly masked fragment
+(several consecutive tokens) as input, and the decoder predicts
+the masked fragment. In this way, MASS jointly trains the

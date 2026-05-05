@@ -1,0 +1,50 @@
+Figure 6.2: The surge of multimodal agents from November 18, 2022 to July 26th, 2023.
+Model LLM Tools Tool Tool MultimodalSize Execution
+ART (Paranjape et al., 2023) GPT-3
+ 3 Program ✗
+Toolformer (Schick et al., 2023) GPT-J
+ 5 Natural language ✗
+VISPROG (Gupta and Kembhavi, 2022b) GPT-3
+ >10 Program ✓
+Visual ChatGPT (Wu et al., 2023a) ChatGPT
+ >10 Natural Language ✓
+ViperGPT (Sur´ıs et al., 2023) GPT-3 Codex
+ >10 Program ✓
+MM-ReAct (Yang* et al., 2023) ChatGPT/GPT-4
+ >10 RegExp Match ✓
+HuggingGPT (Shen et al., 2023b) ChatGPT
+ >10 Natural Language ✓
+Chameleon (Lu et al., 2023b) GPT-4
+ >10 Natural Language ✓
+Table 6.1: Glossary of representative works on chaining tools with LLMs. The LLMs used in these
+works include GPT-3 (Brown et al., 2020), GPT-J (Wang and Komatsuzaki, 2021), ChatGPT (Ope-
+nAI, 2022), GPT-3 Codex (Chen et al., 2021a) and GPT-4 OpenAI (2023a).
+ : search engine.
+ :
+code.
+ : APIs other than search engine.
+ : open-source models.
+complementing ChatGPT (OpenAI, 2022) with various image generation tools. MM-ReAct shows
+that when collaborating various advanced vision experts, ChatGPT can perform complex multimodal
+actions and reasoning. Figure 6.2 presents the fast-evolving literature in multimodal agents from
+November 18, 2022 to July 26th, 2023. Among them, we include a few more exemplary multimodal
+agents in Table 6.1, along with two representative works in the NLP domain.
+An overview of a typical multimodal agent framework is illustrated in Figure 6.3. The user directly
+interacts with the Tool Allocator, which functions as the brain of the agent. In current literature,
+the tool allocator is usually a LLM. To achieve the user’s goal, the LLM will outline all the steps
+necessary with either a single tool or collaborating multiple tools together. Subsequently, it will
+retrieve from all the candidate tools for the needed tools, and execute possibly multiple rounds of
+tools to fulfill the human requirement. Finally, the execution results from the tools are gathered as
+inputs of the LLM to generate a response to the user. Next, we cover the three key components of
+multimodal agents.
+Tools. Tools are external modules that are callable by the LLM to obtain extra information that is
+missing from the model weights, including open-source models, public/private APIs, or code inter-
+preters. As LLMs only accept language inputs, one must include tools that can process multimodal
+inputs to build a multimodal agent.
+Planning. During planning, the LLM decomposes the user requests into smaller, manageable sub-
+problems, and outlines a step-by-step solution, each of which involves calling an external tool. There
+are two ways to teach LLMs for planning. One is to prompt the LLM with in-context few-shot
+examples of all candidate tools. This approach can extend the general model directly but is limited
+by the context length. The other approach relies on large amounts of annotated data to fine-tune the
+LLM, which most likely will damage the robustness and generalizability of the model.
+79

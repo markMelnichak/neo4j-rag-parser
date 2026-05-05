@@ -1,0 +1,13 @@
+Figure 6.3: An overview of multimodal agent framework.
+Execution. The generated plan is further translated into executable calls to the required tools,
+which can be done via regular expression matching (Yang* et al., 2023); directly prompting LLMs
+to generate executable programs (Sur ´ıs et al., 2023); or leveraging in-context few-shot learning
+capability of LLMs by providing natural language instructions that describe the roles of each module
+together with a few calling examples (Lu et al., 2023b). The execution results are fed back to the
+LLM to generate a response to the user.
+Figure 6.4: Input/Output modalities of MM-R EACT (Yang* et al., 2023).
+6.3 Case Study: MM-R EACT
+We use MM-R EACT (Yang* et al., 2023) as a case study to show how to build a multimodal agent,
+its emerging capabilities in multimodal understanding, and how it can be easily extended to incor-
+porate the latest and strongest LLM and potentially millions of tools.
+80

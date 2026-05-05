@@ -1,0 +1,658 @@
+{
+  "source": "ai_knowledge_base_sample.pdf",
+  "nodes": [
+    {
+      "label": "Model",
+      "name": "BERT",
+      "normalized_name": "bert",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Transformer",
+      "normalized_name": "transformer",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Text Classification",
+      "normalized_name": "text classification",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Question Answering",
+      "normalized_name": "question answering",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Named Entity Recognition",
+      "normalized_name": "named entity recognition",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Masked Language Modeling",
+      "normalized_name": "masked language modeling",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Fine-tuning",
+      "normalized_name": "fine-tuning",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "PyTorch",
+      "normalized_name": "pytorch",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Attention",
+      "normalized_name": "attention",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Self-Attention",
+      "normalized_name": "self-attention",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "RoBERTa",
+      "normalized_name": "roberta",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GPT",
+      "normalized_name": "gpt",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Machine Translation",
+      "normalized_name": "machine translation",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Backpropagation",
+      "normalized_name": "backpropagation",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Adam Optimizer",
+      "normalized_name": "adam optimizer",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "ResNet",
+      "normalized_name": "resnet",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Neural Network",
+      "normalized_name": "neural network",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Image Classification",
+      "normalized_name": "image classification",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "TensorFlow",
+      "normalized_name": "tensorflow",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Overfitting",
+      "normalized_name": "overfitting",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Regularization",
+      "normalized_name": "regularization",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Dropout",
+      "normalized_name": "dropout",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Weight Decay",
+      "normalized_name": "weight decay",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Embedding",
+      "normalized_name": "embedding",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Tokenization",
+      "normalized_name": "tokenization",
+      "aliases": [],
+      "source": "ai_knowledge_base_sample.pdf",
+      "description": null
+    }
+  ],
+  "relations": [
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Language Models BERT is a Transformer model designed for language understanding.",
+      "confidence": 0.92,
+      "rule": "local_regex_is_a",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Text Classification",
+      "to_label": "Task",
+      "evidence": "BERT is used for Text Classification, Question Answering, and Named Entity Recognition.",
+      "confidence": 0.88,
+      "rule": "local_regex_used_for",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Question Answering",
+      "to_label": "Task",
+      "evidence": "BERT is used for Text Classification, Question Answering, and Named Entity Recognition.",
+      "confidence": 0.88,
+      "rule": "local_regex_used_for",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Named Entity Recognition",
+      "to_label": "Task",
+      "evidence": "BERT is used for Text Classification, Question Answering, and Named Entity Recognition.",
+      "confidence": 0.88,
+      "rule": "local_regex_used_for",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Masked Language Modeling",
+      "to_label": "Method",
+      "evidence": "BERT uses Masked Language Modeling during pretraining, and BERT often uses Fine-tuning during adaptation to downstream tasks.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Fine-tuning",
+      "to_label": "Method",
+      "evidence": "BERT uses Masked Language Modeling during pretraining, and BERT often uses Fine-tuning during adaptation to downstream tasks.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "In many educational examples, BERT is implemented in PyTorch.",
+      "confidence": 0.88,
+      "rule": "local_regex_implemented_in",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Because BERT is a Transformer model, it is naturally related to the broader Concept of Attention.",
+      "confidence": 0.92,
+      "rule": "local_regex_is_a",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "Transformer",
+      "from_label": "Concept",
+      "type": "USES",
+      "to_name": "Self-Attention",
+      "to_label": "Method",
+      "evidence": "Self-Attention is a Method closely related to the Concept of Attention, and Transformer uses Attention as a core design principle.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_concept",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Text Classification",
+      "to_label": "Task",
+      "evidence": "RoBERTa is used for Text Classification and Question Answering.",
+      "confidence": 0.88,
+      "rule": "local_regex_used_for",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Question Answering",
+      "to_label": "Task",
+      "evidence": "RoBERTa is used for Text Classification and Question Answering.",
+      "confidence": 0.88,
+      "rule": "local_regex_used_for",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Masked Language Modeling",
+      "to_label": "Method",
+      "evidence": "RoBERTa uses Masked Language Modeling and Fine-tuning.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Fine-tuning",
+      "to_label": "Method",
+      "evidence": "RoBERTa uses Masked Language Modeling and Fine-tuning.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "GPT is a Transformer model focused on text generation and broad language modeling.",
+      "confidence": 0.92,
+      "rule": "local_regex_is_a",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Machine Translation",
+      "to_label": "Task",
+      "evidence": "GPT is used for Machine Translation in some simplified educational examples, although in real applications it is used for many additional tasks.",
+      "confidence": 0.88,
+      "rule": "local_regex_used_for",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Backpropagation",
+      "to_label": "Method",
+      "evidence": "GPT uses Backpropagation and Adam Optimizer during training.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Adam Optimizer",
+      "to_label": "Method",
+      "evidence": "GPT uses Backpropagation and Adam Optimizer during training.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Like BERT and RoBERTa, GPT belongs to the Transformer family, so the relation GPT is a Transformer model should be preserved clearly in the extracted graph.",
+      "confidence": 0.92,
+      "rule": "local_regex_is_a",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Adam Optimizer",
+      "to_label": "Method",
+      "evidence": "When the parser reads a sentence such as 'GPT uses Adam Optimizer,' it should generate a Model-to-Method relation.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "When it reads 'GPT is implemented in PyTorch,' it should generate a Model-to-Framework relation.",
+      "confidence": 0.88,
+      "rule": "local_regex_implemented_in",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "ResNet",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Neural Network",
+      "to_label": "Concept",
+      "evidence": "Computer Vision Example ResNet is a Neural Network model commonly used for computer vision.",
+      "confidence": 0.92,
+      "rule": "local_regex_is_a",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "ResNet",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Image Classification",
+      "to_label": "Task",
+      "evidence": "ResNet is used for Image Classification.",
+      "confidence": 0.88,
+      "rule": "local_regex_used_for",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "ResNet",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Backpropagation",
+      "to_label": "Method",
+      "evidence": "ResNet uses Backpropagation, and in simplified examples ResNet may be implemented in TensorFlow.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "ResNet",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "TensorFlow",
+      "to_label": "Framework",
+      "evidence": "ResNet uses Backpropagation, and in simplified examples ResNet may be implemented in TensorFlow.",
+      "confidence": 0.88,
+      "rule": "local_regex_implemented_in",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "ResNet",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Neural Network",
+      "to_label": "Concept",
+      "evidence": "Instead, ResNet is a Neural Network model.",
+      "confidence": 0.92,
+      "rule": "local_regex_is_a",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "Overfitting",
+      "from_label": "Concept",
+      "type": "RELATED_TO",
+      "to_name": "Regularization",
+      "to_label": "Concept",
+      "evidence": "Overfitting is related to Regularization.",
+      "confidence": 0.8,
+      "rule": "local_regex_related_to",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "Regularization",
+      "from_label": "Concept",
+      "type": "USES",
+      "to_name": "Dropout",
+      "to_label": "Method",
+      "evidence": "Regularization uses Dropout and Weight Decay.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_concept",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "Regularization",
+      "from_label": "Concept",
+      "type": "USES",
+      "to_name": "Weight Decay",
+      "to_label": "Method",
+      "evidence": "Regularization uses Dropout and Weight Decay.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_concept",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "Embedding",
+      "from_label": "Concept",
+      "type": "RELATED_TO",
+      "to_name": "Tokenization",
+      "to_label": "Concept",
+      "evidence": "Embedding is related to Tokenization because tokenization prepares textual input before vector representations are formed.",
+      "confidence": 0.8,
+      "rule": "local_regex_related_to",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "BERT is a Transformer model.",
+      "confidence": 0.92,
+      "rule": "local_regex_is_a",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "RoBERTa is a Transformer model.",
+      "confidence": 0.92,
+      "rule": "local_regex_is_a",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "GPT is a Transformer model.",
+      "confidence": 0.92,
+      "rule": "local_regex_is_a",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "ResNet",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Neural Network",
+      "to_label": "Concept",
+      "evidence": "ResNet is a Neural Network model.",
+      "confidence": 0.92,
+      "rule": "local_regex_is_a",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Machine Translation",
+      "to_label": "Task",
+      "evidence": "GPT is used for Machine Translation.",
+      "confidence": 0.88,
+      "rule": "local_regex_used_for",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Masked Language Modeling",
+      "to_label": "Method",
+      "evidence": "BERT uses Masked Language Modeling and Fine-tuning.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Fine-tuning",
+      "to_label": "Method",
+      "evidence": "BERT uses Masked Language Modeling and Fine-tuning.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Backpropagation",
+      "to_label": "Method",
+      "evidence": "GPT uses Backpropagation and Adam Optimizer.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Adam Optimizer",
+      "to_label": "Method",
+      "evidence": "GPT uses Backpropagation and Adam Optimizer.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "ResNet",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Backpropagation",
+      "to_label": "Method",
+      "evidence": "ResNet uses Backpropagation.",
+      "confidence": 0.84,
+      "rule": "local_regex_uses_model",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "ResNet",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "TensorFlow",
+      "to_label": "Framework",
+      "evidence": "BERT, RoBERTa, and GPT are implemented in PyTorch, while ResNet is implemented in TensorFlow.",
+      "confidence": 0.88,
+      "rule": "local_regex_implemented_in",
+      "source": "ai_knowledge_base_sample.pdf"
+    },
+    {
+      "from_name": "Embedding",
+      "from_label": "Concept",
+      "type": "RELATED_TO",
+      "to_name": "Tokenization",
+      "to_label": "Concept",
+      "evidence": "Embedding is related to Tokenization.",
+      "confidence": 0.8,
+      "rule": "local_regex_related_to",
+      "source": "ai_knowledge_base_sample.pdf"
+    }
+  ]
+}

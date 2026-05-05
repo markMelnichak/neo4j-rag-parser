@@ -1,0 +1,44 @@
+220 
+ 
+Про
+должение листинга 5
+8 
+#Ини
+циализация массива для счетчика итераций 
+rs = np.linspace(0,100,num=100) 
+#Инициализация списков для сохранения accuracy моделей 
+acc_p = [] 
+acc_pn = [] 
+acc_mlp = [] 
+acc_mlpn = [] 
+#Цикл прогона моделей 
+for i in rs: 
+ i = int(i) 
+#Распечатка номера итерации 
+ print "Random: ", i 
+#Создание модели персептрона 
+ clf = Perceptron(random_state=i, alpha=0.01, n_iter=2000) 
+#Обучение модели 
+ clf.fit(X_train, y_train) 
+#Получение прогноза 
+ predictions = clf.predict(X_test) 
+# Расчет показателя accuracy 
+ acc = accuracy_score(y_test, predictions) 
+#Распечатка результата 
+ print "Perceptron: ", acc 
+#Добавление оценки в список оценок для модели персептрона 
+ acc_p.append(acc) 
+#Нормализация данных 
+ scaler = StandardScaler() 
+ X_train_scaled = scaler.fit_transform(X_train) 
+ X_test_scaled = scaler.transform(X_test) 
+#Работа пресептрона с нормализованными данными 
+ clf = Perceptron(random_state=i, alpha=0.01, n_iter=2000) 
+ clf.fit(X_train_scaled, y_train) 
+ predictions = clf.predict(X_test_scaled) 
+ acc = accuracy_score(y_test, predictions) 
+ print "Perceptron with normalization: ", acc 
+ acc_pn.append(acc) 
+#Создание многослойного классификатора 
+ mlp = MLPClassifier(random_state=i, solver="sgd", activation="tanh", alpha=0.01, 
+hidden_layer_sizes=(2, ), max_iter=2000, tol=0.00000001)

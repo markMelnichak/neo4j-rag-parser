@@ -1,0 +1,83 @@
+TABLE III: LLM categories and respective definitions.
+Classification Category Description
+Size
+Small Number of parameters ≤ 1B
+Medium 1B < Number of parameters ≤ 10B
+Large 10B < Number of parameters ≤ 100B
+Very Large 100B < Number of parameters
+Type
+Foundation model Pretrained language model
+Instruction model Pretrained and instruction fine-tuned language model
+Chat model Pretrained, instruction fine-tuned, and chat fine-tuned language model
+Origin Original model An original model released with either Foundation, Instruction, or Chat model
+Tuned model Fine-tuned version of an original model
+Availability Publicly available Model and weights are available due to request to without request
+Publicly unavailable Model and weights are not publicly available
+TABLE IV: Different LLM categorization.
+Model Size #Params (B) Type Availability Origin
+Davinci-002 Very Large 175 Instruction Unavailable Tuned
+Davinci-003 Very Large 175 Instruction Unavailable Tuned
+GPT 3.5-turbo Large 20 Chat Unavailable Tuned
+Falcon 7B Medium 7 Foundation Public Original
+Alpaca Large 13 Chat Public Tuned
+Pythia 7B Medium 7 Foundation Public Original
+Pythia 12B Large 12 Foundation Public Original
+LLAMA 7B Medium 7 Chat Public Original
+LLAMA 2 7B Medium 7 Chat Public Tuned
+LLAMA 2 7B Medium 7 Foundation Public Original
+Vicuna 13B Large 13 Foundation Public Tuned
+Vicuna 7B Medium 7 Foundation Public Tuned
+Claude Large 93 Chat Unavailable Original
+Claude 2 Very Large 137 Chat Unavailable Original
+Not all models report their performance on all datasets, and
+because of that, the number of models for which performance
+is reported in different tables varies.
+TABLE VI: Symbolic reasoning comparison.
+Model Cobjects Penguins
+GPT-NeoX 26 33.56
+OPT 66B 31.2 28.08
+Bloomberg GPT 34.8 37.67
+BLOOM 176B 36.8 40.41
+PaLM 540B 38 44.5
+Gopher-280B 49.2 40.6
+Chinchilla-70B 59.7 48.7
+PaLM 2 61.2 65.8
+World knowledge is mostly about general knowledge ques-
+tions, for example, in Wikifact dataset questions such as ”Who
+is the author of a specific well-known book” can be found and
+references are also provided. Table VII shows the results.
+TABLE VII: World knowledge comparison.
+Model TriviaQA NaturalQ WebQ ARC
+BLOOM - - - 32.9
+BLOOM 176B - - - 50.85
+Bloomberg GPT - - - 48.63
+Chinchilla - 35.5 - -
+Codex + REPLUG 76.8 44.7 - -
+GAL 120B - - - 67.9
+GLaM 62B/64E 75.8 32.5 15.5 50.3
+Gopher - 28.2 - -
+GPT-3 175B 71.2 29.9 41.5 85.2
+GPT-4 - - - 96.4
+GPT-NeoX - - - 45.39
+LLaMA 13B - - - 52.7
+LLaMA 2 70B 85 33 - -
+LLaMA 33B - 24.9 - 57.8
+LLaMA 65B 72.6 39.9 - -
+LLaMA 7B - - - 47.6
+Mistral 7B 69.9 28.8 - 55.5
+Neo-6B - 13.7 - -
+OPT - - - 31.1
+OPT 66B - - - 44.54
+OPT-175B - - - 43.94
+OPT-175B - - - 25.6
+PaLM 2-L 86.1 37.5 28.2 95.1
+PaLM 2-M 81.7 32 26.9 64.9
+PaLM 2-S 75.2 25.3 21.8 59.6
+PaLM-540B 81.4 39.6 43.5 87.1
+phi-1.5-web 1.3B - - - 44.9
+SparseGPT - - - 38.99
+SparseGPT - - - 39.85
+SparseGPT - - - 41.3
+For some specific use-case models, it is highly demanded to
+have coding and code-generation capability. Table VIII shows
+the results of different models on coding capability.

@@ -1,0 +1,20 @@
+Therefore, LLM-based agents often
+need to augment LLMs to e.g., obtain updated information
+from external knowledge bases, verify whether a system action
+produces the expected result, and cope with when things do
+not go as expected, etc. We will discuss in detail LLM-based
+agents in Section IV. In the rest of this paper, Section II presents an overview of
+state of the art of LLMs, focusing on three LLM families (GPT,
+LLaMA and PaLM) and other representative models. Section
+III discusses how LLMs are built. Section IV discusses how
+LLMs are used, and augmented for real-world applications
+Sections V and VI review popular datasets and benchmarks for
+evaluating LLMs, and summarize the reported LLM evaluation
+results. Finally, Section VII concludes the paper by summa-
+rizing the challenges and future research directions. II. L ARGE LANGUAGE MODELS
+In this section we start with a review of early pre-trained
+neural language models as they are the base of LLMs, and
+1Recently, several very promising non-transformer LLMs have been pro-
+posed, such as the LLMs based on structured state space models [29], [30]. See Section VII for more details. then focus our discussion on three families of LLMs: GPT,
+LlaMA, and PaLM. Table I provides an overview of some of
+these models and their characteristics. A.

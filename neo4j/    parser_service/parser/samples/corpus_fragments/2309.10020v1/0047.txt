@@ -1,0 +1,56 @@
+Bridge vision 
+with language
+Take various 
+prompts
+Unify different 
+granularities
+Intuition: language as the 
+common space to share 
+information 
+Benefit: Zero-shot transfer 
+to novel vocabularies 
+Intuition: vision is multi-
+task, multi-granularity
+Benefit: Build synergy 
+across task granularities
+Intuition: language, visual 
+prompts and beyond
+Benefit: Reduce the 
+ambiguity of expressing 
+human intents
+Figure 4.1: In NLP, we have witnessed a clear trend to build a unified model such as GPT-3 (Brown
+et al., 2020) and then the sophisticated Human-AI interaction system ChatGPT, which has ignited the
+interests of the whole community and society in AI. A natural question for computer vision (CV) is
+whether we can unify all different types of vision tasks such as image classification, object detection,
+segmentation and visual question answering,etc., and likewise build an interaction interface between
+CV models and humans. Aspired by this, a lot of attempts have been made recently to crack the
+problem from different angles including but not limited to (a) making vision models open-set; (b)
+unifying different granularities; and (c) turning the models more promptable.
+• Bridging vision and language . By extending closed-set classification to open-world recogni-
+tion, the contrastive language-image models like CLIP (Radford et al., 2021) demonstrate impres-
+sive zero-shot transferability for different vision tasks. These models learn the mapping between
+raw visual signals and rich semantics and can power various open-vocabulary vision recognition
+tasks (Zhong et al., 2022b; Gu et al., 2022; Li et al., 2022f; Ghiasi et al., 2022b).
+• Unified multi-task modeling . Traditional task-specific vision models are trained using task-
+specific data. It is often prohibitively expensive to develop a model for a new task. Thus, it is
+desirable to develop a unified vision model that can perform well across many vision tasks (Yang
+et al., 2022c; Lu et al., 2022a; Zou et al., 2023a; Chen et al., 2022c).
+• LLM-like promptable interface. LLMs can take different language and in-context prompts as in-
+puts and produce user-desired outputs without finetuning. A general-purpose vision model should
+have possessed the same in-context learning capability to align the output to various user intents
+without changing its model parameters (Bar et al., 2022; Kirillov et al., 2023; Zou et al., 2023b;
+Wang et al., 2023j; Balaˇzevi´c et al., 2023).
+In what follows, we will elaborate the detailed techniques and methods in each category.
+4.2 From Closed-Set to Open-Set Models
+Traditionally, visual recognition is formulated as a classification problem that maps raw visual data
+(e.g., images) to discrete text labels. For example, image classification predicts a label from a pre-
+defined close set for a whole image (Deng et al., 2009), and object detection identifies the objects,
+defined in a close set, within an image (Lin et al., 2014). However, such closed-set models can
+hardly transfer to other tasks where the close set (or vocabulary) is insufficient. For example, it
+is difficult to apply an object detector trained using the Microsoft COCO object set 2 to detect
+Minecraft objects. Recently, CLIP (Radford et al., 2021) addresses the limitation of closed-set
+models by introducing a contrastive language-image pre-training method to train anopen-set model.
+As illustrated in Figure 4.2 (a), instead of learning the mapping from input to labels, CLIP learns
+an aligned visual-semantic space using hundreds of millions of image-text pairs. Mathematically,
+2https://cocodataset.org/
+43

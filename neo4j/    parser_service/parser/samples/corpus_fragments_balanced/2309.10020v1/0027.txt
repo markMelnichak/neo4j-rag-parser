@@ -1,0 +1,38 @@
+Figure 2.12: Overview of BEiT-3 that performs masked data modeling on both image/text and joint
+image-text data via a multiway transformer. Image credit: Wang et al. (2022d).
+proposes to regress CLIP features directly, while BEiTv2 (Peng et al., 2022a) first compresses the
+information inside CLIP features into discrete visual tokens, and then performs regular BEiT train-
+ing. Similar use of CLIP features as MIM training target has also been investigated in EV A (Fang
+et al., 2023), CAEv2 (Zhang et al., 2022c), and MaskDistill (Peng et al., 2022b). In EV A-02 (Fang
+et al., 2023), the authors advocate alternative learning of MIM and CLIP representations. Specifi-
+cally, an off-the-shelf CLIP model is used to provide a feature target for MIM training; while the
+MIM pre-trained image backbone is used to initialize CLIP training. The MIM representations
+are used to finetune various downstream tasks while the learned frozen CLIP embedding enables
+zero-shot image classification and other applications.
+• Deeper integration. However, instead of using CLIP as targets for MIM training, if one aims to
+combine CLIP and MIM for joint model training, MIM does not seem to improve a CLIP model
+at scale (Weers et al., 2023; Li et al., 2023m).
+• Although the combination of CLIP and MIM does not lead to a promising result at the current
+stage, the combination of BERT and BEiT is very promising, as evidenced in BEiT-3 (Wang et al.,
+2022d) (see Figure 2.12), where the authors show that masked data modeling can be performed
+on both image/text and joint image-text data via the design of a multiway transformer, and state-
+of-the-art performance can be achieved on a wide range of vision and vision-language tasks.
+2.6 Multimodal Fusion, Region-Level and Pixel-Level Pre-training
+Till now, we have focused on the methods of pre-training image backbones from scratch, but not
+on pre-training methods that power multimodal fusion, region-level and pixel-level image under-
+standing. These methods typically use a pre-trained image encoder at the first hand to perform a
+second-stage pre-training. Below, we briefly discuss these topics.
+2.6.1 From Multimodal Fusion to Multimodal LLM
+For dual encoders such as CLIP (Radford et al., 2021), image and text are encoded separately, and
+modality interaction is only handled via a simple dot product of image and text feature vectors. This
+can be very effective for zero-shot image classification and image-text retrieval. However, due to
+the lack of deep multimodal fusion, CLIP alone performs poorly on the image captioning (Vinyals
+et al., 2015) and visual question answering (Antol et al., 2015) tasks. This requires the pre-training
+of a fusion encoder, where additional transformer layers are typically employed to model the deep
+interaction between image and text representations. Below, we review how these fusion-encoder
+pre-training methods are developed over time.
+OD-based models. Most early methods use pre-trained object detectors (ODs) to extract visual
+features. Among them, ViLBERT (Lu et al., 2019) and LXMERT (Tan and Bansal, 2019) use co-
+attention for multimodal fusion, while methods like VisualBERT (Li et al., 2019b), Unicoder-VL (Li
+et al., 2020a), VL-BERT (Su et al., 2019), UNITER (Chen et al., 2020d), OSCAR (Li et al., 2020b),
+23

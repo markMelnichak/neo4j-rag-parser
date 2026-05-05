@@ -1,0 +1,65 @@
+(a) Spatial Controllable T2I Generation (b) Text-based Editing
+(d) Concept Customization
+Image-level: a yellow fire hydrant 
+with a cartoon face drawn on it.
+a yellow fire 
+hydrant with a 
+face on it and 
+black eyes.
+a truck is 
+parked next to 
+a trash can.
+a red truck is 
+parked in a 
+parking lot.
+(c) Text Prompts Following
+(a) An overview of topics on human alignment for generative foundation models. Image
+credit: Yang et al. (2023b); Brooks et al. (2023); Chefer et al. (2023); Ruiz et al. (2023).
+Text Prompts 
+Following
+StructureDiffusion
+DDPO
+Attend-and-Excite
+DPOK
+Visual Concept 
+Customization
+Imagen
+Text-to-Image Generative Foundation Models
+Spatial Controllable 
+T2I Generation
+GLIGEN
+ComPoser ControlNet
+ReCo
+Textual Inversion
+Midjourney MUSE
+DreamBooth
+Text-based Editing
+InstructPix2pix
+Blended Diffusion
+eDiff-I
+SDEdit
+Evaluation
+PartiStable DiffusionDALL-E
+SpaText Uni-ControlNet
+Universal Guidance
+T2I-Adapter
+UniControl
+Prompt-to-prompt
+Imagic
+Instruct-X-DecoderCM3leon
+Visual ChatGPT
+DisCo
+A-STAR
+DreamBooth
+Custom Diffusion
+SuTI
+EditBench
+LayoutBench
+(b) Summary and categorization of papers on “Human Alignments in Visual Generation.”
+Figure 3.1: An overview of improving human intent alignments in T2I generation.
+has diverse objectives, ranging from locally modifying an object to globally adjusting the image
+style. Text-based image editing (Brooks et al., 2023) explores effective ways to create a versatile
+editing tool.
+• Better following text prompts. Despite T2I models being trained to reconstruct images con-
+ditioned on the paired text input, the training objective does not necessarily ensure or directly
+28

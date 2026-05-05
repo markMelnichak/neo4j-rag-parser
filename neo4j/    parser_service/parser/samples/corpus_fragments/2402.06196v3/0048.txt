@@ -1,0 +1,140 @@
+[42] tmikolov. rnnlm. [Online]. Available: https://www.fit.vutbr.cz/
+∼imikolov/rnnlm/
+[43] S. Minaee, N. Kalchbrenner, E. Cambria, N. Nikzad, M. Chenaghlu,
+and J. Gao, “Deep learning–based text classification: a comprehensive
+review,” ACM computing surveys (CSUR) , vol. 54, no. 3, pp. 1–40,
+2021.
+[44] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N.
+Gomez, L. Kaiser, and I. Polosukhin, “Attention is all you need,”
+Advances in neural information processing systems , vol. 30, 2017.
+[45] Z. Lan, M. Chen, S. Goodman, K. Gimpel, P. Sharma, and R. Soricut,
+“Albert: A lite bert for self-supervised learning of language represen-
+tations,” arXiv preprint arXiv:1909.11942 , 2019.
+[46] K. Clark, M.-T. Luong, Q. V . Le, and C. D. Manning, “Electra: Pre-
+training text encoders as discriminators rather than generators,” arXiv
+preprint arXiv:2003.10555, 2020.
+[47] G. Lample and A. Conneau, “Cross-lingual language model pretrain-
+ing,” arXiv preprint arXiv:1901.07291 , 2019.
+[48] Z. Yang, Z. Dai, Y . Yang, J. Carbonell, R. R. Salakhutdinov, and
+Q. V . Le, “Xlnet: Generalized autoregressive pretraining for language
+understanding,” Advances in neural information processing systems ,
+vol. 32, 2019.
+[49] L. Dong, N. Yang, W. Wang, F. Wei, X. Liu, Y . Wang, J. Gao,
+M. Zhou, and H.-W. Hon, “Unified language model pre-training for
+natural language understanding and generation,” Advances in neural
+information processing systems , vol. 32, 2019.
+[50] A. Radford, K. Narasimhan, T. Salimans, I. Sutskever et al., “Improv-
+ing language understanding by generative pre-training,” 2018.
+[51] A. Radford, J. Wu, R. Child, D. Luan, D. Amodei, I. Sutskever et al.,
+“Language models are unsupervised multitask learners,” OpenAI blog,
+vol. 1, no. 8, p. 9, 2019.
+[52] C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang, M. Matena,
+Y . Zhou, W. Li, and P. J. Liu, “Exploring the limits of transfer learning
+with a unified text-to-text transformer,” The Journal of Machine
+Learning Research, vol. 21, no. 1, pp. 5485–5551, 2020.
+[53] L. Xue, N. Constant, A. Roberts, M. Kale, R. Al-Rfou, A. Siddhant,
+A. Barua, and C. Raffel, “mt5: A massively multilingual pre-trained
+text-to-text transformer,” arXiv preprint arXiv:2010.11934 , 2020.
+[54] K. Song, X. Tan, T. Qin, J. Lu, and T.-Y . Liu, “Mass: Masked
+sequence to sequence pre-training for language generation,” arXiv
+preprint arXiv:1905.02450, 2019.
+[55] M. Lewis, Y . Liu, N. Goyal, M. Ghazvininejad, A. Mohamed, O. Levy,
+V . Stoyanov, and L. Zettlemoyer, “Bart: Denoising sequence-to-
+sequence pre-training for natural language generation, translation, and
+comprehension,” arXiv preprint arXiv:1910.13461 , 2019.
+[56] T. Brown, B. Mann, N. Ryder, M. Subbiah, J. D. Kaplan, P. Dhariwal,
+A. Neelakantan, P. Shyam, G. Sastry, A. Askellet al., “Language mod-
+els are few-shot learners,” Advances in neural information processing
+systems, vol. 33, pp. 1877–1901, 2020.
+[57] M. Chen, J. Tworek, H. Jun, Q. Yuan, H. P. d. O. Pinto, J. Ka-
+plan, H. Edwards, Y . Burda, N. Joseph, G. Brockman et al. ,
+“Evaluating large language models trained on code,” arXiv preprint
+arXiv:2107.03374, 2021.
+[58] R. Nakano, J. Hilton, S. Balaji, J. Wu, L. Ouyang, C. Kim,
+C. Hesse, S. Jain, V . Kosaraju, W. Saunders et al., “Webgpt: Browser-
+assisted question-answering with human feedback,” arXiv preprint
+arXiv:2112.09332, 2021.
+[59] L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. Wainwright, P. Mishkin,
+C. Zhang, S. Agarwal, K. Slama, A. Ray et al. , “Training language
+models to follow instructions with human feedback,” Advances in
+Neural Information Processing Systems , vol. 35, pp. 27 730–27 744,
+2022.
+[60] OpenAI. (2022) Introducing chatgpt. [Online]. Available: https:
+//openai.com/blog/chatgpt
+[61] H. Touvron, L. Martin, K. Stone, P. Albert, A. Almahairi, Y . Babaei,
+N. Bashlykov, S. Batra, P. Bhargava, S. Bhosale et al. , “Llama
+2: Open foundation and fine-tuned chat models,” arXiv preprint
+arXiv:2307.09288, 2023.
+[62] R. Taori, I. Gulrajani, T. Zhang, Y . Dubois, X. Li, C. Guestrin, P. Liang,
+and T. B. Hashimoto, “Alpaca: A strong, replicable instruction-
+following model,” Stanford Center for Research on Foundation Mod-
+els. https://crfm. stanford. edu/2023/03/13/alpaca. html , vol. 3, no. 6,
+p. 7, 2023.
+[63] T. Dettmers, A. Pagnoni, A. Holtzman, and L. Zettlemoyer, “Qlora: Ef-
+ficient finetuning of quantized llms,”arXiv preprint arXiv:2305.14314,
+2023.
+[64] X. Geng, A. Gudibande, H. Liu, E. Wallace, P. Abbeel, S. Levine,
+and D. Song, “Koala: A dialogue model for academic research,” Blog
+post, April, vol. 1, 2023.
+[65] A. Q. Jiang, A. Sablayrolles, A. Mensch, C. Bamford, D. S. Chaplot,
+D. d. l. Casas, F. Bressand, G. Lengyel, G. Lample, L. Saulnier et al.,
+“Mistral 7b,” arXiv preprint arXiv:2310.06825 , 2023.
+[66] B. Roziere, J. Gehring, F. Gloeckle, S. Sootla, I. Gat, X. E. Tan, Y . Adi,
+J. Liu, T. Remez, J. Rapin et al., “Code llama: Open foundation models
+for code,” arXiv preprint arXiv:2308.12950 , 2023.
+[67] S. G. Patil, T. Zhang, X. Wang, and J. E. Gonzalez, “Gorilla: Large
+language model connected with massive apis,” 2023.
+[68] A. Pal, D. Karkhanis, M. Roberts, S. Dooley, A. Sundararajan, and
+S. Naidu, “Giraffe: Adventures in expanding context lengths in llms,”
+arXiv preprint arXiv:2308.10882 , 2023.
+[69] B. Huang, “Vigogne: French instruction-following and chat models,”
+https://github.com/bofenghuang/vigogne, 2023.
+[70] Y . Wang, H. Ivison, P. Dasigi, J. Hessel, T. Khot, K. R. Chandu,
+D. Wadden, K. MacMillan, N. A. Smith, I. Beltagy et al., “How far can
+camels go? exploring the state of instruction tuning on open resources,”
+arXiv preprint arXiv:2306.04751 , 2023.
+[71] S. Tworkowski, K. Staniszewski, M. Pacek, Y . Wu, H. Michalewski,
+and P. Miło´s, “Focused transformer: Contrastive training for context
+scaling,” arXiv preprint arXiv:2307.03170 , 2023.
+[72] D. Mahan, R. Carlow, L. Castricato, N. Cooper,
+and C. Laforte, “Stable beluga models.” [Online].
+Available: [https://huggingface.co/stabilityai/StableBeluga2](https://
+huggingface.co/stabilityai/StableBeluga2)
+[73] Y . Tay, J. Wei, H. W. Chung, V . Q. Tran, D. R. So, S. Shakeri, X. Gar-
+cia, H. S. Zheng, J. Rao, A. Chowdhery et al., “Transcending scaling
+laws with 0.1% extra compute,” arXiv preprint arXiv:2210.11399 ,
+2022.
+[74] H. W. Chung, L. Hou, S. Longpre, B. Zoph, Y . Tay, W. Fedus,
+Y . Li, X. Wang, M. Dehghani, S. Brahma et al., “Scaling instruction-
+finetuned language models,” arXiv preprint arXiv:2210.11416 , 2022.
+[75] R. Anil, A. M. Dai, O. Firat, M. Johnson, D. Lepikhin, A. Passos,
+S. Shakeri, E. Taropa, P. Bailey, Z. Chen et al. , “Palm 2 technical
+report,” arXiv preprint arXiv:2305.10403 , 2023.
+[76] K. Singhal, S. Azizi, T. Tu, S. S. Mahdavi, J. Wei, H. W. Chung,
+N. Scales, A. Tanwani, H. Cole-Lewis, S. Pfohl et al., “Large language
+models encode clinical knowledge,” arXiv preprint arXiv:2212.13138,
+2022.
+[77] K. Singhal, T. Tu, J. Gottweis, R. Sayres, E. Wulczyn, L. Hou,
+K. Clark, S. Pfohl, H. Cole-Lewis, D. Neal et al. , “Towards expert-
+level medical question answering with large language models,” arXiv
+preprint arXiv:2305.09617, 2023.
+[78] J. Wei, M. Bosma, V . Y . Zhao, K. Guu, A. W. Yu, B. Lester, N. Du,
+A. M. Dai, and Q. V . Le, “Finetuned language models are zero-shot
+learners,” arXiv preprint arXiv:2109.01652 , 2021.
+[79] J. W. Rae, S. Borgeaud, T. Cai, K. Millican, J. Hoffmann, F. Song,
+J. Aslanides, S. Henderson, R. Ring, S. Younget al., “Scaling language
+models: Methods, analysis & insights from training gopher,” arXiv
+preprint arXiv:2112.11446, 2021.
+[80] V . Sanh, A. Webson, C. Raffel, S. H. Bach, L. Sutawika, Z. Alyafeai,
+A. Chaffin, A. Stiegler, T. L. Scao, A. Raja et al. , “Multi-
+task prompted training enables zero-shot task generalization,” arXiv
+preprint arXiv:2110.08207, 2021.
+[81] Y . Sun, S. Wang, S. Feng, S. Ding, C. Pang, J. Shang, J. Liu, X. Chen,
+Y . Zhao, Y . Luet al., “Ernie 3.0: Large-scale knowledge enhanced pre-
+training for language understanding and generation,” arXiv preprint
+arXiv:2107.02137, 2021.
+[82] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Mil-
+lican, G. B. Van Den Driessche, J.-B. Lespiau, B. Damoc, A. Clark
+et al. , “Improving language models by retrieving from trillions of
+tokens,” in International conference on machine learning . PMLR,
+2022, pp. 2206–2240.

@@ -1,0 +1,21 @@
+This survey endeavors to
+fill this gap by mapping out the RAG process and charting
+its evolution and anticipated future paths, with a focus on the
+integration of RAG within LLMs. This paper considers both
+technical paradigms and research methods, summarizing three
+main research paradigms from over 100 RAG studies, and
+analyzing key technologies in the core stages of “Retrieval,”
+“Generation,” and “Augmentation.” On the other hand, current
+research tends to focus more on methods, lacking analysis and
+summarization of how to evaluate RAG. This paper compre-
+hensively reviews the downstream tasks, datasets, benchmarks,
+and evaluation methods applicable to RAG. Overall, this
+paper sets out to meticulously compile and categorize the
+foundational technical concepts, historical progression, and
+the spectrum of RAG methodologies and applications that
+have emerged post-LLMs. It is designed to equip readers and
+professionals with a detailed and structured understanding of
+both large models and RAG. It aims to illuminate the evolution
+of retrieval augmentation techniques, assess the strengths and
+weaknesses of various approaches in their respective contexts,
+and speculate on upcoming trends and innovations.

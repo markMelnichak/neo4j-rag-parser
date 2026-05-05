@@ -1,0 +1,51 @@
+Li, X. L. and Liang, P. (2021). Prefix-tuning: Optimizing continuous prompts for generation. arXiv
+preprint arXiv:2101.00190.
+Li, Y ., Du, Y ., Zhou, K., Wang, J., Zhao, W. X., and Wen, J.-R. (2023l). Evaluating object halluci-
+nation in large vision-language models. arXiv preprint arXiv:2305.10355.
+Li, Y ., Fan, H., Hu, R., Feichtenhofer, C., and He, K. (2023m). Scaling language-image pre-training
+via masking. In CVPR.
+Li, Y ., Liang, F., Zhao, L., Cui, Y ., Ouyang, W., Shao, J., Yu, F., and Yan, J. (2022g). Supervision
+exists everywhere: A data efficient contrastive language-image pre-training paradigm. In ICLR.
+Li, Y ., Liu, H., Wu, Q., Mu, F., Yang, J., Gao, J., Li, C., and Lee, Y . J. (2023n). Gligen: Open-set
+grounded text-to-image generation. In Proceedings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition, pages 22511–22521.
+Li, Y ., Zhang, C., Yu, G., Wang, Z., Fu, B., Lin, G., Shen, C., Chen, L., and Wei, Y . (2023o).
+Stablellava: Enhanced visual instruction tuning with synthesized image-dialogue data. arXiv
+preprint arXiv:2308.10253.
+Liang, F., Wu, B., Dai, X., Li, K., Zhao, Y ., Zhang, H., Zhang, P., Vajda, P., and Marculescu, D.
+(2023a). Open-vocabulary semantic segmentation with mask-adapted clip. In Proceedings of the
+IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7061–7070.
+Liang, Y ., Wu, C., Song, T., Wu, W., Xia, Y ., Liu, Y ., Ou, Y ., Lu, S., Ji, L., Mao, S., et al. (2023b).
+Taskmatrix. ai: Completing tasks by connecting foundation models with millions of apis. arXiv
+preprint arXiv:2303.16434.
+Lin, T.-Y ., Goyal, P., Girshick, R., He, K., and Doll´ar, P. (2017). Focal loss for dense object detection.
+In Proceedings of the IEEE international conference on computer vision, pages 2980–2988.
+Lin, T.-Y ., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Doll´ar, P., and Zitnick, C. L.
+(2014). Microsoft coco: Common objects in context. In ECCV.
+Lin, Y ., Wu, H., Wang, R., Lu, H., Lin, X., Xiong, H., and Wang, L. (2023). Towards language-
+guided interactive 3d generation: Llms as layout interpreter with generative feedback. arXiv
+preprint arXiv:2305.15808.
+Liu, C., Lin, Z., Shen, X., Yang, J., Lu, X., and Yuille, A. (2017). Recurrent multimodal interac-
+tion for referring image segmentation. In Proceedings of the IEEE International Conference on
+Computer Vision, pages 1271–1280.
+Liu, F., Lin, K., Li, L., Wang, J., Yacoob, Y ., and Wang, L. (2023a). Aligning large multi-modal
+model with robust instruction tuning. arXiv preprint arXiv:2306.14565.
+Liu, H., Jiang, X., Li, X., Guo, A., Hu, Y ., Jiang, D., and Ren, B. (2023b). The devil is in the
+frequency: Geminated gestalt autoencoder for self-supervised visual pre-training. In AAAI.
+Liu, H., Li, C., Wu, Q., and Lee, Y . J. (2023c). Visual instruction tuning. arXiv preprint
+arXiv:2304.08485.
+Liu, H., Son, K., Yang, J., Liu, C., Gao, J., Lee, Y . J., and Li, C. (2023d). Learning customized
+visual models with retrieval-augmented knowledge. In Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition.
+Liu, J., Ding, H., Cai, Z., Zhang, Y ., Satzoda, R. K., Mahadevan, V ., and Manmatha, R. (2023e).
+Polyformer: Referring image segmentation as sequential polygon generation.
+Liu, N., Li, S., Du, Y ., Torralba, A., and Tenenbaum, J. B. (2022a). Compositional visual generation
+with composable diffusion models. InEuropean Conference on Computer Vision, pages 423–439.
+Springer.
+Liu, S., Fan, L., Johns, E., Yu, Z., Xiao, C., and Anandkumar, A. (2023f). Prismer: A vision-
+language model with an ensemble of experts.
+Liu, S., Ye, J., and Wang, X. (2023g). Any-to-any style transfer. arXiv preprint arXiv:2304.09728.
+Liu, S., Zeng, Z., Ren, T., Li, F., Zhang, H., Yang, J., Li, C., Yang, J., Su, H., Zhu, J., et al. (2023h).
+Grounding dino: Marrying dino with grounded pre-training for open-set object detection. arXiv
+preprint arXiv:2303.05499.
+104

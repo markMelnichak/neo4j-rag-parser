@@ -1,0 +1,58 @@
+vocabulary CV tasks. We advocate the concept of computer vision in the wild,1 and encourage
+the development and evaluation of future foundation models for this.
+– Image-only self-supervision. This line of work aims to learn image representations from su-
+pervision signals mined from the images themselves, ranging from contrastive learning (Chen
+et al., 2020a; He et al., 2020), non-contrastive learning (Grill et al., 2020; Chen and He, 2021;
+Caron et al., 2021), to masked image modeling (Bao et al., 2022; He et al., 2022a).
+– Multimodal fusion, region-level and pixel-level pre-training. Besides the methods of pre-
+training image backbones, we will also discuss pre-training methods that allow multimodal
+fusion (e.g., CoCa (Yu et al., 2022a), Flamingo (Alayrac et al., 2022)), region-level and pixel-
+level image understanding, such as open-set object detection (e.g., GLIP (Li et al., 2022e)) and
+promptable semgentation (e.g., SAM (Kirillov et al., 2023)). These methods typically rely on a
+pre-trained image encoder or a pre-trained image-text encoder pair.
+• Visual Generation Models. (Highlighted with green in Figure 1.2) Recently, foundation image
+generation models have been built, due to the emergence of large-scale image-text data. The
+techniques that make it possible include the vector-quantized V AE methods (Razavi et al., 2019),
+diffusion-based models (Dhariwal and Nichol, 2021) and auto-regressive models.
+– Text-conditioned visual generation. This research area focuses on generating faithful vi-
+sual content, including images, videos, and more, conditioned on open-ended text descrip-
+tions/prompts. Text-to-image generation develops generative models that synthesize images of
+high fidelity to follow the text prompt. Prominent examples include DALL-E (Ramesh et al.,
+2021a), DALL-E 2 (Ramesh et al., 2022), Stable Diffusion (Rombach et al., 2021; sta, 2022),
+Imagen (Saharia et al., 2022), and Parti (Yu et al., 2022b). Building on the success of text-
+to-image generation models, text-to-video generation models generate videos based on text
+prompts, such as Imagen Video (Ho et al., 2022) and Make-A-Video (Singer et al., 2022).
+– Human-aligned visual generator. This research area focuses on improving the pre-trained
+visual generator to better follow human intentions. Efforts have been made to address vari-
+ous challenges inherent to base visual generators. These include improving spatial control-
+lability (Zhang and Agrawala, 2023; Yang et al., 2023b), ensuring better adherence to text
+prompts (Black et al., 2023), supporting flexible text-based editing (Brooks et al., 2023), and
+facilitating visual concept customization (Ruiz et al., 2023).
+• General-purpose Interface. (Highlighted with blue in Figure 1.2) The aforementioned multi-
+modal foundation models are designed for specific purposes – tackling a specific set of CV prob-
+lems/tasks. Recently, we see an emergence of general-purpose models that lay the basis of AI
+agents. Existing efforts focus on three research topics. The first topic aims to unify models for vi-
+sual understanding and generation. These models are inspired by the unification spirit of LLMs in
+NLP, but do not explicitly leverage pre-trained LLM in modeling. In contrast, the other two topics
+embrace and involve LLMs in modeling, including training and chaining with LLMs, respectively.
+– Unified vision models for understanding and generation. In computer vision, several at-
+tempts have been made to build a general-purpose foundation model by combining the func-
+tionalities of specific-purpose multimodal models. To this end, a unified model architecture
+is adopted for various downstream computer vision and vision-language (VL) tasks. There
+are different levels of unification. First, a prevalent effort is to bridge vision and language by
+converting all closed-set vision tasks to open-set ones, such as CLIP (Radford et al., 2021),
+GLIP (Li et al., 2022f), OpenSeg (Ghiasi et al., 2022a), etc. Second, the unification of differ-
+ent VL understanding tasks across different granularity levels is also actively explored, such
+as I/O unification methods like UniTAB (Yang et al., 2021), Unified-IO (Lu et al., 2022a)),
+Pix2Seq-v2 (Chen et al., 2022d) and functional unification methods like GPV (Gupta et al.,
+2022a), GLIP-v2 (Zhang et al., 2022b)) and X-Decoder (Zou et al., 2023a). In the end, it is also
+necessitated to make the models more interactive and promptable like ChatGPT, and this has
+been recently studied in SAM (Kirillov et al., 2023) and SEEM (Zou et al., 2023b).
+– Training with LLMs. Similar to the behavior of LLMs, which can address a language task by
+following the instruction and processing examples of the task in their text prompt, it is desirable
+to develop a visual and text interface to steer the model towards solving a multimodal task. By
+extending the capability of LLMs to multimodal settings and training the model end-to-end,
+multimodal LLMs or large multimodal models are developed, including Flamingo (Alayrac
+et al., 2022) and Multimodal GPT-4 (OpenAI, 2023a).
+1Computer-Vision-in-the-Wild Readings.
+8

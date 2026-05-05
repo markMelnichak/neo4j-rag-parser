@@ -1,0 +1,39 @@
+(a) SimCLR(b) SimSiam(c) DINO
+Figure 2.7: Overview of SimCLR (Chen et al., 2020a), SimSiam (Chen and He, 2021), and
+DINO (Caron et al., 2021) for self-supervised image representation learning. SimCLR uses con-
+trastive learning for model training, while SimSiam and DINO explores non-contrastive learning
+methods. Image credit: Chen et al. (2020a), Chen and He (2021), Caron et al. (2021).
+found that the learned image encoder was not as competitive as CLIP. However, in the recent work
+Cap/CapPa (Tschannen et al., 2023), the authors argue that image captioners are scalable vision
+learners, too. Captioning can exhibit the same or even better scaling behaviors.
+• Sigmoid loss for language-image pre-training : Unlike standard contrastive learning with soft-
+max normalization, Zhai et al. (2023) uses a simple pairwise sigmoid loss for image-text pre-
+training, which operates on image-text pairs and does not require a global view of the pairwise
+similarities for normalization. The authors show that the use of simple sigmoid loss can also
+achieve strong performance on zero-shot image classification.
+2.4 Image-Only Self-Supervised Learning
+Now, we shift our focus to image-only self-supervised learning, and divide the discussion into three
+parts: (i) contrastive learning, (ii) non-contrastive learning, and (iii) masked image modeling.
+2.4.1 Contrastive and Non-contrastive Learning
+Contrastive learning. The core idea of contrastive learning (Gutmann and Hyv ¨arinen, 2010;
+Arora et al., 2019) is to promote the positive sample pairs and repulse the negative sample pairs.
+Besides being used in CLIP, contrastive learning has also been a popular concept in self-supervised
+image representation learning (Wu et al., 2018; Ye et al., 2019b; Tian et al., 2020a; Chen et al.,
+2020a; He et al., 2020; Misra and Maaten, 2020; Chen et al., 2020c). It has been shown that the
+contrastive objective, known as the InfoNCE loss (Oord et al., 2018), can be interpreted as max-
+imizing the lower bound of mutual information between different views of the data (Hjelm et al.,
+2018; Bachman et al., 2019; Henaff, 2020).
+In a nutshell, all the image-only contrastive learning methods ( e.g., SimCLR (Chen et al., 2020a),
+see Figure 2.7(a), MoCo (He et al., 2020), SimCLR-v2 (Chen et al., 2020b), MoCo-v2 (Chen et al.,
+2020c)) share the same high-level framework, detailed below.
+• Given one image, two separate data augmentations are applied;
+• A base encoder is followed by a project head, which is trained to maximize agreement using a
+contrastive loss (i.e., they are from the same image or not);
+• The project head is thrown away for downstream tasks.
+However, a caveat of contrastive learning is the requirement of a large number of negative samples.
+These samples can be maintained in a memory bank (Wu et al., 2018), or directly from the current
+batch (Chen et al., 2020a), which suggests the requirement of a large batch size. MoCo (He et al.,
+2020) maintains a queue of negative samples and turns one branch into a momentum encoder to
+improve the consistency of the queue. Initially, contrastive learning was primarily studied for pre-
+training convolutional networks. However, with the rising popularity of vision transformers (ViT),
+18

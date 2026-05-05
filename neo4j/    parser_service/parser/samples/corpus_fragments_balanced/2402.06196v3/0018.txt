@@ -1,0 +1,66 @@
+GPT Family PaLM Family LLaMA 1/2 Family
+GPT
+GPT1
+GPT2
+GPT3
+GPT4
+GPT3.5 Turbo
+text-davinci
+ code-davinci
+CODEX
+InstructGPT
+WebGPT
+GPT4 Vision
+ GPT4 Turbo
+Gorilla
+Mistral
+Vigogne
+Stable Beluga2
+Koala
+Code LLaMA
+Vicuna
+ Alpaca
+Baize
+Long LLaMA
+Giraffe
+Guanaco
+Tulu
+WizardLM
+Med-PaLM
+PaLM-E
+Med-PaLM2
+FLAN-PaLM
+U-PaLM
+PaLM2
+PaLM
+Fig. 8: Popular LLM Families.
+Fig. 9: GPT-3 shows that larger models make increasingly
+efficient use of in-context information. It shows in-context
+learning performance on a simple task requiring the model to
+remove random symbols from a word, both with and without
+a natural language task description. Courtesy of [56].
+Fig. 10: The high-level overview of RLHF. Courtesy of [59].
+Vigogne [69], Tulu 65B [70], Long LLaMA [71], and Stable
+Beluga2 [72], just to name a few.
+3) The PaLM F amily : The PaLM (Pathways Language
+Model) family are developed by Google. The first PaLM
+model [31] was announced in April 2022 and remained private
+Fig. 11: GPT-4 performance on academic and professional
+exams, compared with GPT 3.5. Courtesy of [33].
+until March 2023. It is a 540B parameter transformer-based
+LLM. The model is pre-trained on a high-quality text corpus
+consisting of 780 billion tokens that comprise a wide range
+of natural language tasks and use cases. PaLM is pre-trained
+on 6144 TPU v4 chips using the Pathways system, which
+enables highly efficient training across multiple TPU Pods.
+PaLM demonstrates continued benefits of scaling by achiev-
+ing state-of-the-art few-shot learning results on hundreds of
+language understanding and generation benchmarks. PaLM-
+540B outperforms not only state-of-the-art fine-tuned models
+on a suite of multi-step reasoning tasks, but also on par with
+humans on the recently released BIG-bench benchmark.
+The U-PaLM models of 8B, 62B, and 540B scales are
+continually trained on PaLM with UL2R, a method of continue
+training LLMs on a few steps with UL2’s mixture-of-denoiser
+objective [73]. An approximately 2x computational savings
+rate is reported.

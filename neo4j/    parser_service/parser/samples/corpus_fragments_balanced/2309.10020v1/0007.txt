@@ -1,0 +1,13 @@
+Inspired by the great successes of LLMs in NLP, it is natural for researchers in the computer vision
+and vision-language community to ask the question: what is the counterpart of ChatGPT/GPT-4
+for vision, vision-language and multi-modal models? There is no doubt that vision pre-training
+and vision-language pre-training (VLP) have attracted a growing attention since the birth of BERT,
+and has become the mainstream learning paradigm for vision, with the promise to learn universal
+transferable visual and vision-language representations, or to generate highly plausible images. Ar-
+guably, they can be considered as the early generation of multimodal foundation models, just as
+BERT/GPT-2 to the language field. While the road-map to build general-purpose assistants for lan-
+guage such as ChatGPT is clear, it is becoming increasingly crucial for the research community to
+explore feasible solutions to building its counterpart for computer vision: the general-purpose visual
+assistants. Overall, building general-purpose agents has been a long-standing goal for AI. LLMs
+with emerging properties have significantly reduced the cost of building such agents for language
+tasks.

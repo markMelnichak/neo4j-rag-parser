@@ -1,0 +1,20 @@
+Finally, we conclude
+the paper by discussing open challenges and future research
+directions. I. I NTRODUCTION
+Language modeling is a long-standing research topic, dat-
+ing back to the 1950s with Shannon’s application of informa-
+tion theory to human language, where he measured how well
+simple n-gram language models predict or compress natural
+language text [3]. Since then, statistical language modeling
+became fundamental to many natural language understanding
+and generation tasks, ranging from speech recognition, ma-
+chine translation, to information retrieval [4], [5], [6]. The recent advances on transformer-based large language
+models (LMs), pretrained on Web-scale text corpora, signifi-
+cantly extended the capabilities of language models (LLMs). For example, OpenAI’s ChatGPT and GPT-4 can be used not
+only for natural language processing, but also as general task
+solvers to power Microsoft’s Co-Pilot systems, for instance,
+can follow human instructions of complex new tasks per-
+forming multi-step reasoning when needed. LLMs are thus
+becoming the basic building block for the development of
+general-purpose AI agents or artificial general intelligence
+(AGI).

@@ -1,0 +1,48 @@
+– Chaining tools with LLM. Exploiting the tool use capabilities of LLMs, an increasing num-
+ber of studies integrate LLMs such as ChatGPT with various multimodal foundation models to
+facilitate image understanding and generation through a conversation interface. This interdis-
+ciplinary approach combines the strengths of NLP and computer vision, enabling researchers
+to develop more robust and versatile AI systems that are capable of processing visual informa-
+tion and generating human-like responses via human-computer conversations. Representative
+works include Visual ChatGPT (Wu et al., 2023a) and MM-R EACT (Yang* et al., 2023).
+1.2 Definition and Transition from Specialists to General-Purpose Assistants
+Based on the model development history and taxonomy in NLP, we group multimodal foundation
+models in Figure 1.2 into two categories.
+• Specific-Purpose Pre-trained Vision Models cover most existing multimodal foundation mod-
+els, including visual understanding models ( e.g., CLIP (Radford et al., 2021), SimCLR (Chen
+et al., 2020a), BEiT (Bao et al., 2022), SAM (Kirillov et al., 2023)) and visual generation models
+(e.g., Stable Diffusion (Rombach et al., 2021; sta, 2022)), as they present powerful transferable
+ability for specific vision problems.
+• General-Purpose Assistants refer to AI agents that can follow human intents to complete various
+computer vision tasks in the wild. The meanings of general-purpose assistants are two-fold: (i)
+generalists with unified architectures that could complete tasks across different problem types, and
+(ii) easy to follow human instruction, rather than replacing humans. To this end, several research
+topics have been actively explored, including unified vision modeling (Lu et al., 2022a; Zhang
+et al., 2022b; Zou et al., 2023a), training and chaining with LLMs (Liu et al., 2023c; Zhu et al.,
+2023a; Wu et al., 2023a; Yang* et al., 2023).
+1.3 Who Should Read this Paper?
+This paper is based on our CVPR 2023 tutorial,2 with researchers in the computer vision and vision-
+language multimodal communities as our primary target audience. It reviews the literature and
+explains topics to those who seek to learn the basics and recent advances in multimodal foundation
+models. The target audiences are graduate students, researchers and professionals who are not ex-
+perts of multimodal foundation models but are eager to develop perspectives and learn the trends in
+the field. The structure of this paper is illustrated in Figure 1.3. It consists of 7 chapters.
+• Chapter 1 introduces the landscape of multimodal foundation model research, and presents a his-
+torical view on the transition of research from specialists to general-purpose assistants.
+• Chapter 2 introduces different ways to consume visual data, with a focus on how to learn a strong
+image backbone.
+• Chapter 3 describes how to produce visual data that aligns with human intents.
+• Chapter 4 describes how to design unified vision models, with an interface that is interactive and
+promptable, especially when LLMs are not employed.
+• Chapter 5 describes how to train an LLM in an end-to-end manner to consume visual input for
+understanding and reasoning.
+• Chapter 6 describes how to chain multimodal tools with an LLM to enable new capabilities.
+• Chapter 7 concludes the paper and discusses research trends.
+Relations among Chapters 2-6. Chapter 2-6 are the core chapters of this survey paper. An
+overview of the structure for these chapters are provided in Figure 1.2. We start with a discus-
+sion of two typical multimodal foundation models for specific tasks, including visual understanding
+in Chapter 2 and visual generation in Chapter 3. As the notion of multimodal foundation models are
+originally based on visual backbone/representation learning for understanding tasks, we first present
+a comprehensive review to the transition of image backbone learning methods, evolving from early
+2https://vlp-tutorial.github.io/2023/index.html
+9

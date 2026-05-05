@@ -1,0 +1,14 @@
+Recent survey papers on related topics include (i) image understanding models such as
+self-supervised learning (Jaiswal et al., 2020; Jing and Tian, 2020; Ozbulak et al., 2023), segment
+anything (SAM) (Zhang et al., 2023a,c), (ii) image generation models (Zhang et al., 2023b; Zhou
+and Shimada, 2023), and (iii) vision-language pre-training (VLP) . Existing VLP survey papers
+cover VLP methods for task-specific VL problems before the era of pre-training, image-text tasks,
+core vision tasks, and/or video-text tasks (Zhang et al., 2020; Du et al., 2022; Li et al., 2022c; Ruan
+and Jin, 2022; Chen et al., 2022a; Gan et al., 2022; Zhang et al., 2023g). Two recent survey papers
+cover the integration of vision models with LLM (Awais et al., 2023; Yin et al., 2022). Among them, Gan et al. (2022) is a survey on VLP that covers the CVPR tutorial series on Recent
+Advances in Vision-and-Language Research in 2022 and before. This paper summarizes the CVPR
+tutorial on Recent Advances in Vision Foundation Models in 2023. Different from the aforemen-
+tioned survey papers that focus on literature review of a given research topic, this paper presents
+our perspectives on the role transition of multimodal foundation models from specialists to general-
+purpose visual assistants, in the era of large language models. The contributions of this survey paper
+are summarized as follows.

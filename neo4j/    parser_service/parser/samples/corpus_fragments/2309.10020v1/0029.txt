@@ -1,0 +1,39 @@
+Figure 2.14: Overview of GLIP that performs grounded language-image pre-training for open-set
+object detection. Image credit: Li et al. (2022f).
+2.6.2 Region-Level Pre-training
+CLIP learns global image representations via contrastive pre-training. However, for tasks that re-
+quire fine-grained image understanding such as object detection, CLIP is not enough. Object detec-
+tion contains two sub-tasks: localization and recognition. ( i) Localization aims to locate the pres-
+ence of objects in an image and indicate the position with a bounding box, while ( ii) recognition
+determines what object categories are present in the bounding box. By following the reformulation
+that converts image classification to image retrieval used in CLIP, generic open-set object detection
+can be achieved.
+Specifically, ViLD (Gu et al., 2021) and RegionCLIP (Zhong et al., 2022a) distill knowledge from
+CLIP with a two-stage detector for zero-shot object detection. In MDETR (Kamath et al., 2021) and
+GLIP (Li et al., 2022e) (as shown in Figure 2.14), the authors propose to reformulate detection as
+a phrase grounding problem, and perform grounded language-image pre-training. GLIPv2 (Zhang
+et al., 2022b) and FIBER (Dou et al., 2022a) further perform unified pre-training for both grounding
+and vision-language understanding tasks. OVR-CNN (Zareian et al., 2021) finetunes an image-text
+model to detection on a limited vocabulary and relies on image-text pre-training for generalization
+to an open vocabulary setting. Detic (Zhou et al., 2022b) improves long-tail detection performance
+with weak supervision by training only the classification head on the examples where only image-
+level annotations are available. Other works include OV-DETR (Zang et al., 2022), X-DETR (Cai
+et al., 2022), FindIT (Kuo et al., 2022), PromptDet (Feng et al., 2022a), OWL-ViT (Minderer et al.,
+2022), GRiT (Wu et al., 2022b), to name a few. Recently, Grounding DINO (Liu et al., 2023h)
+is proposed to marry DINO (Zhang et al., 2022a) with grounded pre-training for open-set object
+detection. Please refer to Section 4.2 for a detailed review of this topic.
+2.6.3 Pixel-Level Pre-training
+The Segment Anything Model (SAM) (Kirillov et al., 2023) is a recent vision foundation model for
+image segmentation that aims to perform pixel-level pre-training. Since its birth, it has attracted
+wide attention and spurred tons of follow-up works and applications. Below, we briefly review
+SAM, as a representative work for pixel-level visual pre-training.
+As depicted in Figure 2.15, the objective of the Segment Anything project is to develop a founda-
+tional vision model for segmentation. This model is designed to be readily adaptable to a wide range
+of both existing and novel segmentation tasks, such as edge detection, object proposal generation,
+instance segmentation, open-vocabulary segmentation, and more. This adaptability is seamlessly
+accomplished through a highly efficient and user-friendly approach, facilitated by the integration of
+three interconnected components. Specifically,
+• Task. The authors propose the promptable segmentation task, where the goal is to return a valid
+segmentation mask given any segmentation prompt, such as a set of points, a rough box or mask,
+or free-form text.
+25

@@ -1,0 +1,39 @@
+Multitask Instruct with Established Datasets
+InstructViT
+MultiInstructInstructBLIPMultimodal GPT
+mPlug-OwlMultitask Instruct with Established Academic Datasets/Tasks•mPlug-Owl: Modularization empowers large language models with multimodality•InstructBLIP: Towards general-purpose vision-language models with instruction tuning•MultiInstruct: Improving Multi-Modal Zero-Shot Learning via Instruction Tuning
+•Multimodal-gpt: A vision and language model for dialogue with humans•Instruction-ViT: Multi-Modal Prompts for Instruction Learning in ViT
+Two existing purposes for Instruct Tuning:•User-oriented tasks: Daily conversation•Academic tasks: Existing datasets
+Figure 5.12: The vision-language tasks covered in InstructBLIP. Image credit: Dai et al. (2023b).
+sively enhance its quality on-the-fly. Similar to the “less is more” observation in LIMA (Zhou et al.,
+2023a) from the NLP domain, InstructionGPT-4 shows that the quality of the instruction-tuning
+data is more important than its quantity, where they finetune a better version of MiniGPT-4 with 200
+high-quality samples (6%), selected from the 3500 samples used in the original MiniGPT-4.
+Multitask Instruct with Established Academic Datasets/Tasks
+As discussed earlier in Section 5.2, instruction tuning in the language domains is implemented in
+two different ways: finetuning the model on a wide range of tasks using human-annotated prompts
+and feedback (Ouyang et al., 2022), or supervised finetuning using public benchmarks and datasets
+augmented with manually or automatically generated instructions (Wang et al., 2022f). The former
+is good at user-oriented daily life tasks, and the latter is good at achieving decent performance on
+established benchmarks. LLaV A and MiniGPT-4 fall into the former class. Several other works
+either target for the latter class or combine both classes, including MultiInstruct (Xu et al., 2022b),
+mPlug-OWL (Ye et al., 2023b), InstructBLIP (Dai et al., 2023b), Multimodal-GPT (Gong et al.,
+2023), Instruction-ViT (Xiao et al., 2023) and Qwen-VL (Bai et al., 2023a).
+For example, MultiInstruct is an early attempt before open-source LLaMA for instruction tun-
+ing with multimodal datasets. InstructBLIP is a recent work that combines chat and benchmark
+instruction-following data. As shown in Figure 5.12, InstructBLIP transforms 26 publicly available
+datasets, covering a wide variety of tasks and capabilities, into instruction tuning format. Trained
+on 13 held-in datasets, InstructBLIP attains SoTA zero-shot performance across all 13 held-out
+datasets, substantially outperforming BLIP-2 and larger Flamingo models. Qwen-VL scales up both
+image-text pair data for pre-traning and academic datasets for multi-task pre-traning, and achieve
+excellent performance on many tasks.
+Multimodal In-Context-Learning
+Similar to the behavior of LLMs, which can address a language task by processing examples of the
+task in their text prompt, multimodal in-context-learning refers to an visual and text interface that can
+steer the model towards solving a multimodal task. Given a few example pairs of visual inputs and
+expected text responses composed in the multimodal prompt, the model can be queried with a ques-
+tion about a new image or video, and then generate an answer. The direction to extend in-context-
+learning from language to multi-modalities has been explored, including OpenFlamingo (Awadalla
+et al., 2023), Otter (Li et al., 2023d), M 3IT (Li et al., 2023j), MetaVL (Monajatipoor et al., 2023)
+and Sparkles (Huang et al., 2023d).
+73

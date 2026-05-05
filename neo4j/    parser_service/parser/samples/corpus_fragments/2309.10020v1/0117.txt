@@ -1,0 +1,51 @@
+Wang, Y ., Kordi, Y ., Mishra, S., Liu, A., Smith, N. A., Khashabi, D., and Hajishirzi, H.
+(2022e). Self-instruct: Aligning language model with self generated instructions. arXiv preprint
+arXiv:2212.10560.
+Wang, Y ., Mishra, S., Alipoormolabashi, P., Kordi, Y ., Mirzaei, A., Arunkumar, A., Ashok, A.,
+Dhanasekaran, A. S., Naik, A., Stap, D., et al. (2022f). Benchmarking generalization via in-
+context instructions on 1,600+ language tasks. arXiv preprint arXiv:2204.07705.
+Wang, Z., Chen, J., and Hoi, S. C. (2020). Deep learning for image super-resolution: A survey.
+IEEE transactions on pattern analysis and machine intelligence, 43(10):3365–3387.
+Wang, Z., Huang, H., Zhao, Y ., Zhang, Z., and Zhao, Z. (2023l). Chat-3d: Data-efficiently tuning
+large language model for universal dialogue of 3d scenes. arXiv preprint arXiv:2308.08769.
+Wang, Z., Jiang, Y ., Lu, Y ., Shen, Y ., He, P., Chen, W., Wang, Z., and Zhou, M. (2023m). In-context
+learning unlocked for diffusion models.
+Wang, Z., Yu, J., Yu, A. W., Dai, Z., Tsvetkov, Y ., and Cao, Y . (2022g). Simvlm: Simple visual
+language model pretraining with weak supervision. In ICLR.
+Weers, F., Shankar, V ., Katharopoulos, A., Yang, Y ., and Gunter, T. (2023). Masked autoencoding
+does not help natural language supervision at scale. In CVPR.
+Wei, C., Fan, H., Xie, S., Wu, C.-Y ., Yuille, A., and Feichtenhofer, C. (2021). Masked feature
+prediction for self-supervised visual pre-training. In CVPR.
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Chi, E., Le, Q., and Zhou, D. (2022a). Chain of
+thought prompting elicits reasoning in large language models. arXiv preprint arXiv:2201.11903.
+Wei, L., Xie, L., Zhou, W., Li, H., and Tian, Q. (2022b). Mvp: Multimodality-guided visual pre-
+training. In ECCV.
+Wei, Y ., Zhang, Y ., Ji, Z., Bai, J., Zhang, L., and Zuo, W. (2023). Elite: Encoding visual concepts into
+textual embeddings for customized text-to-image generation. arXiv preprint arXiv:2302.13848.
+Weng, L. (2023). Llm-powered autonomous agents. lilianweng.github.io.
+Wu, C., Yin, S., Qi, W., Wang, X., Tang, Z., and Duan, N. (2023a). Visual chatgpt: Talking, drawing
+and editing with visual foundation models. arXiv preprint arXiv:2303.04671.
+Wu, C., Zhang, X., Zhang, Y ., Wang, Y ., and Xie, W. (2023b). Towards generalist foundation model
+for radiology. arXiv preprint arXiv:2308.02463.
+Wu, J., Jiang, Y ., Sun, P., Yuan, Z., and Luo, P. (2022a). Language as queries for referring video ob-
+ject segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+Recognition, pages 4974–4984.
+Wu, J., Lu, J., Sabharwal, A., and Mottaghi, R. (2021). Multi-modal answer validation for
+knowledge-based VQA. arXiv preprint arXiv:2103.12248.
+Wu, J., Wang, J., Yang, Z., Gan, Z., Liu, Z., Yuan, J., and Wang, L. (2022b). Grit: A generative
+region-to-text transformer for object understanding. arXiv preprint arXiv:2212.00280.
+Wu, S., Fei, H., Qu, L., Ji, W., and Chua, T.-S. (2023c). Next-gpt: Any-to-any multimodal llm.
+CoRR, abs/2309.05519.
+Wu, W., Timofeev, A., Chen, C., Zhang, B., Duan, K., Liu, S., Zheng, Y ., Shlens, J., Du, X., Gan, Z.,
+et al. (2023d). Mofi: Learning image representations from noisy entity annotated images. arXiv
+preprint arXiv:2306.07952.
+Wu, Y ., Lim, J., and Yang, M.-H. (2013). Online object tracking: A benchmark. In Proceedings of
+the IEEE conference on computer vision and pattern recognition, pages 2411–2418.
+Wu, Z., Xiong, Y ., Yu, S. X., and Lin, D. (2018). Unsupervised feature learning via non-parametric
+instance discrimination. In CVPR.
+Xian, Y ., Lampert, C. H., Schiele, B., and Akata, Z. (2018). Zero-shot learning—a comprehensive
+evaluation of the good, the bad and the ugly. TPAMI.
+Xiao, Z., Chen, Y ., Zhang, L., Yao, J., Wu, Z., Yu, X., Pan, Y ., Zhao, L., Ma, C., Liu, X., et al.
+(2023). Instruction-vit: Multi-modal prompts for instruction learning in vit. arXiv preprint
+arXiv:2305.00201.
+113

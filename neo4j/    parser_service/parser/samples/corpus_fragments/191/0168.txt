@@ -1,0 +1,46 @@
+171 
+ 
+6
+. Выполните в консоли conda install Theano; 
+7. Выполните в консоли pip install keras; 
+Обр
+атите внимание! 
+ Keras 
+может быть настроен на tensorflowbackend, тогда надо 
+внести изменения в файл C:/Users/AccauntName/.keras/keras.json 
+ 
+и
+ в строке backend=”tensorflow” написать theano; 
+8
+. Запустите IDE, создайте новый файл с кодом на Python 
+и выполните код из листинга 2 для проверки того, что все компо-
+ненты установлены корректно. 
+Лист
+инг 2 
+import
+ numpy as np 
+import sklearn.linear_model as lin 
+from keras.layers.core import Dense, Activation 
+from keras.models import Sequential 
+from keras.optimizers import RMSprop 
+ 
+x_train = np.array([[0.1, 0.3], [0.2, 0.2], [0.7, 0.8], [1.0, 0.9]]) 
+y_train = np.array([0, 0, 1, 1]).reshape(4, 1) 
+x_test = np.array([[0, 0], [0.3, 0.3], [0.6, 0.7], [1, 1]]) 
+model = Sequential() 
+model.add(Dense(2, init='lecun_uniform', input_shape=(2,))) 
+model.add(Activation('relu')) 
+model.add(Dense(1, init='lecun_uniform')) 
+model.add(Activation('linear')) 
+rms = RMSprop(lr=0.01) 
+model.compile(loss='mse', optimizer=rms) 
+epochs = 200 
+model.fit(x_train, y_train, batch_size=1, nb_epoch=epochs, verbose=0) 
+y_predict = model.predict(x_test, batch_size=1) 
+print(y_predict) 
+В 
+результате в Output консоли не должно быть ошибок (код 
+выхода равен 0), и должна будет рас
+печататься инфо
+рмация, представ-
+ленная в листинге 3.

@@ -1,0 +1,128 @@
+on datasets and metrics of textual question answering,” arXiv preprint
+arXiv:2109.12264, 2021.
+[203] H.-Y . Huang, E. Choi, and W.-t. Yih, “Flowqa: Grasping flow in
+history for conversational machine comprehension,” arXiv preprint
+arXiv:1810.06683, 2018.
+[204] S. Lee, J. Lee, H. Moon, C. Park, J. Seo, S. Eo, S. Koo, and H. Lim, “A
+survey on evaluation metrics for machine translation,” Mathematics,
+vol. 11, no. 4, p. 1006, 2023.
+[205] J. Li, X. Cheng, W. X. Zhao, J.-Y . Nie, and J.-R. Wen, “Halueval:
+A large-scale hallucination evaluation benchmark for large language
+models,” inProceedings of the 2023 Conference on Empirical Methods
+in Natural Language Processing , 2023, pp. 6449–6464.
+[206] Simon Mark Hughes, “Hughes hallucination evaluation model
+(hhem) leaderboard,” 2024, https://huggingface.co/spaces/vectara/
+Hallucination-evaluation-leaderboard, Last accessed on 2024-01-21.
+[207] J. Kaddour, J. Harris, M. Mozes, H. Bradley, R. Raileanu, and
+R. McHardy, “Challenges and applications of large language models,”
+arXiv preprint arXiv:2307.10169 , 2023.
+[208] S. Gunasekar, Y . Zhang, J. Aneja, C. C. T. Mendes, A. Del Giorno,
+S. Gopi, M. Javaheripi, P. Kauffmann, G. de Rosa, O. Saarikivi et al.,
+“Textbooks are all you need,” arXiv preprint arXiv:2306.11644, 2023.
+[209] Y . Li, S. Bubeck, R. Eldan, A. Del Giorno, S. Gunasekar, and Y . T.
+Lee, “Textbooks are all you need ii: phi-1.5 technical report,” arXiv
+preprint arXiv:2309.05463, 2023.
+[210] M. Poli, S. Massaroli, E. Nguyen, D. Y . Fu, T. Dao, S. Baccus,
+Y . Bengio, S. Ermon, and C. R ´e, “Hyena hierarchy: Towards larger
+convolutional language models,” 2023.
+[211] M. Poli, J. Wang, S. Massaroli, J. Quesnelle, E. Nguyen, and
+A. Thomas, “StripedHyena: Moving Beyond Transformers with
+Hybrid Signal Processing Models,” 12 2023. [Online]. Available:
+https://github.com/togethercomputer/stripedhyena
+[212] D. Y . Fu, S. Arora, J. Grogan, I. Johnson, S. Eyuboglu, A. W. Thomas,
+B. Spector, M. Poli, A. Rudra, and C. R ´e, “Monarch mixer: A simple
+sub-quadratic gemm-based architecture,” 2023.
+[213] G. J. McLachlan, S. X. Lee, and S. I. Rathnayake, “Finite mixture
+models,” Annual review of statistics and its application , vol. 6, pp.
+355–378, 2019.
+[214] H. Liu, C. Li, Q. Wu, and Y . J. Lee, “Visual instruction tuning,” arXiv
+preprint arXiv:2304.08485, 2023.
+[215] S. Liu, H. Cheng, H. Liu, H. Zhang, F. Li, T. Ren, X. Zou,
+J. Yang, H. Su, J. Zhu, L. Zhang, J. Gao, and C. Li, “Llava-plus:
+Learning to use tools for creating multimodal agents,” arXiv preprint
+arXiv:2311.05437, 2023.
+[216] S. Wu, H. Fei, L. Qu, W. Ji, and T.-S. Chua, “Next-gpt: Any-to-any
+multimodal llm,” arXiv preprint arXiv:2309.05519 , 2023.
+[217] N. N. Khasmakhi, M. Asgari-Chenaghlu, N. Asghar, P. Schaer, and
+D. Z ¨uhlke, “Convgenvismo: Evaluation of conversational generative
+vision models,” 2023.
+[218] N. Alshahwan, J. Chheda, A. Finegenova, B. Gokkaya, M. Harman,
+I. Harper, A. Marginean, S. Sengupta, and E. Wang, “Automated unit
+test improvement using large language models at meta,” arXiv preprint
+arXiv:2402.09171, 2024.
+[219] L. Sun, Y . Huang, H. Wang, S. Wu, Q. Zhang, C. Gao, Y . Huang,
+W. Lyu, Y . Zhang, X. Li et al. , “Trustllm: Trustworthiness in large
+language models,” arXiv preprint arXiv:2401.05561 , 2024.
+[220] M. Josifoski, L. Klein, M. Peyrard, Y . Li, S. Geng, J. P. Schnitzler,
+Y . Yao, J. Wei, D. Paul, and R. West, “Flows: Building blocks of
+reasoning and collaborating ai,” arXiv preprint arXiv:2308.01285 ,
+2023.
+[221] Microsoft. Deepspeed. [Online]. Available: https://github.com/
+microsoft/DeepSpeed
+[222] HuggingFace. Transformers. [Online]. Available: https://github.com/
+huggingface/transformers
+[223] Nvidia. Megatron. [Online]. Available: https://github.com/NVIDIA/
+Megatron-LM
+[224] BMTrain. Bmtrain. [Online]. Available: https://github.com/OpenBMB/
+BMTrain
+[225] EleutherAI. gpt-neox. [Online]. Available: https://github.com/
+EleutherAI/gpt-neox
+[226] microsoft. Lora. [Online]. Available: https://github.com/microsoft/
+LoRA
+[227] ColossalAI. Colossalai. [Online]. Available: https://github.com/
+hpcaitech/ColossalAI
+[228] FastChat. Fastchat. [Online]. Available: https://github.com/lm-sys/
+FastChat
+[229] skypilot. skypilot. [Online]. Available: https://github.com/skypilot-org/
+skypilot
+[230] vllm. vllm. [Online]. Available: https://github.com/vllm-project/vllm
+[231] huggingface. text-generation-inference. [Online]. Available: https:
+//github.com/huggingface/text-generation-inference
+[232] langchain. langchain. [Online]. Available: https://github.com/
+langchain-ai/langchain
+[233] bentoml. Openllm. [Online]. Available: https://github.com/bentoml/
+OpenLLM
+[234] embedchain. embedchain. [Online]. Available: https://github.com/
+embedchain/embedchain
+[235] microsoft. autogen. [Online]. Available: https://github.com/microsoft/
+autogen
+[236] babyagi. babyagi. [Online]. Available: https://github.com/
+yoheinakajima/babyagi
+[237] guidance. guidance. [Online]. Available: https://github.com/
+guidance-ai/guidance
+[238] prompttools. prompttools. [Online]. Available: https://github.com/
+hegelai/prompttools
+[239] promptfoo. promptfoo. [Online]. Available: https://github.com/
+promptfoo/promptfoo
+[240] facebook. faiss. [Online]. Available: https://github.com/
+facebookresearch/faiss
+[241] milvus. milvus. [Online]. Available: https://github.com/milvus-io/
+milvus
+[242] qdrant. qdrant. [Online]. Available: https://github.com/qdrant/qdrant
+[243] weaviate. weaviate. [Online]. Available: https://github.com/weaviate/
+weaviate
+[244] llama index. llama-index. [Online]. Available: https://github.com/
+run-llama/llama index
+APPENDIX
+1. Open Source Toolkits For LLM Development and
+Deployment
+There are various frameworks and libraries developed for
+LLM training, evaluation, and deployment, and covering every
+single framework is out of this paper’s scope. But we try to
+provide a brief introduction of some of the most popular ones,
+grouped into different categories.
+A. LLM Training/Inference Frameworks
+Some of the popular frameworks which are useful for LLM
+training includes (note that some of them can be used beyond
+LLM training too):
+DeepSpeed [221] is a deep learning optimization library
+that makes distributed training and inference easy, efficient,
+and effective. DeepSpeed enables world’s most powerful lan-
+guage models like MT-530B and BLOOM. It is an easy-
+to-use deep learning optimization software suite that powers
+unprecedented scale and speed for both training and inference.
+With DeepSpeed you can:
+Transformers [222] is library by HuggingFace which
+provides thousands of pretrained models to perform tasks on
+different modalities such as text, vision, and audio. Using
+pretrained models one can reduce compute costs, carbon

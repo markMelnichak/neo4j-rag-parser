@@ -1,0 +1,43 @@
+216 
+ 
+Оконча
+ние листинга 56 
+ pi
+peline = Pipeline([("polynomial_features", polynomial_features), 
+ ("linear_regression", model)]) 
+ pipeline.fit(X[:, np.newaxis], y) 
+ scores = cross_val_score(pipeline, X[:, np.newaxis], y, 
+ scoring="neg_mean_squared_error", cv=10) 
+ X_test = np.linspace(0, 1, 100) 
+ plt.plot(X_test, pipeline.predict(X_test[:, np.newaxis]), label="Model") 
+ plt.plot(X_test, true_fun(X_test), label="True function") 
+ plt.scatter(X, y, label="Samples") 
+ if k == 1: 
+ plt.xlabel("x") 
+ plt.ylabel("y") 
+ plt.xlim((0, 1)) 
+ plt.ylim((-2, 2)) 
+ plt.legend(loc="best") 
+ if k==0: 
+ plt.title("Degree {}\nMSE = {:.2e}(+/- {:.2e})".format(degrees[i], -scores.mean(), 
+scores.std())) 
+ else: 
+ plt.title("MSE = {:.2e}(+/- {:.2e})".format(-scores.mean(), scores.std())) 
+ return plt 
+Код
+ вызова функции из листинга 56 (и, соответственно отри-
+совка графиков) представлен в листинге 57, а результат работы кода – 
+на рисунке 61. 
+Лист
+инг 57 
+pl
+t.figure(figsize=(14, 6)) 
+for i in range(len(degrees)): 
+ linear_regression = LinearRegression() 
+ plt.subplot(2, len(degrees), i+1) 
+ plt = MakeExample(i, plt, linear_regression,0) 
+for i in range(len(degrees)): 
+ ridge = Ridge(alpha=0.02) 
+ plt.subplot(2, len(degrees), len(degrees) + i + 1) 
+ plt = MakeExample(i, plt, ridge,1) 
+plt.show()

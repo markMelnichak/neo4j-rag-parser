@@ -1,0 +1,40 @@
+Figure 3.10: Failure cases of vanilla T2I model in text prompt following. Image credit: Feng et al.
+(2022b).
+Figure 3.11: Inference time guidance proposed in Attend-and-Excite. Image credit: Chefer et al.
+(2023).
+2023) show that T2I models may fail to follow text prompts, especially when the image description
+becomes complicated. For example, certain noun phrases may get omitted, attributes may apply to
+incorrect objects, and generated images may have the wrong object count, relationship, styles, etc..
+These limitations motivate work on improving T2I models to better follow text prompts.
+The related literature can be broadly categorized into two main groups. (i) Inference-time manip-
+ulation. In the inference stage, the latent and attention adjustment (Liu et al., 2022a; Feng et al.,
+2022b; Chefer et al., 2023; Agarwal et al., 2023) design various methods to redistribute the visual
+latent or image-text cross-attention, such that all noun phrases in the text prompts are represented in
+the generated image. (ii) Alignment tuning. An extra model learning stage is learned (Black et al.,
+2023; Fan et al., 2023b), typically with the image-text similarity as rewards, such that the tuned T2I
+model can better follow text prompts.
+Inference-time manipulation. Training with image-text pairs does not guarantee that T2I models
+consistently adhere to the text prompts. There can be multiple discrepancies, particularly when the
+text descriptions are lengthy and intricate. For instance, T2I models may apply attributes to the
+wrong entity or miss certain objects, as shown in Figure 3.10. Intuitively, parsing the text query at
+inference time and explicitly enforcing T2I models to pay closer attention to each noun phrase may
+generate images that better follow text prompts.
+Building upon this intuition, StructureDiffusion (Feng et al., 2022b) employs a parsing tree to extract
+noun phrases and the text prompt’s linguistic structure. The study then enforces the model to “look
+at” all extracted noun phrases. This is implemented by modifying SD’s cross-attention mechanism
+introduced in (3.1), written as O = M · V where M is the softmax cross-attention map. Instead of
+producing M with the sentence feature V , which may result in words getting overlooked, the study
+computes the O = 1
+k+1Σk
+i=0(M · Vi), where V0 is the sentence feature V , and Vi, i = 1, . . . , kis the
+phrase feature in the parsing tree. This approach ensures that the visual stream maintains a balanced
+attention across all identified noun phrases, fostering more accurate image generation.
+Motivated by the same objective to ensure that no object is overlooked, Attend-and-Excite (Chefer
+et al., 2023) manipulates the attention map. As shown in the right side equations in Figure 3.11,
+a regularization loss ℓ is computed to amplify the maximal attention towards the most neglected
+subject token:
+ℓ = max
+n=1,...,Nsub
+(1 − max G(M n
+t ))
+36

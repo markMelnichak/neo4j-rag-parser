@@ -1,0 +1,113 @@
+• Prompt Engineering and Metaprompt Design. Many
+of the advanced prompt techniques described in IV-B
+such as Retrieval Augmented Generation directly ad-
+dress hallucination risks.
+• Model Selection and Configuration for Hallucination
+Mitigation. For exemple, larger models with lower
+temperature settings usually perform better. Also,
+techniques such as RLHF or domain-sepcific fine-
+tuning can mitigate hallucination risks.
+B. Using LLMs: Prompt Design and Engineering
+A prompt in generative AI models is the textual input
+provided by users to guide the model’s output. This could
+range from simple questions to detailed descriptions or specific
+tasks. Prompts generally consist of instructions, questions,
+input data, and examples. In practice, to elicit a desired
+response from an AI model, a prompt must contain either
+instructions or questions, with other elements being optional.
+Advanced prompts involve more complex structures, such as
+”chain of thought” prompting, where the model is guided to
+follow a logical reasoning process to arrive at an answer.
+Prompt engineering is a rapidly evolving discipline that
+shapes the interactions and outputs of LLMs and other gen-
+erative AI models. The essence of prompt engineering lies in
+crafting the optimal prompt to achieve a specific goal with
+a generative model. This process is not only about instructing
+the model but also involves some understanding of the model’s
+capabilities and limitations, and the context within which it
+operates.
+Prompt engineering transcends the mere construction of
+prompts; it requires a blend of domain knowledge, understand-
+ing of the AI model, and a methodical approach to tailor
+prompts for different contexts. This might involve creating
+templates that can be programmatically modified based on a
+given dataset or context. For example, generating personalized
+responses based on user data might use a template that is
+dynamically filled with relevant user information.
+Furthermore, prompt engineering is an iterative and ex-
+ploratory process, akin to traditional machine learning prac-
+tices such as model evaluation or hyperparameter tuning. The
+rapid growth of this field suggests its potential to revolutionize
+certain aspects of machine learning, moving beyond traditional
+methods like feature or architecture engineering. On the other
+hand, traditional engineering practices such as version con-
+trol and regression testing need to be adapted to this new
+paradigm just like they were adapted to other machine learning
+approaches [156].
+In the following paragraphs we detail some of the most
+interesting and popular prompt engineering approaches.
+1) Chain of Thought (CoT): The Chain of Thought (CoT)
+technique, initially described in the paper “Chain-of-Thought
+Prompting Elicits Reasoning in Large Language Models”[34]
+by Google researchers, represents a pivotal advancement in
+prompt engineering for Large Language Models (LLMs).
+This approach hinges on the understanding that LLMs, while
+proficient in token prediction, are not inherently designed for
+explicit reasoning. CoT addresses this by guiding the model
+through essential reasoning steps.
+CoT is based on making the implicit reasoning process of
+LLMs explicit. By outlining the steps required for reasoning,
+the model is directed closer to a logical and reasoned output,
+especially in scenarios demanding more than simple informa-
+tion retrieval or pattern recognition.
+CoT prompting manifests in two primary forms:
+1) Zero-Shot CoT: This form involves instructing the
+LLM to “think step by step”, prompting it to de-
+construct the problem and articulate each stage of
+reasoning.
+2) Manual CoT: A more complex variant, it requires
+providing step-by-step reasoning examples as tem-
+plates for the model. While yielding more effective
+results, it poses challenges in scalability and mainte-
+nance.
+Manual CoT is more effective than zero-shot. However,
+the effectiveness of this example-based CoT depends on the
+choice of diverse examples, and constructing prompts with
+such examples of step by step reasoning by hand is hard and
+error prone. That is where automatic CoT [157] comes into
+play.
+2) Tree of Thought (ToT): The Tree of Thought (ToT)
+[158] prompting technique is inspired by the concept of
+considering various alternative solutions or thought processes
+before converging on the most plausible one. ToT is based
+on the idea of branching out into multiple ”thought trees”
+where each branch represents a different line of reasoning.
+This method allows the LLM to explore various possibilities
+and hypotheses, much like human cognitive processes where
+multiple scenarios are considered before determining the most
+likely one.
+A critical aspect of ToT is the evaluation of these reasoning
+paths. As the LLM generates different branches of thought,
+each is assessed for its validity and relevance to the query.
+This process involves real-time analysis and comparison of
+the branches, leading to a selection of the most coherent and
+logical outcome.
+ToT is particularly useful in complex problem-solving
+scenarios where a single line of reasoning might not suffice.
+It allows LLMs to mimic a more human-like problem-solving
+approach, considering a range of possibilities before arriving
+at a conclusion. This technique enhances the model’s ability
+to handle ambiguity, complexity, and nuanced tasks, making it
+a valuable tool in advanced AI applications.
+3) Self-Consistency: Self-Consistency [159] utilizes an
+ensemble-based method, where the LLM is prompted to gen-
+erate multiple responses to the same query. The consistency
+among these responses serves as an indicator of their accuracy
+and reliability.
+The Self-Consistency approach is grounded in the principle
+that if an LLM generates multiple, similar responses to the
+same prompt, it is more likely that the response is accurate.
+This method involves asking the LLM to tackle a query mul-
+tiple times, each time analyzing the response for consistency.
+This technique is especially useful in scenarios where factual
+accuracy and precision are paramount.

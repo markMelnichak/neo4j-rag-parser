@@ -1,0 +1,50 @@
+(a) Absolute Positional Embeddings [129]
+ (b) Relative Positional Embeddings
+(c) Rotary Positional Embedding [127]
+ (d) Relative Positional Bias [128]
+Fig. 28: Various positional encodings are employed in LLMs.
+Fig. 29: : Illustration of a Switch Transformer encoder block.
+They replaced the dense feed forward network (FFN) layer
+present in the Transformer with a sparse Switch FFN layer
+(light blue). . Courtesy of [131].
+F . Fine-tuning and Instruction Tuning
+Early language models such as BERT trained using self-
+supervision as explained in section III-E were not able to
+perform specific tasks. In order for the foundation model to be
+useful it needed to be fine-tuned to a specific task with labeled
+data (so-called supervised fine-tuning or SFT for short). For
+example, in the original BERT paper [24], the model was fine-
+tuned to 11 different tasks. While more recent LLMs no longer
+require fine-tuning to be used, they can still benefit from task
+or data-specific fine-tuning. For example, OpenAI reports that
+the much smaller GPT-3.5 Turbo model can outperform GPT-4
+when fine-tuned with task specific data 2.
+Fine-tuning does not need to be performed to a single
+task though, and there are different approaches to multi-task
+fine-tuning (see e.g. Mahabi et al. [132]). Fine-tuning to one
+or more tasks is known to improve results and reduce the
+complexity of prompt engineering, and it can serve as an
+alternative to retrieval augmented generation. Furthermore,
+there are other reasons why it might be advisable to fine-tune.
+For example, one might want to fine-tune to expose the model
+to new or proprietary data that it has not been exposed to
+during pre-training.
+An important reason to fine-tune LLMs is to align the
+responses to the expectations humans will have when providing
+instructions through prompts. This is the so-called instruction
+tuning [133]. We dive into the details of how to design
+and engineer prompts in section IV-B, but in the context
+of instruction tuning, it is important to understand that the
+instruction is a prompt that specifies the task that the LLM
+should accomplish. Instruction tuning datasets such as Natural
+Instructions [134] include not only the task definition but other
+components such as positive/negative examples or things to
+avoid.
+The specific approach and instruction datasets used to
+instruction-tune an LLM varies, but, generally speaking, in-
+struction tuned models outperform their original foundation
+models they are based on. For example, InstructGPT [59]
+outperforms GPT-3 on most benchmarks. The same is true
+for Alpaca [62] when compared to LLaMA.
+Self-Instruct [135], proposed by Wang et al. is also a
+2https://platform.openai.com/docs/guides/fine-tuning

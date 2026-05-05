@@ -1,0 +1,41 @@
+237 
+ 
+Лист
+инг 75 
+import num
+py as np 
+import sklearn.linear_model as lin 
+from keras.layers.core import Dense, Activation 
+from keras.models import Sequential 
+from keras.optimizers import RMSprop 
+ 
+x_train = np.array([[0, 0], [0, 1], [1, 0], [1, 1]]) 
+y_train = np.array([0, 1, 1, 0]).reshape(4, 1) 
+x_test = np.array([[0, 0], [0, 1], [1, 0], [1, 1]]) 
+ 
+model = Sequential() 
+model.add(Dense(2, init='lecun_uniform', input_shape=(2,))) 
+model.add(Activation('relu')) 
+model.add(Dense(1, init='lecun_uniform')) 
+model.add(Activation('linear')) 
+rms = RMSprop(lr=0.01) 
+model.compile(loss='mse', optimizer=rms) 
+ 
+epochs = 200 
+model.fit(x_train, y_train, batch_size=1, nb_epoch=epochs, verbose=0) 
+y_predict = model.predict(x_test, batch_size=1) 
+print y_predict 
+Те
+перь опишем разворачивание Theano для GPU на Windows. 
+Ведь обучение даже относительно простых сверточных сетей – 
+крайне затратный вычислительный процесс, который может занять 
+несколько часов на довольно мощном процессоре (здесь также стоит 
+учитывать, что не все библиотеки и платформы поддерживают парал-
+лельное исполнение кода между ядрами процессоров, а значит, поп-
+росту не используют всю вычислительную мощь CPU). 
+Современные графические карты позволяют запускать очень 
+много параллельных вычислений на аппаратном (а не только на прог-
+раммном) уровне. Лидером таких вычислений на сегодняшний день 
+является компания NVidia, которая предлагает специальную плат-
+форму под названием CUDA. Это программно-аппаратная платформа, 
+которая встроена в видеокарты и драйвера NVidia. Подобная

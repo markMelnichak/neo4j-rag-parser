@@ -1,0 +1,50 @@
+Upgrading LLM. The system design of MM-R EACT allows for upgrading the core part of the
+system, the LLM, to newer and more powerful models as they come out, without the need of re-
+training. We show an example in Figure 6.8 on upgrading ChatGPT to language-only GPT-4,
+which improves MM-R EACT to potentially match the performance of multimodal GPT-4.
+Plug-and-play (adding more tools). Existing multimodal agents incorporates tools via a plug-
+and-play mechanism, allowing adding more tools without training. One prominent work along this
+direction is HuggingGPT (Shen et al., 2023b), which proposes to leverage all open-source models
+hosted on huggingface. Chameleon (Lu et al., 2023b), incorporates not only huggingface models,
+but also open-source models from GitHub, Bing search API, and python compiler. RestGPT (Song
+et al., 2023) proposes a multi-level online planning framework that effectively handles the practical
+challenges associated with integrating LLMs with more than 100 RESTful APIs. However, it re-
+mains challenging in scaling this framework to thousands to millions of tools, which is the potential
+future demonstrated in TaskMatrix.AI (Liang et al., 2023b).
+Moreover, one can leverage SAM (Kirillov et al., 2023) as a tool to allow for more types of human
+interaction with the multimodal agent other than text. Recall in MM-R EACT, the user intent is all
+captured by the natural language query from the user. In InternGPT (Liu et al., 2023l), by connecting
+the tool SAM with GPT, it allows for more ways to interact with the system, for example, via clicks,
+scribbles, and drawing bounding boxes. These additional interactions, to some extent, are mimicking
+the action of finger-pointing when we humans are having a conversation.
+6.4 Advanced Topics
+In this section, we discuss more advanced topics and shed light on potential future directions.
+6.4.1 Comparison to Training with LLM in Chapter 5
+We have covered two directions on building advanced multimodal systems based on LLMs. As the
+key distinction, the multimodal agents in this chapter leverages LLMs’ high-level planning abilities
+to allocate various multimodal tools, while training multimodal models with LLMs in Chapter 5
+solely leverages LLMs for text generation conditioned on multimodal inputs.
+Nonetheless, both of these methods exhibit their respective advantages and disadvantages. On one
+hand, instruction tuning enables an end-to-end model that directly interprets rich semantics in multi-
+modal inputs, but requires data curation and training, hence more computationally expensive. How-
+ever, limited instruction tuning data may limit its capabilities in certain scenarios, such as OCR.
+On the other hand, one can build a multimodal agent without any training by chaining LLMs with
+abundant off-the-shelf models/APIs/code interpreters as tools, and leveraging in-context few-shot
+examples to teach LLMs on planning. However, as there is no training, the system may fail to in-
+voke the right tool. Moreover, weak domain experts may produce noisy outputs, that can confuse
+LLM on planning or reasoning, leading to weak performance.
+Though these two approaches exhibit distinct variations,, we envision the possibility of an interme-
+diate domain that amalgamates the strengths of both paradigms, and raise the following questions.
+Now that we have open-source LMM such as LLaV A (Liu et al., 2023c), can we replace the LLM
+with LLaV A as the tool allocator? If so, what capabilities would require a tool to be enabled? And
+what problems can be solved by instruction tuning. These are interesting directions that may worth
+exploring in the near future.
+6.4.2 Improving Multimodal Agents
+Existing multimodal agents mainly rely on in-context few-shot examples to teach LLM on planning,
+which can be unreliable, leading to inaccurate tool using. To improve the accuracy in planning,
+several works have been proposed and we group them into three categories below.
+Composing tools via code generation. Most existing multimodal agents uses natural language
+to prompt LLM for planning which tool to use. Researchers (Gupta and Kembhavi, 2023; Sur ´ıs
+et al., 2023) have also been exploring using programming language for more accurate execution.
+Visual programming (Gupta and Kembhavi, 2023) is a prominent work along this direction, which
+85

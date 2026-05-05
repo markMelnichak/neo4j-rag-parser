@@ -1,0 +1,28 @@
+Figure 2.15: Overview of the Segment Anything project, which aims to build a vision foundation
+model for segmentation by introducing three interconnected components: a promptable segmenta-
+tion task, a segmentation model, and a data engine. Image credit: Kirillov et al. (2023).
+• Model. The architecture of SAM is conceptually simple. It is composed of three main com-
+ponents: ( i) a powerful image encoder (MAE (He et al., 2022a) pre-trained ViT); ( ii) a prompt
+encoder (for sparse input such as points, boxes, and free-form text, the CLIP text encoder is used;
+for dense input such as masks, a convolution operator is used); and ( iii) a lightweight mask de-
+coder based on transformer.
+• Data. To acquire large-scale data for pre-training, the authors develop adata engine that performs
+model-in-the-loop dataset annotation.
+Concurrent to SAM. Parallel to SAM, many efforts have been made to develop general-purpose
+segmentation models as well. For example, OneFormer (Jain et al., 2023) develops a universal im-
+age segmentation framework; SegGPT (Wang et al., 2023j) proposes a generalist in-context learning
+framework that unifies different segmentation data formats; SEEM (Zou et al., 2023b) further ex-
+pands the types of supported prompts that a single segmentation model can handle, including points,
+boxes, scribbles, masks, texts, and referred regions of another image.
+Extensions of SAM. SAM has spurred tons of follow-up works that extend SAM to a wide range
+of applications, e.g., Inpaint Anything (Yu et al., 2023c), Edit Everything (Xie et al., 2023a), Any-
+to-Any Style Transfer (Liu et al., 2023g), Caption Anything (Wang et al., 2023g), Track Any-
+thing (Yang et al., 2023b), Recognize Anything (Zhang et al., 2023n; Li et al., 2023f), Count
+Anything (Ma et al., 2023), 3D reconstruction (Shen et al., 2023a), medical image analysis (Ma
+and Wang, 2023; Zhou et al., 2023d; Shi et al., 2023b; Zhang and Jiao, 2023), etc. Additionally,
+recent works have attempted to develop models for detecting and segmenting anything in the open-
+vocabulary scenarios, such as Grounding DINO (Liu et al., 2023h) and Grounding-SAM 1. For a
+comprehensive review, please refer to Zhang et al. (2023a) and some GitHub repos.2
+1https://github.com/IDEA-Research/Grounded-Segment-Anything
+2https://github.com/Hedlen/awesome-segment-anything
+26

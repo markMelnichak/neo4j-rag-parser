@@ -1,0 +1,21 @@
+Multimodal Foundation Models:
+From Specialists to General-Purpose Assistants
+Chunyuan Li∗♠, Zhe Gan∗, Zhengyuan Yang∗, Jianwei Yang∗, Linjie Li∗,
+Lijuan Wang, Jianfeng Gao
+Microsoft Corporation
+{chunyl,zhgan,zhengyang,jianwyan,linjli,lijuanw,jfgao}@microsoft.com
+∗ Core Contribution ♠ Project Lead
+1
+Abstract
+This paper presents a comprehensive survey of the taxonomy and evolution of
+multimodal foundation models that demonstrate vision and vision-language ca-
+pabilities, focusing on the transition from specialist models to general-purpose
+assistants. The research landscape encompasses five core topics, categorized into
+two classes. (i) We start with a survey of well-established research areas: multi-
+modal foundation models pre-trained for specific purposes, including two topics –
+methods of learning vision backbones for visual understanding and text-to-image
+generation. (ii) Then, we present recent advances in exploratory, open research
+areas: multimodal foundation models that aim to play the role of general-purpose
+assistants, including three topics – unified vision models inspired by large lan-
+guage models (LLMs), end-to-end training of multimodal LLMs, and chaining
+multimodal tools with LLMs.

@@ -1,0 +1,19 @@
+As the field of LLMs is moving fast, with new findings,
+models and techniques being published in a matter of months
+or weeks [7], [8], [9], [10], [11], AI researchers and practi-
+tioners often find it challenging to figure out the best recipes
+to build LLM-powered AI systems for their tasks. This paper
+gives a timely survey of the recent advances on LLMs. We
+hope this survey will prove a valuable and accessible resource
+for students, researchers and developers. LLMs are large-scale, pre-trained, statistical language mod-
+els based on neural networks. The recent success of LLMs is
+an accumulation of decades of research and development of
+language models, which can be categorized into four waves
+that have different starting points and velocity: statistical lan-
+guage models, neural language models, pre-trained language
+models and LLMs. Statistical language models (SLMs) view text as a sequence
+of words, and estimate the probability of text as the product
+of their word probabilities. The dominating form of SLMs
+are Markov chain models known as the n-gram models,
+which compute the probability of a word conditioned on its
+immediate proceeding n − 1 words.

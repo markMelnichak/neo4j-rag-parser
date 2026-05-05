@@ -1,0 +1,65 @@
+Fig. 16: Model architecture details of Gopher with different
+number of parameters. Courtesy of [78].
+datasets, each with multiple prompts with diverse wording.
+These prompted datasets allow for benchmarking the ability
+of a model to perform completely held-out tasks. Then, a
+T0 encoder-decoder model is developed to consume textual
+inputs and produces target responses. The model is trained on
+a multitask mixture of NLP datasets partitioned into different
+tasks.
+ERNIE 3.0: In [81], Sun et al. proposed a unified frame-
+work named ERNIE 3.0 for pre-training large-scale knowledge
+enhanced models. It fuses auto-regressive network and auto-
+encoding network, so that the trained model can be easily tai-
+lored for both natural language understanding and generation
+tasks using zero-shot learning, few-shot learning or fine-tuning.
+They have trained ERNIE 3.0 with 10 billion parameters
+on a 4TB corpus consisting of plain texts and a large-scale
+knowledge graph. Fig 17 illustrates the model architecture of
+Ernie 3.0.
+Fig. 17: High-level model architecture of ERNIE 3.0. Courtesy
+of [81].
+RETRO: In [82], Borgeaud et al. enhanced auto-regressive
+language models by conditioning on document chunks re-
+trieved from a large corpus, based on local similarity with pre-
+ceding tokens. Using a 2-trillion-token database, the Retrieval-
+Enhanced Transformer (Retro) obtains comparable perfor-
+mance to GPT-3 and Jurassic-1 [83] on the Pile, despite using
+25% fewer parameters. As shown in Fig 18, Retro combines
+a frozen Bert retriever, a differentiable encoder and a chunked
+cross-attention mechanism to predict tokens based on an order
+of magnitude more data than what is typically consumed
+during training.
+GLaM: In [84], Du et al. proposed a family of LLMs
+named GLaM (Generalist Language Model), which use a
+sparsely activated mixture-of-experts architecture to scale the
+Fig. 18: Retro architecture. Left: simplified version where a
+sequence of length n = 12 is split into l = 3 chunks of size
+m = 4. For each chunk, we retrieve k = 2 neighbours of r =
+5 tokens each. The retrieval pathway is shown on top. Right:
+Details of the interactions in the CCA operator. Causality is
+maintained as neighbours of the first chunk only affect the last
+token of the first chunk and tokens from the second chunk.
+Courtesy of [82].
+model capacity while also incurring substantially less training
+cost compared to dense variants. The largest GLaM has 1.2
+trillion parameters, which is approximately 7x larger than GPT-
+3. It consumes only 1/3 of the energy used to train GPT-3 and
+requires half of the computation flops for inference, while still
+achieving better overall zero, one and few-shot performance
+across 29 NLP tasks. Fig 19 shows the high-level architecture
+of GLAM.
+Fig. 19: GLaM model architecture. Each MoE layer (the
+bottom block) is interleaved with a Transformer layer (the
+upper block). Courtesy of [84].
+LaMDA: In [85], Thoppilan et al. presented LaMDA, a
+family of Transformer-based neural language models special-
+ized for dialog, which have up to 137B parameters and are
+pre-trained on 1.56T words of public dialog data and web text.
+They showed that fine-tuning with annotated data and enabling
+the model to consult external knowledge sources can lead to
+significant improvements towards the two key challenges of
+safety and factual grounding.
+OPT: In [86], Zhang et al. presented Open Pre-trained
+Transformers (OPT), a suite of decoder-only pre-trained trans-
+formers ranging from 125M to 175B parameters, which they

@@ -1,0 +1,53 @@
+Zhang, D., Li, S., Zhang, X., Zhan, J., Wang, P., Zhou, Y ., and Qiu, X. (2023d). Speechgpt:
+Empowering large language models with intrinsic cross-modal conversational abilities. arXiv
+preprint arXiv:2305.11000.
+Zhang, H., Li, F., Liu, S., Zhang, L., Su, H., Zhu, J., Ni, L. M., and Shum, H.-Y . (2022a). Dino:
+Detr with improved denoising anchor boxes for end-to-end object detection. arXiv preprint
+arXiv:2203.03605.
+Zhang, H., Li, F., Zou, X., Liu, S., Li, C., Gao, J., Yang, J., and Zhang, L. (2023e). A simple
+framework for open-vocabulary segmentation and detection. arXiv preprint arXiv:2303.08131.
+Zhang, H., Li, X., and Bing, L. (2023f). Video-llama: An instruction-tuned audio-visual language
+model for video understanding. arXiv preprint arXiv:2306.02858.
+Zhang, H., Zhang, P., Hu, X., Chen, Y .-C., Li, L. H., Dai, X., Wang, L., Yuan, L., Hwang, J.-N., and
+Gao, J. (2022b). Glipv2: Unifying localization and vision-language understanding. In ECCV.
+Zhang, J., Huang, J., Jin, S., and Lu, S. (2023g). Vision-language models for vision tasks: A survey.
+arXiv preprint arXiv:2304.00685.
+Zhang, J., Shen, F., Liu, L., Zhu, F., Yu, M., Shao, L., Shen, H. T., and Van Gool, L. (2018). Gen-
+erative domain-migration hashing for sketch-to-image retrieval. In Proceedings of the European
+conference on computer vision (ECCV), pages 297–314.
+Zhang, L. and Agrawala, M. (2023). Adding conditional control to text-to-image diffusion models.
+arXiv preprint arXiv:2302.05543.
+Zhang, P., Li, X., Hu, X., Yang, J., Zhang, L., Wang, L., Choi, Y ., and Gao, J. (2021). VinVL:
+Revisiting visual representations in vision-language models. In CVPR.
+Zhang, R., Jiang, Z., Guo, Z., Yan, S., Pan, J., Dong, H., Gao, P., and Li, H. (2023h). Personalize
+segment anything model with one shot. arXiv preprint arXiv:2305.03048.
+Zhang, S., Dong, L., Li, X., Zhang, S., Sun, X., Wang, S., Li, J., Hu, R., Zhang, T., Wu,
+F., et al. (2023i). Instruction tuning for large language models: A survey. arXiv preprint
+arXiv:2308.10792.
+Zhang, S., Gong, C., Wu, L., Liu, X., and Zhou, M. (2023j). Automl-gpt: Automatic machine
+learning with gpt. arXiv preprint arXiv:2305.02499.
+Zhang, S., Sun, P., Chen, S., Xiao, M., Shao, W., Zhang, W., Chen, K., and Luo, P. (2023k). Gpt4roi:
+Instruction tuning large language model on region-of-interest. arXiv preprint arXiv:2307.03601.
+Zhang, T., Kishore, V ., Wu, F., Weinberger, K. Q., and Artzi, Y . (2019). Bertscore: Evaluating text
+generation with bert. arXiv preprint arXiv:1904.09675.
+Zhang, W., Aljunied, S. M., Gao, C., Chia, Y . K., and Bing, L. (2023l). M3exam: A multilin-
+gual, multimodal, multilevel benchmark for examining large language models. arXiv preprint
+arXiv:2306.05179.
+Zhang, X., Chen, J., Yuan, J., Chen, Q., Wang, J., Wang, X., Han, S., Chen, X., Pi, J., Yao, K., et al.
+(2022c). Cae v2: Context autoencoder with clip target. arXiv preprint arXiv:2211.09799.
+Zhang, X., Tian, Y ., Huang, W., Ye, Q., Dai, Q., Xie, L., and Tian, Q. (2022d). Hivit: Hierarchical
+vision transformer meets masked image modeling. arXiv preprint arXiv:2205.14949.
+Zhang, X., Wu, C., Zhao, Z., Lin, W., Zhang, Y ., Wang, Y ., and Xie, W. (2023m). Pmc-vqa: Visual
+instruction tuning for medical visual question answering. arXiv preprint arXiv:2305.10415.
+Zhang, Y ., Huang, X., Ma, J., Li, Z., Luo, Z., Xie, Y ., Qin, Y ., Luo, T., Li, Y ., Liu, S., et al. (2023n).
+Recognize anything: A strong image tagging model. arXiv preprint arXiv:2306.03514.
+Zhang, Y . and Jiao, R. (2023). How segment anything model (sam) boost medical image segmenta-
+tion? arXiv preprint arXiv:2305.03678.
+Zhang, Y ., Zhang, R., Gu, J., Zhou, Y ., Lipka, N., Yang, D., and Sun, T. (2023o). Llavar: Enhanced
+visual instruction tuning for text-rich image understanding. arXiv preprint arXiv:2306.17107.
+Zhao, B., Wu, B., and Huang, T. (2023a). Svit: Scaling up visual instruction tuning. arXiv preprint
+arXiv:2307.04087.
+Zhao, S., Chen, D., Chen, Y .-C., Bao, J., Hao, S., Yuan, L., and Wong, K.-Y . K.
+(2023b). Uni-controlnet: All-in-one control to text-to-image diffusion models. arXiv preprint
+arXiv:2305.16322.
+117

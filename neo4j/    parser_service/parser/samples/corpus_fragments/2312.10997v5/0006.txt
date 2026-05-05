@@ -1,0 +1,22 @@
+The following
+three sections explore core components—“Retrieval”, “Gen-
+eration” and “Augmentation”, respectively. Section III focuses
+on optimization methods in retrieval,including indexing, query
+and embedding optimization. Section IV concentrates on post-
+retrieval process and LLM fine-tuning in generation. Section V
+analyzes the three augmentation processes. Section VI focuses
+on RAG’s downstream tasks and evaluation system. Sec-
+tion VII mainly discusses the challenges that RAG currently
+faces and its future development directions. At last, the paper
+concludes in Section VIII. II. O VERVIEW OF RAG
+A typical application of RAG is illustrated in Figure 2. Here, a user poses a question to ChatGPT about a recent,
+widely discussed news. Given ChatGPT’s reliance on pre-
+training data, it initially lacks the capacity to provide up-
+dates on recent developments. RAG bridges this information
+gap by sourcing and incorporating knowledge from external
+databases. In this case, it gathers relevant news articles related
+to the user’s query. These articles, combined with the original
+question, form a comprehensive prompt that empowers LLMs
+to generate a well-informed answer. The RAG research paradigm is continuously evolving, and
+we categorize it into three stages: Naive RAG, Advanced
+RAG, and Modular RAG, as showed in Figure 3.

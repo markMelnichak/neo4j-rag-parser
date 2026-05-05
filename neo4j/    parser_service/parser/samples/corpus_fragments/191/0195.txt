@@ -1,0 +1,41 @@
+198 
+ 
+пр
+имер. Пусть у нас есть некоторый массив данных о двух факторах 
+и зависимой переменной, сохраненные в файле «data-logistic.csv» 
+(скачать можно отсюда: [41]). Выполним следующее: обучим на этих 
+данных модель линейной регрессии, сохраним ее в файл, создадим 
+еще одну новую модель линейной регрессии, обучим ее на части дан-
+ных, затем загрузим ранее обученную модель из файла и сравним 
+результаты предсказания обеих моделей. Сохранение и загрузку мы 
+будем выполнять с помощью модуля pickle, и для удобства вынесем 
+код загрузки и сохранения в отдельные функции LoadFromObject 
+и SaveToObject. Решение задачи показано в листинге 29, а ее резуль-
+тат – на рисунке 59. 
+Лист
+инг 29 
+# -*- codi
+ng: utf-8 -*- 
+ 
+import pandas 
+import pandas.core.series as Series 
+import numpy as np 
+from scipy.sparse import hstack 
+from sklearn.metrics import roc_auc_score 
+from sklearn.metrics import accuracy_score 
+import sys 
+import matplotlib.pyplotasplt 
+from sklearn import linear_model 
+import pickle 
+ 
+#Определяем функцию сохранения 
+def SaveToObject(obj, filename): 
+ with open(filename, 'wb') as output: 
+ pickle.dump(obj, output) 
+ 
+#Опредлеляем функцию загрузки 
+def LoadFromObject(filename): 
+ f = open(filename, 'rb') 
+ loaded_obj = pickle.load(f) 
+ f.close() 
+ return loaded_obj

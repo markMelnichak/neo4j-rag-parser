@@ -1,0 +1,8 @@
+Acknowledgments
+This book is largely based on our CVPR 2023 tutorial on vision foundation models. Many people
+have supported us and provided valuable feedback to the writing of this book. We thank all the
+authors who have contributed to the related papers, which makes the tutorial and book possible.
+We are also grateful to Mark de Jongh, the editor from the journal of Foundations and Trends® in
+Computer Graphics and Vision, for inspiring and encouraging us to write the book on multimodal
+foundation models.
+92

@@ -1,0 +1,30 @@
+Contents
+1 Introduction 5
+1.1 What are Multimodal Foundation Models? . . . . . . . . . . . . . . . . . . . . . . 6
+1.2 Definition and Transition from Specialists to General-Purpose Assistants . . . . . . 9
+1.3 Who Should Read this Paper? . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+1.4 Related Materials: Slide Decks and Pre-recorded Talks . . . . . . . . . . . . . . . 11
+2 Visual Understanding 12
+2.1 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+2.2 Supervised Pre-training . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+2.3 Contrastive Language-Image Pre-training . . . . . . . . . . . . . . . . . . . . . . 15
+2.3.1 Basics of CLIP Training . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+2.3.2 CLIP Variants . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+2.4 Image-Only Self-Supervised Learning . . . . . . . . . . . . . . . . . . . . . . . . 18
+2.4.1 Contrastive and Non-contrastive Learning . . . . . . . . . . . . . . . . . . 18
+2.4.2 Masked Image Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+2.5 Synergy Among Different Learning Approaches . . . . . . . . . . . . . . . . . . . 21
+2.6 Multimodal Fusion, Region-Level and Pixel-Level Pre-training . . . . . . . . . . . 23
+2.6.1 From Multimodal Fusion to Multimodal LLM . . . . . . . . . . . . . . . . 23
+2.6.2 Region-Level Pre-training . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+2.6.3 Pixel-Level Pre-training . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+3 Visual Generation 27
+3.1 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+3.1.1 Human Alignments in Visual Generation . . . . . . . . . . . . . . . . . . 27
+3.1.2 Text-to-Image Generation . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+3.2 Spatial Controllable Generation . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+3.3 Text-based Editing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+3.4 Text Prompts Following . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+3.5 Concept Customization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+3.6 Trends: Unified Tuning for Human Alignments . . . . . . . . . . . . . . . . . . . 40
+2

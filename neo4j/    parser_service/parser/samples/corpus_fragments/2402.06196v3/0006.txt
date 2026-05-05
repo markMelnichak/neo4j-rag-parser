@@ -1,0 +1,20 @@
+1, these emergent
+abilities include (1) in-context learning, where LLMs learn
+a new task from a small set of examples presented in the
+prompt at inference time, (2) instruction following, where
+LLMs, after instruction tuning, can follow the instructions
+for new types of tasks without using explicit examples, and
+(3) multi-step reasoning, where LLMs can solve a complex
+task by breaking down that task into intermediate reasoning
+steps as demonstrated in the chain-of-thought prompt [34]. LLMs can also be augmented by using external knowledge
+and tools [35], [36] so that they can effectively interact with
+users and environment [37], and continually improve itself
+using feedback data collected through interactions (e.g. via
+reinforcement learning with human feedback (RLHF)). Through advanced usage and augmentation techniques,
+LLMs can be deployed as so-called AI agents: artificial entities
+that sense their environment, make decisions, and take actions. Previous research has focused on developing agents for specific
+tasks and domains. The emergent abilities demonstrated by
+LLMs make it possible to build general-purpose AI agents
+based on LLMs. While LLMs are trained to produce responses
+in static settings, AI agents need to take actions to interact with
+dynamic environment.

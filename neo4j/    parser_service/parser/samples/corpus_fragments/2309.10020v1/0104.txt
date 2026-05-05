@@ -1,0 +1,53 @@
+Gupta, T., Marten, R., Kembhavi, A., and Hoiem, D. (2022c). Grit: General robust image task
+benchmark. arXiv preprint arXiv:2204.13653.
+Gurari, D., Li, Q., Stangl, A. J., Guo, A., Lin, C., Grauman, K., Luo, J., and Bigham, J. P. (2018).
+Vizwiz grand challenge: Answering visual questions from blind people. In CVPR.
+Gutmann, M. and Hyv ¨arinen, A. (2010). Noise-contrastive estimation: A new estimation principle
+for unnormalized statistical models. In AISTATS.
+Guu, K., Lee, K., Tung, Z., Pasupat, P., and Chang, M.-W. (2020). Realm: Retrieval-augmented
+language model pre-training. arXiv preprint arXiv:2002.08909.
+Hafiz, A. M. and Bhat, G. M. (2020). A survey on instance segmentation: state of the art. Interna-
+tional journal of multimedia information retrieval.
+Harley, A. W., Fang, Z., and Fragkiadaki, K. (2022). Particle video revisited: Tracking through
+occlusions using point trajectories. In European Conference on Computer Vision, pages 59–75.
+Springer.
+He, K., Chen, X., Xie, S., Li, Y ., Doll ´ar, P., and Girshick, R. (2022a). Masked autoencoders are
+scalable vision learners. In CVPR.
+He, K., Fan, H., Wu, Y ., Xie, S., and Girshick, R. (2020). Momentum contrast for unsupervised
+visual representation learning. In Proceedings of the IEEE/CVF conference on computer vision
+and pattern recognition, pages 9729–9738.
+He, K., Gkioxari, G., Doll´ar, P., and Girshick, R. (2017). Mask r-cnn. In ICCV.
+He, K., Sun, J., and Tang, X. (2010). Single image haze removal using dark channel prior. IEEE
+transactions on pattern analysis and machine intelligence, 33(12):2341–2353.
+He, K., Zhang, X., Ren, S., and Sun, J. (2016). Deep residual learning for image recognition. In
+CVPR.
+He, P., Liu, X., Gao, J., and Chen, W. (2021). DeBERTa: Decoding-enhanced bert with disentangled
+attention. In ICLR.
+He, R., Sun, S., Yu, X., Xue, C., Zhang, W., Torr, P., Bai, S., and Qi, X. (2022b). Is synthetic data
+from generative models ready for image recognition? arXiv preprint arXiv:2210.07574.
+Henaff, O. (2020). Data-efficient image recognition with contrastive predictive coding. In ICML.
+Hertz, A., Mokady, R., Tenenbaum, J., Aberman, K., Pritch, Y ., and Cohen-or, D. (2022). Prompt-
+to-prompt image editing with cross-attention control. In The Eleventh International Conference
+on Learning Representations.
+Hjelm, R. D., Fedorov, A., Lavoie-Marchildon, S., Grewal, K., Bachman, P., Trischler, A., and
+Bengio, Y . (2018). Learning deep representations by mutual information estimation and maxi-
+mization. arXiv preprint arXiv:1808.06670.
+Ho, J., Chan, W., Saharia, C., Whang, J., Gao, R., Gritsenko, A., Kingma, D. P., Poole, B., Norouzi,
+M., Fleet, D. J., et al. (2022). Imagen video: High definition video generation with diffusion
+models. arXiv preprint arXiv:2210.02303.
+Ho, J., Jain, A., and Abbeel, P. (2020). Denoising diffusion probabilistic models. In NeurIPS.
+Hoffmann, J., Borgeaud, S., Mensch, A., Buchatskaya, E., Cai, T., Rutherford, E., Casas, D. d. L.,
+Hendricks, L. A., Welbl, J., Clark, A., et al. (2022). Training compute-optimal large language
+models. arXiv preprint arXiv:2203.15556.
+Hong, Y ., Zhen, H., Chen, P., Zheng, S., Du, Y ., Chen, Z., and Gan, C. (2023). 3d-llm: Injecting the
+3d world into large language models. arXiv preprint arXiv:2307.12981.
+Hu, E. J., Shen, Y ., Wallis, P., Allen-Zhu, Z., Li, Y ., Wang, S., Wang, L., and Chen, W. (2021). Lora:
+Low-rank adaptation of large language models. arXiv preprint arXiv:2106.09685.
+Hu, R., Rohrbach, M., and Darrell, T. (2016). Segmentation from natural language expressions. In
+European Conference on Computer Vision, pages 108–124. Springer.
+Hu, R. and Singh, A. (2021a). Unit: Multimodal multitask learning with a unified transformer. In
+ICCV.
+Hu, R. and Singh, A. (2021b). Unit: Multimodal multitask learning with a unified transformer.
+In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) , pages
+1439–1449.
+100

@@ -1,0 +1,46 @@
+Figure 3.13: The problem setup and result visualization of the visual concept customization task.
+Image credit: Ruiz et al. (2023).
+3.5 Concept Customization
+Though language is an powerful medium to express human intent, it is inefficient in comprehensively
+describing all details of a visual concept for reconstruction. For example, it is challenging to use
+texts to describe my pet dog or family members with sufficient details, so that they can be generated
+in different visual scenes. In such applications, directly extending T2I models to understand visual
+concepts via image inputs is a better option.
+We examine relevant research on visual concept customization, which offers users the ability to
+generate these personalized concepts. (i) Pioneer studies (Gal et al., 2022; Ruiz et al., 2023; Wei
+et al., 2023) start with single-concept customization that involves test-time finetuning to encode
+multiple images of the visual concept into a new token embedding, such that the learned embedding
+can be used to refer to the concept during T2I generation.(ii) Multi-concept customization (Kumari
+et al., 2023; Avrahami et al., 2023a) allows multiple concept tokens to be expanded from the T2I
+model’s token vocabulary, enabling multiple concepts to interact with each other and the remaining
+visual scene during generation. (iii) Test-time finetuning requires users to tune T2I models for each
+new concept to customize. To simplify the usage, studies (Chen et al., 2022f; Shi et al., 2023a;
+Chen et al., 2023f; Yang et al., 2023a) explore customization without test-time finetuning and uses
+a unified finetuning stage to extend T2I models for accepting image condition inputs. The models
+take images of the visual concept as an extra input condition, and generate images with the visual
+concept following the text descriptions.
+Single-concept customization. The goal of visual concept customization is to enable T2I models
+to comprehend additional visual concepts tailored to very specific cases. The problem setup, studied
+in Textual Inversion (Gal et al., 2022), involves translating visual concepts from a handful of images
+into unique token embeddings. As illustrated in the left side of Figure 3.13, the T2I model processes
+four images of a distinct dog breed, subsequently learning the embedding for a new token, denoted
+as [V]. This [V] token can be used as a text token to represent this specific dog. The[V] token can be
+seamlessly integrated with other textual descriptions to render the specific dog in various contexts,
+such as swimming, in a bucket, and getting a haircut.
+Textual Inversion (Gal et al., 2022) learns the [V] token embedding via prefix tuning, i.e., freezing
+all T2I model’s parameters and training the[V] token embedding to generate the input images. Later
+studies observe that tuning more model parameters leads to significantly better image generation
+quality. However, adjusting only the input image may lead to the risk of overfitting the T2I model
+for a particular concept, and losing the capablity to generate diverse images. For instance, the model
+might become unable to generate various dog types. To address this, Dreambooth (Ruiz et al.,
+2023) proposes the class-specific prior preservation loss. Central to this approach is using the pre-
+trained T2I model to produce images of the same class as the targeted customization concept. The
+model is then jointly finetuned on both the input image (with the[V] token) and the model-generated
+images (without the [V] token). This ensures that the model can differentiate between the unique
+“[V] dog” and other general dogs it was initially trained, thus maintaining its overall T2I capability.
+Dreambooth then finetunes all T2I model parameters and achieves better image generation quality.
+Multi-concept customization. Building on studies that focused on learning a single visual concept
+[V], recent research has delved into the possibility of integrating multiple visual concepts into a
+single Text-to-Image (T2I) model, represented as [V1], [V2], and so on. Custom Diffusion (Kumari
+et al., 2023) employs a selective subset of model weights, specifically the key and value mappings
+38

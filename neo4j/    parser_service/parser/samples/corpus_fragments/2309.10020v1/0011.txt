@@ -1,0 +1,34 @@
+Figure 1.2: Illustration of three representative problems that multimodal foundation mod-
+els aim to solve in this paper: visual understanding tasks , visual generation tasks , and
+general-purpose interface with language understanding and generation.
+yet incomplete character: homogenization of the methodologies across research communities and
+emergence of new capabilities. From a technical perspective, it istransfer learning that makes foun-
+dation models possible, and it is scale that makes them powerful. The emergence of foundation
+models has been predominantly observed in the NLP domain, with examples ranging from BERT
+to ChatGPT. This trend has gained traction in recent years, extending to computer vision and other
+fields. In NLP, the introduction of BERT in late 2018 is considered as the inception of the foundation
+model era. The remarkable success of BERT rapidly stimulates interest in self-supervised learning
+in the computer vision community, giving rise to models such as SimCLR (Chen et al., 2020a),
+MoCo (He et al., 2020), BEiT (Bao et al., 2022), and MAE (He et al., 2022a). During the same time
+period, the success of pre-training also significantly promotes the vision-and-language multimodal
+field to an unprecedented level of attention.
+In this paper, we focus on multimodal foundation models, which inherit all properties of foundation
+models discussed in the Stanford paper (Bommasani et al., 2021), but with an emphasis on models
+with the capability to deal with vision and vision-language modalities. Among the ever-growing
+literature, we categorize multimodal foundation models in Figure 1.2, based on their functional-
+ity and generality. For each category, we present exemplary models that demonstrate the primary
+capabilities inherent to these multimodal foundation models.
+• Visual Understanding Models. (Highlighted with orange in Figure 1.2) Learning general visual
+representations is essential to build vision foundation models, as pre-training a strong vision back-
+bone is foundamental to all types of computer vision downstream tasks, ranging from image-level
+(e.g., image classification, retrieval, and captioning), region-level (e.g., detection and grounding)
+to pixel-level tasks (e.g., segmentation). We group the methods into three categories, depending
+on the types of supervision signals used to train the models.
+– Label supervision. Datasets like ImageNet (Krizhevsky et al., 2012) and ImageNet21K (Rid-
+nik et al., 2021) have been popular for supervised learning, and larger-scale proprietary datasets
+are also used in industrial labs (Sun et al., 2017; Singh et al., 2022b; Zhai et al., 2022a).
+– Language supervision. Language is a richer form of supervision. Models like CLIP (Radford
+et al., 2021) and ALIGN (Jia et al., 2021) are pre-trained using a contrastive loss over millions
+or even billions of noisy image-text pairs mined from the Web. These models enable zero-
+shot image classification, and make traditional computer vision (CV) models to perform open-
+7

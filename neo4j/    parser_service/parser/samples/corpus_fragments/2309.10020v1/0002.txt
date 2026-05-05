@@ -1,0 +1,7 @@
+The target audiences of the paper are researchers,
+graduate students, and professionals in computer vision and vision-language mul-
+timodal communities who are eager to learn the basics and recent advances in
+multimodal foundation models. 1 Chunyuan Li initiated the project, and took lead in the writing of Chapter 1, 5 and 7. Zhe Gan, Zhengyuan
+Yang, Jianwei Yang, Linjie Li took lead in the writing of Chapter 2, 3, 4 and 6, respectively. Lijuan Wang
+and Jianfeng Gao provided comprehensive suggestions and edits of the entire paper. All the authors provided
+project advice, and contributed to paper review, editing and proofreading. 2 Zhe Gan is currently with Apple AI/ML. arXiv:2309.10020v1 [cs.CV] 18 Sep 2023

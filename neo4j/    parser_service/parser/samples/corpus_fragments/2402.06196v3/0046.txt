@@ -1,0 +1,93 @@
+TABLE X: Hallucination evaluation
+Model HHEM HaluEval QA HaluEval Dialogue HaluEval Sum. HaluEval General
+GPT 4 97 - - - -
+GPT 4 Turbo 97 - - - -
+GPT 3.5 Turbo 96.5 62.59 72.4 58.53 79.44
+Davinci002 - 60.05 60.81 47.77 80.42
+Davinci003 - 49.65 68.37 48.07 80.4
+GPT-3 - 49.21 50.02 51.23 72.72
+Google Gemini Pro 95.2 - - - -
+Llama 2 70B 94.9 - - - -
+Llama 2 7B 94.4 49.6 43.99 49.55 20.46
+Llama 2 13B 94.1 - - - -
+Cohere-Chat 92.5 - - - -
+Cohere 91.5 - - - -
+Claude 2 91.5 69.78 64.73 57.75 75
+Claude 1 67.6 64.83 53.76 73.88
+Microsoft Phi 2 91.5 - - - -
+Google Palm 2 (beta) 91.4 - - - -
+Mixtral 8x7B 90.7 - - - -
+Amazon Titan Express 90.6 - - - -
+Mistral 7B 90.6 - - - -
+Google Palm 2 Chat (beta) 90 - - - -
+Google Palm 2 87.9 - - - -
+Google Palm 2 Chat 72.8 - - - -
+ChatGLM - 47.93 44.41 48.57 30.92
+Falcon - 39.66 29.08 42.71 18.98
+Vicuna - 60.34 46.35 45.62 19.48
+Alpaca - 6.68 17.55 20.63 9.54
+on attention or not. In fact, MoEs have also been applied to
+SSM-based LLMs like Mamba citepioro2024moemamba. We
+should continue to see MoE-driven improvements in the future
+regardless of the underlying architecture.
+C. Multi-modal Models
+Future LLMs are expected to be multi-modal and handle
+a variety of data types, such as text, images, and videos,
+audio, in a unified manner. This opens up possibilities for
+more diverse applications in fields like question answering,
+content generation, creative arts, and healthcare, robotics, and
+beyond. There are already several prominent multi-modal
+LLMs out there, including: LLA V A [214], LLA V A-Plus [215],
+GPT-4 [33], Qwen-vl [116], Next-GPT [216], but the trend is
+expected to be continued. Evaluation of these models also is a
+new research topic, especially conversational generative vision
+models [217]. Multi-modal LLMs can unlock huge potentials
+in a variety of tasks, and there has already been a descent
+progress in this direction, which needs a dedicated paper to
+discuss all its details.
+D. Improved LLM Usage and Augmentation techniques
+As we described in sectionIV, many of the shortcomings
+and limitations of LLMs such as hallucination can be ad-
+dressed through advanced prompt engineering, use of tools,
+or other augmentation techniques. We should expect not only
+continued, but accelerated research in this area. It is worth
+mentioning that, in the specific case of software engineering,
+some works ([218]) tried to automatically eliminate this issue
+from the overall software engineering workflow
+LLM-based systems are already starting to replace ma-
+chine learning systems that were until recently using other
+approaches. As a clear example of this, LLMs are now being
+deployed to better understand people preference and interests,
+and provide more personalized interactions, whether in cus-
+tomer service, content recommendation, or other applications.
+This involves better understanding of user preferences, and
+analyzing their past interactions and using them as the context.
+We will continue to see research in the application and usage
+of LLMs for not only personalization and recommendations ,
+but many other application areas using other machine learning
+techniques.
+Finally, another important area of research we expect to
+gather increased attention is that of LLM-based agents and
+multi-agent systems [172], [173], [174]. The development of
+LLM systems with access to external tools and decision-
+making capabilities is both exciting and challenging. We will
+see continued research and progress in this important area that
+some argue could lead to Artificial General Intelligence (AGI).
+E. Security and Ethical/Responsible AI
+Ensuring the robustness and security of LLMs against
+adversarial attacks and other vulnerabilities is a critical area
+of research [219]. As LLMs are increasingly deployed in real-
+world applications, they need to be protected from potential
+threats, to prevent them being used to manipulate people or
+spread mis-information. Improving the reasoning capabilities
+of these model [220], would help them to better detect potential
+adversarial attacks.
+Addressing ethical concerns and biases in LLMs is another
+active area of research. Efforts are being made to ensure that
+LLMs are fair, unbiased, and capable of handling sensitive
+information responsibly. As LLMs are being used more and
+more by a large number of people on a daily basis, making
+sure they are unbiased and behave responsibly is crucial.
+VIII. C ONCLUSION
+This paper present a survey of LLMs developed in the
+past few years. We first provide an overview of early pre-

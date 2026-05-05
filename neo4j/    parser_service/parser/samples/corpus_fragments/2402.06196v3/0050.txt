@@ -1,0 +1,139 @@
+hanced transformer with rotary position embedding,” arXiv preprint
+arXiv:2104.09864, 2021.
+[128] O. Press, N. A. Smith, and M. Lewis, “Train short, test long: Attention
+with linear biases enables input length extrapolation,” arXiv preprint
+arXiv:2108.12409, 2021.
+[129] G. Ke, D. He, and T.-Y . Liu, “Rethinking positional encoding in
+language pre-training,” arXiv preprint arXiv:2006.15595 , 2020.
+[130] N. Shazeer, A. Mirhoseini, K. Maziarz, A. Davis, Q. Le, G. Hinton,
+and J. Dean, “Outrageously large neural networks: The sparsely-gated
+mixture-of-experts layer,” arXiv preprint arXiv:1701.06538 , 2017.
+[131] W. Fedus, B. Zoph, and N. Shazeer, “Switch transformers: Scaling
+to trillion parameter models with simple and efficient sparsity,” The
+Journal of Machine Learning Research, vol. 23, no. 1, pp. 5232–5270,
+2022.
+[132] R. K. Mahabadi, S. Ruder, M. Dehghani, and J. Henderson,
+“Parameter-efficient multi-task fine-tuning for transformers via shared
+hypernetworks,” 2021.
+[133] S. Zhang, L. Dong, X. Li, S. Zhang, X. Sun, S. Wang, J. Li, R. Hu,
+T. Zhang, F. Wu, and G. Wang, “Instruction tuning for large language
+models: A survey,” 2023.
+[134] S. Mishra, D. Khashabi, C. Baral, and H. Hajishirzi, “Cross-task
+generalization via natural language crowdsourcing instructions,” arXiv
+preprint arXiv:2104.08773, 2021.
+[135] Y . Wang, Y . Kordi, S. Mishra, A. Liu, N. A. Smith, D. Khashabi,
+and H. Hajishirzi, “Self-instruct: Aligning language model with self
+generated instructions,” arXiv preprint arXiv:2212.10560 , 2022.
+[136] K. Ethayarajh, W. Xu, D. Jurafsky, and D. Kiela. Kto. [Online].
+Available: https://github.com/ContextualAI/HALOs/blob/main/assets/
+report.pdf
+[137] P. F. Christiano, J. Leike, T. Brown, M. Martic, S. Legg, and
+D. Amodei, “Deep reinforcement learning from human preferences,”
+Advances in neural information processing systems , vol. 30, 2017.
+[138] H. Lee, S. Phatale, H. Mansoor, K. Lu, T. Mesnard, C. Bishop, V . Car-
+bune, and A. Rastogi, “Rlaif: Scaling reinforcement learning from
+human feedback with ai feedback,” arXiv preprint arXiv:2309.00267 ,
+2023.
+[139] R. Rafailov, A. Sharma, E. Mitchell, S. Ermon, C. D. Manning, and
+C. Finn, “Direct preference optimization: Your language model is
+secretly a reward model,” arXiv preprint arXiv:2305.18290 , 2023.
+[140] S. Rajbhandari, J. Rasley, O. Ruwase, and Y . He, “Zero: Memory
+optimizations toward training trillion parameter models,” in SC20: In-
+ternational Conference for High Performance Computing, Networking,
+Storage and Analysis . IEEE, 2020, pp. 1–16.
+[141] B. Peng, E. Alcaide, Q. Anthony, A. Albalak, S. Arcadinho, H. Cao,
+X. Cheng, M. Chung, M. Grella, K. K. GV et al., “Rwkv: Reinventing
+rnns for the transformer era,” arXiv preprint arXiv:2305.13048, 2023.
+[142] E. J. Hu, Y . Shen, P. Wallis, Z. Allen-Zhu, Y . Li, S. Wang, L. Wang,
+and W. Chen, “Lora: Low-rank adaptation of large language models,”
+arXiv preprint arXiv:2106.09685 , 2021.
+[143] G. Hinton, O. Vinyals, and J. Dean, “Distilling the knowledge in a
+neural network,” arXiv preprint arXiv:1503.02531 , 2015.
+[144] J. Gou, B. Yu, S. J. Maybank, and D. Tao, “Knowledge distillation:
+A survey,” International Journal of Computer Vision , vol. 129, pp.
+1789–1819, 2021.
+[145] Z. Ji, N. Lee, R. Frieske, T. Yu, D. Su, Y . Xu, E. Ishii, Y . J.
+Bang, A. Madotto, and P. Fung, “Survey of hallucination in natural
+language generation,” ACM Comput. Surv., vol. 55, no. 12, mar 2023.
+[Online]. Available: https://doi.org/10.1145/3571730
+[146] N. McKenna, T. Li, L. Cheng, M. J. Hosseini, M. Johnson, and
+M. Steedman, “Sources of hallucination by large language models on
+inference tasks,” 2023.
+[147] C.-Y . Lin, “ROUGE: A package for automatic evaluation of
+summaries,” in Text Summarization Branches Out. Barcelona, Spain:
+Association for Computational Linguistics, Jul. 2004, pp. 74–81.
+[Online]. Available: https://aclanthology.org/W04-1013
+[148] K. Papineni, S. Roukos, T. Ward, and W.-J. Zhu, “Bleu: a method for
+automatic evaluation of machine translation,” in Proceedings of the
+40th Annual Meeting of the Association for Computational Linguistics,
+P. Isabelle, E. Charniak, and D. Lin, Eds. Philadelphia, Pennsylvania,
+USA: Association for Computational Linguistics, Jul. 2002, pp. 311–
+318. [Online]. Available: https://aclanthology.org/P02-1040
+[149] B. Dhingra, M. Faruqui, A. Parikh, M.-W. Chang, D. Das, and
+W. Cohen, “Handling divergent reference texts when evaluating
+table-to-text generation,” in Proceedings of the 57th Annual Meeting
+of the Association for Computational Linguistics , A. Korhonen,
+D. Traum, and L. M `arquez, Eds. Florence, Italy: Association
+for Computational Linguistics, Jul. 2019, pp. 4884–4895. [Online].
+Available: https://aclanthology.org/P19-1483
+[150] Z. Wang, X. Wang, B. An, D. Yu, and C. Chen, “Towards faithful
+neural table-to-text generation with content-matching constraints,”
+in Proceedings of the 58th Annual Meeting of the Association
+for Computational Linguistics , D. Jurafsky, J. Chai, N. Schluter,
+and J. Tetreault, Eds. Online: Association for Computational
+Linguistics, Jul. 2020, pp. 1072–1086. [Online]. Available: https:
+//aclanthology.org/2020.acl-main.101
+[151] H. Song, W.-N. Zhang, J. Hu, and T. Liu, “Generating persona consis-
+tent dialogues by exploiting natural language inference,” Proceedings
+of the AAAI Conference on Artificial Intelligence , vol. 34, no. 05, pp.
+8878–8885, Apr. 2020.
+[152] O. Honovich, L. Choshen, R. Aharoni, E. Neeman, I. Szpektor,
+and O. Abend, “ q2: Evaluating factual consistency in knowledge-
+grounded dialogues via question generation and question answering,”
+in Proceedings of the 2021 Conference on Empirical Methods in
+Natural Language Processing , M.-F. Moens, X. Huang, L. Specia,
+and S. W.-t. Yih, Eds. Online and Punta Cana, Dominican Republic:
+Association for Computational Linguistics, Nov. 2021, pp. 7856–7870.
+[Online]. Available: https://aclanthology.org/2021.emnlp-main.619
+[153] N. Dziri, H. Rashkin, T. Linzen, and D. Reitter, “Evaluating attribution
+in dialogue systems: The BEGIN benchmark,” Transactions of the
+Association for Computational Linguistics , vol. 10, pp. 1066–1083,
+2022. [Online]. Available: https://aclanthology.org/2022.tacl-1.62
+[154] S. Santhanam, B. Hedayatnia, S. Gella, A. Padmakumar, S. Kim,
+Y . Liu, and D. Z. Hakkani-T¨ur, “Rome was built in 1776: A case study
+on factual correctness in knowledge-grounded response generation,”
+ArXiv, vol. abs/2110.05456, 2021.
+[155] S. Min, K. Krishna, X. Lyu, M. Lewis, W. tau Yih, P. W. Koh, M. Iyyer,
+L. Zettlemoyer, and H. Hajishirzi, “Factscore: Fine-grained atomic
+evaluation of factual precision in long form text generation,” 2023.
+[156] D. Sculley, G. Holt, D. Golovin, E. Davydov, T. Phillips, D. Ebner,
+V . Chaudhary, and M. Young, “Machine learning: The high interest
+credit card of technical debt,” in SE4ML: Software Engineering for
+Machine Learning (NIPS 2014 Workshop) , 2014.
+[157] Z. Zhang, A. Zhang, M. Li, and A. Smola, “Automatic chain of thought
+prompting in large language models,” 2022.
+[158] S. Yao, D. Yu, J. Zhao, I. Shafran, T. L. Griffiths, Y . Cao, and
+K. Narasimhan, “Tree of thoughts: Deliberate problem solving with
+large language models,” 2023.
+[159] P. Manakul, A. Liusie, and M. J. F. Gales, “Selfcheckgpt: Zero-
+resource black-box hallucination detection for generative large lan-
+guage models,” 2023.
+[160] N. Shinn, F. Cassano, E. Berman, A. Gopinath, K. Narasimhan,
+and S. Yao, “Reflexion: Language agents with verbal reinforcement
+learning,” 2023.
+[161] S. J. Zhang, S. Florin, A. N. Lee, E. Niknafs, A. Marginean, A. Wang,
+K. Tyser, Z. Chin, Y . Hicke, N. Singh, M. Udell, Y . Kim, T. Buonassisi,
+A. Solar-Lezama, and I. Drori, “Exploring the mit mathematics and
+eecs curriculum using large language models,” 2023.
+[162] T. Wu, E. Jiang, A. Donsbach, J. Gray, A. Molina, M. Terry, and C. J.
+Cai, “Promptchainer: Chaining large language model prompts through
+visual programming,” 2022.
+[163] Y . Zhou, A. I. Muresanu, Z. Han, K. Paster, S. Pitis, H. Chan, and
+J. Ba, “Large language models are human-level prompt engineers,”
+2023.
+[164] P. S. H. Lewis, E. Perez, A. Piktus, F. Petroni, V . Karpukhin,
+N. Goyal, H. K¨uttler, M. Lewis, W. Yih, T. Rockt¨aschel, S. Riedel, and
+D. Kiela, “Retrieval-augmented generation for knowledge-intensive
+NLP tasks,” CoRR, vol. abs/2005.11401, 2020. [Online]. Available:
+https://arxiv.org/abs/2005.11401
+[165] Y . Gao, Y . Xiong, X. Gao, K. Jia, J. Pan, Y . Bi, Y . Dai, J. Sun, and

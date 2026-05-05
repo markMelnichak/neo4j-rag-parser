@@ -1,0 +1,42 @@
+264 
+ 
+Инс
+трукции по выполнению представлены в листинге 96 (пер-
+вые 3 шага), а также ниже. Прежде чем перейти к шагу 3, сравните 
+качество полученных трех моделей на данных MNIST. Объясните 
+полученные результаты. Есть ли превосходство сверточной сети 
+перед обычной или перед полиномиальной регрессией? 
+ 
+Лист
+инг 96 
+#Ша
+г 1. Загрузите данные MNIST 
+(X_train, y_train), (X_test, y_test) = mnist.load_data() 
+#Шаг 2. Создайте модель многослойного персептрона (на основе Keras)и сверточной 
+#сети (на основе Keras) и полиномиальной регрессии из Scikit-Learn. 
+#Для задания обычного линейного слоя в качестве первого слоя сети потребуется 
+#указать форму входного вектора (размер). Это можно сделать следующим образом: 
+Dense(128, input_dim=input_size) 
+#Шаг 3. Далее попробуйте эти три типа модели уже на других данных. 
+#Для этого загрузите и подготовьте данные с фотографиями людей с помощью 
+#библиотеки scikit-learn (изучите код самостоятельно): 
+lfw_people = fetch_lfw_people(min_faces_per_person=70, resize=0.4) 
+# introspect the images arrays to find the shapes (for plotting) 
+n_samples, h, w = lfw_people.images.shape 
+X = lfw_people.images 
+# the label to predict is the id of the person 
+y = lfw_people.target 
+target_names = lfw_people.target_names 
+n_classes = target_names.shape[0] 
+print("n_classes: %d" % n_classes) 
+# split into a training and testing set 
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42) 
+X_train = X_train.reshape(X_train.shape[0], 1, img_rows, img_cols) 
+X_test = X_test.reshape(X_test.shape[0], 1, img_rows, img_cols) 
+X_train = X_train.astype('float32') 
+X_test = X_test.astype('float32') 
+X_train /= 255 
+X_test /= 255 
+Ша
+г 4. Отобразите данные, чтобы удостовериться в их коррект-
+ной подготовке для дальнейшего обучения.

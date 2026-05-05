@@ -1,0 +1,211 @@
+197
+7.
+ 
+М
+иненко А. С. Формальная модель эмоций 
+[Текст] 
+/ 
+А.
+ 
+С.
+ 
+Миненко,
+ 
+А.
+ 
+П. Семенова // Проблемы искусственного 
+интеллекта. 
+–
+ 
+2018. 
+–
+ 
+№
+ 
+3(10). 
+–
+ 
+С. 84
+-
+93.
+ 
+8.
+ 
+Миненко А. С. Моделирование и информационные техно
+ло
+-
+гии при 
+распознании лица человека по его мимическим изо
+-
+бра
+жениям
+ 
+[Текст] 
+/ 
+А. С.
+ 
+Миненко 
+// Проблемы искусствен
+-
+ного интеллекта. 
+–
+ 
+2016. 
+–
+ 
+№ 2(3). 
+–
+ 
+С. 48
+-
+54.
+ 
+9.
+ 
+Ekman P. Facial Action Coding System: A Technique for the 
+Measurement of Facial Movement
+ 
+[
+Текст
+] 
+/
+ 
+P. Ekman, W. Friesen. 
+–
+ 
+Consulting Psychologists Press, Palo Alto, 1978.
+ 
+10.
+ 
+Zheng A. Feature Engineering for Machine Learning: Principles 
+and Techniques for Data Scientists 
+[
+Текст
+] 
+/
+ 
+A. Zheng, A.
+ 
+Casari. 
+–
+ 
+USA: O'Reilly Media, 2018. 
+–
+ 
+218 
+с
+.
+ 
+11.
+ 
+Subject independent facial expression recognition with robust face 
+detection using a convolutional neural network
+ 
+[
+Текст
+] 
+/ 
+M. Masa
+-
+kazu,
+ 
+Mori K.
+,
+ 
+Mitari Y., 
+Kaneda.
+ 
+Y.
+ 
+// Neural Networks
+. 
+–
+ 
+2
+003.
+ 
+–
+ 
+№
+ 
+5 (16)
+.
+ 
+–
+ 
+P. 555
+-
+559.
+ 
+12.
+ 
+Facial expression recognition via a boosted deep belief network. 
+[
+Текст
+] 
+/
+ 
+P. 
+Liu,
+ 
+S.
+ 
+Ha
+, Z.
+ 
+Meng
+, 
+Y.Tong
+ 
+ 
+//
+ 
+Proceedings of the 
+IEEE Conference on Computer Vision and Pattern Recognition 
+(CVPR), Columbus, OH, USA, 24
+–
+27 June 2014
+.
+ 
+–
+ 
+ 
+P. 1805
+–
+1812.
+ 
+ 
+ 
+И.
+ 
+А.
+ 
+Смирнов
+ 
+ 
+УГРОЗЫ БЕЗОПАСНОСТИ ОС. 
+РЕАГИРОВАНИЕ И ПРЕДОТВРАЩЕНИЕ УГРОЗ.
+ 
+ 
+ГУ
+ 
+«Институт проблем искусственного интеллекта», г.
+ 
+Донецк, 
+ 
+ 
+i.smirnov@rcngroup.ru
+ 
+ 
+Введение
+ 
+ 
+В наше время мы все чаще сталкиваемся с различными 
+видами угроз информационной безопасности, которые за
+тра
+-
+ги
+вают многие сферы нашей жизнедеятельности: эконо
+ми
+ку, 
+медицину, образование, энергетические, военные и др. области.

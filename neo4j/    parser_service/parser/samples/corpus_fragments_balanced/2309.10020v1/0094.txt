@@ -1,0 +1,66 @@
+Models Advantages DisadvantagesSpecific-Purpose Models
+Visual Understanding Well studied and scalable solutions on
+image-level understanding; Emerging
+interests and success on region-level
+and pixel-level visual understanding
+High training cost; No successful scal-
+able recipe beyond the billion-image
+level
+Visual Generation Well studied and scalable solutions
+on image-level generation; Emerg-
+ing interests and success in control-
+lable/customized image generation
+High training and inference cost;
+Debate between diffusion and auto-
+regressive solutions for the best recipe;
+More studies are needed for video gen-
+eration
+General-Purpose Assistants
+Unified Vision Models Promises to unlock new emerging ca-
+pabilities and scenarios
+High risks in modeling and high train-
+ing cost
+Training with LLM Some new emerging capabilities and
+scenarios are enabled with light model
+training
+The performance is bounded by LLM
+Chaining with LLM Fast system development cycles with
+low cost as no training is involved
+Low flexibility in improving system
+performance; No new emerging capa-
+bilities
+Table 7.1: Comparisons of different multimodal foundation model families covered in this paper.
+7.2 Towards Building General-Purpose AI Agents
+At the end of each chapter, we have discussed future trends for individual topics. The paper itself
+is organized to demonstrate the transition from specialist multimodal foundation models to general-
+purpose visual assistants. Though powerful, existing visual assistants such as Flamingo (Alayrac
+et al., 2022) and multimodal GPT-4 (OpenAI, 2023b) are in the preliminary form, compared with
+grand vision on building a general-purpose multimodal AI agent via foundation models. In what
+follows, we highlight a number of research trends towards this goal.
+Generalist agents with multi-modality. This aligns with the grand goal of building a single gen-
+eralist agent that interacts with world like humans through fusing multiple channels such as lan-
+guage, vision, speech and actions. From this perspective, the notion of multimodal foundation
+models becomes somewhat indistinct on its own. Instead, it serves as a crucial component of the
+agent for perceiving and synthesizing visual signals. For example, Gato (Reed et al., 2022) and
+PaLM-E (Driess et al., 2023) perform a wide range of language, multimodal and control tasks with
+a single set of model weights, where visual perception is a crucial component in understanding the
+environment. It also raises challenges in the effective and scalable pre-training objectives for unified
+vision and multimodal modeling.
+Alignment with human intents. AI alignment research focuses on steering AI systems towards
+humans’ intended goals, values, or ethical guidelines. An AI system is deemed aligned when it
+effectively promotes the desired goals. Though language has exhibited its generality in expressing
+human intents, it is not always the best option. As demonstrated in SAM (Kirillov et al., 2023)
+and ControlNet/GLIGEN (Zhang and Agrawala, 2023; Li et al., 2023n), human intents can be more
+precisely and conveniently represented in visual prompts such as key points, bounding boxes and
+sketch drawing, for visual understanding and generation tasks, respectively. Building foundation
+models that are well equipped with such a multimodal human-machine interaction interface is a key
+step to unlock new use scenarios, where human intents are best represented visually. For example,
+the spatial arrangement of elements within a scene, as well as the artistic style and visual appeal of
+a piece of visual art.
+Planning, memory, and tool use. It is highlighted in Weng (2023) that a LLM-powered au-
+tonomous agent system can be built, where LLM functions as the agent’s brain, complemented
+by several key components: planning, memory and tool use. Following the framework, we could
+foresee the role of multimodal foundation models in this AI agent system. ( i) Planning. To com-
+plete complex tasks in real-world scenarios, the agent should be able to decompose large tasks into
+smaller, manageable subgoals, enabling efficient handling of complex tasks. In the ideal case, the
+90

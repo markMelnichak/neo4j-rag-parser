@@ -1,0 +1,34 @@
+288 
+ 
+4
+4. [Электронный ресурс]: Документация по Scikit-learn: 
+LogisticRegression. URL: http://scikit-learn.org/stable/modules/generated/ 
+sklearn.linear_model.LogisticRegression.html (режим доступа – свобод-
+ный), (дата обращения: 08.07.2017). 
+45. [Электронный ресурс]: Документация по Scikit-learn: 
+LinearRegression. URL: http://scikit-learn.org/stable/modules/generated/ 
+sklearn.linear_model.LinearRegression.html (режим доступа – свобод-
+ный), (дата обращения: 08.07.2017). 
+46. [Электронный ресурс]: Документация по Scikit-learn:Lasso. 
+URL: 
+http://scikit-learn.org/stable/modules/generated/sklearn.linear_model. 
+La
+sso.html (режим доступа – свободный), (дата обращения: 
+08.07.2017). 
+47. [Электронный ресурс]: Документация по Scikit-learn: 
+MinMaxScaler. URL: http://scikit-learn.org/stable/modules/generated/ 
+sklearn.preprocessing.MinMaxScaler.html(режим доступа – свободный), 
+(дата обращения: 08.07.2017). 
+48. [Электронный ресурс]: Функции map и zip и lambda. 
+Python. URL: http://ninjaside.info/blog/ru/funkcii-map-i-zip-i-lambda-
+python/ (режим доступа – свободный), (дата обращения: 08.07.2017). 
+49. [Электронный ресурс]: Документация по Scikit-learn: 
+RandomizedLasso. URL: http://scikit-learn.org/stable/modules/generated/ 
+sklearn.linear_model.RandomizedLasso.html (режим доступа – свобод-
+ный), (дата обращения: 08.07.2017). 
+50. [Электронный ресурс]: Документация по Scikit-learn:RFE. 
+URL: http://scikit-learn.org/stable/modules/generated/sklearn.feature_ 
+selection.RFE.html(режим доступа – свободный), (дата обращения: 
+08.07.2017). 
+51. [Электронный ресурс]: Документация по Scikit-learn: 
+RandomForestRegressor. URL: http://scikit-learn.org/stable/modules/

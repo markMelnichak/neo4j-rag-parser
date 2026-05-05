@@ -1,0 +1,53 @@
+Zhao, Y ., Lin, Z., Zhou, D., Huang, Z., Feng, J., and Kang, B. (2023c). Bubogpt: Enabling visual
+grounding in multi-modal llms. arXiv preprint arXiv:2307.08581.
+Zhao, Y ., Pang, T., Du, C., Yang, X., Li, C., Cheung, N.-M., and Lin, M. (2023d). On evaluating
+adversarial robustness of large vision-language models. arXiv preprint arXiv:2305.16934.
+Zhao, Z., Guo, L., Yue, T., Chen, S., Shao, S., Zhu, X., Yuan, Z., and Liu, J. (2023e). Chat-
+bridge: Bridging modalities with large language model as a language catalyst. arXiv preprint
+arXiv:2305.16103.
+Zhao, Z., Wallace, E., Feng, S., Klein, D., and Singh, S. (2021). Calibrate before use: Improving
+few-shot performance of language models. In International Conference on Machine Learning ,
+pages 12697–12706. PMLR.
+Zhong, Y ., Yang, J., Zhang, P., Li, C., Codella, N., Li, L. H., Zhou, L., Dai, X., Yuan, L., Li, Y .,
+et al. (2022a). Regionclip: Region-based language-image pretraining. In CVPR.
+Zhong, Y ., Yang, J., Zhang, P., Li, C., Codella, N., Li, L. H., Zhou, L., Dai, X., Yuan, L., Li, Y ., et al.
+(2022b). Regionclip: Region-based language-image pretraining. In Proceedings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition, pages 16793–16803.
+Zhou, B., Zhao, H., Puig, X., Fidler, S., Barriuso, A., and Torralba, A. (2017). Scene parsing
+through ade20k dataset. In Proceedings of the IEEE conference on computer vision and pattern
+recognition, pages 633–641.
+Zhou, C., Liu, P., Xu, P., Iyer, S., Sun, J., Mao, Y ., Ma, X., Efrat, A., Yu, P., Yu, L., et al. (2023a).
+Lima: Less is more for alignment. arXiv preprint arXiv:2305.11206.
+Zhou, C., Loy, C. C., and Dai, B. (2022a). Extract free dense labels from clip. In ECCV.
+Zhou, G., Hong, Y ., and Wu, Q. (2023b). Navgpt: Explicit reasoning in vision-and-language navi-
+gation with large language models. arXiv preprint arXiv:2305.16986.
+Zhou, J., Dong, L., Gan, Z., Wang, L., and Wei, F. (2023c). Non-contrastive learning meets
+language-image pre-training. In CVPR.
+Zhou, J., Wei, C., Wang, H., Shen, W., Xie, C., Yuille, A., and Kong, T. (2021). ibot: Image bert
+pre-training with online tokenizer. arXiv preprint arXiv:2111.07832.
+Zhou, T., Zhang, Y ., Zhou, Y ., Wu, Y ., and Gong, C. (2023d). Can sam segment polyps? arXiv
+preprint arXiv:2304.07583.
+Zhou, X., Girdhar, R., Joulin, A., Kr¨ahenb¨uhl, P., and Misra, I. (2022b). Detecting twenty-thousand
+classes using image-level supervision. In European Conference on Computer Vision, pages 350–
+368. Springer.
+Zhou, Y ., Li, C., Chen, C., Gao, J., and Xu, J. (2022c). Lafite2: Few-shot text-to-image generation.
+arXiv preprint arXiv:2210.14124.
+Zhou, Y . and Shimada, N. (2023). Vision + language applications: A survey. In Proceedings of the
+IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 826–842.
+Zhu, D., Chen, J., Shen, X., Li, X., and Elhoseiny, M. (2023a). Minigpt-4: Enhancing vision-
+language understanding with advanced large language models.
+Zhu, P., Wang, H., and Saligrama, V . (2019). Zero shot detection. IEEE Transactions on Circuits
+and Systems for Video Technology, 30(4):998–1010.
+Zhu, P., Wang, H., and Saligrama, V . (2020). Don’t even look once: Synthesizing features for zero-
+shot detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+Recognition, pages 11693–11702.
+Zhu, W., Hessel, J., Awadalla, A., Gadre, S. Y ., Dodge, J., Fang, A., Yu, Y ., Schmidt, L., Wang,
+W. Y ., and Choi, Y . (2023b). Multimodal c4: An open, billion-scale corpus of images interleaved
+with text. arXiv preprint arXiv:2304.06939.
+Zong, Z., Song, G., and Liu, Y . (2023). Detrs with collaborative hybrid assignments training.
+Zou, X., Dou, Z.-Y ., Yang, J., Gan, Z., Li, L., Li, C., Dai, X., Behl, H., Wang, J., Yuan, L., et al.
+(2023a). Generalized decoding for pixel, image, and language. In Proceedings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition.
+Zou, X., Liu, H., and Lee, Y . J. (2022). End-to-end instance edge detection. arXiv preprint
+arXiv:2204.02898.
+118

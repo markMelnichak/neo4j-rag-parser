@@ -1,0 +1,41 @@
+Chapter 2
+Visual Understanding
+Over the past decade, the research community has devoted significant efforts to study the acquisition
+of high-quality, general-purpose image representations. This is essential to build vision foundation
+models, as pre-training a strong vision backbone to learn image representations is fundamental to
+all types of computer vision downstream tasks, ranging from image-level ( e.g., image classifica-
+tion (Krizhevsky et al., 2012), image-text retrieval (Frome et al., 2013), image captioning (Chen
+et al., 2015)), region-level (e.g., object detection (Girshick, 2015), phrase grounding (Plummer et al.,
+2015)), to pixel-level ( e.g., semantic/instance/panoptic segmentation (Long et al., 2015; Hafiz and
+Bhat, 2020; Kirillov et al., 2019)) tasks.
+In this chapter, we present how image representations can be learned, either using supervision sig-
+nals mined inside the images, or through using language supervision of image-text datasets mined
+from the Web. Specifically, Section 2.1 presents an overview of different learning paradigms, in-
+cluding supervised pre-training, contrastive language-image pre-training (CLIP), and image-only
+self-supervised learning. Section 2.2 discusses supervised pre-training. Section 2.3 focuses on
+CLIP. Section 2.4 discusses image-only self-supervised learning, including contrastive learning,
+non-contrastive learning, and masked image modeling. Given the various learning approaches to
+training vision foundation models, Section 2.5 reviews how they can be incorporated for better per-
+formance. Lastly, Section 2.6 discusses how vision foundation models can be used for finer-grained
+visual understanding tasks, such as fusion-encoder-based pre-training for image captioning and vi-
+sual question answering that require multimodal fusion, region-level pre-training for grounding, and
+pixel-level pre-training for segmentation.
+2.1 Overview
+There is a vast amount of literature on various methods of learning general-purpose vision back-
+bones. As illustrated in Figure 2.1, we group these methods into three categories, depending on the
+types of supervision signals used to train the models, including:
+• Label supervision: Arguably, the most well-studied image representation learning methods are
+based on label supervisions (typically in the form of image classification) (Sun et al., 2017), where
+datasets like ImageNet (Krizhevsky et al., 2012) and ImageNet21K (Ridnik et al., 2021) have been
+popular, and larger-scale proprietary datasets are also used in industrial labs (Sun et al., 2017;
+Singh et al., 2022b; Zhai et al., 2022a; Wu et al., 2023d).
+• Language supervision: Another popular approach to learning image representations leverages
+weakly supervised signals from text, which is easy to acquire in large scale. For instance,
+CLIP (Radford et al., 2021) and ALIGN (Jia et al., 2021) are pre-trained using a contrastive loss
+and billions of image-text pairs mined from the internet. The resultant models achieve strong
+zero-shot performance on image classification and image-text retrieval, and the learned image and
+text encoders have been widely used for various downstream tasks and allow traditional com-
+puter vision models to perform open-vocabulary CV tasks (Gu et al., 2021; Ghiasi et al., 2022a;
+Qian et al., 2022; Ding et al., 2022b; Liang et al., 2023a; Zhang et al., 2023e; Zou et al., 2023a;
+Minderer et al., 2022).
+12

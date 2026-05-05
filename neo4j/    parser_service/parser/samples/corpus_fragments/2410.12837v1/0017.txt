@@ -1,0 +1,14 @@
+Devlin, J., Chang, M., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep BidirectionalTransformersfor LanguageUnderstanding. ArXiv. /abs/1810.04805
+Gan, C., Yang, D., Hu, B., Zhang, H., Li, S., Liu, Z., Shen, Y., Ju, L., Zhang, Z., Gu, J., Liang, L., &Zhou,J. (2024). Similarity is Not All You Need: Endowing Retrieval Augmented Generation with Multi LayeredThoughts. ArXiv. /abs/2405.19893
+Gatt, A., &Krahmer, &E. (2018). Surveyof thestateof theart innatural languagegeneration: Coretasks,applications, andevaluation. Journal of Artificial IntelligenceResearch, 61, 65-170.
+Gupta, S., &Ranjan, R. (2024). Evaluation of LLMs Biases TowardsEliteUniversities: APersona-BasedExploration. ArXiv. /abs/2407.12801
+Gupta, S., Ranjan, R., & Singh, S. N. (2024). Comprehensive Study on Sentiment Analysis: FromRule-basedtomodernLLMbasedsystem. ArXiv. /abs/2409.09989
+Guu, J., Lee, K., & Pasupat, P. (2020). Retrieval-augmented generation for knowledge-intensive NLPtasks. arXivpreprint. https://arxiv.org/abs/2002.08909
+Guu, K., Lee, K., Tung, Z., Pasupat, P., & Chang, M. (2020). REALM: Retrieval-augmented languagemodel pre-training. In Proceedings of the 37th International Conference on Machine Learning (pp.3929-3938).
+Han, S., Pool, J., Tran, J., & Dally, W. J. (2015). Learning both weights and connections for efficientneural network. InAdvancesinNeural InformationProcessingSystems(pp. 1135-1143).
+Izacard, G., & Grave, E. (2021). Leveraging passage retrieval with generative models for open domainquestion answering. In Proceedings of the 16th Conference of the European Chapter of the Associationfor Computational Linguistics: MainVolume(pp. 874-880).
+Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., Ishii, E., Bang, Y., Chen, D., Dai, W., Chan, H. S.,Madotto, A., & Fung, P. (2022). Survey of Hallucination in Natural Language Generation. ArXiv.https://doi.org/10.1145/3571730
+Kalra, R., Wu, Z., Gulley, A., Hilliard, A., Guan, X., Koshiyama, A., &Treleaven, P. (2024). HyPA-RAG: AHybridParameter AdaptiveRetrieval-AugmentedGenerationSystemfor AI Legal andPolicyApplications.ArXiv. /abs/2409.09046
+Karpukhin, V., Oguz, B., Min, S., & Yih, W. (2020). Dense passage retrieval for open-domain questionanswering. arXivpreprint. https://arxiv.org/abs/2004.04906
+Karpukhin, V., Oguz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen, D. & Yih, W. T. (2020). Densepassage retrieval for open-domain question answering. In Proceedings of the 2020 Conference onEmpirical MethodsinNatural LanguageProcessing(EMNLP) (pp. 6769-6781).
+Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., ... & Riedel, S. (2020).Retrieval-augmented generation for knowledge-intensive NLP tasks. In Proceedings of the 34thInternational ConferenceonNeural InformationProcessingSystem( pp. 9459-9474).

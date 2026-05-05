@@ -1,0 +1,24 @@
+Fig. 41: Dataset applications.
+exercises, each with text-based problem descriptions.
+The final aspect to highlight is that the it includes test
+cases.
+• WikiSQL [184] is crafted for code generation task and
+it has 87,726 carefully labeled pairs of SQL queries
+and corresponding natural language questions from
+Wikipedia tables. The SQL queries comprise three
+subsets: test sets ( 17, 284 examples), development
+(9, 145 examples), and training ( 61, 297 examples).
+• TriviaQA [185] is designed for QA task. This
+dataset comprises more than 650, 000 question-
+answer-evidence triples. There are 95, 000 question-
+answer pairs in this dataset, each authored by trivia en-
+thusiasts and supported by an average of six indepen-
+dently sourced evidence documents. These documents
+are automatically acquired from Wikipedia or broader
+web search results. The dataset is categorized into
+two segments, including those with authentic answers
+from Wikipedia and web domains, and verified sets
+embody the accurately answered questions along with
+their associated documents from both Wikipedia and
+online.
+• RACE [186] suits for reading comprehension task.

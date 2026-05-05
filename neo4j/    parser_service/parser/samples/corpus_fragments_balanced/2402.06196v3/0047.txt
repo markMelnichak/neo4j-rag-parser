@@ -1,0 +1,134 @@
+trained language models (e.g., as BERT), then review three
+popular LLM families (GPT, LLaMA, PaLM), and other
+representative LLMs. We then survey methods and techniques
+of building, augmenting, and using LLMs. We review popular
+LLM datasets and benchmarks, and compare performance of
+a set of prominent models on public benchmarks. Finally, we
+present open challenges and future research directions.
+REFERENCES
+[1] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess,
+R. Child, S. Gray, A. Radford, J. Wu, and D. Amodei, “Scaling laws
+for neural language models,” arXiv preprint arXiv:2001.08361 , 2020.
+[2] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai,
+E. Rutherford, D. d. L. Casas, L. A. Hendricks, J. Welbl, A. Clark
+et al. , “Training compute-optimal large language models,” arXiv
+preprint arXiv:2203.15556, 2022.
+[3] C. E. Shannon, “Prediction and entropy of printed english,” Bell system
+technical journal, vol. 30, no. 1, pp. 50–64, 1951.
+[4] F. Jelinek, Statistical methods for speech recognition . MIT press,
+1998.
+[5] C. Manning and H. Schutze, Foundations of statistical natural lan-
+guage processing. MIT press, 1999.
+[6] C. D. Manning, An introduction to information retrieval . Cambridge
+university press, 2009.
+[7] W. X. Zhao, K. Zhou, J. Li, T. Tang, X. Wang, Y . Hou, Y . Min,
+B. Zhang, J. Zhang, Z. Dong et al. , “A survey of large language
+models,” arXiv preprint arXiv:2303.18223 , 2023.
+[8] C. Zhou, Q. Li, C. Li, J. Yu, Y . Liu, G. Wang, K. Zhang, C. Ji, Q. Yan,
+L. He et al., “A comprehensive survey on pretrained foundation mod-
+els: A history from bert to chatgpt,” arXiv preprint arXiv:2302.09419,
+2023.
+[9] P. Liu, W. Yuan, J. Fu, Z. Jiang, H. Hayashi, and G. Neubig, “Pre-
+train, prompt, and predict: A systematic survey of prompting methods
+in natural language processing,” ACM Computing Surveys , vol. 55,
+no. 9, pp. 1–35, 2023.
+[10] Q. Dong, L. Li, D. Dai, C. Zheng, Z. Wu, B. Chang, X. Sun,
+J. Xu, and Z. Sui, “A survey for in-context learning,” arXiv preprint
+arXiv:2301.00234, 2022.
+[11] J. Huang and K. C.-C. Chang, “Towards reasoning in large language
+models: A survey,” arXiv preprint arXiv:2212.10403 , 2022.
+[12] S. F. Chen and J. Goodman, “An empirical study of smoothing
+techniques for language modeling,” Computer Speech & Language ,
+vol. 13, no. 4, pp. 359–394, 1999.
+[13] Y . Bengio, R. Ducharme, and P. Vincent, “A neural probabilistic
+language model,” Advances in neural information processing systems ,
+vol. 13, 2000.
+[14] H. Schwenk, D. D ´echelotte, and J.-L. Gauvain, “Continuous space
+language models for statistical machine translation,” in Proceedings
+of the COLING/ACL 2006 Main Conference Poster Sessions , 2006,
+pp. 723–730.
+[15] T. Mikolov, M. Karafi ´at, L. Burget, J. Cernock `y, and S. Khudanpur,
+“Recurrent neural network based language model.” in Interspeech,
+vol. 2, no. 3. Makuhari, 2010, pp. 1045–1048.
+[16] A. Graves, “Generating sequences with recurrent neural networks,”
+arXiv preprint arXiv:1308.0850 , 2013.
+[17] P.-S. Huang, X. He, J. Gao, L. Deng, A. Acero, and L. Heck, “Learning
+deep structured semantic models for web search using clickthrough
+data,” in Proceedings of the 22nd ACM international conference on
+Information & Knowledge Management , 2013, pp. 2333–2338.
+[18] J. Gao, C. Xiong, P. Bennett, and N. Craswell, Neural Approaches to
+Conversational Information Retrieval. Springer Nature, 2023, vol. 44.
+[19] I. Sutskever, O. Vinyals, and Q. V . Le, “Sequence to sequence learning
+with neural networks,” Advances in neural information processing
+systems, vol. 27, 2014.
+[20] K. Cho, B. Van Merri ¨enboer, D. Bahdanau, and Y . Bengio, “On
+the properties of neural machine translation: Encoder-decoder ap-
+proaches,” arXiv preprint arXiv:1409.1259 , 2014.
+[21] H. Fang, S. Gupta, F. Iandola, R. K. Srivastava, L. Deng, P. Doll ´ar,
+J. Gao, X. He, M. Mitchell, J. C. Platt et al. , “From captions to
+visual concepts and back,” in Proceedings of the IEEE conference
+on computer vision and pattern recognition , 2015, pp. 1473–1482.
+[22] O. Vinyals, A. Toshev, S. Bengio, and D. Erhan, “Show and tell:
+A neural image caption generator,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition , 2015, pp.
+3156–3164.
+[23] M. E. Peters, M. Neumann, M. Iyyer, M. Gardner, C. Clark, K. Lee,
+and L. Zettlemoyer, “Deep contextualized word representations. corr
+abs/1802.05365 (2018),” arXiv preprint arXiv:1802.05365 , 2018.
+[24] J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, “Bert: Pre-training
+of deep bidirectional transformers for language understanding,” arXiv
+preprint arXiv:1810.04805, 2018.
+[25] Y . Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M. Lewis,
+L. Zettlemoyer, and V . Stoyanov, “Roberta: A robustly optimized bert
+pretraining approach,” arXiv preprint arXiv:1907.11692 , 2019.
+[26] P. He, X. Liu, J. Gao, and W. Chen, “Deberta: Decoding-enhanced bert
+with disentangled attention,” arXiv preprint arXiv:2006.03654 , 2020.
+[27] X. Han, Z. Zhang, N. Ding, Y . Gu, X. Liu, Y . Huo, J. Qiu, Y . Yao,
+A. Zhang, L. Zhang et al. , “Pre-trained models: Past, present and
+future,” AI Open, vol. 2, pp. 225–250, 2021.
+[28] X. Qiu, T. Sun, Y . Xu, Y . Shao, N. Dai, and X. Huang, “Pre-trained
+models for natural language processing: A survey,” Science China
+Technological Sciences, vol. 63, no. 10, pp. 1872–1897, 2020.
+[29] A. Gu, K. Goel, and C. R ´e, “Efficiently modeling long sequences with
+structured state spaces,” 2022.
+[30] A. Gu and T. Dao, “Mamba: Linear-time sequence modeling with
+selective state spaces,” arXiv preprint arXiv:2312.00752 , 2023.
+[31] A. Chowdhery, S. Narang, J. Devlin, M. Bosma, G. Mishra,
+A. Roberts, P. Barham, H. W. Chung, C. Sutton, S. Gehrmann et al.,
+“Palm: Scaling language modeling with pathways,” arXiv preprint
+arXiv:2204.02311, 2022.
+[32] H. Touvron, T. Lavril, G. Izacard, X. Martinet, M.-A. Lachaux,
+T. Lacroix, B. Rozi`ere, N. Goyal, E. Hambro, F. Azhar et al., “Llama:
+Open and efficient foundation language models,” arXiv preprint
+arXiv:2302.13971, 2023.
+[33] OpenAI, “GPT-4 Technical Report,” https://arxiv.org/pdf/2303.
+08774v3.pdf, 2023.
+[34] J. Wei, X. Wang, D. Schuurmans, M. Bosma, b. ichter,
+F. Xia, E. Chi, Q. V . Le, and D. Zhou, “Chain-of-thought
+prompting elicits reasoning in large language models,” in
+Advances in Neural Information Processing Systems , S. Koyejo,
+S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh,
+Eds., vol. 35. Curran Associates, Inc., 2022, pp. 24 824–24 837.
+[Online]. Available: https://proceedings.neurips.cc/paper files/paper/
+2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf
+[35] G. Mialon, R. Dess `ı, M. Lomeli, C. Nalmpantis, R. Pasunuru,
+R. Raileanu, B. Rozi `ere, T. Schick, J. Dwivedi-Yu, A. Celikyil-
+maz et al. , “Augmented language models: a survey,” arXiv preprint
+arXiv:2302.07842, 2023.
+[36] B. Peng, M. Galley, P. He, H. Cheng, Y . Xie, Y . Hu, Q. Huang,
+L. Liden, Z. Yu, W. Chen, and J. Gao, “Check your facts and try
+again: Improving large language models with external knowledge and
+automated feedback,” arXiv preprint arXiv:2302.12813 , 2023.
+[37] S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, and Y . Cao,
+“React: Synergizing reasoning and acting in language models,” arXiv
+preprint arXiv:2210.03629, 2022.
+[38] D. E. Rumelhart, G. E. Hinton, R. J. Williams et al., “Learning internal
+representations by error propagation,” 1985.
+[39] J. L. Elman, “Finding structure in time,” Cognitive science , vol. 14,
+no. 2, pp. 179–211, 1990.
+[40] M. V . Mahoney, “Fast text compression with neural networks.” in
+FLAIRS conference, 2000, pp. 230–234.
+[41] T. Mikolov, A. Deoras, D. Povey, L. Burget, and J. ˇCernock`y, “Strate-
+gies for training large scale neural network language models,” in 2011
+IEEE Workshop on Automatic Speech Recognition & Understanding .
+IEEE, 2011, pp. 196–201.

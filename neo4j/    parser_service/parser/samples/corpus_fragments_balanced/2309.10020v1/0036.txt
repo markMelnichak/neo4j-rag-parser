@@ -1,0 +1,57 @@
+controlled text), augmenting the global image description in T2I models. This new input condition
+requires T2I models to understand spatial inputs, and associate them with grounded texts.
+ReCo (Yang et al., 2023b) is among the most representative works along this direction. The core
+idea is to extend the text vocabulary of the text encoder E and arrange different tokens to represent
+the grounded text inputs. The study augments text tokens understood using pre-trained T2I models
+with an extra set of position tokens, which represent the quantized spatial coordinates. As shown in
+Figure 3.4, the position tokens ( e.g., <687>, <204>, <999>, <833>) are seamlessly mixed with
+the text tokens and operate as a spatial modifier, indicating that the text to follow only operates
+on the specified spatial region, such as the “baseball player . . . jersey.” The pre-trained T2I model
+is then finetuned to support such a new input interface, thereby facilitating region-controlled T2I
+generation.
+Shared by other approaches along this direction, ReCo discusses several advantages of region-
+controlled T2I generation in improving the alignment with human intents. (i) The grounded texts
+provide an extra input condition that allows users to specify the desired image easily, i.e., having a
+free-form regional description precisely at a specific location. The box token and the input sequence
+design allow users to generate grounded text with the same user interface as query a T2I model
+with text, making the extension easy to use. (ii) The additional region-level controlled texts help
+better generate images with correct object count, spatial relationship, and region attributes such as
+color/size, which may otherwise confuse the vanilla T2I model (Rombach et al., 2022).(iii) Studies
+also observe a better image generation quality, with the conjecture that the grounded text provides
+object-level image-text association and therefore simplifies the learning process.
+GLIGEN (Li et al., 2023n) is another representative work. Alternate to generating grounded de-
+scriptions through the expansion of input tokens and finetuning the entire T2I model, GLIGEN uses
+a plug-and-play recipe: freezing the original T2I model and training extra gated self-attention layers
+to learn the new grounding skills. The grounding tokens carry two types of information: the seman-
+tic representation of text words that need to be grounded in and their spatial configurations. These
+grounding tokens are then added to the pre-trained T2I model via a newly added gated self-attention
+layer, with all remaining pre-trained parameters frozen. This layer is equipped with a gating pa-
+rameter, which is initialized to zero, allowing the pre-trained model to incrementally incorporate the
+grounded text inputs. GLIGEN facilitates various types of grounded controls, including bounding
+box grounding, keypoint grounding, image prompting, as well as other types of spatially-aligned
+dense conditions.
+T2I generation with dense conditions. In addition to spatial coordinates, there exist other spatial
+conditions often represented as 2D arrays, such as segmentation masks, edge maps and depth maps.
+ControlNet (Zhang and Agrawala, 2023) is a prominent example of incorporating these dense spatial
+controls into T2I models. ControlNet is built upon Stable Diffusion, and introduces an additional
+trainable ControlNet branch that adds an extra input condition to the text prompt. This extra con-
+dition can be a canny edge map, hough line, HED boundary, under sketching, human pose maps,
+segmentation masks, depth images, normal maps, or line drawing, each enabled with its distinct
+model copy. The added branch is initialized from the pre-trained downsampling blocks in the SD’s
+U-Net. This branch takes the added visual latent and the extra dense condition as input. Before com-
+bining input dense conditions with visual latent in the input and merging the ControlNet branch’s
+output back to SD’s upsampling blocks, there is a unique zero-initialized1 × 1 convolutional layer.
+This layer serves as a gated connector to gradually inject the extra condition into the pre-trained Sta-
+ble Diffusion model. With the extra dense spatial control, ControlNet provides an effective channel
+of generation controllability.
+Follow-up studies such as Uni-ControlNet (Zhao et al., 2023b) and UniControl (Qin et al., 2023a)
+further improve ControlNet by unifying the input condition, such that a single model can under-
+stand multiple input condition types or even take a combination of two conditions. Examples of
+the dense controls and the corresponding generated images are shown in Figure 3.5. Moreover,
+Disco (Wang et al., 2023f) exemplifies the efficiency of ControlNet in the generation of human
+dancing videos, which aims to generate videos with controllable elements such as human subjects,
+video backgrounds, and motion pose sequences. The study successfully separates the background
+and human pose conditions, which are fed into two distinct branches of ControlNet, which condition
+on image frames and pose maps, respectively. This disentanglement of control from all three con-
+ditions allows Disco to accomplish high fidelity in both the human foregrounds and backgrounds.
+32

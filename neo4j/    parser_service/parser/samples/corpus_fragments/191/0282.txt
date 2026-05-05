@@ -1,0 +1,38 @@
+287 
+ 
+Fr
+ame.html (р
+ежим доступа – свободный), (дата обращения: 
+08.07.2017). 
+37. [Электронный ресурс]: Уроки по Pandas. URL: 
+https://bitbucket.org/hrojas/learn-pandas (режим доступа – свободный), 
+(дата обращения: 08.07.2017). 
+38. [Электронный ресурс]: Документация по Scikit-learn. URL: 
+http://scikit-learn.org/stable/modules/preprocessing.html#preprocessing-
+normalization (режим доступа – свободный), (дата обращения: 
+08.07.2017). 
+39. [Электронный ресурс]: Сервис Kaggle. Массив данных 
+о пассажирах Титаника URL: https://www.kaggle.com/prkukunoor/ 
+TitanicDataset (режим доступа – свободный), (дата обращения: 
+08.07.2017). 
+40. [Электронный ресурс]: Документация по Scikit-learn:Ridge. 
+URL: h
+ttp://scikit-learn.org/stable/modules/generated/sklearn.linear_model. 
+Ridg
+e.html#sklearn.linear_model.Ridge (режим доступа – свободный), 
+(дата обращения: 08.07.2017). 
+41. [Электронный ресурс]: Ссылка для скачивания упоми-
+наемых в книге файлов с данными. URL: h
+ttps://drive.google.com/drive/ 
+fo
+lders/0B5yyS8oSQ0FDelpKRXg3c3lKVlU (режим доступа – свобод-
+ный), (дата обращения: 20.07.2017). 
+42. [Электронный ресурс]: Документация по Scikit-
+learn:TFIDFVectorizer. URL: http://scikit-learn.org/stable/modules/ 
+generated/sklearn.feature_extraction.text.TfidfVectorizer.html#sklearn.feat
+ure_extraction.text.TfidfVectorizer (режим доступа – свободный), (дата 
+обращения: 08.07.2017). 
+43. [Электронный ресурс]: Документация по Scikit-learn: 
+DictVectorizer. URL: http://scikit-learn.org/stable/modules/generated/ 
+sklearn.feature_extraction.DictVectorizer.html (режим доступа – свобод-
+ный), (дата обращения: 08.07.2017).

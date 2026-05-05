@@ -1,0 +1,39 @@
+Figure 3.5: Examples of the dense controls and the corresponding generated images. Image
+credit: Zhao et al. (2023b).
+Figure 3.6: Qualitative results of inference-time spatial guidance. Image credit: Bansal et al. (2023).
+More importantly, it enables the arbitrary compositionality of human subjects, backgrounds, and
+dance movements.
+Inference-time spatial guidance. The aforementioned works require model training, either the
+T2I models or additional modules to understand the extra spatial conditions. Alternatively, stud-
+ies (Bansal et al., 2023; Chen et al., 2023e) explore providing the inference-time spatial guidance to
+T2I models without extra model training. The core idea is similar to classifier guidance (Dhariwal
+and Nichol, 2021), which takes a discriminator loss to guide the diffusion process as follows:
+ˆϵ′(zt, t) = ˆϵ(zt, t) + s(t) · ▽zt ℓ(c, f(ˆz0)). (3.2)
+Taking spatial control as an example, the discriminator can be a Faster-RCNN object detector (Ren
+et al., 2015) indicated byf, which operates on the intermediate estimated imageˆz0, and compute the
+object detection loss ℓ with the desired layout c, to guide the generation ˆϵ(zt, t). s(t) is the guidance
+strength. This approach enables the spatial control in T2I generation without extra training, with
+qualitative results shown in Figure 3.6. However, it may not yield results as precise as those from
+finetuning methods (Yang et al., 2023b; Li et al., 2023n; Zhang and Agrawala, 2023).
+Summary and trends. Early research on spatial controllable generation, such as layout-to-image
+and mask-to-image generation, was often treated in parallel with T2I generation. However, with the
+emergence of advanced large-scale T2I models, recent studies, as discussed in this subsection, are
+now leaning towards integrating spatial conditions with textual conditions. We identify two primary
+trends in integrating spatial conditions into T2I models. First, region-controllable T2I generation,
+such as ReCo, merges spatial coordinate control into text inputs by enlarging the text vocabulary
+with position tokens. Second, studies extended from ControlNet integrate an additional “image-
+like” condition to T2I frameworks, thereby capturing a broad spectrum of dense conditions. Moving
+forward, T2I models may have a finetuning stage that allows them to comprehend both image and
+text inputs. In such a scenario, box coordinates could be incorporated through text, while dense
+controls could be provided as image inputs. We will explore and elaborate on this idea in Section 3.5.
+3.3 Text-based Editing
+Text-to-image editing synthesizes new images from an given image and input text descriptions.
+Instead of producing an image entirely from scratch, users might already possess a satisfactory
+starting point; this could be an image previously generated from a T2I model or a natural image.
+The objective is to retain the majority of the visual content, only modifying specific components.
+This could involve altering a local object or the overall image style to precisely match the user’s
+intentions. This text-based editing approach offers users a tool to generate fresh images based on a
+predecessor, playing a crucial role in creating visual content that accurately follows human intent.
+There are various definitions and task setups in text-based editing. We introduce the following repre-
+sentative threads. (i) One classic editing scenario is to change a local image region, such as remov-
+33

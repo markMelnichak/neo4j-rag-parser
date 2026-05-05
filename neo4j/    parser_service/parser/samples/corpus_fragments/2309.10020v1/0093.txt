@@ -1,0 +1,40 @@
+Chapter 7
+Conclusions and Research Trends
+Multimodal foundation models have garnered significant interest among scholars in the fields of
+computer vision and multimodal vision-language research. Although prevailing research topics,
+approaches and methodologies have been evolving – encompassing image self-supervised learning,
+language-image contrastive learning, text-to-image generation, unified vision modeling, and large
+language-and-vision assistants – they converge on a common overarching objective: the creation of
+general-purpose models and systems capable of following human intents and effortlessly executing
+a diverse array of vision and vision-language tasks in the wild. In this chapter, we provide a concise
+summary of what has been reviewed, and delve into the prevailing research tendencies in the field.
+7.1 Summary and Conclusions
+This paper surveys the most recent advances at the frontier of multimodal foundation model research,
+categorized into two classes discussed below.
+• Specific-purpose multimodal foundation models. There is a diverse set of problems to tackle
+in the computer vision community. To lay a comprehensive foundation for the introduction of
+general-purpose visual assistants, we have discussed many seminar papers in the era of pre-
+training. The major paradigm during this period is pre-training on a large amount of problem-
+related data, and then transferring to a number of real-world scenarios of the same problem type
+in a zero- or few-shot fashion. More specifically, we have presented two general topics: ( i) Vi-
+sual Understanding in Chapter 2: individual multimodal foundation models have developed to
+analyze the content of visual data in the image, region, pixel levels, prospectively. The language-
+augmented vision models are a popular family, contributing to the recent success of visual under-
+standing tasks in the wild. ( ii) Visual Generation in Chapter 3: text-to-image generation models
+have served the foundation for image synthesis, which has been successfully extended to allow
+user controllability and customization at more fine-grained manners. The availability and cre-
+ation of large amount of problem-related data has played a key role in making these multimodal
+foundation models possible.
+• General-purpose assistants. We have reviewed recently emerged literature on building general-
+purpose assistants, which often possess an unified network architecture, an unified input-output
+data format, and a general interface that facilitates easy interaction with humans. Inspired by the
+success in NLP that LLM such as ChatGPT/GPT-4 is a general assistant for a wide range of lan-
+guage tasks, researchers in computer vision have explored various solutions to their counterpart
+for vision tasks. Based on how LLM is leveraged in the methodology, existing works can be cate-
+gorized into three topics: (i) Unified Vision Models in Chapter 4: The spirit of unifying modeling
+in LLM is borrowed to build unified vision models at different levels and across different tasks.
+(ii) Training with LLM in Chapter 5: Starting with a pre-trained LLM, visual data is connected to
+LLM for end-to-end training. ( iii) Chaining with LLM in Chapter 6: By freezing LLM, existing
+vision experts can be triggered by prompt engineering LLM to complete specific vision tasks.
+The comparisons among these models are summarized in Table 7.1.
+89

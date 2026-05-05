@@ -1,0 +1,54 @@
+Yang, Z., Ping, W., Liu, Z., Korthikanti, V ., Nie, W., Huang, D.-A., Fan, L., Yu, Z., Lan, S., Li, B.,
+et al. (2023a). Re-vilm: Retrieval-augmented visual language model for zero and few-shot image
+captioning. arXiv preprint arXiv:2302.04858.
+Yang, Z., Wang, J., Gan, Z., Li, L., Lin, K., Wu, C., Duan, N., Liu, Z., Liu, C., Zeng, M., et al.
+(2023b). Reco: Region-controlled text-to-image generation. In Proceedings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition, pages 14246–14255.
+Yang, Z., Wang, J., Tang, Y ., Chen, K., Zhao, H., and Torr, P. H. (2022e). Lavt: Language-aware
+vision transformer for referring image segmentation. InProceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition, pages 18155–18165.
+Yao, L., Han, J., Liang, X., Xu, D., Zhang, W., Li, Z., and Xu, H. (2023). Detclipv2: Scalable
+open-vocabulary object detection pre-training via word-region alignment. In Proceedings of the
+IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 23497–23506.
+Yao, L., Han, J., Wen, Y ., Liang, X., Xu, D., Zhang, W., Li, Z., Xu, C., and Xu, H. (2022a). Det-
+clip: Dictionary-enriched visual-concept paralleled pre-training for open-world detection. arXiv
+preprint arXiv:2209.09407.
+Yao, L., Huang, R., Hou, L., Lu, G., Niu, M., Xu, H., Liang, X., Li, Z., Jiang, X., and Xu, C.
+(2022b). Filip: Fine-grained interactive language-image pre-training. In ICLR.
+Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., and Cao, Y . (2022c). React: Syner-
+gizing reasoning and acting in language models. arXiv preprint arXiv:2210.03629.
+Yasunaga, M., Aghajanyan, A., Shi, W., James, R., Leskovec, J., Liang, P., Lewis, M., Zettlemoyer,
+L., and Yih, W.-t. (2022). Retrieval-augmented multimodal language modeling. arXiv preprint
+arXiv:2211.12561.
+Ye, J., Hu, A., Xu, H., Ye, Q., Yan, M., Dan, Y ., Zhao, C., Xu, G., Li, C., Tian, J., et al.
+(2023a). mplug-docowl: Modularized multimodal large language model for document under-
+standing. arXiv preprint arXiv:2307.02499.
+Ye, L., Rochan, M., Liu, Z., and Wang, Y . (2019a). Cross-modal self-attention network for referring
+image segmentation. In Proceedings of the IEEE/CVF conference on computer vision and pattern
+recognition, pages 10502–10511.
+Ye, M., Zhang, X., Yuen, P. C., and Chang, S.-F. (2019b). Unsupervised embedding learning via
+invariant and spreading instance feature. In CVPR.
+Ye, Q., Xu, H., Xu, G., Ye, J., Yan, M., Zhou, Y ., Wang, J., Hu, A., Shi, P., Shi, Y ., et al. (2023b).
+mplug-owl: Modularization empowers large language models with multimodality. arXiv preprint
+arXiv:2304.14178.
+Yi, K., Ge, Y ., Li, X., Yang, S., Li, D., Wu, J., Shan, Y ., and Qie, X. (2022). Masked image modeling
+with denoising contrast. arXiv preprint arXiv:2205.09616.
+Yilmaz, A., Javed, O., and Shah, M. (2006). Object tracking: A survey. Acm computing surveys
+(CSUR), 38(4):13–es.
+Yin, D., Dong, L., Cheng, H., Liu, X., Chang, K.-W., Wei, F., and Gao, J. (2022). A survey of
+knowledge-intensive nlp with pre-trained language models. arXiv preprint arXiv:2202.08772.
+Yin, Z., Wang, J., Cao, J., Shi, Z., Liu, D., Li, M., Sheng, L., Bai, L., Huang, X., Wang, Z.,
+et al. (2023). Lamm: Language-assisted multi-modal instruction-tuning dataset, framework, and
+benchmark. arXiv preprint arXiv:2306.06687.
+Yoon, S., Kang, W. Y ., Jeon, S., Lee, S., Han, C., Park, J., and Kim, E.-S. (2021). Image-to-image
+retrieval by learning similarity between scene graphs. In Proceedings of the AAAI Conference on
+Artificial Intelligence, volume 35, pages 10718–10726.
+Yu, J., Li, X., Koh, J. Y ., Zhang, H., Pang, R., Qin, J., Ku, A., Xu, Y ., Baldridge, J., and
+Wu, Y . (2021). Vector-quantized image modeling with improved vqgan. arXiv preprint
+arXiv:2110.04627.
+Yu, J., Wang, Z., Vasudevan, V ., Yeung, L., Seyedhosseini, M., and Wu, Y . (2022a). Coca: Con-
+trastive captioners are image-text foundation models. TMLR.
+Yu, J., Xu, Y ., Koh, J. Y ., Luong, T., Baid, G., Wang, Z., Vasudevan, V ., Ku, A., Yang, Y ., Ayan,
+B. K., et al. (2022b). Scaling autoregressive models for content-rich text-to-image generation.
+Transactions on Machine Learning Research.
+115

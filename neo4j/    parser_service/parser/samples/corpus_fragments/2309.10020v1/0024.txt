@@ -1,0 +1,42 @@
+(a) MAE(b) MaskFeat
+Figure 2.9: Illustration of Masked Autoencoder (MAE) (He et al., 2022a) that uses raw pixel values
+for MIM training, and MaskFeat (Wei et al., 2021) that uses different features as the targets. HOG,
+a hand-crafted feature descriptor, was found to work particularly well in terms of both performance
+and efficiency. Image credit: He et al. (2022a) and Wei et al. (2021).
+autoregressive image generation, such as DALLE (Ramesh et al., 2021a), Make-A-Scene (Gafni
+et al., 2022), Parti (Yu et al., 2022b), to name a few.
+• Mask-then-predict: The idea of MIM is conceptually simple: models accept the corrupted input
+image (e.g., via random masking of image patches), and then predict the target of the masked con-
+tent (e.g., discrete visual tokens in BEiT). As discussed in iBOT (Zhou et al., 2021), this training
+procedure can be understood as knowledge distillation between the image tokenizer (which serves
+as the teacher) and the BEiT encoder (which serves as the student), while the student only sees
+partial of the image.
+Targets. In Peng et al. (2022b), the authors have provided a unified view of MIM: a teacher model,
+a normalization layer, a student model, an MIM head, and a proper loss function. The most sig-
+nificant difference among all these models lies in the reconstruction targets, which can be pixels,
+discrete image tokens, features from pre-trained models, and outputs from the momentum updated
+teacher. Specifically, the targets can be roughly grouped into two categories.
+• Low-level pixels/features as targets: MAE (He et al., 2022a), SimMIM (Xie et al., 2022b), Con-
+vMAE (Gao et al., 2022), HiViT (Zhang et al., 2022d), and GreenMIM (Huang et al., 2022a)
+leverage either original or normalized pixel values as the target for MIM. These methods have
+typically explored the use of a plain Vision Transformer (Dosovitskiy et al., 2021) or the Swin
+Transformer (Liu et al., 2021) as the backbone architecture. MaskFeat (Wei et al., 2021) intro-
+duced the Histogram of Oriented Gradients (HOG) feature descriptor as the target for MIM (see
+Figure 2.9(b)). Meanwhile, Ge2-AE (Liu et al., 2023b) employed both pixel values and frequency
+information obtained from the 2D discrete Fourier transform as the target. Taking MAE (He et al.,
+2022a) as an example (Figure 2.9(a)), the authors show that using pixel values as targets works
+particularly well. Specifically, a large random subset of images ( e.g., 75%) is masked out; then,
+the image encoder is only applied to visible patches, while mask tokens are introduced after the
+encoder. It was shown that such pre-training is especially effective for object detection and seg-
+mentation tasks, which require finer-grained image understanding.
+• High-level features as targets: BEiT (Bao et al., 2022), CAE (Chen et al., 2022g), SplitMask (El-
+Nouby et al., 2021), and PeCo (Dong et al., 2023) involve the prediction of discrete tokens using
+learned image tokenizers. MaskFeat (Wei et al., 2021) takes a different approach by proposing
+direct regression of high-level features extracted from models like DINO (Caron et al., 2021) and
+DeiT (Touvron et al., 2021). Expanding this idea, MVP (Wei et al., 2022b) and EV A (Fang et al.,
+2023) make feature prediction using image features from CLIP as target features. Additionally,
+other methods such as data2vec (Baevski et al., 2022), MSN (Assran et al., 2022), ConMIM (Yi
+et al., 2022), SIM (Tao et al., 2023), and BootMAE (Dong et al., 2022) propose to construct
+regression feature targets by leveraging momentum-updated teacher models to enhance online
+learning. The choice of loss functions depends on the nature of the targets: cross-entropy loss is
+20

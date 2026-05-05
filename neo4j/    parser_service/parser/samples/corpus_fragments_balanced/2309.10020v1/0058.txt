@@ -1,0 +1,41 @@
+(a) UberNet
+ (b) Taskonomy
+Figure 4.12: (a) UberNet (Kokkinos, 2017) can be applied to 7 vision tasks using a unified and
+budget-controllable CNN architecture. (b) Taskonomy (Zamir et al., 2018) further studies the rela-
+tionship across vision tasks by exploiting a multi-task transfer modeling. Image credit: Kokkinos
+(2017) and Zamir et al. (2018).
+different numbers of layers from the top in CNNs so as to adapt to different vision tasks. Results
+show that the best-performing multi-task architecture depends on the tasks of interest and can hardly
+generalize to new tasks. UberNet (Kokkinos, 2017) takes one step further to use a single universal
+CNN architecture and sophisticatedly design a routing mechanism to save the memory and comput-
+ing cost, as shown in Figure 4.12 (a). Both works require some tweaking to the CNN architecture so
+that they can adapt to different levels of tasks and loss types. But they unfortunately fail to build the
+synergy across tasks to improve model performance. Taskonomy (Zamir et al., 2018) specifically
+studies the relationship among vision tasks. It first trains task-specific models for each individual
+task and then performs transfer modeling across tasks in the latent space. The task affinity is then
+calculated in the latent space, providing us with the taskonomy. The result shows that vision tasks
+have different affinities for different groups, as shown in Figure 4.12 (b). For example, surface nor-
+mal estimation is heavily related to reshaping and point matching. Curvature extraction is related
+to image segmentation tasks. This study provides deep insights for multi-task vision modeling (Xu
+et al., 2018; Crawshaw, 2020).
+Multi-modal models. The emergence of Transformers significantly facilitates the advancement
+of multi-task multi-modal learning. Among them, 12in1 (Lu et al., 2020) is one of the pioneering
+works that combine 12 vision-language tasks in a single BERT-based architecture. It uses task-
+specific heads for individual tasks and a commonly shared trunk ViLBERT (Lu et al., 2019). Results
+show that multi-task learning can achieve substantial improvements over single-task learning while
+reducing the model parameters significantly. Later on, UniT (Hu and Singh, 2021b) exploits an
+encoder-decoder architecture and expands to vision-only tasks like object detection. Additionally,
+it allows end-to-end training on the task pool without relying on pre-trained detectors. Similar to
+12in1, it also uses a task-specific head for each task, motivated by the empirical result that sharing
+the same head usually hurts performance. Likewise, E2E-VLP (Xu et al., 2021) proposes an end-to-
+end pipeline for both localization tasks and text generation. Both UniT and E2E-VLP demonstrate
+the versatility of the encoder-decoder architecture of DETR (Carion et al., 2020). Following the
+same spirit, GPV (Gupta et al., 2022b) proposes an end-to-end task-agnostic architecture for differ-
+ent vision and vision-language tasks. It uses DETR to extract boxes and region features and then
+exploits a cross-attention module for fusion, followed by a vision decoder and a language decoder
+for decoding different outputs.
+The above vision and multi-modal models unify different tasks by incorporating different modules
+or heads designed to cope with different tasks, and can hardly achieve synergy across tasks. In the
+following, we discuss recent model unification research that aims to make the best use of synergy
+among various vision and multi-modal tasks.
+54

@@ -1,0 +1,40 @@
+Figure 3.3: An overview of the latent diffusion model architecture. Image credit: Rombach et al.
+(2022).
+• Diffusion model. Diffusion models (Sohl-Dickstein et al., 2015; Song and Ermon, 2020; Ho et al.,
+2020) employ stochastic differential equations to evolve random noises into images. A diffusion
+model works by initiating the process with a completely random image, and then gradually re-
+fining it over multiple iterations in a denoising process. Each iteration predicts and subsequently
+removes an element of noise, leading to a continuous evolution of the image, conditioned on the
+input texts.
+We use Stable Diffusion (SD) (Rombach et al., 2022) as an example to explain in detail how T2I
+models work. We choose this model for a variety of reasons. Firstly, SD is one of the most widely
+used open-source T2I models, which makes it a solid foundation for many alignment techniques we
+discuss in this chapter. Additionally, as a diffusion-based generation model, it serves as an excellent
+case study for introducing diffusion models. Finally, its cross-attention-based image-text fusion
+mechanism is a classic example of various text-conditioned methods, such as auto-regressive T2I
+generation (Yu et al., 2022b), helping us gain an in-depth understand of the image-text interaction
+in T2I generation.
+Stable Diffusion (SD)1, and its academic version latent diffusion (Rombach et al., 2022), contains
+mainly three modules, i.e., an image V AE, a denoising U-Net, and a condition encoder, as shown
+in the left, center, and right part of Figure 3.3, respectively. We will introduce each module and
+the inference flow for image generation, following the notations in the original latent diffusion pa-
+per (Rombach et al., 2022).
+• V AE.As introduced in the image generation technique overview, the V AE module contains a
+paired encoder E and decoder D, trained to encode RGB image x into a latent random variable z
+and then decode the latent to best reconstruct the image. Given an RGB imagex ∈ RH×W ×3, the
+encoder E encodes it into a continuous latent representation z ∈ Rh×w×c. With the parameters of
+H = W = 512, h = w = 64, and c = 4 in SD, latent z is 48 times smaller than image x, thereby
+significantly improving the computational efficiency by performing the denoising process in this
+compressed compact latent space.
+• Text encoder. SD is a conditional image generation model, where the input text condition is en-
+coded using a condition encoderτ. Specifically, SD uses the ViT-L/14 CLIP text encoder (Radford
+et al., 2021) that encodes the tokenized input text query y into text feature τ(y) ∈ RN ×dτ , where
+the maximum length N is 77 and text feature dimension dτ is 768.
+• Denoising U-Net. The denoising U-Net is the core module for the diffusion image generation
+process. The module is trained to predict the noise ˆϵ(zt, t) to subtract in the latent space at each
+denoising timestep t, such that it can step-by-step evolve the initial random noise into a meaningful
+image latent. The module is trained with the L2 loss between the predicted noise ˆϵ(zt, t) and the
+1We use Stable Diffusion v1 for the introduction. Later versions such as SD2 and SDXL share the same
+method but may have different detailed model configurations, such as a larger text encoder, U-Net, and latent
+dimension.
+30

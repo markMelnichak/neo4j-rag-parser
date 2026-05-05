@@ -1,0 +1,46 @@
+(a) DetCLIPv2
+ (b) Grounding-DINO
+Figure 4.3: (a) DetCLIPv2 (Yao et al., 2023) learns fine-grained word-region alignment from ob-
+ject detection and grounding data and large-scale image-text pairs. (b) Grounding-DINO (Liu et al.,
+2023h) injects text conditions into different stages of the Transformer encoder-decoder, which signif-
+icantly improves the grounding performance. Image credit: Yao et al. (2023) and Liu et al. (2023h).
+Below, we review recent models developed for region-level and pixel-level tasks.
+4.2.1 Object Detection and Grounding
+Object detection is a fundamental task in computer vision that involves identifying and localizing
+objects of interest within an image or a video sequence (Viola and Jones, 2001). Over the years,
+various techniques and algorithms have been developed to improve the accuracy and efficiency of
+object detection. In the past, region-based approaches such as R-CNN Girshick et al. (2015), Fast
+R-CNN (Girshick, 2015) and Faster R-CNN (Ren et al., 2015) have been fostering the development
+of advanced techniques for object detection. To improve real-time performance, YOLO (Redmon
+et al., 2016) proposes a single neural network that simultaneously predicts object classes and bound-
+ing box coordinates. Some improvements are made by either using multiple feature maps at differ-
+ent scales (Liu et al., 2016) or introducing a focal loss to address the class imbalance problem in
+dense object detection scenarios (Lin et al., 2017). After the emergence of Transformer (Vaswani
+et al., 2017), DETR (Carion et al., 2020) applies the transformer architecture to object detection,
+treating it as a set prediction problem. Since DETR, a number of methods have been proposed
+to improve transformer-based detection models from various aspects, such as DINO (Zhang et al.,
+2022a), Group DETR (Chen et al., 2022b), and Co-DETR (Zong et al., 2023).
+Open-set object detection models aim to detect arbitrary concepts beyond the vocabulary provided
+in training data. Three main evaluation settings have been developed in the literature:
+• Zero-shot object detection. Similar to zero-shot image classification (Xian et al., 2018), zero-
+shot object detection restricts the object classes used for training, and evaluates models’ transferra-
+bility to novel classes. Methods falling in this category mainly focus on evaluating how a model
+leverages pre-trained concept embeddings (e.g., word2vec (Mikolov et al., 2013)) and learns good
+visual-semantic alignments (Bansal et al., 2018; Rahman et al., 2020; Zhu et al., 2019, 2020).
+• Strict open-vocabulary object detection. First introduced in OV-RCNN (Zareian et al., 2021),
+this setting differs from zero-shot object detection in that there is no limit on the training vocab-
+ulary as long as it does not cover any target classes. Under this protocol, some representative
+works are ViLD (Gu et al., 2021), RegionCLIP (Zhong et al., 2022a) which leverage large-scale
+language-image models (Radford et al., 2021; Jia et al., 2021), and Detic (Zhou et al., 2022b) that
+learns from image-label data.
+• Generalized open-vocabulary object detection. Some recent works like GLIP (Li et al., 2022f),
+and OWL-VIT (Minderer et al., 2022) advocate a more flexible setting to evaluate the dataset or
+task transferrability for object detection models. This setting allows vocabulary overlap between
+training and test sets, e.g., Objects365 for training while COCO for evaluation. This is arguably
+a more practical setting than the two settings described above in that models can be trained using
+any arbitrary set of training data and their detection performance evaluated in the wild (Li et al.,
+2022b).
+Object grounding can be considered as a generalized open-set object detection task (Plummer et al.,
+2015; Kazemzadeh et al., 2014; Chen et al., 2019; Deng et al., 2018). In this task, models take
+a sentence and an image as input and localize objects that are associated with the noun phrases.
+46

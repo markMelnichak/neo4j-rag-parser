@@ -1,0 +1,64 @@
+Fig. 3: Overall pre-training and fine-tuning procedures for
+BERT. Courtesy of [24]
+Fig. 4: A comparison between replaced token detection and
+masked language modeling. Courtesy of [46].
+CODEX, and WebGPT. Although early GPT models, such as
+GPT-1 and GPT-2, are open-source, recent models, such as
+GPT-3 and GPT-4, are close-source and can only be accessed
+via APIs. GPT-1 and GPT-2 models have been discussed in
+the early PLM subsection. We start with GPT-3 below.
+GPT-3 [56] is a pre-trained autoregressive language model
+with 175 billion parameters. GPT-3 is widely considered as
+the first LLM in that not only it is much larger than previous
+PLMs, but also for the first time demonstrates emergent
+abilities that are not observed in previous smaller PLMs. GPT-
+3 shows the emergent ability of in-context learning, which
+means GPT-3 can be applied to any downstream tasks without
+any gradient updates or fine-tuning, with tasks and few-shot
+demonstrations specified purely via text interaction with the
+model. GPT-3 achieved strong performance on many NLP
+tasks, including translation, question-answering, and the cloze
+tasks, as well as several ones that require on-the-fly reasoning
+or domain adaptation, such as unscrambling words, using a
+novel word in a sentence, 3-digit arithmetic. Fig 9 plots the
+performance of GPT-3 as a function of the number of examples
+in in-context prompts.
+CODEX [57], released by OpenAI in March 2023, is a
+general-purpose programming model that can parse natural
+language and generate code in response. CODEX is a de-
+scendant of GPT-3, fine-tuned for programming applications
+on code corpora collected from GitHub. CODEX powers
+Microsoft’s GitHub Copilot.
+WebGPT [58] is another descendant of GPT-3, fine-tuned to
+answer open-ended questions using a text-based web browser,
+facilitating users to search and navigate the web. Specifically,
+Fig. 5: Cross-lingual language model pretraining. The MLM
+objective is similar to BERT, but with continuous streams
+of text as opposed to sentence pairs. The TLM objective
+extends MLM to pairs of parallel sentences. To predict a
+masked English word, the model can attend to both the English
+sentence and its French translation, and is encouraged to align
+English and French representations. Courtesy of [47].
+Fig. 6: Overview of unified LM pre-training. The model
+parameters are shared across the LM objectives (i.e., bidirec-
+tional LM, unidirectional LM, and sequence-to-sequence LM).
+Courtesy of [49].
+WebGPT is trained in three steps. The first is for WebGPT
+to learn to mimic human browsing behaviors using human
+demonstration data. Then, a reward function is learned to
+predict human preferences. Finally, WebGPT is refined to
+optimize the reward function via reinforcement learning and
+rejection sampling.
+To enable LLMs to follow expected human instructions,
+InstructGPT [59] is proposed to align language models with
+user intent on a wide range of tasks by fine-tuning with
+human feedback. Starting with a set of labeler-written prompts
+and prompts submitted through the OpenAI API, a dataset
+of labeler demonstrations of the desired model behavior is
+collected. Then GPT-3 is fine-tuned on this dataset. Then, a
+dataset of human-ranked model outputs is collected to further
+fine-tune the model using reinforcement learning. The method
+is known Reinforcement Learning from Human Feedback
+(RLHF), as shown in 10. The resultant InstructGPT models
+have shown improvements in truthfulness and reductions in
+toxic output generation while having minimal performance

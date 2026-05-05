@@ -1,0 +1,20 @@
+Comprehen-
+sive surveys of early PLMs are provided in [43], [28]. 1) Encoder-only PLMs: As the name suggests, the encoder-
+only models only consist of an encoder network. These models
+are originally developed for language understanding tasks,
+such as text classification, where the models need to predict a
+class label for an input text. Representative encoder-only mod-
+els include BERT and its variants, e.g., RoBERTa, ALBERT,
+DeBERTa, XLM, XLNet, UNILM, as to be described below. BERT (Birectional Encoder Representations from Trans-
+formers) [24] is one of the most widely used encoder-only
+language models. BERT consists of three modules: (1) an
+embedding module that converts input text into a sequence
+of embedding vectors, (2) a stack of Transformer encoders
+that converts embedding vectors into contextual representation
+vectors, and (3) a fully connected layer that converts the
+representation vectors (at the final layer) to one-hot vectors. BERT is pre-trained uses two objectives: masked language
+modeling (MLM) and next sentence prediction. The pre-trained
+BERT model can be fine-tuned by adding a classifier layer
+for many language understanding tasks, ranging from text
+classification, question answering to language inference. A
+high-level overview of BERT framework is shown in Fig 3.

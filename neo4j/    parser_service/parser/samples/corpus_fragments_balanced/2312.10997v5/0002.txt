@@ -1,0 +1,23 @@
+The paper highlights the state-of-the-
+art technologies embedded in each of these critical components,
+providing a profound understanding of the advancements in RAG
+systems. Furthermore, this paper introduces up-to-date evalua-
+tion framework and benchmark. At the end, this article delineates
+the challenges currently faced and points out prospective avenues
+for research and development 1. Index Terms—Large language model, retrieval-augmented gen-
+eration, natural language processing, information retrieval
+I. I NTRODUCTION
+L
+ARGE language models (LLMs) have achieved remark-
+able success, though they still face significant limitations,
+especially in domain-specific or knowledge-intensive tasks [1],
+notably producing “hallucinations” [2] when handling queries
+beyond their training data or requiring current information. To
+overcome challenges, Retrieval-Augmented Generation (RAG)
+enhances LLMs by retrieving relevant document chunks from
+external knowledge base through semantic similarity calcu-
+lation. By referencing external knowledge, RAG effectively
+reduces the problem of generating factually incorrect content. Its integration into LLMs has resulted in widespread adoption,
+establishing RAG as a key technology in advancing chatbots
+and enhancing the suitability of LLMs for real-world applica-
+tions.

@@ -1,0 +1,81 @@
+Fig. 33: Time Complexity comparison of RWKV with different
+Transformers. Here T denotes the sequence length, d the
+feature dimension, and c is MEGA’s chunk size of quadratic
+attention. Courtesy of [141].
+2) Low-Rank Adaption (LoRA) : Low-Rank Adaptation is
+a popular and lightweight training technique that significantly
+reduces the number of trainable parameters, and is based
+on a crucial insight that the difference between the fine-
+tuned weights for a specialized task and the initial pre-trained
+weights often exhibits “low intrinsic rank” - meaning that
+it can be approximated well by a low rank matrix [142].
+Training with LoRA is much faster, memory-efficient, and
+produces smaller model weights (a few hundred MBs), that are
+easier to store and share. One property of low-rank matrices
+is that they can be represented as the product of two smaller
+matrices. This realization leads to the hypothesis that this delta
+between fine-tuned weights and initial pre-trained weights can
+be represented as the matrix product of two much smaller
+matrices. By focusing on updating these two smaller matrices
+rather than the entire original weight matrix, computational
+efficiency can be substantially improved.
+Specifically, for a pre-trained weight matrix W0 ∈ Rd×k,
+LoRA constrains its update by representing the latter with
+a low-rank decomposition W0 + ∆W = W0 + BA, where
+B ∈ Rd×r , A ∈ Rr×k, and the rank r ≪ min(d, k). During
+training, W0 is frozen and does not receive gradient updates,
+while A and B contain trainable parameters. It is worth
+mentioning that both W0 and ∆W = BA are multiplied with
+the same input, and their respective output vectors are summed
+coordinate-wise. For h = W0x, their modified forward pass
+yields: h = W0x + ∆W x = W0x + BAx. Usually a random
+Gaussian initialization is used for A, and zero initialization
+for B, so ∆W = BA is zero at the beginning of training.
+They then scale ∆W x by αr, where α is a constant in r. This
+reparametrization is illustrated in Figure 34
+It is worth mentioning that LoRA can be applied to a subset
+of weight matrices in a neural network to reduce the number
+of trainable parameters. In the Transformer architecture, there
+are four weight matrices in the self-attention module ( Wq ,
+Wk, Wv , Wo), and two in the MLP module. Most of the
+time, LoRA is focused on adapting the attention weights only
+for downstream tasks, and freezes the MLP modules, so they
+are not trained in downstream tasks both for simplicity and
+parameter-efficiency.
+3) Knowledge Distillation : Knowledge distillation is the
+process of learning from a larger model [143]. Earlier days of
+best-performing models release have proven that this approach
+is very useful even if it is used in an API distillation approach.
+Fig. 34: An illustration of LoRA reparametrizan. Only A and
+B trained during this process. Courtesy of [142].
+It is also referred to as an approach to distill the knowledge of
+not a single model but in fact multiple models into a smaller
+one. Creating smaller models by this approach yields smaller
+model sizes that can be used even on edge devices. Knowledge
+distillation as shown in Fig 35, illustrates a general setup of
+this training scheme.
+Fig. 35: A generic knowledge distillation framework with
+student and teacher (Courtesy of [144]).
+Knowledge can be transferred by different forms of learn-
+ing: response distillation, feature distillation, and API distilla-
+tion. Response distillation is concerned only with the outputs
+of the teacher model and tries to teach the student model
+how to exactly or at least similarly perform (in the sense of
+prediction) as the teacher. Feature distillation not only uses
+the last layer but also intermediate layers as well to create a
+better inner representation for the student model. This helps the
+smaller model to have a similar representation as the teacher
+model.
+API distillation is the process of using an API (typically
+from an LLM provider such as OpenAI) to train smaller
+models. In the case of LLMs, it is used to train the model
+from the direct output of the larger model which makes it very
+similar to response distillation. Many concerns are raised by
+this type of distillation because in cases where the model itself
+is not openly available, a (usually) paid API is exposed for end
+users. On the other hand, while users pay for each call, how to
+use the predictions is limited, for example, OpenAI prohibits
+usage of its API to create LLMs that later will be used to
+compete with it. The main value in such case is training data.
+4) Quantization: deep learning in its core, is a set of
+mathematical functions applied to matrices, with a specific

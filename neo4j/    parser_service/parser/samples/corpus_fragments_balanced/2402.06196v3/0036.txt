@@ -1,0 +1,111 @@
+(LLMs) to handle complex tasks that require both reasoning
+and interaction with external data sources or tools.
+ART involves a systematic approach where, given a task
+and input, the system first identifies similar tasks from a task
+library. These tasks are then used as examples in the prompt,
+guiding the LLM on how to approach and execute the current
+task. This method is particularly effective when tasks require a
+combination of internal reasoning and external data processing
+or retrieval.
+E. LLM Agents
+The idea of AI agents has been well-explored in the history
+of AI. An agent is typically an autonomous entity that can
+perceive the environment using its sensors, make a judgment
+based on the state it currently is, and accordingly act based on
+the actions that are available to it.
+In the context of LLMs, an agent refers to a system based
+on a specialized instantiation of an (augmented) LLM that
+is capable of performing specific tasks autonomously. These
+agents are designed to interact with users and environment to
+make decisions based on the input and the intended goal of
+the interaction. Agents are based on LLMs equipped with the
+ability to access and use tools, and to make decisions based on
+the given input. They are designed to handle tasks that require
+a degree of autonomy and decision-making, typically beyond
+simple response generation.
+The functionalities of a generic LLM-based agent include:
+• Tool Access and Utilization: Agents have the capabil-
+ity to access external tools and services, and to utilize
+these resources effectively to accomplish tasks.
+• Decision Making: They can make decisions based on
+the input, context, and the tools available to them,
+often employing complex reasoning processes.
+As an example, an LLM that has access to a function (or
+an API) such as weather API, can answer any question related
+to the weather of the specific place. In other words, it can use
+APIs to solve problems. Furthermore, if that LLM has access
+to an API that allows to make purchases, a purchasing agent
+can be built to not only have capabilities to read information
+from the external world, but also act on it [171].
+Fig. 40 shows another example of LLM-based agents for
+conversational information seeking [36], where an LLM is
+augmented with a set of plug-and-play modules, including
+a working memory that tracks the dialog state, a policy that
+makes an execution plan for the task and selects next system
+action, an action executor that performs an action selected by
+the policy (consolidating evidence from external knowledge,
+or prompting the LLM to generate responses), and a utility
+that accesses the alignment of the LLM’s responses with user
+expectations or specific business requirements, and generate
+feedback to improve agent performance.
+For more details on LLM-based AI agents see recent survey
+[172], [173], [174].
+a) Prompt engineering techniques for agents: Like
+RAG and Tools, prompt engineering techniques that specif-
+ically address the needs of LLM-based agents have been
+developed. Three such examples are Reasoning without Ob-
+servation (ReWOO), Reason and Act (ReAct), and Dialog-
+Enabled Resolving Agents (DERA).
+Reasoning without Observation (ReWOO) [175] aims to
+decouple reasoning from direct observations. ReWOO operates
+by enabling LLMs to formulate comprehensive reasoning plans
+or meta-plans without immediate reliance on external data
+or tools. This approach allows the agent to create a struc-
+tured framework for reasoning that can be executed once the
+necessary data or observations are available. In ReWOO, the
+LLM initially develops a plan (a series of steps) that outlines
+how to approach and solve a given problem. This meta-
+planning phase is crucial as it sets the stage for the agent to
+process information once it becomes available. The execution
+phase then involves integrating actual data or observations into
+the pre-specified plan, leading to coherent and contextually
+relevant responses. ReWOO offers significant advantages in
+terms of token efficiency and robustness to tool failure. It
+enables LLMs to handle tasks where immediate access to
+external data is not available, relying instead on a well-
+structured reasoning framework. This method is particularly
+advantageous in scenarios where data retrieval is costly, slow,
+or uncertain, allowing the LLM-based agent to maintain a high
+level of performance and reliability.
+Reason and Act (ReAct)[176] prompts LLMs to generate
+not only verbal reasoning but also actionable steps, thus
+enhancing the model’s dynamic problem-solving capabilities.
+ReAct is grounded in the principle of integrating reasoning
+with action. In this approach, the LLM is prompted to alternate
+between generating reasoning traces (explanations) and taking
+actions (steps or commands) in an interleaved manner. This
+approach allows the model to dynamically reason about a prob-
+lem, and propose and take concrete actions simultaneously.
+Dialog-Enabled Resolving Agents (DERA) [177] are spe-
+cialized AI agents that can engage in dialogue, resolve queries,
+and make decisions based on interactive exchanges. DERA
+is developed based on the idea of utilizing multiple agents
+within a dialog context, each with specific roles and functions.
+These agents can include Researchers, who gather and analyze
+information, and Deciders, who make final judgments based
+on the information provided. This division of roles allows for
+a well-organized and efficient approach to problem-solving
+and decision-making. DERA is particularly advantageous in
+scenarios requiring complex decision-making and problem-
+solving, such as those in medical diagnostics or customer ser-
+vice. The collaborative and interactive nature of DERA agents
+allows them to handle intricate queries with a level of depth
+and nuance that single-agent systems might struggle with.
+Moreover, this approach aligns well with human decision-
+making processes, making AI reasoning more relatable and
+trustworthy.
+V. P OPULAR DATASETS FOR LLM S
+Large language models exhibit promising accomplish-
+ments, but the main question that arises is how effectively
+they function and how their performance can be assessed in
+specific tasks or applications.

@@ -1,0 +1,34 @@
+Figure 2.10: Overview of UniCL (Yang et al., 2022a) that performs unified contrastive pre-training
+on image-text and image-label data. Image credit: Yang et al. (2022a).
+typically used when the targets are discrete tokens, while ℓ1, ℓ2, or cosine similarity losses are
+common choices for pixel values or continuous-valued features.
+MIM for video pre-training. Naturally, there are recent works on extending MIM to video
+pre-training. Prominent examples include BEVT (Wang et al., 2022c), MAE as spatiotemporal
+learner (Feichtenhofer et al., 2022), VideoMAE (Tong et al., 2022), and VideoMAEv2 (Wang et al.,
+2023e). Taking Feichtenhofer et al. (2022) as an example. This paper studies a conceptually simple
+extension of MAE to video pre-training via randomly masking out space-time patches in videos and
+learns an autoencoder to reconstruct them in pixels. Interestingly, the authors found that MAE learns
+strong video representations with almost no inductive bias on space-time, and spacetime-agnostic
+random masking performs the best, with an optimal masking ratio as high as 90%.
+Lack of learning global image representations. MIM is an effective pre-training method that
+provides a good parameter initialization for further model finetuning. However, the vanilla MIM
+pre-trained model does not learn a global image representation. In iBOT (Zhou et al., 2021), the
+authors propose to enhance BEiT (Bao et al., 2022) with a DINO-like self-distillation loss (Caron
+et al., 2021) to force the [CLS] token to learn global image representations. The same idea has been
+extended to DINOv2 (Oquab et al., 2023).
+Scaling properties of MIM. MIM is scalable in terms of model size. For example, we can per-
+form MIM pre-training of a vision transformer with billions of parameters. However, the scaling
+property with regard to data size is less clear. There are some recent works that aim to understand
+the data scaling of MIM (Xie et al., 2023b; Lu et al., 2023a); however, the data scale is limited to
+millions of images, rather than billions, except Singh et al. (2023) that studies the effectiveness of
+MAE as a so-called “pre-pretraining” method for billion-scale data. Generally, MIM can be con-
+sidered an effective regularization method that helps initialize a billion-scale vision transformer for
+downstream tasks; however, whether or not scaling the MIM pre-training to billion-scale image-only
+data requires further exploration.
+2.5 Synergy Among Different Learning Approaches
+Till now, we have reviewed different approaches to pre-training image backbones, especially for vi-
+sion transformers. Below, we use CLIP as the anchor point, and discuss how CLIP can be combined
+with other learning methods.
+Combining CLIP with label supervision. Noisy labels and text supervision can be jointly used
+for image backbone pre-training. Some representative works are discussed below.
+21

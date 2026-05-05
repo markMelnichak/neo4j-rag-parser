@@ -1,0 +1,44 @@
+196 
+ 
+2
+.4. Заменить пропуски в столбцах LocationNormalized 
+и ContractTime на специальную строку 'nan' (листинг 27). 
+2.5. Применить DictVectorizer для получения one-hot-кодиро-
+вания признаков LocationNormalized и ContractTime. 
+2.6. Объединить все полученные признаки в одну матрицу 
+«объекты-признаки». 
+Обр
+атите внимание! 
+ Матр
+ицы для текстов и категориальных признаков являются 
+разреженными. Для объединения их столбцов нужно 
+воспользоваться функцией scipy.sparse.hstack. 
+2
+.7. Обучить гребневую регрессию с параметрами alpha=1 
+и random_state=241, помня, что целевая переменная записана 
+в столбце SalaryNormalized. Обучение производится вызовом 
+метода fit. 
+3. Построить прогноз для двух примеров из файла salary-test-mini.csv. 
+Прогноз строится методом predict. 
+Код решения задачи (с комментариями) – в листинге 28. 
+Результат работы – два прогнозных числа для двух записей из тесто-
+вой выборки: [ 56876.4573163 37557.00551031]. 
+Лист
+инг 28 
+# -*- codi
+ng: utf-8 -*- 
+import pandas 
+from sklearn.feature_extraction import DictVectorizer 
+from sklearn.feature_extraction.text import TfidfVectorizer 
+from sklearn.linear_model import Ridge 
+from scipy.sparse import hstack 
+ 
+#Заг
+рузка данных 
+data_train = pandas.read_csv('salary-train.csv') 
+data_test = pandas.read_csv('salary-test-mini.csv') 
+ 
+# При
+ведение текста к нижнему регистру 
+data_train['FullDescription'] = data_train.FullDescription.str.lower() 
+data_test['FullDescription'] = data_test.FullDescription.str.lower()

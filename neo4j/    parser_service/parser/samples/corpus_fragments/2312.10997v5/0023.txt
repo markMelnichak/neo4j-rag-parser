@@ -1,0 +1,148 @@
+17
+The growing ecosystem of RAG is evidenced by the rise in
+RAG-centric AI applications and the continuous development
+of supportive tools. As RAG’s application landscape broadens,
+there is a need to refine evaluation methodologies to keep
+pace with its evolution. Ensuring accurate and representative
+performance assessments is crucial for fully capturing RAG’s
+contributions to the AI research and development community.
+REFERENCES
+[1] N. Kandpal, H. Deng, A. Roberts, E. Wallace, and C. Raffel, “Large
+language models struggle to learn long-tail knowledge,” in Interna-
+tional Conference on Machine Learning . PMLR, 2023, pp. 15 696–
+15 707.
+[2] Y . Zhang, Y . Li, L. Cui, D. Cai, L. Liu, T. Fu, X. Huang, E. Zhao,
+Y . Zhang, Y . Chenet al., “Siren’s song in the ai ocean: A survey on hal-
+lucination in large language models,” arXiv preprint arXiv:2309.01219,
+2023.
+[3] D. Arora, A. Kini, S. R. Chowdhury, N. Natarajan, G. Sinha, and
+A. Sharma, “Gar-meets-rag paradigm for zero-shot information re-
+trieval,” arXiv preprint arXiv:2310.20158 , 2023.
+[4] P. Lewis, E. Perez, A. Piktus, F. Petroni, V . Karpukhin, N. Goyal,
+H. K ¨uttler, M. Lewis, W.-t. Yih, T. Rockt ¨aschel et al. , “Retrieval-
+augmented generation for knowledge-intensive nlp tasks,” Advances in
+Neural Information Processing Systems, vol. 33, pp. 9459–9474, 2020.
+[5] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Milli-
+can, G. B. Van Den Driessche, J.-B. Lespiau, B. Damoc, A. Clarket al.,
+“Improving language models by retrieving from trillions of tokens,”
+in International conference on machine learning . PMLR, 2022, pp.
+2206–2240.
+[6] L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. Wainwright, P. Mishkin,
+C. Zhang, S. Agarwal, K. Slama, A. Ray et al. , “Training language
+models to follow instructions with human feedback,” Advances in
+neural information processing systems , vol. 35, pp. 27 730–27 744,
+2022.
+[7] X. Ma, Y . Gong, P. He, H. Zhao, and N. Duan, “Query rewrit-
+ing for retrieval-augmented large language models,” arXiv preprint
+arXiv:2305.14283, 2023.
+[8] I. ILIN, “Advanced rag techniques: an il-
+lustrated overview,” https://pub.towardsai.net/
+advanced-rag-techniques-an-illustrated-overview-04d193d8fec6,
+2023.
+[9] W. Peng, G. Li, Y . Jiang, Z. Wang, D. Ou, X. Zeng, E. Chen et al. ,
+“Large language model based long-tail query rewriting in taobao
+search,” arXiv preprint arXiv:2311.03758 , 2023.
+[10] H. S. Zheng, S. Mishra, X. Chen, H.-T. Cheng, E. H. Chi, Q. V . Le,
+and D. Zhou, “Take a step back: Evoking reasoning via abstraction in
+large language models,” arXiv preprint arXiv:2310.06117 , 2023.
+[11] L. Gao, X. Ma, J. Lin, and J. Callan, “Precise zero-shot dense retrieval
+without relevance labels,” arXiv preprint arXiv:2212.10496 , 2022.
+[12] V . Blagojevi, “Enhancing rag pipelines in haystack: Introducing diver-
+sityranker and lostinthemiddleranker,” https://towardsdatascience.com/
+enhancing-rag-pipelines-in-haystack-45f14e2bc9f5, 2023.
+[13] W. Yu, D. Iter, S. Wang, Y . Xu, M. Ju, S. Sanyal, C. Zhu, M. Zeng,
+and M. Jiang, “Generate rather than retrieve: Large language models
+are strong context generators,” arXiv preprint arXiv:2209.10063, 2022.
+[14] Z. Shao, Y . Gong, Y . Shen, M. Huang, N. Duan, and W. Chen,
+“Enhancing retrieval-augmented large language models with iterative
+retrieval-generation synergy,” arXiv preprint arXiv:2305.15294 , 2023.
+[15] X. Wang, Q. Yang, Y . Qiu, J. Liang, Q. He, Z. Gu, Y . Xiao,
+and W. Wang, “Knowledgpt: Enhancing large language models with
+retrieval and storage access on knowledge bases,” arXiv preprint
+arXiv:2308.11761, 2023.
+[16] A. H. Raudaschl, “Forget rag, the future
+is rag-fusion,” https://towardsdatascience.com/
+forget-rag-the-future-is-rag-fusion-1147298d8ad1, 2023.
+[17] X. Cheng, D. Luo, X. Chen, L. Liu, D. Zhao, and R. Yan, “Lift
+yourself up: Retrieval-augmented text generation with self memory,”
+arXiv preprint arXiv:2305.02437 , 2023.
+[18] S. Wang, Y . Xu, Y . Fang, Y . Liu, S. Sun, R. Xu, C. Zhu, and
+M. Zeng, “Training data is more valuable than you think: A simple
+and effective method by retrieving from training data,” arXiv preprint
+arXiv:2203.08773, 2022.
+[19] X. Li, E. Nie, and S. Liang, “From classification to generation:
+Insights into crosslingual retrieval augmented icl,” arXiv preprint
+arXiv:2311.06595, 2023.
+[20] D. Cheng, S. Huang, J. Bi, Y . Zhan, J. Liu, Y . Wang, H. Sun,
+F. Wei, D. Deng, and Q. Zhang, “Uprise: Universal prompt retrieval
+for improving zero-shot evaluation,” arXiv preprint arXiv:2303.08518,
+2023.
+[21] Z. Dai, V . Y . Zhao, J. Ma, Y . Luan, J. Ni, J. Lu, A. Bakalov, K. Guu,
+K. B. Hall, and M.-W. Chang, “Promptagator: Few-shot dense retrieval
+from 8 examples,” arXiv preprint arXiv:2209.11755 , 2022.
+[22] Z. Sun, X. Wang, Y . Tay, Y . Yang, and D. Zhou, “Recitation-augmented
+language models,” arXiv preprint arXiv:2210.01296 , 2022.
+[23] O. Khattab, K. Santhanam, X. L. Li, D. Hall, P. Liang, C. Potts,
+and M. Zaharia, “Demonstrate-search-predict: Composing retrieval
+and language models for knowledge-intensive nlp,” arXiv preprint
+arXiv:2212.14024, 2022.
+[24] Z. Jiang, F. F. Xu, L. Gao, Z. Sun, Q. Liu, J. Dwivedi-Yu, Y . Yang,
+J. Callan, and G. Neubig, “Active retrieval augmented generation,”
+arXiv preprint arXiv:2305.06983 , 2023.
+[25] A. Asai, Z. Wu, Y . Wang, A. Sil, and H. Hajishirzi, “Self-rag:
+Learning to retrieve, generate, and critique through self-reflection,”
+arXiv preprint arXiv:2310.11511 , 2023.
+[26] Z. Ke, W. Kong, C. Li, M. Zhang, Q. Mei, and M. Bendersky,
+“Bridging the preference gap between retrievers and llms,” arXiv
+preprint arXiv:2401.06954, 2024.
+[27] X. V . Lin, X. Chen, M. Chen, W. Shi, M. Lomeli, R. James, P. Ro-
+driguez, J. Kahn, G. Szilvasy, M. Lewis et al. , “Ra-dit: Retrieval-
+augmented dual instruction tuning,” arXiv preprint arXiv:2310.01352 ,
+2023.
+[28] O. Ovadia, M. Brief, M. Mishaeli, and O. Elisha, “Fine-tuning or
+retrieval? comparing knowledge injection in llms,” arXiv preprint
+arXiv:2312.05934, 2023.
+[29] T. Lan, D. Cai, Y . Wang, H. Huang, and X.-L. Mao, “Copy is all
+you need,” in The Eleventh International Conference on Learning
+Representations, 2022.
+[30] T. Chen, H. Wang, S. Chen, W. Yu, K. Ma, X. Zhao, D. Yu, and
+H. Zhang, “Dense x retrieval: What retrieval granularity should we
+use?” arXiv preprint arXiv:2312.06648 , 2023.
+[31] F. Luo and M. Surdeanu, “Divide & conquer for entailment-aware
+multi-hop evidence retrieval,” arXiv preprint arXiv:2311.02616 , 2023.
+[32] Q. Gou, Z. Xia, B. Yu, H. Yu, F. Huang, Y . Li, and N. Cam-Tu,
+“Diversify question generation with retrieval-augmented style transfer,”
+arXiv preprint arXiv:2310.14503 , 2023.
+[33] Z. Guo, S. Cheng, Y . Wang, P. Li, and Y . Liu, “Prompt-guided re-
+trieval augmentation for non-knowledge-intensive tasks,”arXiv preprint
+arXiv:2305.17653, 2023.
+[34] Z. Wang, J. Araki, Z. Jiang, M. R. Parvez, and G. Neubig, “Learning
+to filter context for retrieval-augmented generation,” arXiv preprint
+arXiv:2311.08377, 2023.
+[35] M. Seo, J. Baek, J. Thorne, and S. J. Hwang, “Retrieval-augmented
+data augmentation for low-resource domain tasks,” arXiv preprint
+arXiv:2402.13482, 2024.
+[36] Y . Ma, Y . Cao, Y . Hong, and A. Sun, “Large language model is not
+a good few-shot information extractor, but a good reranker for hard
+samples!” arXiv preprint arXiv:2303.08559 , 2023.
+[37] X. Du and H. Ji, “Retrieval-augmented generative question answering
+for event argument extraction,”arXiv preprint arXiv:2211.07067, 2022.
+[38] L. Wang, N. Yang, and F. Wei, “Learning to retrieve in-context
+examples for large language models,”arXiv preprint arXiv:2307.07164,
+2023.
+[39] S. Rajput, N. Mehta, A. Singh, R. H. Keshavan, T. Vu, L. Heldt,
+L. Hong, Y . Tay, V . Q. Tran, J. Samostet al., “Recommender systems
+with generative retrieval,” arXiv preprint arXiv:2305.05065 , 2023.
+[40] B. Jin, H. Zeng, G. Wang, X. Chen, T. Wei, R. Li, Z. Wang, Z. Li,
+Y . Li, H. Lu et al. , “Language models as semantic indexers,” arXiv
+preprint arXiv:2310.07815, 2023.
+[41] R. Anantha, T. Bethi, D. V odianik, and S. Chappidi, “Context tuning
+for retrieval augmented generation,” arXiv preprint arXiv:2312.05708 ,
+2023.
+[42] G. Izacard, P. Lewis, M. Lomeli, L. Hosseini, F. Petroni, T. Schick,
+J. Dwivedi-Yu, A. Joulin, S. Riedel, and E. Grave, “Few-shot
+learning with retrieval augmented language models,” arXiv preprint
+arXiv:2208.03299, 2022.
+[43] J. Huang, W. Ping, P. Xu, M. Shoeybi, K. C.-C. Chang, and B. Catan-
+zaro, “Raven: In-context learning with retrieval augmented encoder-
+decoder language models,” arXiv preprint arXiv:2308.07922 , 2023.

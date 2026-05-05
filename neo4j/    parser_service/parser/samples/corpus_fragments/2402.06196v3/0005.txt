@@ -1,0 +1,16 @@
+hidden embedding space. The training and inference of PLMs
+follows the pre-training and fine-tuning paradigm, where lan-
+guage models with recurrent neural networks [23] or trans-
+formers [24], [25], [26] are pre-trained on Web-scale unlabeled
+text corpora for general tasks such as word prediction, and then
+finetuned to specific tasks using small amounts of (labeled)
+task-specific data. Recent surveys on PLMs include [8], [27],
+[28]. Large language models mainly refer to transformer-based
+neural language models 1 that contain tens to hundreds of
+billions of parameters, which are pre-trained on massive text
+data, such as PaLM [31], LLaMA [32], and GPT-4 [33], as
+summarized in Table III. Compared to PLMs, LLMs are not
+only much larger in model size, but also exhibit stronger
+language understanding and generation abilities, and more
+importantly, emergent abilities that are not present in smaller-
+scale language models. As illustrated in Fig.

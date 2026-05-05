@@ -1,0 +1,51 @@
+Mou, C., Wang, X., Xie, L., Zhang, J., Qi, Z., Shan, Y ., and Qie, X. (2023). T2i-adapter: Learning
+adapters to dig out more controllable ability for text-to-image diffusion models. arXiv preprint
+arXiv:2302.08453.
+Mu, N., Kirillov, A., Wagner, D., and Xie, S. (2021). Slip: Self-supervision meets language-image
+pre-training. arXiv preprint arXiv:2112.12750.
+Mu, Y ., Zhang, Q., Hu, M., Wang, W., Ding, M., Jin, J., Wang, B., Dai, J., Qiao, Y ., and Luo,
+P. (2023). Embodiedgpt: Vision-language pre-training via embodied chain of thought. arXiv
+preprint arXiv:2305.15021.
+Musgrave, K., Belongie, S., and Lim, S.-N. (2020). A metric learning reality check. In ECCV.
+Nagaraja, V . K., Morariu, V . I., and Davis, L. S. (2016). Modeling context between objects for
+referring expression understanding. In ECCV.
+Nakano, R., Hilton, J., Balaji, S., Wu, J., Ouyang, L., Kim, C., Hesse, C., Jain, S., Kosaraju, V .,
+Saunders, W., et al. (2021). Webgpt: Browser-assisted question-answering with human feedback.
+arXiv preprint arXiv:2112.09332.
+Nguyen, T., Ilharco, G., Wortsman, M., Oh, S., and Schmidt, L. (2022). Quality not quantity: On
+the interaction between dataset design and robustness of clip. NeurIPS.
+Ning, J., Li, C., Zhang, Z., Geng, Z., Dai, Q., He, K., and Hu, H. (2023). All in tokens: Unifying
+output space of visual tasks via soft token. arXiv preprint arXiv:2301.02229.
+Oord, A. v. d., Li, Y ., and Vinyals, O. (2018). Representation learning with contrastive predictive
+coding. arXiv preprint arXiv:1807.03748.
+Oord, A. v. d., Vinyals, O., and Kavukcuoglu, K. (2017). Neural discrete representation learning.
+arXiv preprint arXiv:1711.00937.
+OpenAI (2022). ChatGPT. https://openai.com/blog/chatgpt/.
+OpenAI (2023a). GPT-4 technical report. https://arxiv.org/abs/2303.08774.
+OpenAI (2023b). Gpt-4 technical report.
+Oquab, M., Darcet, T., Moutakanni, T., V o, H., Szafraniec, M., Khalidov, V ., Fernandez, P., Haziza,
+D., Massa, F., El-Nouby, A., et al. (2023). Dinov2: Learning robust visual features without
+supervision. arXiv preprint arXiv:2304.07193.
+Ordonez, V ., Kulkarni, G., and Berg, T. (2011). Im2text: Describing images using 1 million cap-
+tioned photographs. In NeurIPS.
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., Zhang, C., Agarwal, S.,
+Slama, K., Ray, A., et al. (2022). Training language models to follow instructions with human
+feedback. Advances in Neural Information Processing Systems, 35:27730–27744.
+Ozbulak, U., Lee, H. J., Boga, B., Anzaku, E. T., Park, H., Van Messem, A., De Neve, W., and
+Vankerschaver, J. (2023). Know your self-supervised learning: A survey on image-based genera-
+tive and discriminative training. arXiv preprint arXiv:2305.13689.
+Paranjape, B., Lundberg, S., Singh, S., Hajishirzi, H., Zettlemoyer, L., and Ribeiro, M. T. (2023).
+Art: Automatic multi-step reasoning and tool-use for large language models. arXiv preprint
+arXiv:2303.09014.
+Patil, S. G., Zhang, T., Wang, X., and Gonzalez, J. E. (2023). Gorilla: Large language model
+connected with massive apis. arXiv preprint arXiv:2305.15334.
+Penedo, G., Malartic, Q., Hesslow, D., Cojocaru, R., Cappelli, A., Alobeidli, H., Pannier, B., Al-
+mazrouei, E., and Launay, J. (2023). The RefinedWeb dataset for Falcon LLM: outperforming
+curated corpora with web data, and web data only. arXiv preprint arXiv:2306.01116.
+Peng, B., Li, C., He, P., Galley, M., and Gao, J. (2023a). Instruction tuning with GPT-4. arXiv
+preprint arXiv:2304.03277.
+Peng, Z., Dong, L., Bao, H., Ye, Q., and Wei, F. (2022a). Beit v2: Masked image modeling with
+vector-quantized visual tokenizers. arXiv preprint arXiv:2208.06366.
+Peng, Z., Dong, L., Bao, H., Ye, Q., and Wei, F. (2022b). A unified view of masked image modeling.
+arXiv preprint arXiv:2210.10615.
+107

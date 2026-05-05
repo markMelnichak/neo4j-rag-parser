@@ -1,0 +1,103 @@
+ rn
+g = np.random.RandomState(25)
+ ma
+ke_moons 
+ make_circles 
+ train_test_split 
+Рису
+нок 71. 
+Пример работы программы по сравнению нескольких моделей 
+Ср
+авнение эффективности моделей из библиотеки Keras
+Вы 
+научитесь: 
+ Про
+водить самостоятельный анализ результатов экспери
+ме
+нтов; 
+ Про
+водить серию экспериментов
+ Интерпр
+етировать результаты моделей
+ Под
+бирать соответствующие данным 
+ме
+тры. 
+Необходимые imp
+ort
+в л
+истинге 95. 
+Лист
+инг 95 
+import
+ numpy as np 
+fr
+om keras.datasets import mnist
+fr
+om keras.models import Sequential
+fr
+om keras.layers import Dense, Dropout, Activation, Flatten
+fro
+m keras.layers import Convolution2D, MaxPooling2D
+fr
+om keras.utils import np_utils
+import
+ matplotlib.pyplot as plt
+fr
+om keras.models import model_from_json
+fr
+om sklearn.datasets import fetch_lfw_people
+fr
+om sklearn.model_selection import train_test_split
+263 
+rn
+g = np.random.RandomState(25) 
+. 
+Пример работы программы по сравнению нескольких моделей 
+на за
+дачах moon, circle, linear 
+Ср
+авнение эффективности моделей из библиотеки Keras
+Про
+водить самостоятельный анализ результатов экспери
+Про
+водить серию экспериментов; 
+Интерпр
+етировать результаты моделей; 
+Под
+бирать соответствующие данным инстр
+ументы
+imp
+ort для 
+выполнения работы 
+fr
+om keras.datasets import mnist 
+fr
+om keras.models import Sequential 
+fr
+om keras.layers import Dense, Dropout, Activation, Flatten 
+o
+m keras.layers import Convolution2D, MaxPooling2D 
+fr
+om keras.utils import np_utils 
+import
+ matplotlib.pyplot as plt 
+fr
+om keras.models import model_from_json 
+fr
+om sklearn.datasets import fetch_lfw_people 
+fr
+om sklearn.model_selection import train_test_split 
+ 
+. 
+Пример работы программы по сравнению нескольких моделей 
+Ср
+авнение эффективности моделей из библиотеки Keras 
+Про
+водить самостоятельный анализ результатов экспери -
+нстр
+ументы и па
+ра-
+для 
+выполнения работы пр
+едставлены

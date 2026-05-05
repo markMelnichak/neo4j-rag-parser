@@ -1,0 +1,104 @@
+Fig. 7: High-level overview of GPT pretraining, and fine-tuning
+steps. Courtesy of OpenAI.
+regressions on public NLP datasets.
+The most important milestone of LLM development is the
+launch of ChatGPT (Chat Generative Pre-trained Transformer)
+[60] on November 30, 2022. ChatGPT is chatbot that enables
+users to steer a conversation to complete a wide range of
+tasks such as question answering, information seeking, text
+summarization, and more. ChatGPT is powered by GPT-3.5
+(and later by GPT-4), a sibling model to InstructGPT, which
+is trained to follow an instruction in a prompt and provide a
+detailed response.
+GPT-4 [33] is the latest and most powerful LLM in the
+GPT family. Launched in March, 2023, GPT-4 is a multi-
+modal LLM in that it can take image and text as inputs and
+produce text outputs. While still less capable than humans
+in some of the most challenging real-world scenarios, GPT-4
+exhibits human-level performance on various professional and
+academic benchmarks, including passing a simulated bar exam
+with a score around the top 10% of test takers, as shown in
+Fig 11. Like early GPT models, GPT-4 was first pre-trained to
+predict next tokens on large text corpora, and then fine-tuned
+with RLHF to align model behaviors with human-desired ones.
+2) The LLaMA F amily: LLaMA is a collection of founda-
+tion language models, released by Meta. Unlike GPT models,
+LLaMA models are open-source, i.e., model weights are
+released to the research community under a noncommercial
+license. Thus, the LLaMA family grows rapidly as these
+models are widely used by many research groups to develop
+better open-source LLMs to compete the closed-source ones or
+to develop task-specific LLMs for mission-critical applications.
+The first set of LLaMA models [32] was released in Febru-
+ary 2023, ranging from 7B to 65B parameters. These models
+are pre-trained on trillions of tokens, collected from publicly
+available datasets. LLaMA uses the transformer architecture of
+GPT-3, with a few minor architectural modifications, including
+(1) using a SwiGLU activation function instead of ReLU,
+(2) using rotary positional embeddings instead of absolute
+positional embedding, and (3) using root-mean-squared layer-
+normalization instead of standard layer-normalization. The
+open-source LLaMA-13B model outperforms the proprietary
+GPT-3 (175B) model on most benchmarks, making it a good
+baseline for LLM research.
+In July 2023, Meta, in partnership with Microsoft, released
+the LLaMA-2 collection [61], which include both foundation
+language models and Chat models finetuned for dialog, known
+as LLaMA-2 Chat. The LLaMA-2 Chat models were reported
+to outperform other open-source models on many public
+benchmarks. Fig 12 shows the training process of LLaMA-2
+Chat. The process begins with pre-training LLaMA-2 using
+publicly available online data. Then, an initial version of
+LLaMA-2 Chat is built via supervised fine-tuning. Subse-
+quently, the model is iteratively refined using RLHF, rejection
+sampling and proximal policy optimization. In the RLHF stage,
+the accumulation of human feedback for revising the reward
+model is crucial to prevent the reward model from being
+changed too much, which could hurt the stability of LLaMA
+model training.
+Alpaca [62] is fine-tuned from the LLaMA-7B model using
+52K instruction-following demonstrations generated in the
+style of self-instruct using GPT-3.5 (text-davinci-003). Alpaca
+is very cost-effective for training, especially for academic
+research. On the self-instruct evaluation set, Alpaca performs
+similarly to GPT-3.5, despite that Alpaca is much smaller.
+The Vicuna team has developed a 13B chat model, Vicuna-
+13B, by fine-tuning LLaMA on user-shared conversations
+collected from ShareGPT. Preliminary evaluation using GPT-
+4 as a evaluator shows that Vicuna-13B achieves more than
+90% quality of OpenAI’s ChatGPT, and Google’s Bard while
+outperforming other models like LLaMA and Stanford Alpaca
+in more than 90% of cases. 13 shows the relative response
+quality of Vicuna and a few other well-known models by
+GPT-4. Another advantage of Vicuna-13B is its relative limited
+computational demand for model training. The training cost of
+Vicuna-13B is merely $300.
+Like Alpaca and Vicuna, the Guanaco models [63] are also
+finetuned LLaMA models using instruction-following data. But
+the finetuning is done very efficiently using QLoRA such
+that finetuning a 65B parameter model can be done on a
+single 48GB GPU. QLoRA back-propagates gradients through
+a frozen, 4-bit quantized pre-trained language model into Low
+Rank Adapters (LoRA). The best Guanaco model outperforms
+all previously released models on the Vicuna benchmark,
+reaching 99.3% of the performance level of ChatGPT while
+only requiring 24 hours of fine-tuning on a single GPU.
+Koala [64] is yet another instruction-following language
+model built on LLaMA, but with a specific focus on interaction
+data that include user inputs and responses generated by highly
+capable closed-source chat models such as ChatGPT. The
+Koala-13B model performs competitively with state-of-the-art
+chat models according to human evaluation based on real-
+world user prompts.
+Mistral-7B [65] is a 7B-parameter language model engi-
+neered for superior performance and efficiency. Mistral-7B
+outperforms the best open-source 13B model (LLaMA-2-13B)
+across all evaluated benchmarks, and the best open-source
+34B model (LLaMA-34B) in reasoning, mathematics, and code
+generation. This model leverages grouped-query attention for
+faster inference, coupled with sliding window attention to
+effectively handle sequences of arbitrary length with a reduced
+inference cost.
+The LLaMA family is growing rapidly, as more instruction-
+following models have been built on LLaMA or LLaMA-
+2, including Code LLaMA [66], Gorilla [67], Giraffe [68],

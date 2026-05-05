@@ -1,0 +1,29 @@
+Figure 5.14: Application of LMMs to biomedical images. Top: Domain adaptation from LLaV A to
+LLaV A-Med. Bottom: The chat behaviors of two chatbots. Image credit: Li et al. (2023e).
+PaLM-M (Tu et al., 2023), Stanford Med-Flamingo (Moor et al., 2023) and radiology generalist (Wu
+et al., 2023b).
+5.5 How Close We Are To OpenAI Multimodal GPT-4?
+With all the works mentioned above, are we close to (or, even surpassing) OpenAI Multimodal
+GPT-4? It is encouraging to see that the open-source community has quickly developed a variety
+of models and prototypes for various new capabilities. For example, LLaV A/Mini-GPT4 paves
+the way towards building multimodal chatbots, with some examples that reproduce the results in
+OpenAI GPT-4 technique report; CM3leon (Yu and et al, 2023), Emu (Sun et al., 2023a), GILL (Koh
+et al., 2023) extends LMMs for end-to-end image generation, to the best of our knowledge, this is a
+capability that the current GPT-4 does not exhibit. From the perspective of enabling new capabilities
+with the minimum prototypes, the open-source community seems close to OpenAI Multimodal GPT-
+4, by exploring the baby steps towards building the general-purpose multimodal assistant.
+However, there is still a clear large gap in terms of scaling a given capability, e.g., for the visual
+reasoning capability that we have observed in LLaV A. There are two more visual examples from
+OpenAI technical report, to correctly answer the questions, it requires models to understand multiple
+high-resolution images and long sequence text depicted in the image, as well as responding with
+domain knowledge. It requires much more compute and more powerful language models, which are
+not available to most people.
+In summary, we have presented the background and strong capabilities of LMM, reviewed instruc-
+tion tuning in LLMs, and showed how to build a prototype such as LLaV A and MiniGPT-4 using
+open-source resources. We also summarized the most recent papers emerged on this line of research
+to help those who are interested to gain the momentum to start the journey of LMM research. To
+discuss the next steps to work on as a community, one sustainable suggestion can be that those with
+resources can continue focusing on the scaling success and study new emerging properties, while
+others focus on prototypes for new functionalities and evaluation, as well as developing techniques
+to reduce the computational barriers and thus allow easier accessibility to large models.
+76

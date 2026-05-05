@@ -1,0 +1,22 @@
+Early Pre-trained Neural Language Models
+Language modeling using neural networks was pioneered
+by [38], [39], [40]. Bengio et al. [13] developed one of the first
+neural language models (NLMs) that are comparable to n-gram
+models. Then, [14] successfully applied NLMs to machine
+translation. The release of RNNLM (an open source NLM
+toolkit) by Mikolov [41], [42] helped significantly popularize
+NLMs. Afterwards, NLMs based on recurrent neural networks
+(RNNs) and their variants, such as long short-term memory
+(LSTM) [19] and gated recurrent unit (GRU) [20], were widely
+used for many natural language applications including machine
+translation, text generation and text classification [43]. Then, the invention of the Transformer architecture [44]
+marks another milestone in the development of NLMs. By
+applying self-attention to compute in parallel for every word
+in a sentence or document an “attention score” to model the
+influence each word has on another, Transformers allow for
+much more parallelization than RNNs, which makes it possible
+to efficiently pre-train very big language models on large
+amounts of data on GPUs. These pre-trained language models
+(PLMs) can be fine-tuned for many downstream tasks. We group early popular Transformer-based PLMs, based on
+their neural architectures, into three main categories: encoder-
+only, decoder-only, and encoder-decoder models.

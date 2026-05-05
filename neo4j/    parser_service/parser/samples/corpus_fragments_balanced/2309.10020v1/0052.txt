@@ -1,0 +1,39 @@
+Figure 4.5: OpenSeeD (Zhang et al., 2023e) leverages both mask and box supervision for learning a
+universal open-vocabulary image segmentation model. Image credit: Zhang et al. (2023e).
+Instead of using the ViT backbone, a recent work called FC-CLIP (Yu et al., 2023a) exploits a
+convolutional CLIP backbone (i.e., ConvNeXt trained by OpenCLIP (Ilharco et al., 2021)) as both
+a feature extractor and a vision encoder. Based on a simplified pipeline, FC-CLIP shows plausi-
+ble efficiency and lefts the state of the art on various open-vocabulary segmentation benchmarks.
+Rather than only using CLIP, a recent work ODISE (Xu et al., 2023a) leverages text-to-image diffu-
+sion models, and shows that the latent features in the pre-trained UNet can provide useful compact
+segmentation information for open-vocabulary segmentation.
+A big challenge in open-vocabulary segmentation is the lack of segmentation data annotated with
+semantic labels. Thus far, most of the works are still using COCO segmentation annotations. A
+few recent works attempt to leverage object detection data as the extra supervision to augment the
+training of segmentation models, such as OpenSeeD (Zhang et al., 2023e) (shown in Figure 4.5) and
+DataSeg (Gu et al., 2023). In addition to these new modeling techniques, new datasets have been
+developed to mitigate this problem, including curating multi-domain segmentation datasets (Lam-
+bert et al., 2020), collecting high-quality annotations (Lu et al., 2023c) or scaling up to billions of
+masks (Kirillov et al., 2023).
+Referring Segmentation by design is open-vocabulary. Models are usually designed specifi-
+cally to learn from target datasets using various multimodal fusion strategies (Hu et al., 2016;
+Liu et al., 2017; Margffoy-Tuay et al., 2018; Ye et al., 2019a; Yu et al., 2016; Wu et al., 2022a).
+CLIPSeg (L ¨uddecke and Ecker, 2022) extends a textual query to a visual query and shows supe-
+rior performance not only on referring segmentation but also on semantic segmentation. Since the
+emergence of vision transformers, works like LA VT (Yang et al., 2022e) enhance the cross-modal
+interactions from the very beginning, which leads to a decent performance on RefCOCO (Yu et al.,
+2016), RefCOCO+ (Yu et al., 2016) and G-Ref (Mao et al., 2016; Nagaraja et al., 2016). Differently,
+PolyFormer (Liu et al., 2023e) converts masks into polygons and asks the transformer decoder to de-
+code a sequence of polygon coordinates. Inspired by Pix2Seq (Chen et al., 2022c), a similar method
+in object detection, PolyFormer presents an alternative way to represent masks for state-of-the-art
+referring segmentation. As we discussed earlier, one can also compose Grounding DINO (Liu et al.,
+2023h) with SAM (Kirillov et al., 2023) for referring segmentation.
+Unified Segmentation. Given the above methods for open-vocabulary and referring segmenta-
+tion, an open question is how to unify all segmentation tasks in a single framework. Recently,
+X-Decoder (Zou et al., 2023a) uses a generalized encoder-decoder architecture to unify all these
+segmentation tasks. The referring segmentation task is reformulated as a conditioned panoptic seg-
+mentation that takes some textual phrases as input to the decoder. UNINEXT (Yan et al., 2023) is
+another work that attempts to unify all instance-level segmentation in images and videos. Different
+from X-Decoder, UNINEXT uses early fusion to fuse the various prompts and vision features, which
+are then fed to the transformer encoder-decoder.
+48

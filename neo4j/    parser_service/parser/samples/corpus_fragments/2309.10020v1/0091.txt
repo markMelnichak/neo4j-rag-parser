@@ -1,0 +1,23 @@
+Figure 6.10: Example of evaluation benchmark focusing on emergent capabilities. MM-Vet focuses
+on the integration of different core VL capabilities, including recognition, OCR, knowledge, lan-
+guage generation, spatial awareness, and math. Image credit: Yu et al. (2023d).
+6.4.4 Evaluation of Multimodal Agents
+Multimodal tool using. Although we have seen qualitative examples of new scenarios enabled
+by multimodal agents, it remains unclear how these agents perform in terms of the accuracy in
+tool using. API-Bank (Li et al., 2023k) is a starting point on building pipeline in systematically
+evaluating tool-augmented LLMs.
+Emergent capabilities. Existing VL benchmarks focus on specific capabilities of interest, such as
+visual recognition (Antol et al., 2015), image description (Chen et al., 2015; Agrawal et al., 2019),
+as well as other benchmarks for specialized capabilities such as scene text understanding (Sidorov
+et al., 2020; Gurari et al., 2018), commonsense reasoning (Zellers et al., 2019), outside knowl-
+edge (Schwenk et al., 2022). The intriguing abilities shown in large multimodal models and multi-
+modal agents are not examined by existing benchmarks, such as solving math problems written on
+the blackboard, reasoning about events and celebrities in news images, or explaining visual jokes.
+Furthermore, the long, chatty outputs from these systems poses challenges to today’s evaluation met-
+rics. Researchers (Fu et al., 2023; Liu et al., 2023j) have started to design comprehensive evaluation
+samples to facilitate the LMM evaluation. As an attempt to test multimodal systems on integrated
+capabilities, MM-Vet (Yu et al., 2023d) defines 6 core VL capabilities and examines the 16 integra-
+tions of interest derived from the capability combination (Figure 6.10). In addition, to accommodate
+for the open-ended free-form text outputs, MM-Vet proposes an LLM-based evaluator to enable
+evaluation across different question types and answer styles.
+87

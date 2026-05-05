@@ -1,0 +1,87 @@
+TABLE I: High-level Overview of Popular Language Models
+Type Model Name #Parameters Release Base Models Open
+Source
+#Tokens Training dataset
+BERT 110M, 340M 2018 - ✓ 137B BooksCorpus, English Wikipedia
+RoBERTa 355M 2019 - ✓ 2.2T BooksCorpus, English Wikipedia, CC-NEWS,
+STORIES (a subset of Common Crawl), Reddit
+Encoder-Only ALBERT 12M, 18M, 60M,
+235M
+2019 - ✓ 137B BooksCorpus, English Wikipedia
+DeBERTa - 2020 - ✓ - BooksCorpus, English Wikipedia, STORIES, Red-
+dit content
+XLNet 110M, 340M 2019 - ✓ 32.89B BooksCorpus, English Wikipedia, Giga5, Com-
+mon Crawl, ClueWeb 2012-B
+Decoder-only GPT-1 120M 2018 - ✓ 1.3B BooksCorpus
+GPT-2 1.5B 2019 - ✓ 10B Reddit outbound
+T5 (Base) 223M 2019 - ✓ 156B Common Crawl
+Encoder-Decoder MT5 (Base) 300M 2020 - ✓ - New Common Crawl-based dataset in 101 lan-
+guages (m Common Crawl)
+BART (Base) 139M 2019 - ✓ - Corrupting text
+GPT-3 125M, 350M,
+760M, 1.3B, 2.7B,
+6.7B, 13B, 175B
+2020 × 300B Common Crawl (filtered), WebText2, Books1,
+Books2, Wikipedia
+GPT Family CODEX 12B 2021 GPT ✓ - Public GitHub software repositories
+WebGPT 760M, 13B, 175B 2021 GPT-3 × - ELI5
+GPT-4 1.76T 2023 - × 13T -
+LLaMA1 7B, 13B, 33B, 65B 2023 - ✓ 1T, 1.4T Online sources
+LLaMA2 7B, 13B, 34B, 70B 2023 - ✓ 2T Online sources
+Alpaca 7B 2023 LLaMA1 ✓ - GPT-3.5
+Vicuna-13B 13B 2023 LLaMA1 ✓ - GPT-3.5
+LLaMA Family Koala 13B 2023 LLaMA ✓ - Dialogue data
+Mistral-7B 7.3B 2023 ✓ - -
+Code Llama 34 2023 LLaMA2 ✓ 500B Publicly available code
+LongLLaMA 3B, 7B 2023 OpenLLaMA ✓ 1T -
+LLaMA-Pro-8B 8.3B 2024 LLaMA2-7B ✓ 80B Code and math corpora
+TinyLlama-1.1B 1.1B 2024 LLaMA1.1B ✓ 3T SlimPajama, Starcoderdata
+PaLM 8B, 62B, 540B 2022 - × 780B Web documents, books, Wikipedia, conversations,
+GitHub code
+U-PaLM 8B, 62B, 540B 2022 - × 1.3B Web documents, books, Wikipedia, conversations,
+GitHub code
+PaLM Family PaLM-2 340B 2023 - ✓ 3.6T Web documents, books, code, mathematics, con-
+versational data
+Med-PaLM 540B 2022 PaLM × 780B HealthSearchQA, MedicationQA, LiveQA
+Med-PaLM 2 - 2023 PaLM 2 × - MedQA, MedMCQA, HealthSearchQA, LiveQA,
+MedicationQA
+FLAN 137B 2021 LaMDA-PT ✓ - Web documents, code, dialog data, Wikipedia
+Gopher 280B 2021 - × 300B MassiveText
+ERNIE 4.0 10B 2023 - × 4TB Chinese text
+Retro 7.5B 2021 - × 600B MassiveText
+LaMDA 137B 2022 - × 168B public dialog data and web documents
+ChinChilla 70B 2022 - × 1.4T MassiveText
+Galactia-120B 120B 2022 - 450B
+Other Popular LLMs CodeGen 16.1B 2022 - ✓ - THE PILE, BIGQUERY , BIGPYTHON
+BLOOM 176B 2022 - ✓ 366B ROOTS
+Zephyr 7.24B 2023 Mistral-7B ✓ 800B Synthetic data
+Grok-0 33B 2023 - × - Online source
+ORCA-2 13B 2023 LLaMA2 - 2001B -
+StartCoder 15.5B 2023 - ✓ 35B GitHub
+MPT 7B 2023 - ✓ 1T RedPajama, m Common Crawl, S2ORC, Common
+Crawl
+Mixtral-8x7B 46.7B 2023 - ✓ - Instruction dataset
+Falcon 180B 180B 2023 - ✓ 3.5T RefinedWeb
+Gemini 1.8B, 3.25B 2023 ✓ - Web documents, books, and code, image data,
+audio data, video data
+DeepSeek-Coder 1.3B, 6.7B, 33B 2024 - ✓ 2T GitHub’s Markdown and StackExchange
+DocLLM 1B,7B 2024 - × 2T IIT-CDIP Test Collection 1.0, DocBank
+encoder and decoder for language embedding and generation,
+respectively.
+BART [55] uses a standard sequence-to-sequence transla-
+tion model architecture. It is pre-trained by corrupting text with
+an arbitrary noising function, and then learning to reconstruct
+the original text.
+B. Large Language Model Families
+Large language models (LLMs) mainly refer to
+transformer-based PLMs that contain tens to hundreds
+of billions of parameters. Compared to PLMs reviewed above,
+LLMs are not only much larger in model size, but also exhibit
+stronger language understanding and generation and emergent
+abilities that are not present in smaller-scale models. In what
+follows, we review three LLM families: GPT, LLaMA, and
+PaLM, as illustrated in Fig 8.
+1) The GPT F amily : Generative Pre-trained Transform-
+ers (GPT) are a family of decoder-only Transformer-based
+language models, developed by OpenAI. This family con-
+sists of GPT-1, GPT-2, GPT-3, InstrucGPT, ChatGPT, GPT-4,

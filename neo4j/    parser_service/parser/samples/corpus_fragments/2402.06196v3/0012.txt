@@ -1,0 +1,17 @@
+There are also encoder-only language models that leverage
+the advantages of auto-regressive (decoder) models for model
+training and inference. Two examples are XLNet and UNILM. XLNet [48] is based on Transformer-XL, pre-trained using a
+generalized autoregressive method that enables learning bidi-
+rectional contexts by maximizing the expected likelihood over
+all permutations of the factorization order. UNILM (UNIfied
+pre-trained Language Model) [49] is pre-trained using three
+types of language modeling tasks: unidirectional, bidirectional,
+and sequence-to-sequence prediction. This is achieved by
+employing a shared Transformer network and utilizing specific
+self-attention masks to control what context the prediction is
+conditioned on, as illustrated in Fig 6. The pre-trained model
+can be fine-tuned for both natural language understanding and
+generation tasks. 2) Decoder-only PLMs: Two of the most widely used
+decoder-only PLMs are GPT-1 and GPT-2, developed by
+OpenAI. These models lay the foundation to more powerful
+LLMs subsequently, i.e., GPT-3 and GPT-4.

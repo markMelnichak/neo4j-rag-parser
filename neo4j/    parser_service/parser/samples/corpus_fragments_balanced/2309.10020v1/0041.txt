@@ -1,0 +1,37 @@
+Figure 3.12: DDPO with vision-language-model-based reward function for image-text alignment
+tuning. Image credit: Black et al. (2023).
+where G is a Gaussian kernel to smooth the attention map and Nsub is the number of subject tokens.
+The loss is then used to update the latent zt at inference time:
+z′
+t = zt − α▽zt ℓ,
+where α is a scalar for the step size. Results show that this inference-time guidance enables T2I
+models to focus more on objects described in the text prompt, resulting in superior image genera-
+tion. Follow-up studies (Agarwal et al., 2023) further refine the guidance loss to optimize prompt-
+following performance.
+Model tuning to follow text prompt. Instead of inference-time manipulation, one may wonder
+if we can refine a pre-trained T2I model to better follow text prompts. One promising way to
+achieve this is via reinforcement learning, using image-text similarity as reward instead of the image
+generation objective used in the main T2I training. This allows the model to be optimized towards a
+better image-text alignment.
+One work along this direction is the denoising diffusion policy optimization (DDPO) (Black et al.,
+2023), with the tuning framework shown in Figure 3.12. Specifically, a vision-language model (Li
+et al., 2023e) is used to convert the generated image into a text description. This generated
+caption is compared with the input text prompt, deriving a similarity reward through the use of
+BERTScore (Zhang et al., 2019). The similarity reward is then used to finetune the pre-trained T2I
+model, such that the model can better follow the text prompts. The bottom of Figure 3.12 shows the
+progression of the generated sample during this similarity-based training. Further, it is worth noting
+that other human intent may also be formatted as rewards for model tuning, such as compressibility,
+aesthetic quality, etc.
+Summary and trends. In this section, we present studies aimed at enhancing the capability of T2I
+models to better adhere to text prompts. Despite the good performance achieved by the inference-
+time manipulation, the alignment tuning provides a more intuitive user experience, eliminating the
+need for extra modifications. In parallel to instruction tuning in LLMs to align human intent for
+text generation, the TI2 model tuning shares a similar goal, but focuses on image generation. We
+foresee a similar paradigm emerging in the near future for generative T2I foundational model devel-
+opment. Specifically, the initial training phase still relies on the existing image generation objective
+on large-scale data, while the subsequent alignment-tuning phase enhances the model’s prompt ad-
+herence and other aspects of human intent, such as diminishing harmful content. Current RL-based
+methods show potentials, but they typically zero in on a single optimization goal. Future research
+could extend these methods for more adaptable alignment tuning, amalgamated with features like
+accommodating diverse image and text scenarios.
+37

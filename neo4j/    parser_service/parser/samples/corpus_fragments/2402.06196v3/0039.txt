@@ -1,0 +1,57 @@
+Fig. 42: Datasets licensed under different licenses.
+This dataset is based on English tests completed by
+Chinese students from middle school and high school,
+aged 12 to 18, and it contains roughly 28, 000 texts
+and 100, 000 questions rigorously prepared by human
+specialists, primarily English instructors. This dataset
+contains a wide range of subjects that were purpose-
+fully chosen to assess students’ comprehension and
+reasoning abilities. This dataset is available in three
+subgroups: RACE-M, RACE-H, and RACE. RACE-
+M refers to the middle school examinations, whereas
+RACE-H denotes the high school tests. Finally, RACE
+is the synthesis of RACE-M and RACE-H.
+• SQuAD [187] stands for “Stanford Question Answer-
+ing Dataset” and is a crowdsourced reading compre-
+hension dataset based on Wikipedia articles. It has
+approximately 100, 000 question-answer pairs con-
+nected to more than 500 articles. The answers to
+these questions are typically text fragments or spans
+taken from the corresponding reading passages. The
+questions may be unanswerable in some cases. The
+dataset is divided into three sets: an 80% training set,
+a 10% development set, and a 10% hidden test set.
+• BoolQ [188] is a yes/no question-answering dataset
+where the goal is reading comprehension task. BoolQ
+includes 15, 942 examples. Each example is a triplet
+that includes a question, a relevant paragraph, and
+the solution. Although the main intuition behind
+this dataset is for reading comprehension, it can be
+used for reasoning, natural language inference, and
+question-answering tasks.
+• MultiRC [189] is another dataset that fits reading
+comprehension task. MultiRC contains brief para-
+graphs as well as multi-sentence questions that can
+be answered using the information in the paragraph.
+The paragraphs in this dataset come from a variety
+of sources, including news, fiction, historical texts,
+Wikipedia articles, discussions on society and law,
+elementary school science textbooks, and 9/11 re-
+ports. Each question has many response choices, with
+one or more of them being correct. Answering the
+questions requires reasoning across several sentences.
+MultiRC dataset encompasses around 6, 000 multi-
+sentence questions gathered from over 800 paragraphs.
+On average, each question offers about two valid
+answer alternatives out of a total of five.
+B. Datasets for Emergent: ICL, reasoning (CoT), instruction
+following
+This section centers on the benchmarks and datasets em-
+ployed to evaluate the emergent abilities of LLMs.
+• GSM8K [190] is designed to evaluate the model’s
+ability for multi-step mathematical reasoning. GSM8K
+includes 8.5K linguistically diverse grade school math
+word problems written by humans. The dataset is split
+into two sets: a training set with 7.5K problems,
+and a test set with 1K problems. These problems
+need 2 to 8 steps to be solved. Solutions mainly

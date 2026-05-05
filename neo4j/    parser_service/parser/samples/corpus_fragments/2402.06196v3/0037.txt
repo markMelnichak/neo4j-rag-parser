@@ -1,0 +1,59 @@
+Fig. 39: HuggingGPT: An agent-based approach to use tools and planning [image courtesy of [171]]
+Fig. 40: A LLM-based agent for conversational information
+seeking. Courtesy of [36].
+The evaluation of LLMs poses particular challenges due
+to the evolving landscape of their applications. The original
+intent behind developing LLMs was to boost the performance
+of NLP tasks such as translation, summarization, question-
+answering, and so on [178]. However, it is evident today
+that these models are finding utility across diverse domains
+including code generation and finance. Moreover, the eval-
+uation of LLMs encompasses several critical considerations
+such as fairness and bias, fact-checking, and reasoning. In
+this section, we outline the commonly used benchmarks for
+assessing LLMs. These benchmarks are categorized based on
+training or evaluating the LLM Capabilities.
+A. Datasets for Basic Tasks: language model-
+ing/understanding/generation
+This section provides an overview of the benchmarks and
+datasets suited to evaluate the basic abilities of LLMs.
+• Natural Questions [179] is a QA dataset that consists
+of real anonymized, aggregated queries submitted to
+the Google search engine as questions. An annotator
+is presented with a question along with a Wikipedia
+page from the top 5 search results, and annotates a
+long answer (typically a paragraph) and a short answer
+(one or more entities) if present on the page, or marks
+null if no long/short answer is present.
+• MMLU [180] is intended to evaluate the knowl-
+edge gained in zero-shot and few-shot scenarios. That
+means that MMLU assesses both the general knowl-
+edge and problem-solving ability of a model. It covers
+57 subjects in STEM, humanities, social sciences,
+and other areas. The benchmark varies in complexity,
+ranging from elementary to advanced professional.
+It is worth mentioning that the main contribution of
+this dataset is for multi-task language understanding,
+question answering, and arithmetic reasoning.
+• MBPP [181] stands for “Mostly Basic Python Prob-
+lems” and provides a benchmark for evaluating the
+performance of models designed for code generation.
+The benchmark encompasses 974 short Python pro-
+grams including a wide range of topics, including
+fundamental programming concepts and standard li-
+brary usage, and more. Each challenge comprises a
+task description, a code solution, and three automated
+test cases.
+• HumanEval [182] is a dataset for code generation
+task. This dataset consists of 164 hand-crafted pro-
+gramming challenges. Each challenge is accompanied
+by a function signature, docstring, code body, and mul-
+tiple unit tests. The main intuition behind developing
+this dataset is to guarantee the exclusion of its contents
+from training datasets for code generation models.
+• APPS [183] is designed for code generation task
+focusing on the Python programming language. The
+APPS dataset contains a collection of 232, 444 Python
+programs. Each program in the dataset has an average
+of 18 lines of Python code. Additionally, APPS offers
+access to a repository of 10, 000 unique programming

@@ -1,0 +1,27 @@
+290 
+ 
+5
+9. [Электронный ресурс]: Официальный сайт NVIDIA. 
+Скачивание CUDA. URL: https://developer.nvidia.com/cuda-downloads 
+(режим доступа – свободный), (дата обращения: 08.07.2017). 
+60. [Электронный ресурс]: Официальный сайт NVIDIA. 
+Скачивание CUDANN. URL: https://developer.nvidia.com/rdp/cudnn-
+download (режим доступа – свободный), (дата обращения: 08.07.2017). 
+61. [Электронный ресурс]: Документация по билиотеке Keras. 
+URL: https://keras.io/layers/core/, (режим доступа – свободный), (дата 
+обращения: 08.07.2017). 
+62. [Электронный ресурс]: Материалы сайта 
+machinelearningmastery. URL: https://machinelearningmastery.com/time-
+series-prediction-lstm-recurrent-neural-networks-python-keras/, (режим 
+доступа – свободный), (дата обращения: 08.07.2017). 
+63. [Электронный ресурс]: Статья по реализации 
+генетического алгоритма на Python. URL: http://easydan.com/ 
+arts/2016/genetic-optimization/, (режим доступа – свободный), (дата 
+обращения: 08.07.2017). 
+64. Воронина, В. В. Разработка веб-сервисов для анализа 
+слабоструктурированных информационных ресурсов : учебное 
+пособие / В. В. Воронина. – Ульяновск : УлГТУ, 2016. – 166 с. 
+65. [Электронный ресурс]: Документация «Installing OpenCV 
+from prebuilt binaries». URL: http://docs.opencv.org/ 
+3.2.0/d5/de5/tutorial_py_setup_in_windows.html, (режим доступа – сво-
+бодный), (дата обращения: 08.07.2017).

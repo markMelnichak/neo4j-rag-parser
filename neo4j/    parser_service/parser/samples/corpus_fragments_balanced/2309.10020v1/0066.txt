@@ -1,0 +1,45 @@
+Large Multimodal Models: Image-to-Text Generative ModelsqModel Architectures•(Pre-trained) Image Encoder and Language Models•Trainable modules to connect to two modalities
+Vision EncoderConnection Module
+Image
+LanguageLanguage Model
+A dog lying on the grass next to a frisbee
+(a) Left: An example of image-to-text generation task; Right: Model architecture.
+qTraining Objective•Cross-Attended Image-to-Text Generation•Autoregressive loss on language output
+Language Model
+Visual Tokens
+Next Token
+Tokens to Predict
+Tokens to AttendText Tokens
+Large Multimodal Models: Image-to-Text Generative Models
+(b) Training objective and attention mask. For each row, the yellow elements indicate that the
+prediction token attends the tokens on the left.
+Figure 5.1: Illustration of image-to-text generation task, architecture, and training objective.
+BLIP2 (Li et al., 2023h) are two large models that achieve state-of-the-art (SoTA) performance on
+many datasets. The comparisons are shown in Figure 5.2(a). GIT initializes the image encoder with
+contrastively pre-trained Florence model (Yuan et al., 2021), and trains the language model from
+scratch. On the other hand, BLIP2 freezes the weights of a pre-trained image encoder and a pre-
+trained language model, while trains a lightweight Q-former module to connect the image encoder
+and the language model.
+Case study II: LMM trained with interleaved image-text sequence instances. We use
+Flamingo (Alayrac et al., 2022) as an example, shown in Figure 5.2(b). It connects the frozen
+pre-trained image encoder and language model – by adding novel architectural components in be-
+tween. Specifically, Perceiver Sampler module helps reduce computational complexity, and Gated
+Transformer module helps to stabilize training during the initial stage. Flamingo is trained on a mix-
+ture of complementary large-scale multimodal data coming only from the web, without using any
+data annotated for machine learning purposes. After this training is done, Flamingo can be directly
+adapted to vision tasks via simple few-shot learning without any additional task-specific tuning.
+Multimodal in-context-learning. Beside the SoTA performance on dozens of academic bench-
+marks, probably the most appealing aspect of Flamingo is the emerging property: Multimodal In-
+Context-Learning. Specifically, given a couple of image-text pairs as examples, Flamingo can zero-
+shot task transfer to unseen problems, such as solving visual math problems. This means Flamingo
+can tackle a number of difficult problems with just a handful of task-specific examples, without any
+additional training required. For example in Figure 5.3, two new tasks are presented to Flamingo.
+The top row provides two image-text pairs as the context in the prompt, where the text describes the
+name of the animal in the image, followed by the geographical information of the animal. Flamingo
+is able to understand the patterns presented in the examples, and output the corresponding informa-
+tion for a new image. In the bottom row, the text first shows the optical character recognition (OCR)
+result of the image, followed by the answer to the math problem. Flamingo follows the task instruc-
+tion illustrated in the multimodal context, and outputs the correct answer for a new math problem
+in the third image. This intriguing in-context learning capability makes Flamingo the GPT-3 mo-
+ment (Brown et al., 2020) in the multimodal domain.
+62

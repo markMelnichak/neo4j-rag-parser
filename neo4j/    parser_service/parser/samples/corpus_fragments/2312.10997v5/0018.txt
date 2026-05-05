@@ -1,0 +1,111 @@
+12
+probability of generated terms [24]. When the probability falls
+below a certain threshold would activates the retrieval system
+to collect relevant information, thus optimizing the retrieval
+cycle. Self-RAG [25] introduces “reflection tokens” that allow
+the model to introspect its outputs. These tokens come in
+two varieties: “retrieve” and “critic”. The model autonomously
+decides when to activate retrieval, or alternatively, a predefined
+threshold may trigger the process. During retrieval, the gen-
+erator conducts a fragment-level beam search across multiple
+paragraphs to derive the most coherent sequence. Critic scores
+are used to update the subdivision scores, with the flexibility
+to adjust these weights during inference, tailoring the model’s
+behavior. Self-RAG’s design obviates the need for additional
+classifiers or reliance on Natural Language Inference (NLI)
+models, thus streamlining the decision-making process for
+when to engage retrieval mechanisms and improving the
+model’s autonomous judgment capabilities in generating ac-
+curate responses.
+VI. T ASK AND EVALUATION
+The rapid advancement and growing adoption of RAG
+in the field of NLP have propelled the evaluation of RAG
+models to the forefront of research in the LLMs community.
+The primary objective of this evaluation is to comprehend
+and optimize the performance of RAG models across diverse
+application scenarios.This chapter will mainly introduce the
+main downstream tasks of RAG, datasets, and how to evaluate
+RAG systems.
+A. Downstream Task
+The core task of RAG remains Question Answering (QA),
+including traditional single-hop/multi-hop QA, multiple-
+choice, domain-specific QA as well as long-form scenarios
+suitable for RAG. In addition to QA, RAG is continuously
+being expanded into multiple downstream tasks, such as Infor-
+mation Extraction (IE), dialogue generation, code search, etc.
+The main downstream tasks of RAG and their corresponding
+datasets are summarized in Table II.
+B. Evaluation Target
+Historically, RAG models assessments have centered on
+their execution in specific downstream tasks. These evaluations
+employ established metrics suitable to the tasks at hand. For
+instance, question answering evaluations might rely on EM
+and F1 scores [7], [45], [59], [72], whereas fact-checking
+tasks often hinge on Accuracy as the primary metric [4],
+[14], [42]. BLEU and ROUGE metrics are also commonly
+used to evaluate answer quality [26], [32], [52], [78]. Tools
+like RALLE, designed for the automatic evaluation of RAG
+applications, similarly base their assessments on these task-
+specific metrics [160]. Despite this, there is a notable paucity
+of research dedicated to evaluating the distinct characteristics
+of RAG models.The main evaluation objectives include:
+Retrieval Quality. Evaluating the retrieval quality is crucial
+for determining the effectiveness of the context sourced by
+the retriever component. Standard metrics from the domains
+of search engines, recommendation systems, and information
+retrieval systems are employed to measure the performance of
+the RAG retrieval module. Metrics such as Hit Rate, MRR, and
+NDCG are commonly utilized for this purpose [161], [162].
+Generation Quality . The assessment of generation quality
+centers on the generator’s capacity to synthesize coherent and
+relevant answers from the retrieved context. This evaluation
+can be categorized based on the content’s objectives: unlabeled
+and labeled content. For unlabeled content, the evaluation
+encompasses the faithfulness, relevance, and non-harmfulness
+of the generated answers. In contrast, for labeled content,
+the focus is on the accuracy of the information produced by
+the model [161]. Additionally, both retrieval and generation
+quality assessments can be conducted through manual or
+automatic evaluation methods [29], [161], [163].
+C. Evaluation Aspects
+Contemporary evaluation practices of RAG models empha-
+size three primary quality scores and four essential abilities,
+which collectively inform the evaluation of the two principal
+targets of the RAG model: retrieval and generation.
+1) Quality Scores: Quality scores include context rele-
+vance, answer faithfulness, and answer relevance. These qual-
+ity scores evaluate the efficiency of the RAG model from
+different perspectives in the process of information retrieval
+and generation [164]–[166].
+Context Relevance evaluates the precision and specificity
+of the retrieved context, ensuring relevance and minimizing
+processing costs associated with extraneous content.
+Answer Faithfulness ensures that the generated answers
+remain true to the retrieved context, maintaining consistency
+and avoiding contradictions.
+Answer Relevance requires that the generated answers are
+directly pertinent to the posed questions, effectively addressing
+the core inquiry.
+2) Required Abilities: RAG evaluation also encompasses
+four abilities indicative of its adaptability and efficiency:
+noise robustness, negative rejection, information integration,
+and counterfactual robustness [167], [168]. These abilities are
+critical for the model’s performance under various challenges
+and complex scenarios, impacting the quality scores.
+Noise Robustness appraises the model’s capability to man-
+age noise documents that are question-related but lack sub-
+stantive information.
+Negative Rejection assesses the model’s discernment in
+refraining from responding when the retrieved documents do
+not contain the necessary knowledge to answer a question.
+Information Integration evaluates the model’s proficiency in
+synthesizing information from multiple documents to address
+complex questions.
+Counterfactual Robustness tests the model’s ability to rec-
+ognize and disregard known inaccuracies within documents,
+even when instructed about potential misinformation.
+Context relevance and noise robustness are important for
+evaluating the quality of retrieval, while answer faithfulness,
+answer relevance, negative rejection, information integration,
+and counterfactual robustness are important for evaluating the
+quality of generation.

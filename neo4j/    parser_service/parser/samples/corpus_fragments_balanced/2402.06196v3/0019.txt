@@ -1,0 +1,65 @@
+Fig. 12: Training of LLaMA-2 Chat. Courtesy of [61].
+Fig. 13: Relative Response Quality of Vicuna and a few other
+well-known models by GPT-4. Courtesy of Vicuna Team.
+U-PaLM is later instruction-finetuned as Flan-PaLM [74].
+Compared to other instruction finetuning work mentioned
+above, Flan-PaLM’s finetuning is performed using a much
+larger number of tasks, larger model sizes, and chain-of-
+thought data. As a result, Flan-PaLM substantially outperforms
+previous instruction-following models. For instance, Flan-
+PaLM-540B, which is instruction-finetuned on 1.8K tasks,
+outperforms PaLM-540B by a large margin (+9.4% on av-
+erage). The finetuning data comprises 473 datasets, 146 task
+categories, and 1,836 total tasks, as illustrated in Fig 14.
+Fig. 14: Flan-PaLM finetuning consist of 473 datasets in above
+task categories. Courtesy of [74].
+PaLM-2 [75] is a more compute-efficient LLM with bet-
+ter multilingual and reasoning capabilities, compared to its
+predecessor PaLM. PaLM-2 is trained using a mixture of
+objectives. Through extensive evaluations on English, multi-
+lingual, and reasoning tasks, PaLM-2 significantly improves
+the model performance on downstream tasks across different
+model sizes, while simultaneously exhibiting faster and more
+efficient inference than PaLM.
+Med-PaLM [76] is a domain-specific PaLM, and is de-
+signed to provide high-quality answers to medical questions.
+Med-PaLM is finetuned on PaLM using instruction prompt
+tuning, a parameter-efficient method for aligning LLMs to
+new domains using a few exemplars. Med-PaLM obtains very
+encouraging results on many healthcare tasks, although it is
+still inferior to human clinicians. Med-PaLM 2 improves Med-
+PaLM via med-domain finetuning and ensemble prompting
+[77]. Med-PaLM 2 scored up to 86.5% on the MedQA
+dataset (i.e., a benchmark combining six existing open ques-
+tion answering datasets spanning professional medical exams,
+research, and consumer queries), improving upon Med-PaLM
+by over 19% and setting a new state-of-the-art.
+C. Other Representative LLMs
+In addition to the models discussed in the previous sub-
+sections, there are other popular LLMs which do not belong
+to those three model families, yet they have achieved great
+performance and have pushed the LLMs field forward. We
+briefly describe these LLMs in this subsection.
+FLAN: In [78], Wei et al. explored a simple method for
+improving the zero-shot learning abilities of language models.
+They showed that instruction tuning language models on a
+collection of datasets described via instructions substantially
+improves zero-shot performance on unseen tasks. They take
+a 137B parameter pretrained language model and instruction
+tune it on over 60 NLP datasets verbalized via natural language
+instruction templates. They call this instruction-tuned model
+FLAN. Fig 15 provides a comparison of instruction tuning
+with pretrain–finetune and prompting.
+Fig. 15: comparison of instruction tuning with pre-
+train–finetune and prompting. Courtesy of [78].
+Gopher: In [79], Rae et al. presented an analysis of
+Transformer-based language model performance across a wide
+range of model scales — from models with tens of millions of
+parameters up to a 280 billion parameter model called Gopher.
+These models were evaluated on 152 diverse tasks, achieving
+state-of-the-art performance across the majority. The number
+of layers, the key/value size, and other hyper-parameters of
+different model sizes are shown in Fig 16.
+T0: In [80], Sanh et al. developed T0, a system for easily
+mapping any natural language tasks into a human-readable
+prompted form. They converted a large set of supervised

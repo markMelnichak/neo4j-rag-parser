@@ -1,0 +1,36 @@
+190 
+ 
+4
+. Обучить решающее дерево с параметром random_state=241 
+и остальными параметрами по умолчанию (речь идет 
+о параметрах конструктора DecisionTreeСlassifier). 
+5. Вывести важности признаков. 
+Код решения задачи (с комментариями) – в листинге 24. 
+Результат работы – на рисунке 56. 
+ 
+Рису
+нок 56. Важности признаков 
+Лист
+инг 24 
+-*- codi
+ng: utf-8 -*- 
+import pandas 
+from sklearn.tree import DecisionTreeClassifier 
+import numpy as np 
+ 
+data = pandas.read_csv('titanic.csv', index_col='PassengerId') 
+#функция для приведения пола к числу 
+def Sex_to_bool(sex): 
+ if sex == "male": 
+ return 0 
+ return 1 
+#приведение пола к числу 
+data['Sex'] = data['Sex'].apply(Sex_to_bool) 
+#выгрузка непустых данных 
+data=data.loc[(np.isnan(data['Pclass'])==False) & (np.isnan(data['Fare'])==False) 
+&(np.isnan(data['Age'])==False) & (np.isnan(data['Sex'])==False)& 
+(np.isnan(data['Survived'])==False)] 
+#отбор нужных столбцов 
+corr = data[['Pclass', 'Fare', 'Age', 'Sex']] 
+#респечатка первых 5 строк данных 
+print corr.head()

@@ -1,0 +1,28 @@
+6.3.1 System Design
+MM-ReAct designs the system paradigm that composes numerous multimodal tools 1 with Chat-
+GPT (OpenAI, 2022) for multimodal reasoning and action. By augmenting the language-only
+ChatGPT with various multimodal tools, MM-R EACT supports both inputs and outputs in multi-
+modalities, including text, image and video, as shown in Figure 6.4.
+Figure 6.5: System design of MM-R EACT (Yang* et al., 2023).
+Figure 6.5 shows the system design of MM-R EACT. The multimodal tools explored in MM-
+REACT are mainly computer vision models that take an image as input and interpret the image
+content from different perspectives. For instance, the image captioning model generates a natural
+description, the OCR model extracts the scene text in the image, the celebrity recognition model
+identifies the celebrity names, and the object detection model extracts the salient object with bound-
+ing box locations. LLMs such as ChatGPT serves as the brain of the agent, which plans on which
+tools to use, and in what order, based on the input image and the user intent. Next, with the example
+in Figure 6.5, we unfold the planning and execution of MM-R EACT behind the scene.
+User prompt. As ChatGPT only accepts language inputs, to enable image as inputs, we simply
+use the file path as the input to ChatGPT. The file path functions as a placeholder, allowing ChatGPT
+to treat it as a black box and later seek help from different tools during the planning stage. Besides
+the input image, the user can also provide the intent in text format ( e.g. , a question about the input
+image). When there is no text input from the user, the goal is to get a general understanding about
+the image.
+Planning. Upon receiving the input image and user prompt, ChatGPT plans for what tools to use.
+Inspired by R EACT (Yao et al., 2022c), MM-R EACT instructs ChatGPT to respond with certain
+watchwords, such as “Assistant, what objects are there in the image? <file path>”, if a specific
+tool is required (i.e., action request in Figure 6.5). In practice, one can tell whether a multimodal
+tool is needed by simply string-matching the keyword “Assistant,” in ChatGPT’s response.
+1In Yang* et al. (2023), these tools are referred as experts. We unify the terminology as tools throughout
+this chapter.
+81

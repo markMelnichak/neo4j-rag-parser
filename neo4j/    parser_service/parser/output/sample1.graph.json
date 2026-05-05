@@ -1,0 +1,241 @@
+{
+  "source": "sample1.txt",
+  "nodes": [
+    {
+      "label": "Model",
+      "name": "BERT",
+      "normalized_name": "bert",
+      "aliases": [],
+      "source": "sample1.txt",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Transformer",
+      "normalized_name": "transformer",
+      "aliases": [],
+      "source": "sample1.txt",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Text Classification",
+      "normalized_name": "text classification",
+      "aliases": [],
+      "source": "sample1.txt",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Question Answering",
+      "normalized_name": "question answering",
+      "aliases": [],
+      "source": "sample1.txt",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Masked Language Modeling",
+      "normalized_name": "masked language modeling",
+      "aliases": [],
+      "source": "sample1.txt",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Fine-tuning",
+      "normalized_name": "fine-tuning",
+      "aliases": [],
+      "source": "sample1.txt",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "PyTorch",
+      "normalized_name": "pytorch",
+      "aliases": [],
+      "source": "sample1.txt",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "RoBERTa",
+      "normalized_name": "roberta",
+      "aliases": [],
+      "source": "sample1.txt",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GPT",
+      "normalized_name": "gpt",
+      "aliases": [],
+      "source": "sample1.txt",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Machine Translation",
+      "normalized_name": "machine translation",
+      "aliases": [],
+      "source": "sample1.txt",
+      "description": null
+    }
+  ],
+  "relations": [
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "BERT is a transformer model widely used for text classification and question answering.",
+      "confidence": 0.92,
+      "rule": "regex_is_a",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Text Classification",
+      "to_label": "Task",
+      "evidence": "BERT is a transformer model widely used for text classification and question answering.",
+      "confidence": 0.88,
+      "rule": "regex_used_for",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Question Answering",
+      "to_label": "Task",
+      "evidence": "BERT is a transformer model widely used for text classification and question answering.",
+      "confidence": 0.88,
+      "rule": "regex_used_for",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Masked Language Modeling",
+      "to_label": "Method",
+      "evidence": "BERT uses masked language modeling and fine tuning.",
+      "confidence": 0.84,
+      "rule": "regex_uses",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Fine-tuning",
+      "to_label": "Method",
+      "evidence": "BERT uses masked language modeling and fine tuning.",
+      "confidence": 0.84,
+      "rule": "regex_uses",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "BERT is implemented in PyTorch.",
+      "confidence": 0.88,
+      "rule": "regex_implemented_in",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "RoBERTa is a transformer model used for text classification and question answering.",
+      "confidence": 0.92,
+      "rule": "regex_is_a",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Text Classification",
+      "to_label": "Task",
+      "evidence": "RoBERTa is a transformer model used for text classification and question answering.",
+      "confidence": 0.88,
+      "rule": "regex_used_for",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Question Answering",
+      "to_label": "Task",
+      "evidence": "RoBERTa is a transformer model used for text classification and question answering.",
+      "confidence": 0.88,
+      "rule": "regex_used_for",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Masked Language Modeling",
+      "to_label": "Method",
+      "evidence": "RoBERTa uses masked language modeling and fine tuning.",
+      "confidence": 0.84,
+      "rule": "regex_uses",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Fine-tuning",
+      "to_label": "Method",
+      "evidence": "RoBERTa uses masked language modeling and fine tuning.",
+      "confidence": 0.84,
+      "rule": "regex_uses",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "GPT is a transformer model used for machine translation and implemented in PyTorch.",
+      "confidence": 0.92,
+      "rule": "regex_is_a",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Machine Translation",
+      "to_label": "Task",
+      "evidence": "GPT is a transformer model used for machine translation and implemented in PyTorch.",
+      "confidence": 0.88,
+      "rule": "regex_used_for",
+      "source": "sample1.txt"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "IMPLEMENTED_IN",
+      "to_name": "PyTorch",
+      "to_label": "Framework",
+      "evidence": "GPT is a transformer model used for machine translation and implemented in PyTorch.",
+      "confidence": 0.88,
+      "rule": "regex_implemented_in",
+      "source": "sample1.txt"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+9
+2) Query Transformation: The core concept is to retrieve
+chunks based on a transformed query instead of the user’s
+original query.
+Query Rewrite.The original queries are not always optimal
+for LLM retrieval, especially in real-world scenarios. There-
+fore, we can prompt LLM to rewrite the queries. In addition to
+using LLM for query rewriting, specialized smaller language
+models, such as RRR (Rewrite-retrieve-read) [7]. The imple-
+mentation of the query rewrite method in the Taobao, known
+as BEQUE [9] has notably enhanced recall effectiveness for
+long-tail queries, resulting in a rise in GMV .
+Another query transformation method is to use prompt
+engineering to let LLM generate a query based on the original
+query for subsequent retrieval. HyDE [11] construct hypothet-
+ical documents (assumed answers to the original query). It
+focuses on embedding similarity from answer to answer rather
+than seeking embedding similarity for the problem or query.
+Using the Step-back Prompting method [10], the original
+query is abstracted to generate a high-level concept question
+(step-back question). In the RAG system, both the step-back
+question and the original query are used for retrieval, and both
+the results are utilized as the basis for language model answer
+generation.
+3) Query Routing: Based on varying queries, routing to
+distinct RAG pipeline,which is suitable for a versatile RAG
+system designed to accommodate diverse scenarios.
+Metadata Router/ Filter . The first step involves extracting
+keywords (entity) from the query, followed by filtering based
+on the keywords and metadata within the chunks to narrow
+down the search scope.
+Semantic Router is another method of routing involves
+leveraging the semantic information of the query. Specific
+apprach see Semantic Router 6. Certainly, a hybrid routing
+approach can also be employed, combining both semantic and
+metadata-based methods for enhanced query routing.
+D. Embedding
+In RAG, retrieval is achieved by calculating the similarity
+(e.g. cosine similarity) between the embeddings of the ques-
+tion and document chunks, where the semantic representation
+capability of embedding models plays a key role. This mainly
+includes a sparse encoder (BM25) and a dense retriever (BERT
+architecture Pre-training language models). Recent research
+has introduced prominent embedding models such as AngIE,
+V oyage, BGE,etc [94]–[96], which are benefit from multi-task
+instruct tuning. Hugging Face’s MTEB leaderboard7 evaluates
+embedding models across 8 tasks, covering 58 datasests. Ad-
+ditionally, C-MTEB focuses on Chinese capability, covering
+6 tasks and 35 datasets. There is no one-size-fits-all answer
+to “which embedding model to use.” However, some specific
+models are better suited for particular use cases.
+1) Mix/hybrid Retrieval : Sparse and dense embedding
+approaches capture different relevance features and can ben-
+efit from each other by leveraging complementary relevance
+information. For instance, sparse retrieval models can be used
+6https://github.com/aurelio-labs/semantic-router
+7https://huggingface.co/spaces/mteb/leaderboard
+to provide initial search results for training dense retrieval
+models. Additionally, pre-training language models (PLMs)
+can be utilized to learn term weights to enhance sparse
+retrieval. Specifically, it also demonstrates that sparse retrieval
+models can enhance the zero-shot retrieval capability of dense
+retrieval models and assist dense retrievers in handling queries
+containing rare entities, thereby improving robustness.
+2) Fine-tuning Embedding Model: In instances where the
+context significantly deviates from pre-training corpus, partic-
+ularly within highly specialized disciplines such as healthcare,
+legal practice, and other sectors replete with proprietary jargon,
+fine-tuning the embedding model on your own domain dataset
+becomes essential to mitigate such discrepancies.
+In addition to supplementing domain knowledge, another
+purpose of fine-tuning is to align the retriever and generator,
+for example, using the results of LLM as the supervision signal
+for fine-tuning, known as LSR (LM-supervised Retriever).
+PROMPTAGATOR [21] utilizes the LLM as a few-shot query
+generator to create task-specific retrievers, addressing chal-
+lenges in supervised fine-tuning, particularly in data-scarce
+domains. Another approach, LLM-Embedder [97], exploits
+LLMs to generate reward signals across multiple downstream
+tasks. The retriever is fine-tuned with two types of supervised
+signals: hard labels for the dataset and soft rewards from
+the LLMs. This dual-signal approach fosters a more effective
+fine-tuning process, tailoring the embedding model to diverse
+downstream applications. REPLUG [72] utilizes a retriever
+and an LLM to calculate the probability distributions of the
+retrieved documents and then performs supervised training
+by computing the KL divergence. This straightforward and
+effective training method enhances the performance of the
+retrieval model by using an LM as the supervisory signal,
+eliminating the need for specific cross-attention mechanisms.
+Moreover, inspired by RLHF (Reinforcement Learning from
+Human Feedback), utilizing LM-based feedback to reinforce
+the retriever through reinforcement learning.
+E. Adapter
+Fine-tuning models may present challenges, such as in-
+tegrating functionality through an API or addressing con-
+straints arising from limited local computational resources.
+Consequently, some approaches opt to incorporate an external
+adapter to aid in alignment.
+To optimize the multi-task capabilities of LLM, UP-
+RISE [20] trained a lightweight prompt retriever that can
+automatically retrieve prompts from a pre-built prompt pool
+that are suitable for a given zero-shot task input. AAR
+(Augmentation-Adapted Retriver) [47] introduces a universal
+adapter designed to accommodate multiple downstream tasks.
+While PRCA [69] add a pluggable reward-driven contextual
+adapter to enhance performance on specific tasks. BGM [26]
+keeps the retriever and LLM fixed,and trains a bridge Seq2Seq
+model in between. The bridge model aims to transform the
+retrieved information into a format that LLMs can work with
+effectively, allowing it to not only rerank but also dynami-
+cally select passages for each query, and potentially employ
+more advanced strategies like repetition. Furthermore, PKG

@@ -1,0 +1,51 @@
+promising for most academic research labs to explore the opportunities in alignment research
+with affordable resources, or explore the techniques to reduce the compute barriers.
+• Base LLMs. Developing more capable or commercial usable LLMs is of great value. Besides
+LLaMA, the open-source community has developed variants of base LLMs such as LLaMA-2,
+OpenLLaMA (Geng and Liu, 2023), MPT (Team, 2023) and Falcon (Penedo et al., 2023), or
+released the training recipe (Computer, 2023).
+5.3 Instruction-Tuned Large Multimodal Models
+In this section, we illustrate how to build the minimum prototype of multimodal GPT-4 with open-
+source resources. Specially, we use LLaV A (Liu et al., 2023c) as the running example, a similar idea
+is also proposed in its con-current work MiniGPT-4 (Zhu et al., 2023a).
+The research in the multimodal space has often been inspired by the latest advances in NLP in
+recent years. One successful recipe is to explore what would happen if the most intriguing and suc-
+cessful NLP ideas are borrowed for the vision-and-language community, for example, self-instruct.
+However, the unique challenge with self-instruct in multimodal research is that there is no strong
+multimodal teacher publicly available. Therefore, the research question becomes: how can we use
+language models such as language-only GPT-4 to create multimodal instruction following data.
+Data Creation
+Instead of directly feeding images into OpenAI GPT-4, we use their symbolic sequence representa-
+tions shown in Figure 5.9 (a). In LLaV A, both captions and bounding boxes are considered, due to
+the following reasons: (i) it is empirically found that GPT-4 can understand both well, in contrast to
+the poor performance of ChatGPT in understanding bounding box coordinates. (ii) They are often
+complementary to each other and hence can represent the image as informative as possible.
+As shown in Figure 5.9 (b), three types of instruction-following data are considered: (i) multi-
+turn conversations so that users can chat with the model; (ii) detailed description so that long-form
+responses can be generated from the model; and (iii) complex reasoning, which is more about the
+implication of the image, rather than the image content. For example, “what challenge do these
+people face?”, which requires to first recognize that the image is about a SUV in the parking area,
+and there are quite a few luggage placed on the ground, and then to infer that the challenge is how
+the luggage can be packed into the SUV due to the tight space of the trunk. In total, 158K samples
+are collected over three types. To summarize, the spirit is that whatever tasks one wants the model
+to perform in the serving stage, it is important to create the corresponding instruction-following data
+for training.
+Network Architecture and Training
+As illustrated in Figure 5.10, the network architecture of LLaV A is an instantiation of the general
+image-to-text generative model framework introduced in Figure 5.1 of Section 5.1. Specifically,
+LLaVa connects the pre-trained CLIP ViT-L/14 visual encoder (Radford et al., 2021) and large lan-
+guage model Vicuna (Vicuna, 2023), via a simple projection matrix (i.e., the linear projection layer).
+A two-stage instruction-tuning procedure is adopted to train the model. (i) Stage 1: pre-training for
+feature alignment. Only the projection matrix is updated, based on a subset of CC3M (Changpinyo
+et al., 2021). (ii) Stage 2: finetuning end-to-end. Both the projection matrix and LLM are updated
+on the proposed multimodal instruction-following data for daily user-oriented applications.
+Performance
+Visual chat: towards building multimodal GPT-4 level chatbot. LLaV A is finetuned on the gen-
+erated multimodal instruction-following data, which contains a diverse set of task instructions and
+responses for daily user-oriented applications. It is empirically observed that finetuning the linear
+projection layer only is sufficient for the chat demo/scenarios, though it requires longer training time.
+To evaluate the model performance, an evaluation dataset named LLaV A-Bench is constructed, with
+two subsets: (i) LLaV A-Bench (COCO): 30 unseen COCO images with 90 new language-image
+instructions, (ii) LLaV A-Bench (In-the-Wild): 24 images with 60 questions. Each image can be as-
+sociated with three types of instructions: conversation, detailed description and complex reasoning.
+68

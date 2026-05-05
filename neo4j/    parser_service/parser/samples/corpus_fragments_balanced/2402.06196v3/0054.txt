@@ -1,0 +1,22 @@
+D. VectorDB
+Faiss [240] is a library developed by Facebook AI Re-
+search that provides efficient similarity search and clustering
+of dense vectors. It is designed for use with large-scale,
+high-dimensional data and supports several index types and
+algorithms for various use cases.
+Milvus [241] is an open-source vector database built to
+power embedding similarity search and AI applications. Mil-
+vus makes unstructured data search more accessible, and pro-
+vides a consistent user experience regardless of the deployment
+environment.
+Qdrant [242] is a vector similarity search engine and
+vector database. It provides a production-ready service with a
+convenient API to store, search, and manage points—vectors
+with an additional payload Qdrant is tailored to extended
+filtering support. environment.
+Weaviate [243] is an open-source, GraphQL-based vec-
+tor search engine that enables similarity search on high-
+dimensional data. While it is open-source, the commercial ver-
+sion offers additional features, support, and managed services.
+Some of the other popular options includes LlamaIndex
+[244] and Pinecone.

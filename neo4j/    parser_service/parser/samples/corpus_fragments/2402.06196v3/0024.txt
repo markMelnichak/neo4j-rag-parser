@@ -1,0 +1,51 @@
+How LLMs Are Built?
+Data Cleaning
+Tokenizations
+BytePairEncoding
+WordPieceEncoding
+SentencePieceEncoding
+Positional Encoding
+Absolute Positional Embeddings
+Relative Positional Embeddings
+Rotary Position Embeddings
+Relative Positional Bias
+Model Pre-training
+Masked Language Modeling
+Causal Language Modeling
+Next Sentence Prediction
+Mixture of Experts
+Fine-tuning and Instruction Tuning
+Alignment
+Supervised learning
+Reinforcement Learning from Human Feedback
+Direct Preference Optimization
+Kahneman-Tversky Optimization
+Decoding Strategies
+Greedy Search
+Beam Search
+Top-k Sampling
+Top-p Sampling
+Cost-Effective Training/Inference,
+Adaptation & Compression
+Optimized Training
+Zero Redundancy Optimizer
+Receptance Weighted Key Value
+Low-Rank Adaption
+Knowledge Distillation
+Quantization
+Data Filtering
+Removing Noise
+Handling Outliers
+Addressing Imbalances
+Text Preprocessing
+Deduplication
+LLM Architectures
+Encoder-Only
+Decoder-Only
+Encoder-Decoder
+...
+Supervised Fine-tuning
+General Fine-tuning
+Multi-turn Instructions
+Instruction Following
+Fig. 25: This figure shows different components of LLMs.

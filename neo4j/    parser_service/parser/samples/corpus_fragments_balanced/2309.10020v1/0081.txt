@@ -1,0 +1,29 @@
+Chapter 6
+Multimodal Agents:
+Chaining Tools with LLM
+Large Language Models (LLMs) (Chowdhery et al., 2022; OpenAI, 2023a) have shown intriguing
+properties generalizing to user prompts in various domains, and rapidly adapting to new scenarios,
+using in-context learning with a few examples. Inspired by such strong capabilities, researchers
+are now exploring a new modeling paradigm that shifts from standalone models for solving finite,
+pre-defined problems, into synergistically chaining multiple tools or experts with LLMs to solve
+complicated, open problems. Unlike what has been introduced in Chapter 5, such a system can be
+built without any training involved, just by using a few demonstration examples to teach the LLM
+to generate proper calling to existing tools.
+In this chapter, we review the fast-evolving literature on chaining different multimodal experts with
+LLMs to solve complicated multimodal understanding problems, referred to as multimodal agents.
+We start with an overview on the evolution of this modeling paradigm in Section 6.1, highlighting
+the differences between traditional approaches and the new modeling paradigm of chaining tools
+with LLM. Section 6.2 gives a general overview of multimodal agents. Pivoting on an exemplary
+multimodal agent MM-R EACT (Yang* et al., 2023), Section 6.3 comprehensively reviews how to
+build a multimodal agent, its emerging capabilities in multimodal understanding, and how it can
+be easily extended to incorporate the latest and strongest LLM and potentially millions of tools.
+Finally, in Section 6.4, we end the chapter with discussions on advanced topics, such as how to
+improve/evaluate multimodal agents, the diverse applications powered by multimodal agents.
+6.1 Overview
+We first revisit the evolution of modeling paradigms, from task-specific models to the most recent
+large multimodal models, which all require data curation and model training. We then introduce
+the new modeling paradigm of chaining tools with LLM, which may not require any training, but
+instead directly takes advantage of a pre-trained LLM and existing tools that are widely available
+through open-source platforms or APIs.
+Figure 6.1: Evolution of modeling paradigm.
+77

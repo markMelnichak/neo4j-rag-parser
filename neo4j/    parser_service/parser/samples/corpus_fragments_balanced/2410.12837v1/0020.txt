@@ -1,0 +1,3 @@
+Yasunaga, M., Aghajanyan, A., Shi, W., James, R., Leskovec, J., Liang, P., Lewis, M., Zettlemoyer, L., &Yih, W. (2022). Retrieval-AugmentedMultimodal LanguageModeling. ArXiv. /abs/2211.12561
+Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., & Gonzalez, J. E. (2024). RAFT:AdaptingLanguageModel toDomainSpecificRAG. ArXiv. /abs/2403.10131
+Zhu, Y., Ren, C., Xie, S., Liu, S., Ji, H., Wang, Z., Sun, T., He, L., Li, Z., Zhu, X., & Pan, C. (2024).REALM: RAG-Driven Enhancement of Multimodal Electronic Health Records Analysis via LargeLanguageModels. ArXiv. /abs/2402.07016

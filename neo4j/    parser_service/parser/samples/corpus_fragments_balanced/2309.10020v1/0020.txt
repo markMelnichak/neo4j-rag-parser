@@ -1,0 +1,43 @@
+Figure 2.5: ImageBind (Girdhar et al., 2023) proposes to link a total of six modalities into a common
+embedding space via leveraging pre-trained CLIP models, enabling new emergent alignments and
+capabilities. Image credit: Girdhar et al. (2023).
+can also be used for zero-shot image-text retrieval by its design. Besides this, the aligned image-
+text embedding space makes it possible to make all the traditional vision models open vocabulary
+and has inspired a rich line of work on open-vocabulary object detection and segmentation (Li
+et al., 2022e; Zhang et al., 2022b; Zou et al., 2023a; Zhang et al., 2023e).
+2.3.2 CLIP Variants
+Since the birth of CLIP, there have been tons of follow-up works to improve CLIP models, as to be
+discussed below. We do not aim to provide a comprehensive literature review of all the methods, but
+focus on a selected set of topics.
+Data scaling up. Data is the fuel for CLIP training. For example, OpenAI’s CLIP was trained on
+400M image-text pairs mined from the web, while ALIGN used a proprietary dataset consisting of
+1.8B image-text pairs. In BASIC (Pham et al., 2021), the authors have carefully studied the scaling
+among three dimensions: batch size, data size, and model size. However, most of these large-scale
+datasets are not publicly available, and training such models requires massive computing resources.
+In academic settings, researchers (Li et al., 2022b) have advocated the use of a few millions of image-
+text pairs for model pre-training, such as CC3M (Sharma et al., 2018), CC12M (Changpinyo et al.,
+2021), YFCC (Thomee et al., 2016). Relatively small-scale image-text datasets that are publicly
+available include SBU (Ordonez et al., 2011), RedCaps (Desai et al., 2021), and WIT (Srinivasan
+et al., 2021). Large-scale public available image-text datasets include Shutterstock (Nguyen et al.,
+2022), LAION-400M (Schuhmann et al., 2021), COYO-700M (Byeon et al., 2022), and LAION-
+2B (Schuhmann et al., 2022), to name a few. For example, LAION-2B (Schuhmann et al., 2022)
+has been used by researchers to study the reproducible scaling laws for CLIP training (Cherti et al.,
+2023).
+Interestingly, in search of the next-generation image-text datasets, in DataComp (Gadre et al.,
+2023), instead of fixing the dataset and designing different algorithms, the authors propose to se-
+lect and rank datasets using the fixed CLIP training method. Besides paired image-text data mined
+from the Web for CLIP training, inspired by the interleaved image-text dataset M3W introduced in
+Flamingo (Alayrac et al., 2022), there have been recent efforts of collecting interleaved image-text
+datasets, such as MMC4 (Zhu et al., 2023b) and OBELISC (Laurenc ¸on et al., 2023).
+Model design and training methods. CLIP training has been significantly improved. Below, we
+review some representative works.
+• Image tower: On the image encoder side, FLIP (Li et al., 2023m) proposes to scale CLIP train-
+ing via masking. By randomly masking out image patches with a high masking ratio, and only
+encoding the visible patches as in MAE (He et al., 2022a), the authors demonstrate that masking
+can improve training efficiency without hurting the performance. The method can be adopted for
+all CLIP training. Cao et al. (2023) found that filtering out samples that contain text regions in the
+image improves CLIP training efficiency and robustness.
+• Language tower: On the language encoder side, K-Lite (Shen et al., 2022a) proposes to use
+external knowledge in the form of Wiki definition of entities together with the original alt-text
+for contrastive pre-training. Empirically, the use of enriched text descriptions improves the CLIP
+16

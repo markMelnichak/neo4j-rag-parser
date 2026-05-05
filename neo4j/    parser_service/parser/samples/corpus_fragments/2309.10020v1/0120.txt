@@ -1,0 +1,51 @@
+Yu, L. and et al (2023). Scaling autoregressive multi-modal models: Pretraining and instruction
+tuning.
+Yu, L., Poirson, P., Yang, S., Berg, A. C., and Berg, T. L. (2016). Modeling context in referring
+expressions. In ECCV.
+Yu, Q., He, J., Deng, X., Shen, X., and Chen, L.-C. (2023a). Convolutions die hard: Open-
+vocabulary segmentation with single frozen convolutional clip.arXiv preprint arXiv:2308.02487.
+Yu, Q., Li, J., Ye, W., Tang, S., and Zhuang, Y . (2023b). Interactive data synthesis for systematic
+vision adaptation via llms-aigcs collaboration. arXiv preprint arXiv:2305.12799.
+Yu, T., Feng, R., Feng, R., Liu, J., Jin, X., Zeng, W., and Chen, Z. (2023c). Inpaint anything:
+Segment anything meets image inpainting. arXiv preprint arXiv:2304.06790.
+Yu, W., Yang, Z., Li, L., Wang, J., Lin, K., Liu, Z., Wang, X., and Wang, L. (2023d). Mm-vet:
+Evaluating large multimodal models for integrated capabilities.arXiv preprint arXiv:2308.02490.
+Yu, Z., Yu, J., Cui, Y ., Tao, D., and Tian, Q. (2019). Deep modular co-attention networks for visual
+question answering. In CVPR.
+Yuan, L., Chen, D., Chen, Y .-L., Codella, N., Dai, X., Gao, J., Hu, H., Huang, X., Li, B., Li, C., Liu,
+C., Liu, M., Liu, Z., Lu, Y ., Shi, Y ., Wang, L., Wang, J., Xiao, B., Xiao, Z., Yang, J., Zeng, M.,
+Zhou, L., and Zhang, P. (2021). Florence: A new foundation model for computer vision. arXiv
+preprint arXiv:2111.11432.
+Zamir, A. R., Sax, A., Shen, W., Guibas, L. J., Malik, J., and Savarese, S. (2018). Taskonomy:
+Disentangling task transfer learning. In Proceedings of the IEEE conference on computer vision
+and pattern recognition, pages 3712–3722.
+Zang, Y ., Li, W., Han, J., Zhou, K., and Loy, C. C. (2023). Contextual object detection with multi-
+modal large language models. arXiv preprint arXiv:2305.18279.
+Zang, Y ., Li, W., Zhou, K., Huang, C., and Loy, C. C. (2022). Open-vocabulary detr with conditional
+matching. arXiv preprint arXiv:2203.11876.
+Zareian, A., Rosa, K. D., Hu, D. H., and Chang, S.-F. (2021). Open-vocabulary object detection
+using captions. In CVPR.
+Zbontar, J., Jing, L., Misra, I., LeCun, Y ., and Deny, S. (2021). Barlow twins: Self-supervised
+learning via redundancy reduction. In ICML.
+Zellers, R., Bisk, Y ., Farhadi, A., and Choi, Y . (2019). From recognition to cognition: Visual
+commonsense reasoning. In CVPR.
+Zeng, Y ., Lin, Z., Zhang, J., Liu, Q., Collomosse, J., Kuen, J., and Patel, V . M. (2023). Scenecom-
+poser: Any-level semantic image synthesis. In Proceedings of the IEEE/CVF Conference on
+Computer Vision and Pattern Recognition, pages 22468–22478.
+Zeng, Y ., Zhang, X., and Li, H. (2022). Multi-grained vision language pre-training: Aligning texts
+with visual concepts. In ICML.
+Zhai, X., Kolesnikov, A., Houlsby, N., and Beyer, L. (2022a). Scaling vision transformers. InCVPR.
+Zhai, X., Mustafa, B., Kolesnikov, A., and Beyer, L. (2023). Sigmoid loss for language image
+pre-training. arXiv preprint arXiv:2303.15343.
+Zhai, X., Wang, X., Mustafa, B., Steiner, A., Keysers, D., Kolesnikov, A., and Beyer, L. (2022b).
+Lit: Zero-shot transfer with locked-image text tuning. In CVPR.
+Zhang, C., Liu, L., Cui, Y ., Huang, G., Lin, W., Yang, Y ., and Hu, Y . (2023a). A comprehensive
+survey on segment anything model for vision and beyond. arXiv preprint arXiv:2305.08196.
+Zhang, C., Yang, Z., He, X., and Deng, L. (2020). Multimodal intelligence: Representation learning,
+information fusion, and applications. JSTSP.
+Zhang, C., Zhang, C., Zhang, M., and Kweon, I. S. (2023b). Text-to-image diffusion model in
+generative ai: A survey. arXiv preprint arXiv:2303.07909.
+Zhang, C., Zheng, S., Li, C., Qiao, Y ., Kang, T., Shan, X., Zhang, C., Qin, C., Rameau, F., Bae,
+S.-H., et al. (2023c). A survey on segment anything model (sam): Vision foundation model meets
+prompt engineering. arXiv preprint arXiv:2306.06211.
+116

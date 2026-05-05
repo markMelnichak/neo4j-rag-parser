@@ -1,0 +1,263 @@
+116
+ 
+D. A. Houston // Cato Journal. 
+–
+ 
+2007. 
+–
+ 
+Vol. 27, № 3. 
+–
+ 
+P. 350
+–
+378.
+ 
+11.
+ 
+Leff N. H. Economic Development Through Bureaucratic 
+Corruption 
+[
+Текст
+] 
+/ N. H. Leff // American Behavioral 
+Scientist
+. 
+–
+ 
+1964
+. 
+–
+ 
+Vol. 62
+, 
+№ 2. 
+–
+ 
+P. 337
+–
+341.
+ 
+12.
+ 
+Leite C. Does Mother Nature Corrupt? Natural Resources, Cor
+-
+ruption and Economic Growth 
+[
+Текст
+]
+ 
+/ C. Leite, J. Weidmann //
+ 
+Washington: I
+nternational 
+Monetary Fund. 
+–
+ 
+1999. Working 
+Paper 85.
+ 
+13.
+ 
+Mauro P. Corrupti
+on and Growth
+ 
+[
+Текст
+] 
+/ P. Mauro
+ 
+// Quarterly 
+Journal of Economic. 
+–
+ 
+1995. Vol. 110. 
+–
+ 
+№ 3. 
+–
+ 
+P. 681
+–
+712.
+ 
+14.
+ 
+Statistika
+-
+korruptsii
+-
+v
+-
+mire 
+[
+Электронный
+ 
+ресурс
+]
+. 
+–
+ 
+Режим
+ 
+доступа
+ 
+: Http:// vavilon.ru.
+ 
+15.
+ 
+Svensson J. Eight Questions about Corruption 
+[
+Текст
+] 
+/ J. 
+Svensson // 
+Journal of Economic Perspectives. 
+–
+ 
+2005. 
+–
+ 
+Vol. 19, № 3. 
+–
+ 
+P.
+ 
+19
+–
+42.
+ 
+16.
+ 
+Tanzi V. Corruption Governmental Activities & Markets 
+[
+Электрон
+-
+ный
+ 
+ресурс
+] 
+/ V. Tanzi // IMH Working Paper. 
+–
+ 
+1999. 
+–
+ 
+№ 94.
+ 
+–
+ 
+Режим
+ 
+доступа
+ 
+: 
+https:// ssrn.com
+.
+ 
+17.
+ 
+Tanzi V., 
+Davoodi H. Corruption, Public Investment and Gro
+wth 
+[
+Текст
+] 
+/ V. Tanzi, H. Davoodi // Washington: International 
+Monetary Fund. 
+–
+ 
+1997. 
+–
+ 
+Working Paper № 139.
+ 
+ 
+ 
+И
+.
+ 
+И
+. 
+Левин, А
+.
+ 
+В
+.
+ 
+Касаркин
+ 
+ 
+ 
+РЕШЕНИЕ ИНТЕЛЛЕКТУАЛ
+ЬНЫХ ГРАФОВЫХ 
+ 
+NP
+-
+ПОЛНЫХ ЗАДАЧ НА 
+РЕКОНФИГУРИРУЕМЫХ 
+ВЫЧИСЛИТЕЛЬНЫХ СИСТЕ
+МАХ
+ 
+ 
+Южный федеральный университет
+, г.
+ 
+Таганрог, Россия
+ 
+iilevin
+@
+sfedu
+.
+ru
+ 
+ 
+Графовые 
+NP
+-
+полн
+ые
+ 
+задач
+и
+ 
+позволя
+ю
+т 
+создавать
+ 
+ак
+-
+туаль
+ные на сегодняшний день 
+интеллектуальные системы:
+ 
+для анализа социальных сетей, для 
+управления трафиком и 
+обеспечения безопасности вычислительных сетей, для при
+-
+нятия решений в бизнес
+-
+аналитике
+, экономик
+е, логистике.
+ 
+В
+ 
+то же время 
+NP
+-
+полн
+ые
+ 
+задачи
+ 
+–
+ 
+переборные
+ 
+и
+ 
+являю
+тся 
+наиболее трудновычислимыми.

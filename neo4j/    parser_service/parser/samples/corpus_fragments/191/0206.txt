@@ -1,0 +1,43 @@
+209 
+ 
+Лист
+инг 44 
+ran
+ks["Linear reg"] = rank_to_dict(lr.coef_, names) 
+ranks["Ridge"] = rank_to_dict(ridge.coef_, names) 
+ranks["Lasso"] = rank_to_dict(lasso.coef_, names) 
+Посл
+едним шагом мы должны сформировать среднее по каж-
+дому признаку, загрузив их в отдельный список. Затем отсортировать 
+его по убыванию и вывести. Реализовать это можно, используя код из 
+листинга 45. 
+Лист
+инг 45 
+#С
+оздаем пустой список для данных 
+mean = {} 
+ 
+#«Бежим» по списку ranks 
+for key, value in ranks.iteritems(): 
+#«Пробегаемся» по списку значений ranks, которые являются парой имя:оценка 
+for item in value.iteritems(): 
+#имя будет ключом для нашего mean 
+#если элемента с текущим ключем в mean нет - добавляем 
+if(item[0] not in mean): 
+mean[item[0]] = 0 
+ 
+#суммируем значения по каждому ключу-имени признака 
+ mean[item[0]] += item[1] 
+ 
+#находим среднее по каждому признаку 
+for key, value in mean.iteritems(): 
+ res=value/len(ranks) 
+ mean[key] = round(res, 2) 
+ 
+#сортируем и распечатываем список 
+mean = sorted(mean.iteritems(), key=lambda (x, y): y, reverse=True) 
+ 
+print "MEAN" 
+print mean 
+Р
+езультат работы программы представлен в листинге 46.

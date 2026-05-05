@@ -1,0 +1,32 @@
+(a) UniTab
+ (b) Pix2Seqv2
+Figure 4.8: (a) UniTab (Yang et al., 2022c) is proposed to unify grounded captioning, visual ground-
+ing, image captioning, VQA, and object localization. (b) Pix2Seqv2 (Chen et al., 2022d) is proposed
+to unify object detection, referring segmentation, keypoint detection, and image captioning. Image
+credit: Yang et al. (2022c) and Chen et al. (2022d).
+Figure 4.9: VisionLLM (Wang et al., 2023h) is proposed to bridge vision systems with LLMs in a
+sequential decoding manner. Image credit: Wang et al. (2023h).
+et al., 2015), grounded captioning (Plummer et al., 2015), visual grounding, object localization and
+visual question answering (Antol et al., 2015). The model is trained in three stages: pre-training,
+multi-task finetuning, and task-specific finetuning.
+Pix2SeqV2 (Chen et al., 2022d) slightly differs from UniTab in that it unifies two different vi-
+sion tasks: referring segmentation and keypoint detection. Following Pix2Seq (Chen et al., 2022c),
+Pix2SeqV2 represents objects in an image as [ymin, xmin, ymax, xmax, text]. Then, it introduces a
+unique task prompt for each task, which contains task type information or a combination of task
+types and specific locations. For mask decoding, a mask contour is converted into a polygon and
+then its coordinates extracted from the polygon (Castrejon et al., 2017). A similar strategy is also
+used for referring segmentation, as in Polyformer (Liu et al., 2023e).
+LLM-augmented. Recent works have also explored building a generic decoding interface based
+on LLMs, which are pre-trained on large amounts of text data and human instructions. Kosmos-
+2 (Peng et al., 2023b) exploits the pretrained LLMs of Kosmos-1 (Huang et al., 2023b) and augments
+the grounded multi-modal data by collecting a web-scale grounded image-text pair dataset (GRIT)
+consisting of 91M images. VisionLLM (Wang et al., 2023h) appends an even larger LLM ( e.g.,
+LLaMa (Touvron et al., 2023)) on top of an image tokenizer, as shown in Figure 4.9. The resultant
+model exhibits a very strong vision-language reasoning capacity and decent localization ability for
+object detection, segmentation, etc. Some other works that combine LLMs with grounding are
+DetGPT (Pi et al., 2023) and GPT4ROI (Zhang et al., 2023k). To further equip the model with
+the segmentation capability, both BubaGPT (Zhao et al., 2023c) and LISA (Lai et al., 2023) use
+an extra referring segmentation model to segment images by taking texts or embeddings as input,
+respectively. PaLI-X (Chen et al., 2023g) is by far the largest unified model that can cope with
+multilingual vision and vision-language tasks.
+51

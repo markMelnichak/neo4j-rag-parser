@@ -1,0 +1,70 @@
+Multimodal
+Foundation
+Models
+Specific-Purpose
+Pre-trained Models
+Visual
+Understanding §2
+Supervised Learning BiT (Kolesnikov et al., 2020);
+ViT (Dosovitskiy et al., 2021)
+Contrastive Language-
+Image Pre-training
+CLIP (Radford et al., 2021);
+ALIGN (Jia et al., 2021)
+Image-only Self-supervised Learning MoCo (He et al., 2020); DINO (Caron
+et al., 2021); MAE (He et al., 2022a)
+Synergy Among Different Methods SLIP (Mu et al., 2021);
+UniCL (Yang et al., 2022b)
+Multimodal Fusion UNITER (Chen et al., 2020d);
+CoCa (Yu et al., 2022a)
+Region-level and Pixel-
+level Pre-training
+GLIP (Li et al., 2022e);
+SAM (Kirillov et al., 2023)
+Visual
+Generation §3
+Overview: Text-to-Image Generation Stable Diffusion (Rom-
+bach et al., 2021)
+Spatial Controllable Generation ControlNet (Zhang
+and Agrawala, 2023)
+Text-based Editing InstructPix2Pix (Brooks et al., 2023)
+Text Prompts Following DDPO (Black et al., 2023)
+Concept Customization DreamBooth (Ruiz et al., 2023)
+General-Purpose
+Assistants
+Unified Vision
+Models §4
+From Closed-set to Open-set Models
+GLIP (Li et al., 2022f);
+OpenSeg (Ghiasi et al., 2022b);
+OpenSeeD (Zhang et al., 2023e)
+From Task-Specific to Generic Models Unified-IO (Lu et al., 2022a);
+X-Decoder (Zou et al., 2023a)
+From Static to Promptable Models
+SAM (Kirillov et al., 2023);
+SEEM (Zou et al., 2023b);
+SegGPT (Wang et al., 2023j)
+Large Multi-
+modal Models:
+Training with
+LLM §5
+Image-to-Text Generation Flamingo (Alayrac et al., 2022)
+Instruction Tuning in LLM ChatGPT (OpenAI, 2022);
+Vicuna (Vicuna, 2023)
+Instruction Tuning in LMM
+Multimodal GPT-4 (OpenAI, 2023a);
+LLaV A (Liu et al., 2023c);
+MiniGPT4 (Zhu et al., 2023a)
+Emerging Topics
+Multimodal
+Agents:
+Chaining Tools
+with LLM §6
+Multimodel Agent
+VISPROG (Gupta and
+Kembhavi, 2022a);
+Visual ChatGPT (Wu et al., 2023a);
+MM-REACT (Yang* et al., 2023)
+Advanced Topics
+Figure 1.3: An overview of the paper’s structure, detailing Chapters 2-6.
+10

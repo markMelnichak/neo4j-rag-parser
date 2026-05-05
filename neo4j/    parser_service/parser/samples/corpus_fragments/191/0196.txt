@@ -1,0 +1,109 @@
+Оконча
+ние листинга 29 
+# За
+гружаем данные 
+data_train = pandas
+.read_csv('data
+X
+ = data_train.ix[:,1:3].values 
+y
+ = (data_train.ix[:,0].values + 1)/2
+#Для 
+лучешго понимания пре
+дставления данных
+print X.shape 
+print y.shape 
+# 
+Со
+здание, обучение модели и получение ее прогноз
+re
+gression = linear_model.LogisticRegression()
+re
+gression.fit(X, y) 
+ans = regression.predict(X) 
+# Оценка качества 
+созд
+анной
+metric =
+ roc_auc_score(y, ans
+print "AU
+C Trained: ", metric.real
+#Со
+хранение и загрузка моде
+ли
+Sa
+veToObject(regression, "model
+lo
+aded_model = Load
+FromObject
+#С
+оздание, обучение новой модели, 
+not_
+fitted = linear_model.LogisticRegression()
+not_
+fitted.fit(X[0:2,:], y[0:2]) 
+ans = not_fitted.predict(X) 
+metri
+c = ro
+c_auc_score(y, ans)
+print 
+"AUC not Trained: ", metric.real
+#полу
+чение прогноза и оценки
+ans =
+ loaded_model.predict(X
+metric =
+ roc_auc_score(y, ans
+print "AU
+CLoaded: ", metric.real
+Рису
+нок 
+199 
+ndas
+.read_csv('data-lo
+gistic.csv') 
+ 
+y
+ = (data_train.ix[:,0].values + 1)/2 
+пре
+дставления данных распечат
+айте формы массивов
+Со
+здание, обучение модели и получение ее прогноза 
+re
+gression = linear_model.LogisticRegression() 
+созд
+анной мо
+дели 
+ans) 
+real 
+моде
+ли в фай
+л с именем model 
+model"
+) 
+Load
+FromObject(
+"model") 
+#С
+оздание, обучение новой модели, полу
+чение ее прогноза и оценка качества
+not_
+fitted = linear_model.LogisticRegression() 
+c = ro
+c_auc_score(y, ans) 
+print 
+"AUC not Trained: ", metric.real 
+оценки каче
+ства загруженной модели 
+X) 
+ans) 
+real 
+ 
+Рису
+нок 59. Рез
+ультат работы кода из листинга 29 
+распечат
+айте формы массивов: 
+полу
+чение ее прогноза и оценка качества

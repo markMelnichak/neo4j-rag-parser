@@ -1,0 +1,35 @@
+Chapter 5
+Large Multimodal Models:
+Training with LLM
+In this chapter, we comprehensively explore large multimodal models (Alayrac et al., 2022; Ope-
+nAI, 2023a). We begin with Section 5.1 to delve into the background of such models, with the focus
+on the basics of image-to-text generative models and their representative model instances in vari-
+ous case studies. We also discuss the state-of-the-art OpenAI Multimodal GPT-4 (OpenAI, 2023a)
+and identify the existing research gaps in the field. To better understand the process of instruction
+tuning in large language models, Section 5.2 examines its importance and its role in self-instruct
+and open-source LLMs. Moving forward, we explore instruction-tuned large multimodal models in
+Section 5.3, shedding light on their basics, significance and applications. Additionally, Section 5.4
+touches upon advanced topics in the realm of multimodal models to provide a deeper understanding
+of the subject. Finally, we assess the current progress in the field by evaluating how close we are to
+achieving the OpenAI Multimodal GPT-4 in Section 5.5, a major milestone in AI research.
+5.1 Background
+5.1.1 Image-to-Text Generative Models
+LMMs in their current form is primarily an image-to-text generative model, which takes images as
+input, and outputs a text sequence. One example is illustrated in Figure 5.1 (a) Left. All of the model
+variants share a very similar model architecture and training objective.
+• Model Architecture. As illustrated in Figure 5.1 (a) Right, the model typically consists of an
+image encoder to extract visual features, and a language model to decode the text sequence.
+The vision and language modalities can be optionally connected by trainable connection mod-
+ule. The image encoder and language model can be either trained from scratch or initialized
+from pre-trained models.
+• Training Objective. As illustrated in Figure 5.1 (b), it typically employs an auto-regressive loss
+on the output text tokens. For the attention map in the Transformers (Vaswani et al., 2017),
+image tokens can attend to each other, and the current text token attends to all image tokens
+and the previous text tokens.
+5.1.2 Case Studies
+We use some prominent LMMs as examples to illustrate how the aforementioned network archi-
+tecture can be instantiated in different models, while maintaining the same auto-regressive training
+objective.
+Case study I: LMM trained with image-text pairwise instances. Most LMMs are trained on a
+large number of image-text pairs, where each training sample is a pair. GIT (Wang et al., 2022a) and
+61

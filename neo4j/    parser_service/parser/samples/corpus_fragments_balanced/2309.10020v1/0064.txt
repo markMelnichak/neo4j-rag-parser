@@ -1,0 +1,83 @@
+FlorenceCLIP
+Vision and Language Foundations
+Open-Set Vision Models
+RegionCLIP
+ViLD
+OV-CNN
+GLIP
+ALIGN VQVAE
+DetCLIPv1/v2
+OpenSeg MaskCLIP Grounding-DINO
+ODISE
+VQGAN
+OpenSeeD
+UniDetector
+GroupViT
+ZegFormer
+SAN DataSeg
+Mask-Adaptive 
+CLIP
+Pix2Seqv2VL-T5
+X-Decoder
+Unified Multi-modal 
+Models
+FC-CLIP
+OFA Unified-IO
+PALI-X
+Uni-Perceiverv2
+VisionLLM
+Emu
+GLIPv2
+Uni-Tab
+Kosmos-v2
+CAT-Seg
+Multi-task Models
+UberNet
+Taskonomy
+GPV
+12in1
+UniT/UniT-3D
+E2E-VLP
+Cross-stitch
+UViM
+In-Context 
+Learning Models
+Visual Prompting
+Hummingbird SLiME
+Promptable Vision 
+Models
+SEEM
+SegGPT
+SAM
+Painter
+LISA
+Semantic-SAM
+SimpleClick FocalClick
+SAM-Aug
+PerSAM
+Matcher
+Figure 4.19: A summary of topics covered in this chapter. A lot of effort has been spent to unify
+vision models from different aspects to enable more intelligent vision systems.
+than language data. For example, GPT-3 consumes 45 TB of training data, while the ImageNet
+dataset which contains 1.3M images costs more than hundreds of gigabytes. When it comes to
+video data like Howto100M (Miech et al., 2019), the storage cost already exceeds that of training
+corpus for GPT-3. All these differences cast some open questions that need to be addressed in the
+vision community, detailed below.
+• Computer vision in the wild . Due to the heterogeneous nature, the current vision data we use
+for training models can hardly cover the full picture of the physical world. Despite the effort in
+building open-set vision models, we are still facing significant challenges in coping with novel or
+long-tail scenarios.
+• Scaling law in vision. As discussed in Kaplan et al. (2020); Hoffmann et al. (2022), the perfor-
+mance of large language models improves smoothly with the increase of model size, data scale,
+and amount of computes. As the scale increases, some intriguing emerging properties are further
+observed in LLMs. In contrast, it is still not clear what is the right path to scale vision models, not
+to mention the emerging properties in such models.
+• Vision-centric or language-centric models . Currently, the boundary between vision and lan-
+guage is gradually dismissed. However, due to intrinsic differences between vision and language,
+it is still not clear whether we should further scale up the vision models and integrate language
+models or the combination of moderate vision models and LLMs is sufficient to address most (if
+not all) of the problems.
+With that being said, we are close yet still far away from an intelligent vision system that can perceive
+the world like humans. We hope the literature review in this chapter could provide an overall picture
+of the existing efforts, and inspire the pursuit of next-generation vision models.
+60

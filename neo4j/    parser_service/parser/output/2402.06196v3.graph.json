@@ -1,0 +1,2589 @@
+{
+  "source": "2402.06196v3.pdf",
+  "nodes": [
+    {
+      "label": "Concept",
+      "name": "Attention",
+      "normalized_name": "attention",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GPT",
+      "normalized_name": "gpt",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LLaMA",
+      "normalized_name": "llama",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Fine-tuning",
+      "normalized_name": "fine-tuning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Speech Recognition",
+      "normalized_name": "speech recognition",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Machine Translation",
+      "normalized_name": "machine translation",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Transformer",
+      "normalized_name": "transformer",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Embedding",
+      "normalized_name": "embedding",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "RLHF",
+      "normalized_name": "rlhf",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Text Classification",
+      "normalized_name": "text classification",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Self-Attention",
+      "normalized_name": "self-attention",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "BERT",
+      "normalized_name": "bert",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "RoBERTa",
+      "normalized_name": "roberta",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Masked Language Modeling",
+      "normalized_name": "masked language modeling",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Question Answering",
+      "normalized_name": "question answering",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Summarization",
+      "normalized_name": "summarization",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "LoRA",
+      "normalized_name": "lora",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Tokenization",
+      "normalized_name": "tokenization",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Named Entity Recognition",
+      "normalized_name": "named entity recognition",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Preference Optimization",
+      "normalized_name": "preference optimization",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Overfitting",
+      "normalized_name": "overfitting",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Neural Network",
+      "normalized_name": "neural network",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Generative Model",
+      "normalized_name": "generative model",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Parameter-Efficient Fine-Tuning",
+      "normalized_name": "parameter-efficient fine-tuning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "PyTorch",
+      "normalized_name": "pytorch",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "LLMs",
+      "normalized_name": "llms",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "PaLM",
+      "normalized_name": "palm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "statistical language modeling",
+      "normalized_name": "statistical language modeling",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "information retrieval",
+      "normalized_name": "information retrieval",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "OpenAI's ChatGPT",
+      "normalized_name": "openai's chatgpt",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GPT-4",
+      "normalized_name": "gpt-4",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Co-Pilot systems",
+      "normalized_name": "co-pilot systems",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "artificial general intelligence",
+      "normalized_name": "artificial general intelligence",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "statistical language models",
+      "normalized_name": "statistical language models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "neural networks",
+      "normalized_name": "neural networks",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Markov chain models",
+      "normalized_name": "markov chain models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "N-gram models",
+      "normalized_name": "n-gram models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "NLMs",
+      "normalized_name": "nlms",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "PLMs",
+      "normalized_name": "plms",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Instruction Tuning",
+      "normalized_name": "instruction tuning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "AI agents",
+      "normalized_name": "ai agents",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "LLM",
+      "normalized_name": "llm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "RNNLM",
+      "normalized_name": "rnnlm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "RNNs",
+      "normalized_name": "rnns",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GRU",
+      "normalized_name": "gru",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Transformer architecture",
+      "normalized_name": "transformer architecture",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Transformers",
+      "normalized_name": "transformers",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "ALBERT",
+      "normalized_name": "albert",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "DeBERTa",
+      "normalized_name": "deberta",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "XLM",
+      "normalized_name": "xlm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "XLNet",
+      "normalized_name": "xlnet",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "UNILM",
+      "normalized_name": "unilm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "next sentence prediction",
+      "normalized_name": "next sentence prediction",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "LLM Capabilities",
+      "normalized_name": "llm capabilities",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "virtual adversarial training",
+      "normalized_name": "virtual adversarial training",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "ELECTRA",
+      "normalized_name": "electra",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "RTD",
+      "normalized_name": "rtd",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "XLMs",
+      "normalized_name": "xlms",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "unsupervised method",
+      "normalized_name": "unsupervised method",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "supervised method",
+      "normalized_name": "supervised method",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Transformer-XL",
+      "normalized_name": "transformer-xl",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "generalized autoregressive method",
+      "normalized_name": "generalized autoregressive method",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "sequence-to-sequence prediction",
+      "normalized_name": "sequence-to-sequence prediction",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Transformer network",
+      "normalized_name": "transformer network",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GPT-1",
+      "normalized_name": "gpt-1",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GPT-2",
+      "normalized_name": "gpt-2",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "discriminative fine-tuning",
+      "normalized_name": "discriminative fine-tuning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "RAG",
+      "normalized_name": "rag",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "BART",
+      "normalized_name": "bart",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "transfer learning",
+      "normalized_name": "transfer learning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "CC-NEWS",
+      "normalized_name": "cc-news",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Reddit Encoder-Only ALBERT",
+      "normalized_name": "reddit encoder-only albert",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Reddit",
+      "normalized_name": "reddit",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "ClueWeb",
+      "normalized_name": "clueweb",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "WebGPT",
+      "normalized_name": "webgpt",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LLaMA-Pro-8B",
+      "normalized_name": "llama-pro-8b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "SlimPajama",
+      "normalized_name": "slimpajama",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "U-PaLM",
+      "normalized_name": "u-palm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Med-PaLM",
+      "normalized_name": "med-palm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LiveQA Med-PaLM 2 - 2023",
+      "normalized_name": "liveqa med-palm 2 - 2023",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "PaLM 2",
+      "normalized_name": "palm 2",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "FLAN",
+      "normalized_name": "flan",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LaMDA-PT",
+      "normalized_name": "lamda-pt",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "ERNIE 4.0",
+      "normalized_name": "ernie 4.0",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "ChinChilla",
+      "normalized_name": "chinchilla",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "CodeGen 16.1B",
+      "normalized_name": "codegen 16.1b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Mistral-7B",
+      "normalized_name": "mistral-7b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "RedPajama",
+      "normalized_name": "redpajama",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "DeepSeek-Coder 1.3B",
+      "normalized_name": "deepseek-coder 1.3b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "StackExchange DocLLM 1B,7B",
+      "normalized_name": "stackexchange docllm 1b,7b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "DocBank",
+      "normalized_name": "docbank",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Generative Pre-trained Transformers",
+      "normalized_name": "generative pre-trained transformers",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "CODEX",
+      "normalized_name": "codex",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GPT-3",
+      "normalized_name": "gpt-3",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "question-answering",
+      "normalized_name": "question-answering",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "bidirectional LM",
+      "normalized_name": "bidirectional lm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "sequence-to-sequence LM",
+      "normalized_name": "sequence-to-sequence lm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "SwiGLU activation function",
+      "normalized_name": "swiglu activation function",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "rotary positional embeddings",
+      "normalized_name": "rotary positional embeddings",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LLaMA-2 collection",
+      "normalized_name": "llama-2 collection",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LLaMA-2 Chat",
+      "normalized_name": "llama-2 chat",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "rejection sampling",
+      "normalized_name": "rejection sampling",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "proximal policy optimization",
+      "normalized_name": "proximal policy optimization",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Alpaca",
+      "normalized_name": "alpaca",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "ChatGPT",
+      "normalized_name": "chatgpt",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "QLoRA",
+      "normalized_name": "qlora",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Koala",
+      "normalized_name": "koala",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Mistral Vigogne",
+      "normalized_name": "mistral vigogne",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Koala Code",
+      "normalized_name": "koala code",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Tulu WizardLM Med-PaLM",
+      "normalized_name": "tulu wizardlm med-palm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "PaLM-E Med-PaLM2",
+      "normalized_name": "palm-e med-palm2",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "FLAN-PaLM",
+      "normalized_name": "flan-palm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "PaLM2 PaLM",
+      "normalized_name": "palm2 palm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Vigogne",
+      "normalized_name": "vigogne",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Tulu",
+      "normalized_name": "tulu",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Long LLaMA",
+      "normalized_name": "long llama",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "U-PaLM models",
+      "normalized_name": "u-palm models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "chain-ofthought data",
+      "normalized_name": "chain-ofthought data",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "PaLM-2",
+      "normalized_name": "palm-2",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "PaLM-2",
+      "normalized_name": "palm-2",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "prompting",
+      "normalized_name": "prompting",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Gopher",
+      "normalized_name": "gopher",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "ERNIE 3.0",
+      "normalized_name": "ernie 3.0",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "auto-regressive network",
+      "normalized_name": "auto-regressive network",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "zero-shot learning",
+      "normalized_name": "zero-shot learning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "few-shot learning",
+      "normalized_name": "few-shot learning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Bert retriever",
+      "normalized_name": "bert retriever",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "sparsely activated mixture-of-experts architecture",
+      "normalized_name": "sparsely activated mixture-of-experts architecture",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LaMDA",
+      "normalized_name": "lamda",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Galactica",
+      "normalized_name": "galactica",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "CodeGen",
+      "normalized_name": "codegen",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "AlexaTM",
+      "normalized_name": "alexatm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Sparrow",
+      "normalized_name": "sparrow",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Minerva",
+      "normalized_name": "minerva",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "BLOOM",
+      "normalized_name": "bloom",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GLM",
+      "normalized_name": "glm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Pythia",
+      "normalized_name": "pythia",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Orca",
+      "normalized_name": "orca",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "StarCoder",
+      "normalized_name": "starcoder",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "StarCoderBase",
+      "normalized_name": "starcoderbase",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "KOSMOS-1",
+      "normalized_name": "kosmos-1",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Gemini",
+      "normalized_name": "gemini",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Megatron-Turing NLG",
+      "normalized_name": "megatron-turing nlg",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "LongFormer",
+      "normalized_name": "longformer",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "OPT-IML",
+      "normalized_name": "opt-iml",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "MeTaLM",
+      "normalized_name": "metalm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Dromedary",
+      "normalized_name": "dromedary",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Palmyra",
+      "normalized_name": "palmyra",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Camel",
+      "normalized_name": "camel",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Yalm",
+      "normalized_name": "yalm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "MPT",
+      "normalized_name": "mpt",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "PAL",
+      "normalized_name": "pal",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Claude",
+      "normalized_name": "claude",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "CodeGen 2",
+      "normalized_name": "codegen 2",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Zephyr",
+      "normalized_name": "zephyr",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Grok",
+      "normalized_name": "grok",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Qwen",
+      "normalized_name": "qwen",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Mamba",
+      "normalized_name": "mamba",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Mixtral-8x7B",
+      "normalized_name": "mixtral-8x7b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "DocLLM",
+      "normalized_name": "docllm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "DeepSeek-Coder",
+      "normalized_name": "deepseek-coder",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "FuseLLM-7B",
+      "normalized_name": "fusellm-7b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "TinyLlama-1.1B",
+      "normalized_name": "tinyllama-1.1b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "vanilla Transformer",
+      "normalized_name": "vanilla transformer",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "BytePairEncoding",
+      "normalized_name": "bytepairencoding",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "WordPieceEncoding",
+      "normalized_name": "wordpieceencoding",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "classifier-based",
+      "normalized_name": "classifier-based",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "heuristic-based",
+      "normalized_name": "heuristic-based",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "de-duplication",
+      "normalized_name": "de-duplication",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "APE",
+      "normalized_name": "ape",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "RPE",
+      "normalized_name": "rpe",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "RoPE",
+      "normalized_name": "rope",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GPT-NeoX-20B",
+      "normalized_name": "gpt-neox-20b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "ALiBi",
+      "normalized_name": "alibi",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "next token prediction",
+      "normalized_name": "next token prediction",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "autoregressive language modeling",
+      "normalized_name": "autoregressive language modeling",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Sparse MoE layers",
+      "normalized_name": "sparse moe layers",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "supervised fine-tuning or SFT for short",
+      "normalized_name": "supervised fine-tuning or sft for short",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "fine-tuned",
+      "normalized_name": "fine-tuned",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "prompt engineering",
+      "normalized_name": "prompt engineering",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Retrieval-Augmented Generation",
+      "normalized_name": "retrieval-augmented generation",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Self-Instruct",
+      "normalized_name": "self-instruct",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Reinforcement learning",
+      "normalized_name": "reinforcement learning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Direct Preference Optimization",
+      "normalized_name": "direct preference optimization",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "DPO",
+      "normalized_name": "dpo",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "KTO",
+      "normalized_name": "kto",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "beam search",
+      "normalized_name": "beam search",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Greedy Search",
+      "normalized_name": "greedy search",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "top-k sampling",
+      "normalized_name": "top-k sampling",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Nucleus sampling",
+      "normalized_name": "nucleus sampling",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "top-p sampling",
+      "normalized_name": "top-p sampling",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "ZeRO",
+      "normalized_name": "zero",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "RWKV",
+      "normalized_name": "rwkv",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Low-Rank Adaption",
+      "normalized_name": "low-rank adaption",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Low-Rank Adaptation",
+      "normalized_name": "low-rank adaptation",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "downstream tasks",
+      "normalized_name": "downstream tasks",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Knowledge distillation",
+      "normalized_name": "knowledge distillation",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "API distillation",
+      "normalized_name": "api distillation",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "response distillation",
+      "normalized_name": "response distillation",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "feature distillation",
+      "normalized_name": "feature distillation",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Quantization",
+      "normalized_name": "quantization",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "quantization-aware training",
+      "normalized_name": "quantization-aware training",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "hallucination",
+      "normalized_name": "hallucination",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Sources of Hallucination",
+      "normalized_name": "sources of hallucination",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "ROUGE",
+      "normalized_name": "rouge",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "BLEU",
+      "normalized_name": "bleu",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "PARENT",
+      "normalized_name": "parent",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "PARENTT",
+      "normalized_name": "parentt",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Knowledge F1",
+      "normalized_name": "knowledge f1",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Tree of Thought 7",
+      "normalized_name": "tree of thought 7",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Tools LangChain LlamaIndex",
+      "normalized_name": "tools langchain llamaindex",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Cohere Coral Flowise AI Fig",
+      "normalized_name": "cohere coral flowise ai fig",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Information Extraction models",
+      "normalized_name": "information extraction models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Natural Language Inference",
+      "normalized_name": "natural language inference",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "FactScore",
+      "normalized_name": "factscore",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "chain of thought\" prompting",
+      "normalized_name": "chain of thought\" prompting",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Chain-of-Thought Prompting",
+      "normalized_name": "chain-of-thought prompting",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Self-Consistency",
+      "normalized_name": "self-consistency",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "BERT-scores or n-gram overlaps",
+      "normalized_name": "bert-scores or n-gram overlaps",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Expert Prompting",
+      "normalized_name": "expert prompting",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "FLARE",
+      "normalized_name": "flare",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Toolformer",
+      "normalized_name": "toolformer",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Wikipedia Search Engine",
+      "normalized_name": "wikipedia search engine",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "ReWOO",
+      "normalized_name": "rewoo",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "DERA",
+      "normalized_name": "dera",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "HuggingGPT",
+      "normalized_name": "hugginggpt",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "code generation",
+      "normalized_name": "code generation",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "code generation models",
+      "normalized_name": "code generation models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "reading comprehension",
+      "normalized_name": "reading comprehension",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "RACEM",
+      "normalized_name": "racem",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "PASS@k",
+      "normalized_name": "pass@k",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "sentiment analysis",
+      "normalized_name": "sentiment analysis",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "classification",
+      "normalized_name": "classification",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "multi-choice question answering",
+      "normalized_name": "multi-choice question answering",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "HEQ",
+      "normalized_name": "heq",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "F1 score",
+      "normalized_name": "f1 score",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "N-Grams",
+      "normalized_name": "n-grams",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "BERTScore",
+      "normalized_name": "bertscore",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "SkipGram",
+      "normalized_name": "skipgram",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "RAGAS",
+      "normalized_name": "ragas",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Alpaca Large",
+      "normalized_name": "alpaca large",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "PaLM 2-M",
+      "normalized_name": "palm 2-m",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "MPT-7B-chat",
+      "normalized_name": "mpt-7b-chat",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "MetaMath-Mistral-7B",
+      "normalized_name": "metamath-mistral-7b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Arithmo-Mistral-7B",
+      "normalized_name": "arithmo-mistral-7b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "SLMs",
+      "normalized_name": "slms",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Phi-1",
+      "normalized_name": "phi-1",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Phi-1.5",
+      "normalized_name": "phi-1.5",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Phi-2",
+      "normalized_name": "phi-2",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "PEFT",
+      "normalized_name": "peft",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Hyena",
+      "normalized_name": "hyena",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Striped Hyena",
+      "normalized_name": "striped hyena",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Monarch Mixer",
+      "normalized_name": "monarch mixer",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GLaM",
+      "normalized_name": "glam",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "HHEM HaluEval QA",
+      "normalized_name": "hhem halueval qa",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "HaluEval General GPT",
+      "normalized_name": "halueval general gpt",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Cohere-Chat",
+      "normalized_name": "cohere-chat",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Alpaca - 6.68",
+      "normalized_name": "alpaca - 6.68",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LLA",
+      "normalized_name": "lla",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Qwen-vl",
+      "normalized_name": "qwen-vl",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Next-GPT",
+      "normalized_name": "next-gpt",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Multi-modal LLMs",
+      "normalized_name": "multi-modal llms",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Recurrent neural",
+      "normalized_name": "recurrent neural",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Generating sequences",
+      "normalized_name": "generating sequences",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Neural Approaches",
+      "normalized_name": "neural approaches",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "sequence learning",
+      "normalized_name": "sequence learning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Scaling language modeling",
+      "normalized_name": "scaling language modeling",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Deep learning",
+      "normalized_name": "deep learning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "transfer learning",
+      "normalized_name": "transfer learning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Masked sequence",
+      "normalized_name": "masked sequence",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Denoising sequence-tosequence",
+      "normalized_name": "denoising sequence-tosequence",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Training language models",
+      "normalized_name": "training language models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LLaMA-2",
+      "normalized_name": "llama-2",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Mistral 7b",
+      "normalized_name": "mistral 7b",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Gorilla",
+      "normalized_name": "gorilla",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Giraffe",
+      "normalized_name": "giraffe",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "instruction-following",
+      "normalized_name": "instruction-following",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Focused transformer",
+      "normalized_name": "focused transformer",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Finetuned language models",
+      "normalized_name": "finetuned language models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Scaling language models",
+      "normalized_name": "scaling language models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Multitask prompted training",
+      "normalized_name": "multitask prompted training",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Few-shot learning",
+      "normalized_name": "few-shot learning",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Orca 2",
+      "normalized_name": "orca 2",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "layout-aware generative language model",
+      "normalized_name": "layout-aware generative language model",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Tinyllama",
+      "normalized_name": "tinyllama",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Train short",
+      "normalized_name": "train short",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Outrageously large neural networks",
+      "normalized_name": "outrageously large neural networks",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "sparsely-gated mixture-of-experts layer",
+      "normalized_name": "sparsely-gated mixture-of-experts layer",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Self-instruct: Aligning language model",
+      "normalized_name": "self-instruct: aligning language model",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Automatic chain of thought prompting",
+      "normalized_name": "automatic chain of thought prompting",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Tree of thoughts",
+      "normalized_name": "tree of thoughts",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Language agents",
+      "normalized_name": "language agents",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "retrieval augmented generation with foundation models",
+      "normalized_name": "retrieval augmented generation with foundation models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Active retrieval",
+      "normalized_name": "active retrieval",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Program synthesis",
+      "normalized_name": "program synthesis",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Training verifiers",
+      "normalized_name": "training verifiers",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Finite mixture models",
+      "normalized_name": "finite mixture models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "DeepSpeed",
+      "normalized_name": "deepspeed",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Megatron",
+      "normalized_name": "megatron",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Megatron-LM",
+      "normalized_name": "megatron-lm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "text-generation-inference",
+      "normalized_name": "text-generation-inference",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Openllm",
+      "normalized_name": "openllm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "model-parallel",
+      "normalized_name": "model-parallel",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Megatron-DeepSpeed",
+      "normalized_name": "megatron-deepspeed",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Data Parallelism",
+      "normalized_name": "data parallelism",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Pipeline Parallelism",
+      "normalized_name": "pipeline parallelism",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Sequence Parallelism",
+      "normalized_name": "sequence parallelism",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "FastChat",
+      "normalized_name": "fastchat",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "vLLM",
+      "normalized_name": "vllm",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Hugging Face models",
+      "normalized_name": "hugging face models",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "LangChain",
+      "normalized_name": "langchain",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Embedchain",
+      "normalized_name": "embedchain",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Autogen",
+      "normalized_name": "autogen",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "BabyAGI",
+      "normalized_name": "babyagi",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "PromptTools",
+      "normalized_name": "prompttools",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "PromptBench",
+      "normalized_name": "promptbench",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Milvus",
+      "normalized_name": "milvus",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Qdrant",
+      "normalized_name": "qdrant",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Weaviate",
+      "normalized_name": "weaviate",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "LlamaIndex",
+      "normalized_name": "llamaindex",
+      "aliases": [],
+      "source": "2402.06196v3.pdf",
+      "description": null
+    }
+  ],
+  "relations": [
+    {
+      "from_name": "GRU",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Text Classification",
+      "to_label": "Task",
+      "evidence": "Afterwards, NLMs based on recurrent neural networks (RNNs) and their variants, such as long short-term memory (LSTM) [19] and gated recurrent unit (GRU) [20], were widely used for many natural language applications including machine translation, text generation and text classification [43].",
+      "confidence": 0.88,
+      "rule": "hybrid_used_for",
+      "source": "2402.06196v3.pdf"
+    },
+    {
+      "from_name": "XLMs",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "supervised method",
+      "to_label": "Method",
+      "evidence": "XLMs [47] extended BERT to cross-lingual language models using two methods: (1) a unsupervised method that only relies on monolingual data, and (2) a supervised method that leverages parallel data with a new cross-lingual language model objective, as illustrated in Fig 5.",
+      "confidence": 0.84,
+      "rule": "hybrid_uses_model",
+      "source": "2402.06196v3.pdf"
+    }
+  ]
+}

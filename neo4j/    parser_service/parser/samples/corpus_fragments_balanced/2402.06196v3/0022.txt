@@ -1,0 +1,102 @@
+Fig. 23: An overview of BLOOM architecture. Courtesy of
+[93].
+GLM: In [94], Zeng et al. introduced GLM-130B, a
+bilingual (English and Chinese) pre-trained language model
+with 130 billion parameters. It was an attempt to open-source
+a 100B-scale model at least as good as GPT-3 (davinci) and
+unveil how models of such a scale can be successfully pre-
+trained.
+Pythia: In [95], Biderman et al. introduced Pythia, a suite
+of 16 LLMs all trained on public data seen in the exact same
+order and ranging in size from 70M to 12B parameters. We
+provide public access to 154 checkpoints for each one of the
+16 models, alongside tools to download and reconstruct their
+exact training dataloaders for further study.
+Orca: In [96], Mukherjee et al. develop Orca, a 13-billion
+parameter model that learns to imitate the reasoning process
+of large foundation models. Orca learns from rich signals
+from GPT-4 including explanation traces; step-by-step thought
+processes; and other complex instructions, guided by teacher
+assistance from ChatGPT.
+StarCoder: In [97], Li et al. introduced StarCoder and
+StarCoderBase. They are 15.5B parameter models with 8K
+context length, infilling capabilities and fast large-batch in-
+ference enabled by multi-query attention. StarCoderBase is
+trained on one trillion tokens sourced from The Stack, a
+large collection of permissively licensed GitHub repositories
+with inspection tools and an opt-out process. They fine-tuned
+StarCoderBase on 35B Python tokens, resulting in the creation
+of StarCoder. They performed the most comprehensive evalu-
+ation of Code LLMs to date and showed that StarCoderBase
+outperforms every open Code LLM that supports multiple pro-
+gramming languages and matches or outperforms the OpenAI
+code-cushman-001 model.
+KOSMOS: In [98], Huang et al. introduced KOSMOS-1,
+a Multimodal Large Language Model (MLLM) that can per-
+ceive general modalities, learn in context (i.e., few-shot), and
+follow instructions (i.e. zero-shot). Specifically, they trained
+KOSMOS-1 from scratch on web-scale multi-modal corpora,
+including arbitrarily interleaved text and images, image-caption
+pairs, and text data. Experimental results show that KOSMOS-
+1 achieves impressive performance on (i) language understand-
+ing, generation, and even OCR-free NLP (directly fed with
+document images), (ii) perception-language tasks, including
+multimodal dialogue, image captioning, visual question an-
+swering, and (iii) vision tasks, such as image recognition with
+descriptions (specifying classification via text instructions).
+Gemini: In [99], Gemini team introduced a new family of
+multimodal models, that exhibit promising capabilities across
+image, audio, video, and text understanding. Gemini family
+includes three versions: Ultra for highly-complex tasks, Pro
+for enhanced performance and deployability at scale, and Nano
+for on-device applications. Gemini architecture is built on top
+of Transformer decoders, and is trained to support 32k context
+length (via using efficient attention mechanisms).
+Some of the other popular LLM frameworks (or techniques
+used for efficient developments of LLMs) includes Inner-
+Monologue [100], Megatron-Turing NLG [101], LongFormer
+[102], OPT-IML [103], MeTaLM [104], Dromedary [105],
+Palmyra [106], Camel [107], Yalm [108], MPT [109], ORCA-
+2 [110], Gorilla [67], PAL [111], Claude [112], CodeGen 2
+[113], Zephyr [114], Grok [115], Qwen [116], Mamba [30],
+Mixtral-8x7B [117], DocLLM [118], DeepSeek-Coder [119],
+FuseLLM-7B [120], TinyLlama-1.1B [121], LLaMA-Pro-8B
+[122].
+Fig 24 provides an overview of some of the most repre-
+sentative LLM frameworks, and the relevant works that have
+contributed to the success of LLMs and helped to push the
+limits of LLMs.
+III. H OW LLM S ARE BUILT
+In this section, we first review the popular architectures
+used for LLMs, and then discuss data and modeling techniques
+ranging from data preparation, tokenization, to pre-training,
+instruction tuning, and alignment.
+Once the model architecture is chosen, the major steps
+involved in training an LLM includes: data preparation (col-
+lection, cleaning, deduping, etc.), tokenization, model pre-
+training (in a self-supervised learning fashion), instruction
+tuning, and alignment. We will explain each of them in a
+separate subsection below. These steps are also illustrated in
+Fig 25.
+A. Dominant LLM Architectures
+The most widely used LLM architectures are encoder-only,
+decoder-only, and encoder-decoder. Most of them are based on
+Transformer (as the building block). Therefore we also review
+the Transformer architecture here.
+1) Transformer: in a ground-breaking work [44], Vaswani
+et al. proposed the Transformer framework, which was orig-
+inally designed for effective parallel computing using GPUs.
+The heart of Transformer is the (self-)attention mechanism,
+which can capture long-term contextual information much
+more effectively using GPUs than the recurrence and convo-
+lution mechanisms. Fig 26 provides a high-level overview of
+transformer work. In this section we provide an overview of the
+main elements and variants, see [44], [123] for more details.
+The Transformer language model architecture, originally
+proposed for machine translation, consists of an encoder and
+a decoder. The encoder is composed of a stack of N = 6
+identical Transformer layers. Each layer has two sub-layers.
+The first one is a multi-head self-attention layer, and the other
+one is a simple position-wise fully connected feed-forward
+network. The decoder is composed of a stack of 6 identical
+layers. In addition to the two sub-layers in each encoder layer,

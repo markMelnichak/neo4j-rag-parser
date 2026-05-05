@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Neo4j local runtime data
+neo4j/data/
+neo4j/logs/
+neo4j/import/
+neo4j/plugins/
+neo4j/run/
+neo4j/metrics/
+
+# Parser generated output
+neo4j/parser_service/parser/output/
+neo4j/parser_service/parser/ner/annotations/
+neo4j/parser_service/parser/ner/data/*.spacy
+
+# Local caches
+.cache/
+models_cache/

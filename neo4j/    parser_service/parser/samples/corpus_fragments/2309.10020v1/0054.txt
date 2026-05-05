@@ -1,0 +1,58 @@
+Tasks: [A, B,…, Z]I/O Unification
+BA Z
+B’A’ Z’
+Inputs
+Outputs
+Functional Unification
+B’A’ Z’
+Outputs
+routers
+BA Z
+Inputs
+Homogenous token sequence
+decoders
+Heterogenous output formats
+…
+…
+…
+…
+Figure 4.7: Side-by-side comparison between I/O unification and functionality unification. I/O uni-
+fication is aimed at utilizing a decoder to decode homogeneous token sequences, which are then
+decoded by task-specific decoders. In contrast, functionality unification predicts heterogeneous out-
+puts and then uses different routers or headers to produce the final outputs for various tasks.
+specific or modality-specific tokenizers but requires a sophisticated model design to accommodate
+various tasks.
+Figure 4.7 illustrates the difference between the two categories of unification methods. For I/O uni-
+fication, the I/O unification module always generates a sequence of tokens, and exploits a separate
+decoder to decode the final outputs for different tasks. For functionality unification, the functional
+unification module generates heterogeneous outputs for different task, e.g., semantic outputs and
+spatial outputs. Then, these different types of outputs are combined to produce the final task-specific
+outputs. Both unification methods strive to make use of synergy across tasks with different levels
+of granularity. For example, coarse-grained data is expected to contribute to rich semantic under-
+standing required by fine-grained tasks, while fine-trained data to enhance the grounding ability for
+coarse-grained tasks. In the following, we review some recent works of these two categories.
+4.3.1 I/O Unification
+This line of work is mainly inspired by LLMs that unify many NLP tasks as sequential modeling. In
+the vision domain. the methods of building generic models via I/O unification can be grouped into
+two categories depending on the tasks of interest and output formats.
+Sparse and discrete outputs
+For vision tasks that produce sparse or discrete token outputs, we can easily exploit a language
+tokenizer, such as byte-pair encoding (BPE) (Sennrich et al., 2016), for I/O unification. In contrast,
+spatial outputs like boxes, masks, or human skeletons can be formulated as a sequence of numeric
+coordinates which are then tokenized into discrete tokens (Cho et al., 2021; Yang et al., 2022c; Liu
+et al., 2023e). As a result, the decoded output tokens are interleaved with organic textual tokens and
+numeric textual tokens to support a wide range of tasks. Without the loss of generality, the decoding
+process is formulated as auto-regressive generation and the model trained with the objective function
+defined as:
+L(θ) = −
+TX
+t=1
+log p(st|s<t, v; θ), (4.3)
+where {s}T
+t=1 is the discrete token sequence of length T , and v is the visual feature. Below, we
+review some representative works.
+UniTab (Yang et al., 2022c) unifies text and box output in a sequence decoding manner. As shown
+in Figure 4.8 (a), the box coordinates are represented by numerical numbers with <> and then a
+special token <obj> is used to encompass the location information. In this way, the model can
+unify a variety of tasks that require textual and location outputs, including image captioning (Chen
+50

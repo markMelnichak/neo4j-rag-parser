@@ -1,0 +1,43 @@
+Instruction TuningInputOutputTranslation
+Summarization
+Hello, Vancouver
+ CVPRis the premier annual computer vision event comprising the main conference and several co-located workshops and short courses.This year,CVPRwill be single track such that everyone (with full passport registration) can attend everything.
+CVPR: top computer vision event, single-track, accessible to all.
+•Task instructions are implicit.•Individual models are trained, or multi-tasking without specifying the instructions•Hard to generalize to new tasks in zero-shot
+(a) Training: Implicit task instructions in traditional language data.
+Instruction TuningInputOutput
+Summarize in just 10 words to make the messageeven more brief and easier to remember.
+Instruction Hello, Vancouver
+ CVPRis the premier annual computer vision event comprising the main conference and several co-located workshops and short courses.This year,CVPRwill be single track such that everyone (with full passport registration) can attend everything.
+CVPR: top computer vision event, single-track, accessible to all.
+Translate English into Simplified Chinese
+•Task instructions are explicit, expressed in natural language•One single model is trained, multi-tasking with specified instructions•Natural and easy to generalize to new tasks in zero-shot
+(b) Training: Explicit task instructions in instructional language data.
+Instruction TuningInputOutput
+Summarize in Chinese to make it easier to remember. 
+Instruction 
+CVPR'23: 
+
+"CVPR'23 visa issue: organizing committee works to solve and provide virtual and in-person registration switch services."
+(c) Inference: Explicit task instructions in instructional language data. The English meaning of the
+output is “CVPR’23 visa issue: organizing committee works to solve and provide virtual and in-
+person registration switch services. ”
+Figure 5.6: Examples of task instructions in traditional and instructional language data, respectively.
+text, and ask LLM such as GPT-3 or GPT-4 to create more instructions and responses that follow the
+requirements stated in the prompt. The machine-generated instruction-following data can be further
+selected to construct with the prompt for in-context-learning in the next data generation iteration.
+The procedure iterates until a given number of samples are collected. Due to the relatively lower
+cost and higher response speed of API calls (compared with human annotations), self-instruct is
+becoming more favorable in the research community.
+5.2.2 Self-Instruct and Open-Source LLMs
+Self-Instruct Tuning
+Seed ExamplesIn-Context LearningNew Machine-Generated Examples
+qHuman-Human: Collected from humans with high cost qHuman-Machine: A Strong LLM Teacher such as GPT3 and GPT4
+How to collect a diverse set of high-quality instructions and their responses?
+Please generate new instructions that meet the requirements: ….translation example summarization example 
+Figure 5.7: Illustration of the self-instruct pipeline (Wang et al., 2022e).
+The open-source community has witnessed a surge of open LLMs. The success of ChatGPT (Ope-
+nAI, 2022) and GPT-4 (OpenAI, 2023a) offers tremendous opportunities to improve open-source
+LLMs using instruction-tuning. Figure 5.8 compares several open-source instruction-tuned LLMs.
+LLaMA (Touvron et al., 2023) is a series of open-sourced LLMs, which match the performance of
+66

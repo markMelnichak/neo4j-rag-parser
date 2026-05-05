@@ -1,0 +1,95 @@
+Оконча
+ние листинга 35 
+# ри
+суем исходные точки 
+pl
+t.figure(1, figsize=(4, 3)) 
+plt.scatter(X.ravel(), y, color='bl
+ack
+# ри
+суем график меток лог
+истической
+pl
+t.plot(X_test, y_log_label, col
+or
+# ри
+суем график линейной регрес
+сии
+pl
+t.plot(X_test, y_lin, li
+newidth
+# до
+бавляем линию уровня, 
+pl
+t.axhline(.5, color='green') 
+# рисуем логистическую кри
+вую
+#классам 
+pl
+t.plot(X_test, y_log_pro
+babilty
+# настраи
+ваем оси и вы
+водим
+pl
+t.ylabel('y') 
+plt.xlabel('X') 
+plt.xticks(range(-5, 10)) 
+plt.yticks([0, 0.5, 1]) 
+plt.ylim(-.25, 1.25) 
+plt.xlim(-4, 10) 
+plt.legend(('
+Labe
+lLogisticRegressionModel
+'Probab
+iltyLogRegression'), lo
+c
+pl
+t.show() 
+В 
+результате после 
+за
+но на рисунке 60. 
+203 
+bl
+ack', z
+order=20) 
+лог
+истической регресси
+и 
+col
+or=
+'red', linewidth=3) 
+регрес
+сии 
+li
+newidth=1) 
+, по кот
+орому точки будут относится к 1 или
+кри
+вую д
+ля вероятностей принадежности о
+бъектов
+pro
+babilty, col
+or='blue', linewidth=3) 
+вы
+водим график 
+Labe
+lLogisticRegressionModel',
+ 'LinearRegressionModel', 
+lo
+c=
+"lowerright", fontsize='small') 
+В 
+результате после выпо
+лнения ко
+да появится график, как пока
+Рису
+нок 60. Графики регрессий 
+или 2 к
+лассу 
+о
+бъектов к 
+ко
+да появится график, как пока -

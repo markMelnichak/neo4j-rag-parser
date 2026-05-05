@@ -1,0 +1,38 @@
+6.4.5 Tool Creation
+Imagine if we have a completely new scenario without a robust tool to use. Can we create a tool
+based on the user need on-the-fly? In NLP, CREATOR (Qian et al., 2023) proposes to create tools
+by writing python code for math reasoning, as opposed to calling math solver API such as Wolfram
+Alpha. Cai et al. (2023) further explores the capabilities of LLMs to make tools, and experiment
+with two LLMs, one as the tool maker and the other as the tool user to collaboratively solve com-
+plicated tasks, such as scheduling a meeting. In terms of multimodal agents, the challenge is how to
+create a tool that can process multimodal inputs. One may follow ViperGPT (Sur ´ıs et al., 2023) to
+instruct LLMs to generate python programs leveraging pre-existent python packages such as Open-
+CV . AutoML GPT (Zhang et al., 2023j) envisions that one can utilize LLMs to automate the model
+training pipeline. There may be potential to develop novel multimodal deep learning tools tailored
+to more effectively address the requirements of users.
+6.4.6 Retrieval-Augmented Multimodal Agents
+In real-life applications, a substantial portion of information resides within databases, and user needs
+may require accurate retrieval of such information. Meanwhile, it is infeasible to encode all the
+world knowledge into the weights of pre-trained models, particularly when it comes to the long-tail
+concepts and fast-evolving data.
+In NLP, several works augment LLMs with external data encoded with structured language and
+relation representations (Peters et al., 2019; Guu et al., 2020; Lewis et al., 2020). Given input
+texts, such retrieved-augmented models utilize a retriever that retrieves relevant documents from an
+external memory, and uses a generator to generate predictions given the retrieved documents.
+Motivated by retrieval-augmented models in NLP, several recent works leverage visual and / or
+textual knowledge to improve vision tasks, such as image classification (Long et al., 2022), cap-
+tioning (Yang et al., 2023a), question answering (Wu et al., 2021; Marino et al., 2021; Yang et al.,
+2022d; Chen et al., 2022e), image generation (Blattmann et al., 2022; Sheynin et al., 2022; Chen
+et al., 2022f; Zhou et al., 2022c), and multi-modal tasks simultaneously (Yasunaga et al., 2022).
+RAC (Long et al., 2022) improves long-tail classification by retrieving from a non-parametric mem-
+ory consisting of pre-encoded images and text. K-LITE (Shen et al., 2022a) enhances the text
+prompts with the retrieved external knowledge that is encoded in natural language. REACT (Liu
+et al., 2023d) retrieve from billions of the paired knowledge of image-text and aims to improve
+task transfer performance for core vision problems. Among them, RA-CM3 (Yasunaga et al., 2022)
+builds the first retrieval-augmented LMM with a multimodal retriever to retrieve multimodal docu-
+ments, and a retrieval-augmented generator that can generate both text and image. Chaining tools
+with LLM shares a strong connection with the retrieval-augmented methods in that both leverage ex-
+ternal knowledge to provide additional information for the core model to utilize. In the multimodal
+regime, the image itself can be used as the query to gain external knowledge, either retrieved from a
+knowledge base, or extracted from another pre-trained vision expert models.
+88

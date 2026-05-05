@@ -1,0 +1,122 @@
+Human equivalence score (HEQ) on the other hand, is an
+alternative to F1 score [203]. HEQ-Q represents the precision
+of individual questions, wherein an answer is deemed correct
+if the model’s F1 score surpasses the average human F1 score.
+Likewise, HEQ-D denotes the precision of each dialogue; it is
+deemed accurate when all questions within the dialogue meet
+the criteria of HEQ [182].
+Evaluation of other generative tasks such as machine trans-
+lation are based on metrics such as Rouge and BLEU. These
+scores work well when there is a reference text as ground
+truth (such as translation) and a hypothesis that is generated
+by the generative model, in our case the LLM. These scores
+are mostly used for cases where the goal is to detect the
+similarity of the answer and ground truth in a computation
+manner. In a computation manner, it meant that nothing more
+than N-Grams would be used. However, metrics such as BERT-
+Score are also good for these cases but they are also heavily
+erroneous because another model is used to judge. Still, even
+today, evaluating purely generated content is very hard and
+no completely fitting metric is not found, metrics are either
+looking for simplistic features such as N-Gram, SkipGram,
+etc, or they are models with unknown accuracy and preciseness
+[204].
+Generative evaluation metrics are also another type of eval-
+uation metric for LLMs that use another LLM for evaluating
+the answer. However, depending on the task itself, evaluation
+can be possible in this way or not. Another dependency
+that makes generative evaluation error-prone is reliance on
+the prompt itself. RAGAS is one of the good examples that
+incorporate the usage of generative evaluation.
+Various benchmarks and leaderboards have been proposed
+to address the most challenging question in the world of
+large language models: Which one is better? However not
+a simple answer can address this question. The answer de-
+pends on various aspects of large language models. Section V
+shows the categorical presentation of different tasks and the
+most important datasets in each category. We will follow the
+same categorization and provide a comparison based on each
+category. After providing comparison for each category, we
+will provide a broad overview of aggregated performance by
+averaging the reported performance metric on different tasks.
+Evaluating different LLMs can be seen also from different
+perspectives. For example, a LLM with a drastically fewer
+number of parameters is not completely comparable to one
+with a larger number of parameters. From this perspective, we
+will categorize LLMs in four categories as well: small (less
+than or equal to 1 billion parameters), medium (between 1 and
+10 billion), large (between 10 and 100 billion), and very large
+(more than 100 billion). Another classification for the LLMs
+we use is their primary use case. We consider each LLM to
+be either: Foundation model (pretrained language model with
+no instruction fine-tuning and chat fine-tuning), Instruction
+model (pretrained language model with only instruction fine-
+tuning), and Chat model (pretrained language model with
+instruction and chat fine-tuning). Apart from all the catego-
+rization described, another category is required to distinguish
+between original models and tuned ones. Original models are
+those that have been released as a foundation model or a fine-
+tuned one. Tuned models are those that grasped the original
+model and tuned it with different datasets or even different
+training approaches. It is also good to note that original models
+are usually foundation models that have been fine-tuned on
+specific datasets or even different approaches. Availability of
+the model weights regardless of the license is another category
+in our classification. Models that have their weights publicly
+available (even through request) are noted as Public models
+while others are noted as Private. Table III shows all of these
+definitions and abbreviations used in the rest of the article.
+Figure 43 illustrate these visually.
+According to the provided categorizations, we can catego-
+rize and label each notable LLM as shown in table IV. As can
+be seen from this table, models categorized as very large are
+also unavailable as well.
+B. LLMs’ Performance on Different Tasks
+Commonsense reasoning is one of the important capabili-
+ties each model can obtain. This capability denotes the ability
+of the model to use prior knowledge in combination with
+reasoning skills. In the case of HellaSwag for example, finding
+the continuation of text is challenging because the given text
+contains a partial part of the story while the given choices
+as continuation are tricky to select, and without having prior
+knowledge about the world it is not possible. This specific kind
+of reasoning deserves high attention because it is related to
+utilizing previous knowledge with open text-described scenes
+or facts. As can be seen from table V not just Unavailable
+models but also Public ones can achieve good results on
+various tests.
+TABLE V: Commonsense reasoning comparison.
+Model OBQA HellaSwag
+Davinci-003 51 83.4
+Falcon 7B 44.4 76.3
+Alpaca 43.4 73.9
+Pythia 7B 37.2 64
+Pythia 12B 43.2 68.1
+LLAMA 7B 42.4 73
+Dolly 6B 41.2 67.6
+Dolly 12B 40.4 71
+Alpaca 7B 43.4 73.9
+Alpaca Lora 7B 42.6 74
+GPT-J 6.7B 38.2 66.2
+LLama 7B 42.4 73
+LLama 13B 42.2 76.2
+Pythia 6.7B 37.2 64
+Pythia 12B 38 67.3
+StableLM Tuned 33.4 53.6
+Koala 13B 42.8 72.6
+Mosaic mpt-7B 42.6 76.3
+LLAMA 2 70B - 87.33
+LLAMA 65B - 86.09
+Falcon 40B - 85.3
+Falcon 180B - 88.86
+MPT Instruct 30B - 84.31
+MPT Instruct 7B - 77.91
+Yi 6B - 76.42
+Yi 34B - 85.69
+GPT-4 - 95.3
+Gemini Ultra - 87.8
+From the results presented in Table V it is clear that GPT-4
+achieves best results for HellaSwag while Davinci-003 is best
+model for OBQA. It is also good to note that results for OBQA
+are not reported for all of the models and possibly davinci-003
+is not the best model achieving highest results on OBQA.

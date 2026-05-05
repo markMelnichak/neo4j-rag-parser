@@ -1,0 +1,68 @@
+7
+Fig. 4. RAG compared with other model optimization methods in the aspects of “External Knowledge Required” and “Model Adaption Required”. Prompt
+Engineering requires low modifications to the model and external knowledge, focusing on harnessing the capabilities of LLMs themselves. Fine-tuning, on
+the other hand, involves further training the model. In the early stages of RAG (Naive RAG), there is a low demand for model modifications. As research
+progresses, Modular RAG has become more integrated with fine-tuning techniques.
+Unstructured Data , such as text, is the most widely used
+retrieval source, which are mainly gathered from corpus. For
+open-domain question-answering (ODQA) tasks, the primary
+retrieval sources are Wikipedia Dump with the current major
+versions including HotpotQA 4 (1st October , 2017), DPR5 (20
+December, 2018). In addition to encyclopedic data, common
+unstructured data includes cross-lingual text [19] and domain-
+specific data (such as medical [67]and legal domains [29]).
+Semi-structured data. typically refers to data that contains a
+combination of text and table information, such as PDF. Han-
+dling semi-structured data poses challenges for conventional
+RAG systems due to two main reasons. Firstly, text splitting
+processes may inadvertently separate tables, leading to data
+corruption during retrieval. Secondly, incorporating tables into
+the data can complicate semantic similarity searches. When
+dealing with semi-structured data, one approach involves lever-
+aging the code capabilities of LLMs to execute Text-2-SQL
+queries on tables within databases, such as TableGPT [85].
+Alternatively, tables can be transformed into text format for
+further analysis using text-based methods [75]. However, both
+of these methods are not optimal solutions, indicating substan-
+tial research opportunities in this area.
+Structured data , such as knowledge graphs (KGs) [86] ,
+which are typically verified and can provide more precise in-
+formation. KnowledGPT [15] generates KB search queries and
+stores knowledge in a personalized base, enhancing the RAG
+model’s knowledge richness. In response to the limitations of
+LLMs in understanding and answering questions about textual
+graphs, G-Retriever [84] integrates Graph Neural Networks
+4https://hotpotqa.github.io/wiki-readme.html
+5https://github.com/facebookresearch/DPR
+(GNNs), LLMs and RAG, enhancing graph comprehension
+and question-answering capabilities through soft prompting
+of the LLM, and employs the Prize-Collecting Steiner Tree
+(PCST) optimization problem for targeted graph retrieval. On
+the contrary, it requires additional effort to build, validate,
+and maintain structured databases. On the contrary, it requires
+additional effort to build, validate, and maintain structured
+databases.
+LLMs-Generated Content. Addressing the limitations of
+external auxiliary information in RAG, some research has
+focused on exploiting LLMs’ internal knowledge. SKR [58]
+classifies questions as known or unknown, applying retrieval
+enhancement selectively. GenRead [13] replaces the retriever
+with an LLM generator, finding that LLM-generated contexts
+often contain more accurate answers due to better alignment
+with the pre-training objectives of causal language modeling.
+Selfmem [17] iteratively creates an unbounded memory pool
+with a retrieval-enhanced generator, using a memory selec-
+tor to choose outputs that serve as dual problems to the
+original question, thus self-enhancing the generative model.
+These methodologies underscore the breadth of innovative
+data source utilization in RAG, striving to improve model
+performance and task effectiveness.
+2) Retrieval Granularity: Another important factor besides
+the data format of the retrieval source is the granularity of
+the retrieved data. Coarse-grained retrieval units theoretically
+can provide more relevant information for the problem, but
+they may also contain redundant content, which could distract
+the retriever and language models in downstream tasks [50],
+[87]. On the other hand, fine-grained retrieval unit granularity
+increases the burden of retrieval and does not guarantee seman-
+tic integrity and meeting the required knowledge. Choosing

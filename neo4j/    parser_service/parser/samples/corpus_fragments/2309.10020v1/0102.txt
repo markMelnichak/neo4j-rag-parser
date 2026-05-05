@@ -1,0 +1,53 @@
+Du, Y ., Liu, Z., Li, J., and Zhao, W. X. (2022). A survey of vision-language pre-trained models. In
+IJCAI survey track.
+El-Nouby, A., Izacard, G., Touvron, H., Laptev, I., Jegou, H., and Grave, E. (2021). Are large-scale
+datasets necessary for self-supervised pre-training? arXiv preprint arXiv:2112.10740.
+Elharrouss, O., Almaadeed, N., Al-Maadeed, S., and Akbari, Y . (2020). Image inpainting: A review.
+Neural Processing Letters, 51:2007–2028.
+Ermolov, A., Siarohin, A., Sangineto, E., and Sebe, N. (2021). Whitening for self-supervised repre-
+sentation learning. In ICML.
+Esser, P., Rombach, R., and Ommer, B. (2021). Taming transformers for high-resolution image
+synthesis. In CVPR.
+Everingham, M. and Winn, J. (2011). The pascal visual object classes challenge 2012 (voc2012)
+development kit. Pattern Analysis, Statistical Modelling and Computational Learning, Tech. Rep,
+8(5).
+Fan, L., Krishnan, D., Isola, P., Katabi, D., and Tian, Y . (2023a). Improving clip training with
+language rewrites. arXiv preprint arXiv:2305.20088.
+Fan, Y ., Watkins, O., Du, Y ., Liu, H., Ryu, M., Boutilier, C., Abbeel, P., Ghavamzadeh, M., Lee,
+K., and Lee, K. (2023b). Dpok: Reinforcement learning for fine-tuning text-to-image diffusion
+models. arXiv preprint arXiv:2305.16381.
+Fang, Y ., Wang, W., Xie, B., Sun, Q., Wu, L., Wang, X., Huang, T., Wang, X., and Cao, Y . (2023).
+Eva: Exploring the limits of masked visual representation learning at scale. In CVPR.
+Fang, Z., Wang, J., Hu, X., Liang, L., Gan, Z., Wang, L., Yang, Y ., and Liu, Z. (2022). Injecting
+semantic concepts into end-to-end image captioning. In CVPR.
+Feichtenhofer, C., Li, Y ., He, K., et al. (2022). Masked autoencoders as spatiotemporal learners.
+NeurIPS.
+Feng, C., Zhong, Y ., Jie, Z., Chu, X., Ren, H., Wei, X., Xie, W., and Ma, L. (2022a). Promptdet: To-
+wards open-vocabulary detection using uncurated images. In European Conference on Computer
+Vision, pages 701–717. Springer.
+Feng, W., He, X., Fu, T.-J., Jampani, V ., Akula, A. R., Narayana, P., Basu, S., Wang, X. E., and
+Wang, W. Y . (2022b). Training-free structured diffusion guidance for compositional text-to-image
+synthesis. In The Eleventh International Conference on Learning Representations.
+Feng, W., Zhu, W., Fu, T.-j., Jampani, V ., Akula, A., He, X., Basu, S., Wang, X. E., and Wang, W. Y .
+(2023). Layoutgpt: Compositional visual planning and generation with large language models.
+arXiv preprint arXiv:2305.15393.
+Frome, A., Corrado, G. S., Shlens, J., Bengio, S., Dean, J., Ranzato, M., and Mikolov, T. (2013).
+Devise: A deep visual-semantic embedding model. In NeurIPS.
+Fu, C., Chen, P., Shen, Y ., Qin, Y ., Zhang, M., Lin, X., Qiu, Z., Lin, W., Yang, J., Zheng, X., et al.
+(2023). Mme: A comprehensive evaluation benchmark for multimodal large language models.
+arXiv preprint arXiv:2306.13394.
+Gadre, S. Y ., Ilharco, G., Fang, A., Hayase, J., Smyrnis, G., Nguyen, T., Marten, R., Wortsman, M.,
+Ghosh, D., Zhang, J., et al. (2023). Datacomp: In search of the next generation of multimodal
+datasets. arXiv preprint arXiv:2304.14108.
+Gafni, O., Polyak, A., Ashual, O., Sheynin, S., Parikh, D., and Taigman, Y . (2022). Make-a-scene:
+Scene-based text-to-image generation with human priors. arXiv preprint arXiv:2203.13131.
+Gal, R., Alaluf, Y ., Atzmon, Y ., Patashnik, O., Bermano, A. H., Chechik, G., and Cohen-Or, D.
+(2022). An image is worth one word: Personalizing text-to-image generation using textual inver-
+sion. arXiv preprint arXiv:2208.01618.
+Gan, Z., Chen, Y .-C., Li, L., Zhu, C., Cheng, Y ., and Liu, J. (2020). Large-scale adversarial training
+for vision-and-language representation learning. In NeurIPS.
+Gan, Z., Li, L., Li, C., Wang, L., Liu, Z., Gao, J., et al. (2022). Vision-language pre-training: Basics,
+recent advances, and future trends. Foundations and Trends® in Computer Graphics and Vision.
+Gao, D., Ji, L., Zhou, L., Lin, K. Q., Chen, J., Fan, Z., and Shou, M. Z. (2023a). Assistgpt: A general
+multi-modal assistant that can plan, execute, inspect, and learn.arXiv preprint arXiv:2306.08640.
+98

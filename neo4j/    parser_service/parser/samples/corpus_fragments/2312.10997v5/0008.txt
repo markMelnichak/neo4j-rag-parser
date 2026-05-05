@@ -1,0 +1,18 @@
+It then computes the similarity scores between the query
+vector and the vector of chunks within the indexed corpus. The system prioritizes and retrieves the top K chunks that
+demonstrate the greatest similarity to the query. These chunks
+are subsequently used as the expanded context in prompt. Generation. The posed query and selected documents are
+synthesized into a coherent prompt to which a large language
+model is tasked with formulating a response. The model’s
+approach to answering may vary depending on task-specific
+criteria, allowing it to either draw upon its inherent parametric
+knowledge or restrict its responses to the information con-
+tained within the provided documents. In cases of ongoing
+dialogues, any existing conversational history can be integrated
+into the prompt, enabling the model to engage in multi-turn
+dialogue interactions effectively. However, Naive RAG encounters notable drawbacks:
+Retrieval Challenges . The retrieval phase often struggles
+with precision and recall, leading to the selection of misaligned
+or irrelevant chunks, and the missing of crucial information. Generation Difficulties. In generating responses, the model
+may face the issue of hallucination, where it produces con-
+tent not supported by the retrieved context.

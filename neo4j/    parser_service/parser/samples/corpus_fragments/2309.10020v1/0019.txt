@@ -1,0 +1,36 @@
+Dataset # Images # Classes
+ImageNet-1K (Russakovsky et al., 2015) 1.2M 1K
+ImageNet-21K (Ridnik et al., 2021) 14M 21K
+JFT-300M (Sun et al., 2017) 300M 18K
+JFT-3B (Zhai et al., 2022a) 3B 30K
+IG-3.6B (Singh et al., 2022b) 3.6B 27K
+I2E (Wu et al., 2023d) 1.1B 2M
+Table 2.1: Statistics of existing large-scale image classification datasets.
+Figure 2.4: Illustration of contrastive language-image pre-training, and how the learned model can
+be used for zero-shot image classification. Image credit: Radford et al. (2021).
+Model training. There are many loss functions that can be used to promote embedding properties
+(e.g., separability) (Musgrave et al., 2020). For example, the large margin loss (Wang et al., 2018) is
+used for MOFI training (Wu et al., 2023d). Furthermore, if the datasets have an immense number of
+labels (can potentially be over 2 million as in MOFI (Wu et al., 2023d)), predicting all the labels in
+each batch becomes computationally costly. In this case, a fixed number of labels is typically used
+for each batch, similar to sampled softmax (Gutmann and Hyv¨arinen, 2010).
+2.3 Contrastive Language-Image Pre-training
+2.3.1 Basics of CLIP Training
+Language is a richer form of supervision than classical closed-set labels. Rather than deriving noisy
+label supervision from web-crawled image-text datasets, the alt-text can be directly used for learning
+transferable image representations, which is the spirit of contrastive language-image pre-training
+(CLIP) (Radford et al., 2021). In particular, models trained in this way, such as ALIGN (Jia et al.,
+2021), Florence (Yuan et al., 2021), BASIC (Pham et al., 2021), and OpenCLIP (Ilharco et al., 2021),
+have showcased impressive zero-shot image classification and image-text retrieval capabilities by
+mapping images and text into a shared embedding space. Below, we discuss how the CLIP model is
+pre-trained and used for zero-shot prediction.
+• Training: As shown in Figure 2.4(1), CLIP is trained via simple contrastive learning. CLIP is an
+outstanding example of “simple algorithms that scale well” (Li et al., 2023m). To achieve satisfac-
+tory performance, model training needs to be scaled along three dimensions: batch size, data size,
+and model size (Pham et al., 2021). Specifically, the typical batch size used for CLIP training can
+be 16k or 32k. The number of image-text pairs in the pre-training datasets is frequently measured
+in billions rather than millions. A vision transformer trained in this fashion can typically vary
+from 300M (Large) to 1B (giant) in model size.
+• Zero-shot prediction: As shown in Figure 2.4 (2) and (3), CLIP empowers zero-shot image
+classification via reformatting it as a retrieval task and considering the semantics behind labels. It
+15

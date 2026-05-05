@@ -1,0 +1,34 @@
+(a) VQ-V AE
+(b) VQ-GAN
+Figure 4.10: Illustration of VQ-V AE (Oord et al., 2017) and VQ-GAN (Esser et al., 2021).
+Dense and continuous outputs
+There are also some tasks that require dense and continuous outputs, such as image segmentation (He
+et al., 2017), depth estimation (Mertan et al., 2022), image inpainting and editing (Elharrouss et al.,
+2020; Brooks et al., 2023). Except for segmentation masks which can be approximated by poly-
+gons (Liu et al., 2023e; Chen et al., 2022d), most dense and continuous outputs cannot be easily
+converted into discrete tokens due to the high-dimensional space. Thus, we have to resort to an
+image-oriented tokenizer. Akin to the language tokenizer, an image tokenizer encodes raw images
+and extracts discrete tokens spanning the visual feature space. The most representative work is
+VQ-V AE (Oord et al., 2017; Razavi et al., 2019). As shown in Figure 4.10 (a), VQ-V AE learns an
+encoder ze, a decoder zq and a discrete codebook e = {e1, ..., eK} consisting of K embeddings.
+Given the input x, the posterior categorical probability q(z|x) is defined as:
+q(z = k|x) =
+1, for k = argmini ∥ze(x) − ei∥.
+0, otherwise. (4.4)
+where the decoder zq takes x (or its representation ek) as input to predict class label. As a variant of
+VQ-V AE, VQ-GAN uses a discriminator and the perceptual loss (Larsen et al., 2016; Lamb et al.,
+2016) to maintain a good balance between output quality and model efficiency (via high compression
+rate). In Figure 4.10 (b), we see that the discriminator is applied at the patch level to regularize the
+decoding of images at high resolution. Below, we discuss some most recent works that attempt to
+unify different vision and multi-modal tasks that involve dense outputs.
+UViM (Kolesnikov et al., 2022) is one of the first works that employ a dense decoding process to
+unify various core vision tasks, including panoptic segmentation, depth estimation and colorization.
+The learning process consists of two stages: (i) Base encoder-decoder f and restricted oracle Ω are
+learned to predict outputs given input images, where f takes raw image as input and Ω takes the
+desired output as input to decode the oracle code; (ii) Instead of using the desired output as input to
+the oracle Ω, the model learns a language model to produce the oracle code for the input raw image.
+Notably, the encoder-decoder model used here is trained with VQ-V AE objectives. As the first step
+to unify vision tasks with a single model, UViM shows promising results on three vision tasks.
+Unified-IO (Lu et al., 2022a) is another representative work. Compared to UVIM, it scales to many
+more vision tasks and datasets. Unlike the training procedure of UViM, Unified-IO first trains differ-
+52

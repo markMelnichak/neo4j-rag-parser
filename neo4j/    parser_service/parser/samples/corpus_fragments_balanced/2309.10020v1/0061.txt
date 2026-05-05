@@ -1,0 +1,36 @@
+Figure 4.14: SAM (Kirillov et al., 2023) proposes a promptable segmentation model which can take
+different spatial prompts in addition to text prompts. It further develops a data annotation engine to
+scale up the mask-annotated data. Image credit: Kirillov et al. (2023).
+Figure 4.15: SEEM (Zou et al., 2023b) can take different types of prompts as inputs for various
+image segmentation tasks. Image credit: Zou et al. (2023b).
+been formulated as visual prompting in that different types of visual inputs are usually encoded to
+some unified format and then fed into a Transformer architecture, as shown in LLMs.
+SEEM (Zou et al., 2023b) is one of the representative works that enable visual prompting to a vision
+model for image segmentation. As shown in Figure 4.15, SEEM differs from the aforementioned
+SAM and can take visual prompts by drawing points, boxes, and strokes on an image that can be
+the target image or another reference image. It develops a new module called a visual sampler that
+can extract visual features from an image according to the locations specified by users. Based on the
+visual sampler, the model can even take another reference image as input without any training like
+that. As a result, it shows impressive performance not only for various image segmentation tasks but
+also for video object segmentation in a zero-shot manner.
+PerSAM (Zhang et al., 2023h) develops a personalized segmentation model on top of SAM and
+takes one shot as the input. It learns a specific model that takes a source image plus a mask as
+input and then predicts the mask for a target image. To extract the visual prompts, mask pooling is
+taken and used as the input tokens to the decoder of PerSAM. It also proposes a way to extract the
+positive and negative priors based on feature matching to facilitate pre-trained SAM models with
+comprehensive clues. Like most prompt learning methods in LLMs, a plausible feature for PerSAM
+is that it can be easily attained by some off-the-shelf models like SAM. SAM-PT (Rajiˇc et al., 2023)
+further applies this strategy to video object segmentation. Inspired by the spatial prompting in SAM,
+it exploits a point-tracking system (Harley et al., 2022) to track different points (both positive and
+negative ones) and then ask SAM to segment the image given the points. It exhibits strong point
+tracking performance as well as segmentation.
+Others. Some other works combine a wide range of visual prompting types. For example,
+Painter (Wang et al., 2023i) reformulates different vision tasks ( e.g., depth estimation, image seg-
+mentation) all as prompting and learns a decoder in an in-context learning manner. The prompts are
+combinations of raw images and the corresponding dense annotations ( e.g., depth or segmentation
+maps). In contrast, Prismer (Liu et al., 2023f) makes use of many off-the-shelf vision models to ex-
+tract different information from the raw images and then feed the information to a vision-language
+model. To facilitate the interplay across multiple modalities, ImageBind (Girdhar et al., 2023) learns
+a universal alignment among image/video, language, audio and depth. Once the embedding space is
+learned, it can be used to compose different types of prompts by simply doing the summations.
+57

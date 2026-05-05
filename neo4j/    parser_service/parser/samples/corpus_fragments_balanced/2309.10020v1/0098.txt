@@ -1,0 +1,53 @@
+Bachman, P., Hjelm, R. D., and Buchwalter, W. (2019). Learning representations by maximizing
+mutual information across views. NeurIPS.
+Baevski, A., Hsu, W.-N., Xu, Q., Babu, A., Gu, J., and Auli, M. (2022). Data2vec: A general
+framework for self-supervised learning in speech, vision and language. In ICML.
+Bahdanau, D., Cho, K., and Bengio, Y . (2015). Neural machine translation by jointly learning to
+align and translate. In ICLR.
+Bai, J., Bai, S., Yang, S., Wang, S., Tan, S., Wang, P., Lin, J., Zhou, C., and Zhou, J. (2023a).
+Qwen-vl: A frontier large vision-language model with versatile abilities. arXiv preprint
+arXiv:2308.12966.
+Bai, S., Yang, S., Bai, J., Wang, P., Zhang, X., Lin, J., Wang, X., Zhou, C., and Zhou, J. (2023b).
+Touchstone: Evaluating vision-language models by language models.
+Balaji, Y ., Nah, S., Huang, X., Vahdat, A., Song, J., Kreis, K., Aittala, M., Aila, T., Laine, S.,
+Catanzaro, B., et al. (2022). ediffi: Text-to-image diffusion models with an ensemble of expert
+denoisers. arXiv preprint arXiv:2211.01324.
+Balaˇzevi´c, I., Steiner, D., Parthasarathy, N., Arandjelovi ´c, R., and H ´enaff, O. J. (2023). Towards
+in-context scene understanding. arXiv preprint arXiv:2306.01667.
+Bansal, A., Chu, H.-M., Schwarzschild, A., Sengupta, S., Goldblum, M., Geiping, J., and Goldstein,
+T. (2023). Universal guidance for diffusion models. In Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition, pages 843–852.
+Bansal, A., Sikka, K., Sharma, G., Chellappa, R., and Divakaran, A. (2018). Zero-shot object
+detection. In Proceedings of the European conference on computer vision (ECCV) , pages 384–
+400.
+Bao, H., Dong, L., and Wei, F. (2022). BEiT: Bert pre-training of image transformers. In ICLR.
+Bar, A., Gandelsman, Y ., Darrell, T., Globerson, A., and Efros, A. (2022). Visual prompting via
+image inpainting. Advances in Neural Information Processing Systems, 35:25005–25017.
+Bardes, A., Ponce, J., and LeCun, Y . (2021). Vicreg: Variance-invariance-covariance regularization
+for self-supervised learning. arXiv preprint arXiv:2105.04906.
+Berant, J., Chou, A., Frostig, R., and Liang, P. (2013). Semantic parsing on freebase from question-
+answer pairs. In Proceedings of the 2013 conference on empirical methods in natural language
+processing, pages 1533–1544.
+Bitton, Y ., Bansal, H., Hessel, J., Shao, R., Zhu, W., Awadalla, A., Gardner, J., Taori, R., and
+Schimdt, L. (2023). Visit-bench: A benchmark for vision-language instruction following inspired
+by real-world use.
+Black, K., Janner, M., Du, Y ., Kostrikov, I., and Levine, S. (2023). Training diffusion models with
+reinforcement learning. arXiv preprint arXiv:2305.13301.
+Blattmann, A., Rombach, R., Oktay, K., and Ommer, B. (2022). Retrieval-augmented diffusion
+models. arXiv preprint arXiv:2204.11824.
+Bolya, D., Zhou, C., Xiao, F., and Lee, Y . J. (2019). Yolact: Real-time instance segmentation. In
+Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 9157–9166.
+Bommasani, R., Hudson, D. A., Adeli, E., Altman, R., Arora, S., von Arx, S., Bernstein, M. S.,
+Bohg, J., Bosselut, A., Brunskill, E., et al. (2021). On the opportunities and risks of foundation
+models. arXiv preprint arXiv:2108.07258.
+Brooks, T., Holynski, A., and Efros, A. A. (2023). Instructpix2pix: Learning to follow image
+editing instructions. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+Recognition, pages 18392–18402.
+Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam,
+P., Sastry, G., Askell, A., et al. (2020). Language models are few-shot learners. In NeuIPS.
+Bubeck, S., Chandrasekaran, V ., Eldan, R., Gehrke, J., Horvitz, E., Kamar, E., Lee, P., Lee, Y . T., Li,
+Y ., Lundberg, S., et al. (2023). Sparks of artificial general intelligence: Early experiments with
+gpt-4. arXiv preprint arXiv:2303.12712.
+Byeon, M., Park, B., Kim, H., Lee, S., Baek, W., and Kim, S. (2022). Coyo-700m: Image-text pair
+dataset. https://github.com/kakaobrain/coyo-dataset.
+94

@@ -1,0 +1,139 @@
+H. Wang, “Retrieval-augmented generation for large language models:
+A survey,” arXiv preprint arXiv:2312.10997 , 2023.
+[166] A. W. Services. (Year of publication, e.g., 2023) Question answering
+using retrieval augmented generation with foundation models in
+amazon sagemaker jumpstart. Accessed: Date of access, e.g.,
+December 5, 2023. [Online]. Available: https://shorturl.at/dSV47
+[167] S. Pan, L. Luo, Y . Wang, C. Chen, J. Wang, and X. Wu, “Unifying large
+language models and knowledge graphs: A roadmap,” arXiv preprint
+arXiv:2306.08302, 2023.
+[168] Z. Jiang, F. F. Xu, L. Gao, Z. Sun, Q. Liu, J. Dwivedi-Yu, Y . Yang,
+J. Callan, and G. Neubig, “Active retrieval augmented generation,”
+2023.
+[169] T. Schick, J. Dwivedi-Yu, R. Dess `ı, R. Raileanu, M. Lomeli, L. Zettle-
+moyer, N. Cancedda, and T. Scialom, “Toolformer: Language models
+can teach themselves to use tools,” 2023.
+[170] B. Paranjape, S. Lundberg, S. Singh, H. Hajishirzi, L. Zettlemoyer,
+and M. T. Ribeiro, “Art: Automatic multi-step reasoning and tool-use
+for large language models,” 2023.
+[171] Y . Shen, K. Song, X. Tan, D. Li, W. Lu, and Y . Zhuang, “Hugginggpt:
+Solving ai tasks with chatgpt and its friends in huggingface,” arXiv
+preprint arXiv:2303.17580, 2023.
+[172] Z. Xi, W. Chen, X. Guo, W. He, Y . Ding, B. Hong, M. Zhang, J. Wang,
+S. Jin, E. Zhou et al., “The rise and potential of large language model
+based agents: A survey,” arXiv preprint arXiv:2309.07864 , 2023.
+[173] L. Wang, C. Ma, X. Feng, Z. Zhang, H. Yang, J. Zhang, Z. Chen,
+J. Tang, X. Chen, Y . Lin et al. , “A survey on large language model
+based autonomous agents,” arXiv preprint arXiv:2308.11432 , 2023.
+[174] Z. Durante, Q. Huang, N. Wake, R. Gong, J. S. Park, B. Sarkar,
+R. Taori, Y . Noda, D. Terzopoulos, Y . Choi, K. Ikeuchi, H. V o, L. Fei-
+Fei, and J. Gao, “Agent ai: Surveying the horizons of multimodal
+interaction,” arXiv preprint arXiv:2401.03568 , 2024.
+[175] B. Xu, Z. Peng, B. Lei, S. Mukherjee, Y . Liu, and D. Xu, “Rewoo:
+Decoupling reasoning from observations for efficient augmented lan-
+guage models,” 2023.
+[176] S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, and Y . Cao,
+“React: Synergizing reasoning and acting in language models,” 2023.
+[177] V . Nair, E. Schumacher, G. Tso, and A. Kannan, “Dera: Enhanc-
+ing large language model completions with dialog-enabled resolving
+agents,” 2023.
+[178] Y . Chang, X. Wang, J. Wang, Y . Wu, L. Yang, K. Zhu, H. Chen, X. Yi,
+C. Wang, Y . Wang, W. Ye, Y . Zhang, Y . Chang, P. S. Yu, Q. Yang,
+and X. Xie, “A survey on evaluation of large language models,” 2023.
+[179] T. Kwiatkowski, J. Palomaki, O. Redfield, M. Collins, A. Parikh,
+C. Alberti, D. Epstein, I. Polosukhin, J. Devlin, K. Lee, K. Toutanova,
+L. Jones, M. Kelcey, M.-W. Chang, A. M. Dai, J. Uszkoreit,
+Q. Le, and S. Petrov, “Natural questions: A benchmark for
+question answering research,” Transactions of the Association for
+Computational Linguistics , vol. 7, pp. 452–466, 2019. [Online].
+Available: https://aclanthology.org/Q19-1026
+[180] D. Hendrycks, C. Burns, S. Basart, A. Zou, M. Mazeika, D. Song, and
+J. Steinhardt, “Measuring massive multitask language understanding,”
+2021.
+[181] J. Austin, A. Odena, M. Nye, M. Bosma, H. Michalewski, D. Dohan,
+E. Jiang, C. Cai, M. Terry, Q. Le et al., “Program synthesis with large
+language models,” arXiv preprint arXiv:2108.07732 , 2021.
+[182] E. Choi, H. He, M. Iyyer, M. Yatskar, W.-t. Yih, Y . Choi, P. Liang,
+and L. Zettlemoyer, “QuAC: Question answering in context,” in
+Proceedings of the 2018 Conference on Empirical Methods in Natural
+Language Processing , E. Riloff, D. Chiang, J. Hockenmaier, and
+J. Tsujii, Eds. Brussels, Belgium: Association for Computational
+Linguistics, Oct.-Nov. 2018, pp. 2174–2184. [Online]. Available:
+https://aclanthology.org/D18-1241
+[183] D. Hendrycks, S. Basart, S. Kadavath, M. Mazeika, A. Arora, E. Guo,
+C. Burns, S. Puranik, H. He, D. Song, and J. Steinhardt, “Measuring
+coding challenge competence with apps,” NeurIPS, 2021.
+[184] V . Zhong, C. Xiong, and R. Socher, “Seq2sql: Generating structured
+queries from natural language using reinforcement learning,” arXiv
+preprint arXiv:1709.00103, 2017.
+[185] M. Joshi, E. Choi, D. Weld, and L. Zettlemoyer, “TriviaQA:
+A large scale distantly supervised challenge dataset for reading
+comprehension,” in Proceedings of the 55th Annual Meeting of the
+Association for Computational Linguistics (Volume 1: Long Papers) ,
+R. Barzilay and M.-Y . Kan, Eds. Vancouver, Canada: Association
+for Computational Linguistics, Jul. 2017, pp. 1601–1611. [Online].
+Available: https://aclanthology.org/P17-1147
+[186] G. Lai, Q. Xie, H. Liu, Y . Yang, and E. Hovy, “RACE: Large-scale
+ReAding comprehension dataset from examinations,” in Proceedings
+of the 2017 Conference on Empirical Methods in Natural Language
+Processing, M. Palmer, R. Hwa, and S. Riedel, Eds. Copenhagen,
+Denmark: Association for Computational Linguistics, Sep. 2017, pp.
+785–794. [Online]. Available: https://aclanthology.org/D17-1082
+[187] P. Rajpurkar, J. Zhang, K. Lopyrev, and P. Liang, “SQuAD: 100,000+
+questions for machine comprehension of text,” in Proceedings of
+the 2016 Conference on Empirical Methods in Natural Language
+Processing, J. Su, K. Duh, and X. Carreras, Eds. Austin, Texas:
+Association for Computational Linguistics, Nov. 2016, pp. 2383–2392.
+[Online]. Available: https://aclanthology.org/D16-1264
+[188] C. Clark, K. Lee, M. Chang, T. Kwiatkowski, M. Collins, and
+K. Toutanova, “Boolq: Exploring the surprising difficulty of natural
+yes/no questions,” CoRR, vol. abs/1905.10044, 2019. [Online].
+Available: http://arxiv.org/abs/1905.10044
+[189] D. Khashabi, S. Chaturvedi, M. Roth, S. Upadhyay, and D. Roth,
+“Looking beyond the surface:a challenge set for reading compre-
+hension over multiple sentences,” in Proceedings of North American
+Chapter of the Association for Computational Linguistics (NAACL) ,
+2018.
+[190] K. Cobbe, V . Kosaraju, M. Bavarian, M. Chen, H. Jun, L. Kaiser,
+M. Plappert, J. Tworek, J. Hilton, R. Nakano, C. Hesse, and
+J. Schulman, “Training verifiers to solve math word problems,”
+CoRR, vol. abs/2110.14168, 2021. [Online]. Available: https:
+//arxiv.org/abs/2110.14168
+[191] D. Hendrycks, C. Burns, S. Kadavath, A. Arora, S. Basart, E. Tang,
+D. Song, and J. Steinhardt, “Measuring mathematical problem solving
+with the MATH dataset,” CoRR, vol. abs/2103.03874, 2021. [Online].
+Available: https://arxiv.org/abs/2103.03874
+[192] R. Zellers, A. Holtzman, Y . Bisk, A. Farhadi, and Y . Choi, “Hellaswag:
+Can a machine really finish your sentence?” 2019.
+[193] P. Clark, I. Cowhey, O. Etzioni, T. Khot, A. Sabharwal, C. Schoenick,
+and O. Tafjord, “Think you have solved question answering? try
+arc, the AI2 reasoning challenge,” CoRR, vol. abs/1803.05457, 2018.
+[Online]. Available: http://arxiv.org/abs/1803.05457
+[194] Y . Bisk, R. Zellers, R. L. Bras, J. Gao, and Y . Choi, “PIQA:
+reasoning about physical commonsense in natural language,” CoRR,
+vol. abs/1911.11641, 2019. [Online]. Available: http://arxiv.org/abs/
+1911.11641
+[195] M. Sap, H. Rashkin, D. Chen, R. L. Bras, and Y . Choi, “Socialiqa:
+Commonsense reasoning about social interactions,” CoRR, vol.
+abs/1904.09728, 2019. [Online]. Available: http://arxiv.org/abs/1904.
+09728
+[196] T. Mihaylov, P. Clark, T. Khot, and A. Sabharwal, “Can a suit of
+armor conduct electricity? A new dataset for open book question
+answering,” CoRR, vol. abs/1809.02789, 2018. [Online]. Available:
+http://arxiv.org/abs/1809.02789
+[197] S. Lin, J. Hilton, and O. Evans, “Truthfulqa: Measuring how models
+mimic human falsehoods,” arXiv preprint arXiv:2109.07958 , 2021.
+[198] Z. Yang, P. Qi, S. Zhang, Y . Bengio, W. W. Cohen, R. Salakhutdinov,
+and C. D. Manning, “Hotpotqa: A dataset for diverse, explainable
+multi-hop question answering,” CoRR, vol. abs/1809.09600, 2018.
+[Online]. Available: http://arxiv.org/abs/1809.09600
+[199] Y . Zhuang, Y . Yu, K. Wang, H. Sun, and C. Zhang, “Toolqa: A
+dataset for llm question answering with external tools,” arXiv preprint
+arXiv:2306.13304, 2023.
+[200] D. Chen, J. Bolton, and C. D. Manning, “A thorough examination
+of the cnn/daily mail reading comprehension task,” in Association for
+Computational Linguistics (ACL) , 2016.
+[201] R. Nallapati, B. Zhou, C. Gulcehre, B. Xiang et al., “Abstractive text
+summarization using sequence-to-sequence rnns and beyond,” arXiv
+preprint arXiv:1602.06023, 2016.
+[202] Y . Bai and D. Z. Wang, “More than reading comprehension: A survey

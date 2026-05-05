@@ -1,0 +1,16 @@
+Li, C., Liu, Z., Xiao, S., & Shao, Y. (2023). Making Large Language Models A Better Foundation ForDenseRetrieval. ArXiv. /abs/2312.15503
+Li, F., Zhu, L., Wang, T., Li, J., Zhang, Z., & Shen, H. T. (2023). Cross-Modal Retrieval: ASystematicReviewof MethodsandFutureDirections. ArXiv. /abs/2308.14263
+Li, S., Shang, H., Wei, D., Guo, J., Li, Z., He, X., Zhang, M., & Yang, H. (2024). LA-RAG:EnhancingLLM-basedASRAccuracywithRetrieval-AugmentedGeneration. ArXiv. /abs/2409.08597
+Li, S., Park, S., Lee, I., & Bastani, O. (2023). TRAQ: Trustworthy Retrieval Augmented QuestionAnsweringviaConformal Prediction. ArXiv. /abs/2307.04642
+Li, Z., Li, C., Zhang, M., Mei, Q., & Bendersky, M. (2024). Retrieval Augmented Generation orLong-Context LLMs?AComprehensiveStudyandHybridApproach. ArXiv. /abs/2407.16833
+Liu, Z., Wang, H., Niu, Z., Wu, H., Che, W., &Liu, T. (2020). Towards Conversational Recommendationover Multi-TypeDialogs. ArXiv. /abs/2005.03954
+Mallen, A., Asai, A., Zhong, V., Das, R., Khashabi, D., & Hajishirzi, H. (2022). When Not to TrustLanguage Models: Investigating Effectiveness of Parametric and Non-Parametric Memories. ArXiv./abs/2212.10511
+Mombaerts, L., Ding, T., Banerjee, A., Felice, F., Taws, J., &Borogovac, T. (2024). Meta Knowledge forRetrieval AugmentedLargeLanguageModels. ArXiv. /abs/2408.09017
+Nguyen, X., Pandit, S., Purushwalkam, S., Xu, A., Chen, H., Ming, Y., Ke, Z., Savarese, S., Xong, C., &Joty, S. (2024). SFR-RAG: TowardsContextuallyFaithful LLMs. ArXiv. /abs/2409.09916
+Niu, C., Wu, Y., Zhu, J., Xu, S., Shum, K., Zhong, R., Song, J., & Zhang, T. (2023). RAGTruth: AHallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models. ArXiv./abs/2401.00396
+Qian, H., Zhang, P., Liu, Z., Mao, K., &Dou, Z. (2024). MemoRAG: Moving towards Next-Gen RAGViaMemory-InspiredKnowledgeDiscovery. ArXiv. /abs/2409.05591
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). Language models areunsupervisedmultitasklearners. OpenAI Blog, 1(8), 9.
+Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., &Liu, P. J. (2019).ExploringtheLimitsof Transfer LearningwithaUnifiedText-to-Text Transformer. ArXiv. /abs/1910.10683
+Ranade, P., & Joshi, A. (2023). FABULA: Intelligence Report Generation Using Retrieval-AugmentedNarrativeConstruction. ArXiv. https://doi.org/10.1145/3625007.3627505
+Ranjan, R., Gupta, S., & Singh, S. N. (2024). A Comprehensive Survey of Bias in LLMs: CurrentLandscapeandFutureDirections. ArXiv. /abs/2409.16430
+Ravuru, C., Sakhinana, S. S., &Runkana, V. (2024). Agentic Retrieval-Augmented Generation for TimeSeriesAnalysis. ArXiv. /abs/2408.14484

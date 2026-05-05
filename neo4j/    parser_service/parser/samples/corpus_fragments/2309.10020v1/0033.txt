@@ -1,0 +1,92 @@
+optimize for a strict adherence to text prompts during image generation. Studies (Yu et al., 2022b;
+Rombach et al., 2022) have shown that vanilla T2I models might overlook certain text descriptions
+and generate images that do not fully correspond to the input text. Research (Feng et al., 2022b;
+Black et al., 2023) along this line explores improvements to have T2I models better following text
+prompts, thereby facilitating the easier use of T2I models.
+• Visual concept customization. Incorporating visual concepts into textual inputs is crucial for
+various applications, such as generating images of one’s pet dog or family members in diverse
+settings, or crafting visual narratives featuring a specific character. These visual elements often
+encompass intricate details that are difficult to articulate in words. Alternatively, studies (Ruiz
+et al., 2023; Chen et al., 2023f) explore if T2I models can be customized to draw those visual
+concepts with specialized token embeddings or conditioned images.
+Before introducing the alignment works in detail, we first review the basics of text-to-image gener-
+ation in the next section.
+3.1.2 Text-to-Image Generation
+Dec. 2018
+StyleGAN
+Feb. 2021
+DALL-E
+May. 2021
+CogView
+Nov. 2021
+NUWA
+Nov. 2021
+VQ-Diff.
+Apr. 2022
+Make-A-Scene
+Latent-Diff.
+Dec. 2021
+Dec. 2021
+GLIDE
+Mar. 2022
+DALL-E 2
+Feb. 2022
+CogView2
+Imagen
+May. 2022
+June 2022
+Parti
+NUWA-Infinity
+Jul. 2022Dec. 2016
+StackGAN
+Nov. 2017
+AttnGAN SD
+Aug. 2022
+eDiff-I
+Nov. 2022
+Apr. 2022
+MaskGiT
+ MUSE
+Jan. 2023
+Mar. 2023
+Midjourney
+IF
+May 2023
+GigaGAN
+Mar. 2023
+Bing creator
+SDXL
+June 2023
+Figure 3.2: An overview of representative text-to-image generation models until July 2023.
+T2I generation aims to generate images that are not only of high visual quality but also semantically
+correspond to the input text. T2I models are usually trained with image-text pairs, where text is
+taken as input conditions, with the paired image being the targeted output. Abstracted from the wide
+range of T2I models shown in Figure 3.2, we give a high-level overview of the representative image
+generation techniques.
+• Generative adversarial networks (GAN).GANs (Goodfellow et al., 2020; Creswell et al., 2018;
+Kang et al., 2023) consist of two key components: a generator and a discriminator. The generator
+is tasked with creating synthetic images from random noise inputs, and it is trained to adjust
+these noise inputs based on input text conditions to generate semantically relevant images. In
+this adversarial process, the discriminator competes with the generator, attempting to differentiate
+between the synthetically generated images and real ones, thus guiding the generator to improve
+its image creation capabilities.
+• Variational autoencoder (V AE) Variational Autoencoder (V AE) (Kingma and Welling, 2013;
+van den Oord et al., 2017; Vahdat and Kautz, 2020) is a probabilistic model that can generate im-
+ages by employing paired encoder and decoder network modules. The encoder network optimizes
+the encoding of an image into a latent representation, while the decoder refines the process of
+converting the sampled latent representations back into a new image. V AEs are trained by min-
+imizing the reconstruction error between the original and decoded images, whileregularizing the
+encoded latent space using the Kullback-Leibler (KL) divergence. Vector Quantised-V AE (VQ-
+V AE) (van den Oord et al., 2017) further improves V AEs by leveraging the discrete latent space
+through vector quantization, enabling improved reconstruction quality and generative capabilities.
+• Discrete image token prediction. At the core of this approach lies a combination of a paired
+image tokenizer and detokenizer, like Vector Quantized Generative Adversarial Networks (VQ-
+GAN) (Esser et al., 2021), which efficiently transform continuous visual signals into a finite set
+of discrete tokens. In this way, the image generation problem is converted to a discrete token pre-
+diction task. A widely employed strategy for token prediction is to use an auto-regressive Trans-
+former (Ramesh et al., 2021b; Yu et al., 2022b) to sequentially generates visual tokens, typically
+starting from the top left corner and moving row-by-row towards the bottom right, conditioned on
+the text inputs. Alternatively, studies (Chang et al., 2022, 2023) also explore the parallel decoding
+to speed up the token prediction process. Finally, the predicted visual tokens are detokenized,
+culminating in the final image prediction.
+29

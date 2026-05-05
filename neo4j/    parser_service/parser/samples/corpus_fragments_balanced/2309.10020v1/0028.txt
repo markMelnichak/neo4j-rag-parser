@@ -1,0 +1,32 @@
+Figure 2.13: Illustration of UNITER (Chen et al., 2020d) and CoCa (Yu et al., 2022a), which serve
+as a classical and a modern model that performs pre-training on multimodal fusion. CoCa also
+pre-trains the image backbone from scratch. Specifically, UNITER extracts image features via an
+off-the-shelf object detector and treat image features as soft prompts of the text input to be sent into
+a multimodal transformer. The model is pre-trained over a few millions of image-text pairs. For
+CoCa, an image encoder and a text encoder is used, with a multimodal transformer stacked on top.
+Both contrastive loss and captioning loss are used for model training, and the model is trained over
+billions of image-text pairs and JFT data. Image credit: Chen et al. (2020d), Yu et al. (2022a).
+VILLA (Gan et al., 2020) and VinVL (Zhang et al., 2021) treat image features as soft prompts of
+the text input to be sent into a multimodal transformer.
+End-to-end models. Now, end-to-end pre-training methods become the mainstream. Some
+early methods use CNNs to extract image features, such as PixelBERT (Huang et al., 2020),
+SOHO (Huang et al., 2021), and CLIP-ViL (Shen et al., 2022b), while ViLT (Kim et al., 2021)
+and ViTCAP (Fang et al., 2022) directly feed image patch features and text token embeddings into
+a multimodal transformer. Due to the popularity of vision transformer (ViT), now most methods
+simply use ViT as the image encoder ( e.g., plain ViT (Dosovitskiy et al., 2021) and Swin trans-
+former (Liu et al., 2021)). Prominent examples include ALBEF (Li et al., 2021b), METER (Dou
+et al., 2022b), VLMo (Wang et al., 2021b), X-VLM (Zeng et al., 2022), BLIP (Li et al., 2022d),
+SimVLM (Wang et al., 2022g), FLA V A (Singh et al., 2022a) and CoCa (Yu et al., 2022a).
+An illustration of UNITER (Chen et al., 2020d) and CoCa (Yu et al., 2022a) is shown in Figure 2.13.
+They serve as two examples of a classical model and a modern model, respectively, which performs
+pre-training on multimodal fusion. CoCa also performs image backbone pre-training directly, as all
+the model components are trained from scratch. Please refer to Chapter 3 of Gan et al. (2022) for a
+comprehensive literature review.
+Trend to multimodal LLM. Instead of using masked language modeling, image-text matching
+and image-text contrastive learning, SimVLM (Wang et al., 2022g) uses a simple PrefixLM loss
+for pre-training. Since then, multimodal language models have become popular. Early models
+focus on large-scale pre-training, such as Flamingo (Alayrac et al., 2022), GIT (Wang et al., 2022a),
+PaLI (Chen et al., 2022h), PaLI-X (Chen et al., 2023g), while recent works focus on using pre-
+trained LLMs for instruction tuning, such as LLaV A (Liu et al., 2023c) and MiniGPT-4 (Zhu et al.,
+2023a). A detailed discussion on this topic is provided in Chapter 5.
+24

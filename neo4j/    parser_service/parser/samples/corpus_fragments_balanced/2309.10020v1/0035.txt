@@ -1,0 +1,499 @@
+... .........
+...
+Autoencoder
+Fine-Tuned
+Diffusion Model
+CLIP Text Encoder
+Finetune
+Frozen
+{"image_id": 110618,"id": 
+335469,"caption": "A snowboarder 
+with his snowboard attached to his 
+feet sitting on a slope."}
+110618": {"license": 4, "file_name": "COCO_val2014_000000110618.jpg", "coco_url": 
+"http://images.cocodataset.org/val2014/COCO_val2014_000000110618.jpg", "height": 427, "width": 
+640, "date_captured": "2013-11-20 14:47:56", "flickr_url": 
+"http://farm1.staticflickr.com/130/338402871_4e030063e5_z.jpg", "id": 110618, "box": [{"iou": 
+0.12499223580210775, "bbox": [169.84, 72.63, 273.47, 250.45], "caption": "person", "category_id": 1, 
+"boxid": 429345, "tag": "person", "pad_caption": "a man is sitting on a snowboard and wearing a ski 
+goggles.", "crop_caption": "a man is sitting on a snowboard and wearing goggles."}, {"iou": 
+0.115945696904274, "bbox": [35.37, 290.46, 556.64, 89.51], "caption": "snowboard", "category_id": 36, 
+"boxid": 620859, "tag": "snowboard", "pad_caption": "a snowboard with the word now on it", 
+"crop_caption": "a person is holding a snowboard with the letters z on it."}, {"iou": 
+5.830412031615921e-05, "bbox": [413.92, 136.8, 3.18, 8.11], "caption": "person", "category_id": 1, 
+"boxid": 1216674, "tag": "person", "pad_caption": "a tube of red and white liquid with a black 
+background.", "crop_c
+#2 Region Description: a man is sitting 
+on a snowboard and wearing goggles
+Image Description: snowboarder with 
+his snowboard attached to his feet 
+sitting on a slope
+#1 Region Description: a 
+snowboard on the snow
+E
+D
+Text
+UNet
+text box
+Finetune
+Frozen
+Position Token (P) 
+Embedding EP
+Text Token (T)
+Embedding ET
+a person standing at the plate in mid swing of a bat
+<687> <204> <999> <833> baseball player … jersey.
+<21> <447> <433> <840> a catcher in gray … ball.
+<0> <323> <123> <827> a baseball player … jersey.
+Real Image
+eT
+ eP
+ eT
+eT
+ eT
+ eP
+eP
+ eP
+ eP
+ eT
+eT
+Fine-Tuned
+Diffusion Model
+person <687> <204> jersey ...<21> New Param.
+[0, 0.68, 1.0, 0.89]
+[0.15, 0.17, 0.79, 0.76]
+ImId: one person holds the back of 
+a surfboard while another person 
+stands on the front of it on one 
+leg._0.jpg
+one person holds the back of a 
+surfboard while another person 
+stands on the front of it on one leg. 
+<181> <424> <586> <750> 
+surfboard <426> <261> <757> 
+<687> person <159> <291> <290> 
+<447> person_0.png 
+Encoder
+Decoder
+Latent 
+Training
+253477 one person holds the back of a surfboard
+{'license': 3, 'file_name': 'COCO_val2014_000000253477.jpg', 'coco_url': 
+'http://images.cocodataset.org/val2014/COCO_val2014_000000253477.j
+pg', 'height': 427, 'width': 640, 'date_captured': '2013-11-20 21:3
+7:10', 'flickr_url': 
+'http://farm9.staticflickr.com/8018/7204196618_5ac514333d_z.jpg', 'id': 
+253477, 'box': [{'iou': 0.023067264527224816, 'bbox': [288.44, 111.35, 
+141.49, 182.1], 'caption': 'person', 'cate
+gory_id': 1, 'boxid': 440430, 'tag': 'person', 'pad_caption': 'a woman is 
+surfing in the water with her arms out.', 'crop_caption': 'a woman is 
+standing on a surfboard in the water with her arms out.'}, {'i
+ou': 0.007645033482142856, 'bbox': [174.46, 124.58, 55.91, 66.51], 
+'caption': 'person', 'category_id': 1, 'boxid': 496831, 'tag': 'person', 
+'pad_caption': 'a boy in the water holding a blue board', 'crop_ca
+ption': 'a man in the water holding a blue surfboard'}, {'iou': 
+0.02477366455649881, 'bbox': [183.67, 181.44, 173.33, 139.2], 'caption': 
+'surfboard', 'category_id': 42, 'boxid': 650305, 'tag': 'surfboard', 
+'pad_caption': 'a person is surfing on a blue surfboard in the ocean.', 
+'crop_caption': 'a person is surfing on a blue surfboard in the water.'}]}
+237487 person standing at the plate in mid swing of a bat
+{'license': 3, 'file_name': 'COCO_val2014_000000237487.jpg', 'coco_url': 
+'http://images.cocodataset.org/val2014/COCO_val2014_000000237487.jpg', 'height': 416, 'width': 640, 
+'date_captured': '2013-11-19 20:3
+2:02', 'flickr_url': 'http://farm4.staticflickr.com/3605/3440500848_f534a58a80_z.jpg', 'id': 237487, 'box': [{'iou': 
+0.0007195229867788468, 'bbox': [497.04, 247.87, 18.79, 13.08], 'caption': 'sports ball', 
+'category_id': 37, 'boxid': 302952, 'tag': 'sports ball', 'pad_caption': 'gold - knife - with - white - and - gold - edge. png', 
+'crop_caption': 'a white and yellow sign on a green sign'}, {'iou': 0.0039595
+35945012017, 'bbox': [563.7, 6.39, 61.7, 20.56], 'caption': 'chair', 'category_id': 62, 'boxid': 378528, 'tag': 'chair', 
+'pad_caption': 'a green and white sign with a white spot on it.', 'crop_caption': 'th
+e word " the word " on the bottom of the image'}, {'iou': 0.0036544773512620196, 'bbox': [436.54, 10.41, 65.44, 
+24.3], 'caption': 'chair', 'category_id': 62, 'boxid': 387373, 'tag': 'chair', 'pad_caption': 
+'a person wearing a black shirt', 'crop_caption': "a blue ball in the middle of a person's head."}, {'iou': 
+0.005353133075420674, 'bbox': [501.53, 7.52, 65.96, 26.16], 'caption': 'chair', 'category_id': 62,
+ 'boxid': 388494, 'tag': 'chair', 'pad_caption': '" picture of a knife with the word "', 'crop_caption': 'a tennis ball is on the 
+ground.'}, {'iou': 0.0012926635742187514, 'bbox': [366.06, 183.79, 53.15, 11
+.39], 'caption': 'baseball bat', 'category_id': 39, 'boxid': 629520, 'tag': 'baseball bat', 'pad_caption': '" the " the " s " is a 
+hand carved piece of wood. "', 'crop_caption': 'the word " on the bottom of
+ the image "'}, {'iou': 0.00410397479717548, 'bbox': [258.22, 230.98, 33.38, 45.52], 'caption': 'baseball glove', 
+'category_id': 40, 'boxid': 633255, 'tag': 'baseball glove', 'pad_caption': 'a brown and bla
+ck object with the word " on it "', 'crop_caption': 'horn of plenty'}, {'iou': 0.0451551943734976, 'bbox': [31.22, 134.32, 
+132.01, 209.95], 'caption': 'person', 'category_id': 1, 'boxid': 1243146, 'tag': 'p
+erson', 'pad_caption': 'a baseball umpire with the number 19 on his shirt', 'crop_caption': 'a baseball player with the 
+number 19 on his jersey'}, {'iou': 0.05864265549879809, 'bbox': [398.06, 85.08, 155.01
+, 261.93], 'caption': 'person', 'category_id': 1, 'boxid': 1286870, 'tag': 'person', 'pad_caption': 'a baseball player with a 
+cubs jersey on', 'crop_caption': 'a baseball player is swinging a bat and wearin
+g a blue and white jersey.'}, {'iou': 0.016900492225060095, 'bbox': [68.24, 25.24, 109.38, 72.92], 'caption': 'person', 
+'category_id': 1, 'boxid': 1293364, 'tag': 'person', 'pad_caption': 'a person in a bla
+ck hood sits in a stadium with a red shirt on.', 'crop_caption': 'a man wearing a hood is looking at the camera.'}, 
+{'iou': 0.01709526780348558, 'bbox': [256.66, 19.07, 95.87, 83.15], 'caption': 'person', '
+category_id': 1, 'boxid': 1303563, 'tag': 'person', 'pad_caption': 'a man wearing a cubs hat is watching a game.', 
+'crop_caption': 'a man wearing a blue hat with a red letter c on it'}, {'iou': 0.0035991002
+478966343, 'bbox': [365.29, 25.36, 37.64, 34.13], 'caption': 'person', 'category_id': 1, 'boxid': 1304010, 'tag': 'person', 
+'pad_caption': 'a man in a hood with a star wars logo on it.', 'crop_caption': 'a 
+man with a gray hood on his head'}, {'iou': 0.009942527606670672, 'bbox': [391.96, 0.93, 66.48, 58.06], 'caption': 
+'person', 'category_id': 1, 'boxid': 1308305, 'tag': 'person', 'pad_caption': 'a man wearin
+g a hoodie is sitting with a woman in a black jacket.', 'crop_caption': 'a man wearing a hoodie is sitting at a table'}, 
+{'iou': 0.00941270094651442, 'bbox': [431.25, 25.4, 70.86, 65.16], 'caption': 'person
+', 'category_id': 1, 'boxid': 1312765, 'tag': 'person', 'pad_caption': 'a man with a blue ball in his hand', 'crop_caption': 
+'a man wearing a black shirt'}, {'iou': 0.00795189171424279, 'bbox': [496.96, 30.
+33, 54.76, 60.67], 'caption': 'person', 'category_id': 1, 'boxid': 1314928, 'tag': 'person', 'pad_caption': 'a man wearing 
+a blue hat with a white and blue logo', 'crop_caption': 'a man wearing a blue hat w
+ith the letter l on it'}, {'iou': 0.009187734750600958, 'bbox': [560.23, 32.96, 67.28, 59.37], 'caption': 'person', 
+'category_id': 1, 'boxid': 1316419, 'tag': 'person', 'pad_caption': 'a man wearing a white
+ hat and sunglasses is wearing a white hat.', 'crop_caption': 'a woman wearing a white hat'}, {'iou': 
+0.052070975623497585, 'bbox': [120.86, 185.98, 171.46, 163.97], 'caption': 'person', 'category_id': 1, '
+boxid': 1318983, 'tag': 'person', 'pad_caption': 'a baseball player with a black and gray uniform and a black glove.', 
+'crop_caption': 'a catcher in a gray and black uniform is crouching and ready to catch 
+the ball.'}, {'iou': 0.007866665790264422, 'bbox': [330.93, 0.65, 55.16, 57.02], 'caption': 'person', 'category_id': 1, 
+'boxid': 1320788, 'tag': 'person', 'pad_caption': 'a woman wearing a blue scarf with t
+he word peace on it', 'crop_caption': 'a woman wearing a hoodie with a blue scarf on her shoulders'}, {'iou': 
+0.012069263822115386, 'bbox': [246.89, 0.0, 87.86, 63.5], 'caption': 'person', 'category_id': 1,
+ 'boxid': 1322864, 'tag': 'person', 'pad_caption': 'a man wearing a blue baseball cap with a red c on it', 'crop_caption': 
+'a man wearing a blue baseball cap with a red letter c on it'}, {'iou': 0.004005692
+044771636, 'bbox': [526.39, 32.5, 54.93, 22.95], 'caption': 'chair', 'category_id': 62, 'boxid': 1589831, 'tag': 'chair', 
+'pad_caption': '" knucklehead knife "', 'crop_caption': "a sign that says'the word'o
+n it"}, {'iou': 0.003843656475360579, 'bbox': [576.05, 27.02, 63.95, 28.88], 'caption': 'chair', 'category_id': 62, 'boxid': 
+1590910, 'tag': 'chair', 'pad_caption': 'a woman wearing a white head scarf', 'cr
+op_caption': 'a green sign with the word " green " on it'}, {'iou': 0.007852565542367788, 'bbox': [0.0, 67.96, 70.29, 
+31.96], 'caption': 'chair', 'category_id': 62, 'boxid': 1932807, 'tag': 'chair', 'pad_ca
+ption': 'a black and white picture of a car with the word " the " on it "', 'crop_caption': 'a green button on a black 
+background'}, {'iou': 0.007204773888221154, 'bbox': [0.93, 37.84, 64.88, 31.37], 'capti
+on': 'chair', 'category_id': 62, 'boxid': 1933147, 'tag': 'chair', 'pad_caption': 'a green sign on a black background', 
+'crop_caption': 'a green and white sign with the word " google " on it.'}, {'iou': 0.0
+02798766150841345, 'bbox': [66.33, 37.57, 37.62, 28.56], 'caption': 'chair', 'category_id': 62, 'boxid': 1936388, 'tag': 
+'chair', 'pad_caption': 'green and white blanket with white stripes. png', 'crop_capt
+ion': 'a person wearing a hat with a white button on it.'}, {'iou': 0.0131006045297476, 'bbox': [349.99, 25.2, 82.63, 
+68.69], 'caption': 'person', 'category_id': 1, 'boxid': 2001232, 'tag': 'person', 'pad_c
+aption': 'a man with a hoodie on his head is holding a cup.', 'crop_caption': 'a man with a hood on'}]}
+222662 a lady standing next to a person with a umbrella
+{'license': 3, 'file_name': 'COCO_val2014_000000222662.jpg', 'coco_url': 
+'http://images.cocodataset.org/val2014/COCO_val2014_000000222662.j
+pg', 'height': 480, 'width': 640, 'date_captured': '2013-11-18 09:4
+8:46', 'flickr_url': 
+'http://farm9.staticflickr.com/8168/7407696918_68428ca953_z.jpg', 'id': 
+222662, 'box': [{'iou': 0.018170300292968747, 'bbox': [276.88, 143.49, 
+138.65, 70.24], 'caption': 'umbrella', 'ca
+tegory_id': 28, 'boxid': 279793, 'tag': 'umbrella', 'pad_caption': 'a person is 
+holding an umbrella in front of a sign that says " the word ".', 
+'crop_caption': 'a person holding an umbrella with a plaid pa
+ttern.'}, {'iou': 0.0005530776367187495, 'bbox': [274.74, 111.77, 10.19, 
+22.77], 'caption': 'traffic light', 'category_id': 10, 'boxid': 402942, 'tag': 
+'traffic light', 'pad_caption': 'traffic light. png', 
+'crop_caption': 'a man wearing a red hat'}, {'iou': 
+0.0006378250325520839, 'bbox': [493.23, 104.13, 10.62, 23.66], 
+'caption': 'traffic light', 'category_id': 10, 'boxid': 408692, 'tag': 'traffic light', 
+'pa
+d_caption': 'traffic light with a red light. png', 'crop_caption': 'a red light on 
+a traffic light'}, {'iou': 0.0003402778320312499, 'bbox': [263.9, 137.01, 
+8.11, 15.78], 'caption': 'traffic light', 'catego
+ry_id': 10, 'boxid': 409571, 'tag': 'traffic light', 'pad_caption': 'black - label - 
+png - png - png - png - transparent. png', 'crop_caption': 'a red and yellow 
+sign on a black background'}, {'iou': 0.0054
+14292805989574, 'bbox': [474.47, 197.49, 68.43, 114.24], 'caption': 
+'handbag', 'category_id': 31, 'boxid': 1178170, 'tag': 'handbag', 
+'pad_caption': 'a man is carrying a brown messenger bag.', 'crop_caption
+': 'a man wearing a blue shirt and a blue shirt is carrying a brown leather 
+messenger bag.'}, {'iou': 0.003475558593749999, 'bbox': [426.34, 
+293.43, 35.85, 63.6], 'caption': 'handbag', 'category_id': 31, 'b
+oxid': 1178378, 'tag': 'handbag', 'pad_caption': 'a woman is holding a bag 
+with the word " gucci " on it.', 'crop_caption': "a black bag on a person's 
+hand"}, {'iou': 0.00014483691406249984, 'bbox': [263.02
+, 188.55, 9.27, 6.76], 'caption': 'car', 'category_id': 3, 'boxid': 1191034, 
+'tag': 'car', 'pad_caption': 'logo - for - the - web - of - the - brand - of - the - 
+brand - of - the - brand - of - the - brand 
+- of - the - brand -', 'crop_caption': "a white and black sign that says'the 
+word'on it"}, {'iou': 0.0005377687174479167, 'bbox': [266.65, 186.74, 
+20.22, 21.54], 'caption': 'car', 'category_id': 3, 'boxid':
+ 1192078, 'tag': 'car', 'pad_caption': 'a man in a black shirt is standing in a 
+dark room.', 'crop_caption': 'a sign that says " the word " on it'}, {'iou': 
+0.02705429117838543, 'bbox': [270.27, 204.86, 96.
+22, 200.0], 'caption': 'person', 'category_id': 1, 'boxid': 1225625, 'tag': 
+'person', 'pad_caption': 'a woman in a polka dot dress is standing in front 
+of a crosswalk.', 'crop_caption': 'a woman in a red po
+lka dot dress stands on a crosswalk.'}, {'iou': 0.03879819352213543, 
+'bbox': [408.54, 152.16, 120.29, 251.31], 'caption': 'person', 'category_id': 
+1, 'boxid': 1263833, 'tag': 'person', 'pad_caption': 'a man
+ is crossing the street and carrying a bag.', 'crop_caption': 'a man is 
+walking with a bag and a bag that says " the word " on it.'}, {'iou': 
+0.001466151855468751, 'bbox': [222.88, 181.29, 14.53, 42.76], 'c
+aption': 'person', 'category_id': 1, 'boxid': 1267109, 'tag': 'person', 
+'pad_caption': 'a woman in a white shirt is standing on a sidewalk.', 
+'crop_caption': 'a woman wearing a white shirt with the word " t
+he name " on it.'}, {'iou': 0.0005120395507812514, 'bbox': [507.52, 168.3, 
+10.44, 31.98], 'caption': 'person', 'category_id': 1, 'boxid': 1302307, 'tag': 
+'person', 'pad_caption': 'a person wearing a white s
+hirt', 'crop_caption': 'file : icon - the - word - on - the - left - foot. png'}, 
+{'iou': 0.0004308997395833329, 'bbox': [457.08, 171.11, 13.11, 27.76], 
+'caption': 'person', 'category_id': 1, 'boxid': 13072
+74, 'tag': 'person', 'pad_caption': 'a man in a white shirt and blue pants is 
+standing in front of a black background.', 'crop_caption': 'a man wearing a 
+shirt and shorts'}, {'iou': 0.001044998697916666, 'b
+box': [143.52, 95.43, 12.79, 35.0], 'caption': 'traffic light', 'category_id': 10, 
+'boxid': 1384509, 'tag': 'traffic light', 'pad_caption': 'icon - black - column. 
+png', 'crop_caption': 'a car is parked in 
+a parking lot.'}, {'iou': 0.0003943575846354179, 'bbox': [498.89, 129.8, 
+10.72, 14.29], 'caption': 'traffic light', 'category_id': 10, 'boxid': 1385829, 
+'tag': 'traffic light', 'pad_caption': 'red - light -
+ banner - png - 1. png', 'crop_caption': 'a red and black sign on a black 
+sign'}, {'iou': 0.0001889218749999995, 'bbox': [503.65, 174.91, 7.33, 
+13.11], 'caption': 'backpack', 'category_id': 27, 'boxid': 141
+8509, 'tag': 'backpack', 'pad_caption': 'png - black - bottle - with - the - 
+word - on - it. png', 'crop_caption': "a person is standing in front of a sign 
+that says'the word '"}, {'iou': 0.0002654954427083
+339, 'bbox': [406.82, 184.74, 10.61, 10.97], 'caption': 'handbag', 
+'category_id': 31, 'boxid': 1433946, 'tag': 'handbag', 'pad_caption': 'a 
+person wearing a white shirt with a red circle on it.', 'crop_capt
+ion': 'a white shirt with a black belt and a white shirt with a red circle on 
+it.'}, {'iou': 0.0010562368164062513, 'bbox': [628.09, 161.64, 11.44, 
+43.42], 'caption': 'person', 'category_id': 1, 'boxid': 16
+84750, 'tag': 'person', 'pad_caption': 'a person wearing a blue tank top 
+with the word " blue " on it.', 'crop_caption': 'a blue and white logo on a 
+black background'}, {'iou': 0.001001539713541665, 'bbox':
+ [406.63, 173.52, 17.04, 39.97], 'caption': 'person', 'category_id': 1, 
+'boxid': 1707703, 'tag': 'person', 'pad_caption': 'a woman running in a 
+city.', 'crop_caption': 'icon _ pony _ equestria _ the _ night
+mare _ on _ earth. png'}, {'iou': 0.0002521110026041672, 'bbox': [426.96, 
+175.18, 9.4, 17.33], 'caption': 'person', 'category_id': 1, 'boxid': 1710065, 
+'tag': 'person', 'pad_caption': 'a black and green ban
+ner with a purple logo.', 'crop_caption': 'a bottle of wine is on the table'}, 
+{'iou': 0.0011448333333333334, 'bbox': [154.5, 179.1, 25.85, 42.4], 
+'caption': 'person', 'category_id': 1, 'boxid': 2157525, 't
+ag': 'person', 'pad_caption': 'a woman is walking with a white box in her 
+hand.', 'crop_caption': 'a woman is walking with a white box.'}]}
+a lady standing next to a person 
+with a umbrella <684> <317> 
+<934> <840> a man is crossing the 
+street and carrying a bag <396> 
+<426> <596> <843> a woman in a 
+red polka dot dress stands on a 
+crosswalk <410> <299> <698> 
+<445> umbrella <821> <411> 
+<963> <649> handbag <721> 
+<611> <795> <743> _0.png
+one person holds the back of a 
+surfboard while another person 
+stands on the front of it on one leg. 
+<181> <424> <586> <750> a 
+person is surfing on a blue 
+surfboard in the ocean <426> 
+<261> <757> <687> a woman is 
+surfing in the water with her arms 
+out. <159> <291> <290> <447> a 
+boy in the water holding a blue 
+board
+a person standing at the plate in 
+mid swing of a bat <687> <204> 
+<999> <833> person <21> <447> 
+<433> <840> person <0> <323> 
+<123> <827> person <347> <46> 
+<578> <245> person <0> <61> 
+<158> <236> person_0
+222662 a lady standing next to a person with a umbrella
+{'license': 3, 'file_name': 'COCO_val2014_000000222662.jpg', 'coco_url': 
+'http://images.cocodataset.org/val2014/COCO_val2014_000000222662.j
+pg', 'height': 480, 'width': 640, 'date_captured': '2013-11-18 09:4
+8:46', 'flickr_url': 
+'http://farm9.staticflickr.com/8168/7407696918_68428ca953_z.jpg', 'id': 
+222662, 'box': [{'iou': 0.018170300292968747, 'bbox': [276.88, 143.49, 
+138.65, 70.24], 'caption': 'umbrella', 'ca
+tegory_id': 28, 'boxid': 279793, 'tag': 'umbrella', 'pad_caption': 'a person is 
+holding an umbrella in front of a sign that says " the word ".', 
+'crop_caption': 'a person holding an umbrella with a plaid pa
+ttern.'}, {'iou': 0.0005530776367187495, 'bbox': [274.74, 111.77, 10.19, 
+22.77], 'caption': 'traffic light', 'category_id': 10, 'boxid': 402942, 'tag': 
+'traffic light', 'pad_caption': 'traffic light. png', 
+'crop_caption': 'a man wearing a red hat'}, {'iou': 
+0.0006378250325520839, 'bbox': [493.23, 104.13, 10.62, 23.66], 
+'caption': 'traffic light', 'category_id': 10, 'boxid': 408692, 'tag': 'traffic light', 
+'pa
+d_caption': 'traffic light with a red light. png', 'crop_caption': 'a red light on 
+a traffic light'}, {'iou': 0.0003402778320312499, 'bbox': [263.9, 137.01, 
+8.11, 15.78], 'caption': 'traffic light', 'catego
+ry_id': 10, 'boxid': 409571, 'tag': 'traffic light', 'pad_caption': 'black - label - 
+png - png - png - png - transparent. png', 'crop_caption': 'a red and yellow 
+sign on a black background'}, {'iou': 0.0054
+14292805989574, 'bbox': [474.47, 197.49, 68.43, 114.24], 'caption': 
+'handbag', 'category_id': 31, 'boxid': 1178170, 'tag': 'handbag', 
+'pad_caption': 'a man is carrying a brown messenger bag.', 'crop_caption
+': 'a man wearing a blue shirt and a blue shirt is carrying a brown leather 
+messenger bag.'}, {'iou': 0.003475558593749999, 'bbox': [426.34, 
+293.43, 35.85, 63.6], 'caption': 'handbag', 'category_id': 31, 'b
+oxid': 1178378, 'tag': 'handbag', 'pad_caption': 'a woman is holding a bag 
+with the word " gucci " on it.', 'crop_caption': "a black bag on a person's 
+hand"}, {'iou': 0.00014483691406249984, 'bbox': [263.02
+, 188.55, 9.27, 6.76], 'caption': 'car', 'category_id': 3, 'boxid': 1191034, 
+'tag': 'car', 'pad_caption': 'logo - for - the - web - of - the - brand - of - the - 
+brand - of - the - brand - of - the - brand 
+- of - the - brand -', 'crop_caption': "a white and black sign that says'the 
+word'on it"}, {'iou': 0.0005377687174479167, 'bbox': [266.65, 186.74, 
+20.22, 21.54], 'caption': 'car', 'category_id': 3, 'boxid':
+ 1192078, 'tag': 'car', 'pad_caption': 'a man in a black shirt is standing in a 
+dark room.', 'crop_caption': 'a sign that says " the word " on it'}, {'iou': 
+0.02705429117838543, 'bbox': [270.27, 204.86, 96.
+22, 200.0], 'caption': 'person', 'category_id': 1, 'boxid': 1225625, 'tag': 
+'person', 'pad_caption': 'a woman in a polka dot dress is standing in front 
+of a crosswalk.', 'crop_caption': 'a woman in a red po
+lka dot dress stands on a crosswalk.'}, {'iou': 0.03879819352213543, 
+'bbox': [408.54, 152.16, 120.29, 251.31], 'caption': 'person', 'category_id': 
+1, 'boxid': 1263833, 'tag': 'person', 'pad_caption': 'a man
+ is crossing the street and carrying a bag.', 'crop_caption': 'a man is 
+walking with a bag and a bag that says " the word " on it.'}, {'iou': 
+0.001466151855468751, 'bbox': [222.88, 181.29, 14.53, 42.76], 'c
+aption': 'person', 'category_id': 1, 'boxid': 1267109, 'tag': 'person', 
+'pad_caption': 'a woman in a white shirt is standing on a sidewalk.', 
+'crop_caption': 'a woman wearing a white shirt with the word " t
+he name " on it.'}, {'iou': 0.0005120395507812514, 'bbox': [507.52, 168.3, 
+10.44, 31.98], 'caption': 'person', 'category_id': 1, 'boxid': 1302307, 'tag': 
+'person', 'pad_caption': 'a person wearing a white s
+hirt', 'crop_caption': 'file : icon - the - word - on - the - left - foot. png'}, 
+{'iou': 0.0004308997395833329, 'bbox': [457.08, 171.11, 13.11, 27.76], 
+'caption': 'person', 'category_id': 1, 'boxid': 13072
+74, 'tag': 'person', 'pad_caption': 'a man in a white shirt and blue pants is 
+standing in front of a black background.', 'crop_caption': 'a man wearing a 
+shirt and shorts'}, {'iou': 0.001044998697916666, 'b
+box': [143.52, 95.43, 12.79, 35.0], 'caption': 'traffic light', 'category_id': 10, 
+'boxid': 1384509, 'tag': 'traffic light', 'pad_caption': 'icon - black - column. 
+png', 'crop_caption': 'a car is parked in 
+a parking lot.'}, {'iou': 0.0003943575846354179, 'bbox': [498.89, 129.8, 
+10.72, 14.29], 'caption': 'traffic light', 'category_id': 10, 'boxid': 1385829, 
+'tag': 'traffic light', 'pad_caption': 'red - light -
+ banner - png - 1. png', 'crop_caption': 'a red and black sign on a black 
+sign'}, {'iou': 0.0001889218749999995, 'bbox': [503.65, 174.91, 7.33, 
+13.11], 'caption': 'backpack', 'category_id': 27, 'boxid': 141
+8509, 'tag': 'backpack', 'pad_caption': 'png - black - bottle - with - the - 
+word - on - it. png', 'crop_caption': "a person is standing in front of a sign 
+that says'the word '"}, {'iou': 0.0002654954427083
+339, 'bbox': [406.82, 184.74, 10.61, 10.97], 'caption': 'handbag', 
+'category_id': 31, 'boxid': 1433946, 'tag': 'handbag', 'pad_caption': 'a 
+person wearing a white shirt with a red circle on it.', 'crop_capt
+ion': 'a white shirt with a black belt and a white shirt with a red circle on 
+it.'}, {'iou': 0.0010562368164062513, 'bbox': [628.09, 161.64, 11.44, 
+43.42], 'caption': 'person', 'category_id': 1, 'boxid': 16
+84750, 'tag': 'person', 'pad_caption': 'a person wearing a blue tank top 
+with the word " blue " on it.', 'crop_caption': 'a blue and white logo on a 
+black background'}, {'iou': 0.001001539713541665, 'bbox':
+ [406.63, 173.52, 17.04, 39.97], 'caption': 'person', 'category_id': 1, 
+'boxid': 1707703, 'tag': 'person', 'pad_caption': 'a woman running in a 
+city.', 'crop_caption': 'icon _ pony _ equestria _ the _ night
+mare _ on _ earth. png'}, {'iou': 0.0002521110026041672, 'bbox': [426.96, 
+175.18, 9.4, 17.33], 'caption': 'person', 'category_id': 1, 'boxid': 1710065, 
+'tag': 'person', 'pad_caption': 'a black and green ban
+ner with a purple logo.', 'crop_caption': 'a bottle of wine is on the table'}, 
+{'iou': 0.0011448333333333334, 'bbox': [154.5, 179.1, 25.85, 42.4], 
+'caption': 'person', 'category_id': 1, 'boxid': 2157525, 't
+ag': 'person', 'pad_caption': 'a woman is walking with a white box in her 
+hand.', 'crop_caption': 'a woman is walking with a white box.'}]}
+a person standing at the plate in mid swing of a bat <687> <204> 
+<999> <833> a baseball player is swinging a bat and wearing a blue 
+and white jersey. <21> <447> <433> <840> a catcher in a gray and 
+black uniform is crouching and ready to catch the ball. <0> <323> 
+<123> <827> a baseball player with the number 19 on his jersey 
+<347> <46> <578> <245> a man wearing a blue hat with a red letter 
+c on it <0> <61> <158> <236> a man wearing a hood is looking at 
+the camera. <572> <61> <770> <225> a man with a hood on <324> 
+<0> <535> <152> a man wearing a blue baseball cap with a red 
+letter c on it <672> <2> <832> <142> a man wearing a hoodie is 
+sitting at a table <767> <61> <937> <217> a man wearing a black 
+shirt <924> <73> <999> <219> a man wearing a blue hat with the 
+letter l on it <526> <2> <658> <138> a woman wearing a 
+hoodie with a blue scarf on her shoulders <935> <18> <999> <81> 
+a tennis ball is on the ground. <351> <555> <431> <664> horn of 
+plenty <995> <78> <999> <133> a sign that says'the word'on it 
+<779> <25> <937> <83> a blue ball in the middle of a person's 
+head. <608> <61> <699> <143> a man with a gray hood on his 
+head <610> <441> <738> <469> " the " the " s " is a hand carved 
+piece of wood. " <925> <595> <970> <627> a white and yellow sign 
+on a green sign
+#1 Region Description: baseball player is 
+swinging a bat and wearing a blue and white 
+jersey.
+#2 Region Description: a catcher in a gray and 
+black uniform is crouching and ready to catch 
+the ball.
+Image Description: a person standing at the 
+plate in mid swing of a bat.
+#3 Region Description: a baseball player with 
+the number 19 on his jersey.
+#1 Region Description: 
+baseball player is swinging 
+a bat and wearing a blue 
+and white jersey.
+#2 Region Description: a 
+catcher in a gray and black 
+uniform is crouching and 
+ready to catch the ball.
+Generated Image
+[0.02, 0.45, 0.43, 0.84]
+[0.69, 0.20, 1.0, 0.83]
+[0, 0.32, 0.12, 0.83]
+[0.02, 0.45, 0.43, 0.84]
+[0.69, 0.20, 1.0, 0.83]
+[0, 0.32, 0.12, 0.83]
+Image Description: a person standing at the plate in mid swing of a bat.
+#3 Region Description: a 
+baseball player with the 
+number 19 on his jersey.
+Input Query: 
+Image Descr. + Region-Controlled Text * #Regions
+a person standing at the plate in mid swing of a bat
+<687> <204> <999> <833> baseball player … jersey.
+<21> <447> <433> <840> a catcher in gray … ball.
+<0> <323> <123> <827> a baseball player … jersey.
+Input Query: 
+Image Descr. + Region-Controlled Text 
+* #Regions
+Region-Controlled Input Sequence ReCo Model
+Input Query = Image Description + 
+[Region-Controlled Text] * #Regions:
+Real Image
+Autoencoder
+Encoder
+Decoder
+Generated Image
+Real Image
+a ball
+Inference
+Figure 3.4: Overview of the ReCo model architecture. Image credit: Yang et al. (2023b).
+target noise ϵ, which is added to the target image latent encoded by V AE encoderE. At inference,
+the iteratively denoised latent z, started from the random noise, is sent through the V AE decoder
+D for the final generated image.
+In each denoising step, the U-Net takes the text condition as input to generate images that are
+semantically relevant to the text query. We next detail how the visual streamz ∈ Rh×w×c interacts
+with the text streamτ(y) ∈ RN ×dτ . The denoising U-Net, similar to a classic U-Net (Ronneberger
+et al., 2015; Long et al., 2015), consists of a series of spatial downsampling and upsampling blocks
+with skip connections in between. In SD’s U-Net, each down/upsampling block has a cross-
+attention layer and a 2D convolutional down/upsampling layer. Each block takes the visual latent
+feature, text feature, and denoising step as input and generates the next visual latent feature. The
+image-text interaction happens in the image-text cross-attention layer.
+Attention(Q, K, V ) = softmax
+ QK T
+√
+d
+
+· V, (3.1)
+where K, V are projected from the text stream τ(y) and Q is projected from the visual stream
+z to share the same hidden dimension d. Therefore, the softmax between Q and K produces an
+attention map M of size (hw × d) · (N × d)T = hw × N. The cross-attention map M indicates
+the fine-grained image-text interaction among each one of theN text words in all spatial positions
+hw. The attention map M then products V to yield the output of a down/upsampling block.
+3.2 Spatial Controllable Generation
+T2I generation takes open-ended text for users to describe their intended images. However, text
+alone is ineffective in certain descriptions, such as spatial referring. Studies in spatial controllable
+T2I generation explore extending T2I models to take extra spatial input conditions to guide image
+generation process.
+We categorize related studies into three topics.(i) We start with works (Yang et al., 2023b; Li et al.,
+2023n; Avrahami et al., 2023b; Cho et al., 2023) that extend the image-level text description in
+vanilla T2I models to the region-grounded text description, such that open-ended text descriptions
+can precisely operate on a particularly spatial region. (ii) We then extend from boxes to dense
+spatial conditions represented as 2D arrays, such as segmentation masks, edge maps, depth maps,
+key points. We review representative works ControlNet (Zhang and Agrawala, 2023) and many
+others (Mou et al., 2023; Zeng et al., 2023; Zhao et al., 2023b; Qin et al., 2023a). (iii)The previous
+two threads of work require finetuning T2I models to understand the extended spatial condition.
+We next review techniques of inference-time guidance (Bansal et al., 2023; Chen et al., 2023e) that
+achieve spatial control without model finetuning.
+Region-controlled T2I generation. Large-scale T2I models have demonstrated remarkable efficacy
+in generating high-resolution images. However, the models lack spatial controllability,e.g., precisely
+specifying content in a specified area using a free-form text description. This limitation motivates
+the studies on region-controlled T2I generation. As shown in the left side of Figure 3.4, these studies
+explore the extra input condition of open-ended text descriptions on arbitrary regions ( i.e., region-
+31

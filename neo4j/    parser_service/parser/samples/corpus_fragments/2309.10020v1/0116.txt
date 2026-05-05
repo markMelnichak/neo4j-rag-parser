@@ -1,0 +1,53 @@
+Viola, P. and Jones, M. (2001). Rapid object detection using a boosted cascade of simple features.
+In Proceedings of the 2001 IEEE computer society conference on computer vision and pattern
+recognition. CVPR 2001, volume 1, pages I–I. Ieee.
+Wang, B. and Komatsuzaki, A. (2021). GPT-J-6B: A 6 Billion Parameter Autoregressive Language
+Model. https://github.com/kingoflolz/mesh-transformer-jax.
+Wang, B., Wu, F., Han, X., Peng, J., Zhong, H., Zhang, P., Dong, X., Li, W., Li, W., Wang, J., et al.
+(2023a). Vigc: Visual instruction generation and correction. arXiv preprint arXiv:2308.12714.
+Wang, F., Kong, T., Zhang, R., Liu, H., and Li, H. (2023b). Self-supervised learning by estimating
+twin class distribution. TIP.
+Wang, H., Wang, Y ., Zhou, Z., Ji, X., Li, Z., Gong, D., Zhou, J., and Liu, W. (2018). Cosface: Large
+margin cosine loss for deep face recognition. CVPR.
+Wang, H., Zhu, Y ., Adam, H., Yuille, A., and Chen, L.-C. (2021a). Max-deeplab: End-to-end
+panoptic segmentation with mask transformers. In Proceedings of the IEEE/CVF Conference on
+Computer Vision and Pattern Recognition, pages 5463–5474.
+Wang, J., Chen, D., Luo, C., Dai, X., Yuan, L., Wu, Z., and Jiang, Y .-G. (2023c). Chatvideo:
+A tracklet-centric multimodal and versatile video understanding system. arXiv preprint
+arXiv:2304.14407.
+Wang, J., Yang, Z., Hu, X., Li, L., Lin, K., Gan, Z., Liu, Z., Liu, C., and Wang, L. (2022a). Git: A
+generative image-to-text transformer for vision and language. arXiv preprint arXiv:2205.14100.
+Wang, J., Zhou, Y ., Xu, G., Shi, P., Zhao, C., Xu, H., Ye, Q., Yan, M., Zhang, J., Zhu, J., et al.
+(2023d). Evaluation and analysis of hallucination in large vision-language models.arXiv preprint
+arXiv:2308.15126.
+Wang, L., Huang, B., Zhao, Z., Tong, Z., He, Y ., Wang, Y ., Wang, Y ., and Qiao, Y . (2023e). Video-
+mae v2: Scaling video masked autoencoders with dual masking. In CVPR.
+Wang, P., Yang, A., Men, R., Lin, J., Bai, S., Li, Z., Ma, J., Zhou, C., Zhou, J., and Yang, H. (2022b).
+Ofa: Unifying architectures, tasks, and modalities through a simple sequence-to-sequence learn-
+ing framework. In ICML.
+Wang, R., Chen, D., Wu, Z., Chen, Y ., Dai, X., Liu, M., Jiang, Y .-G., Zhou, L., and Yuan, L. (2022c).
+Bevt: Bert pretraining of video transformers. In Proceedings of the IEEE/CVF conference on
+computer vision and pattern recognition, pages 14733–14743.
+Wang, T., Li, L., Lin, K., Lin, C.-C., Yang, Z., Zhang, H., Liu, Z., and Wang, L. (2023f).
+Disco: Disentangled control for referring human dance generation in real world. arXiv preprint
+arXiv:2307.00040.
+Wang, T., Zhang, J., Fei, J., Ge, Y ., Zheng, H., Tang, Y ., Li, Z., Gao, M., Zhao, S., Shan, Y ., et al.
+(2023g). Caption anything: Interactive image description with diverse multimodal controls.arXiv
+preprint arXiv:2305.02677.
+Wang, W., Bao, H., Dong, L., Bjorck, J., Peng, Z., Liu, Q., Aggarwal, K., Mohammed, O. K.,
+Singhal, S., Som, S., and Wei, F. (2022d). Image as a foreign language: Beit pretraining for all
+vision and vision-language tasks. arXiv preprint arXiv:2208.10442.
+Wang, W., Bao, H., Dong, L., and Wei, F. (2021b). Vlmo: Unified vision-language pre-training with
+mixture-of-modality-experts. arXiv preprint arXiv:2111.02358.
+Wang, W., Chen, Z., Chen, X., Wu, J., Zhu, X., Zeng, G., Luo, P., Lu, T., Zhou, J., Qiao, Y ., et al.
+(2023h). VisionLLM: Large language model is also an open-ended decoder for vision-centric
+tasks. arXiv preprint arXiv:2305.11175.
+Wang, X., Wang, W., Cao, Y ., Shen, C., and Huang, T. (2023i). Images speak in images: A generalist
+painter for in-context visual learning. In Proceedings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition, pages 6830–6839.
+Wang, X., Zhang, X., Cao, Y ., Wang, W., Shen, C., and Huang, T. (2023j). Seggpt: Segmenting
+everything in context. arXiv preprint arXiv:2304.03284.
+Wang, Y ., Ivison, H., Dasigi, P., Hessel, J., Khot, T., Chandu, K. R., Wadden, D., MacMillan, K.,
+Smith, N. A., Beltagy, I., et al. (2023k). How far can camels go? exploring the state of instruction
+tuning on open resources. arXiv preprint arXiv:2306.04751.
+112

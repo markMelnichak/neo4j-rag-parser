@@ -1,0 +1,125 @@
+169
+Выводы
+ 
+ 
+При разработке математической модели процесса при
+-
+роста цены финансовых инструментов в большинстве работ 
+не учитывается тот факт, что адекватная модель, как 
+мини
+-
+мум, должна адекватно работать при разных интервалах 
+анализа
+ 
+(таймфреймах). Большинство авторо
+в не уделяют 
+этому достаточно внимания, анализируя статистические пара
+-
+метры ценообразования на фиксированных таймфреймах
+. При 
+этом могут быть получено вполне приличное согласование 
+экспериментальных и эмпирических данных, но это лишь 
+необходимое, но не до
+статочное условие адекватности модели
+, 
+возможен т.н. «эффект слона фон Неймана». В ка
+че
+стве более 
+полного критерия «адекватности», тестирование модели про
+-
+во
+дить для различных значений таймфрейма. Так же жела
+-
+тельно выбирать параметризацию функций распр
+еде
+ления 
+максимально полно отражающую физический смысл процесса.
+ 
+ 
+Литература
+ 
+ 
+1.
+ 
+Szymon Borak. 
+Models for Heavy
+-
+tailed Asset Returns
+ 
+[Text] 
+/ 
+Szymon Borak & Adam Misiorek & Rafal Weron
+ 
+// 
+HSC 
+Research Reports
+ 
+HSC/10/01, Hugo Steinhaus Center, Wroclaw 
+University of Technology. 
+–
+ 
+2010.
+ 
+2.
+ 
+Barndorff
+-
+Nielsen O. E. Normal [Text]
+ 
+/
+ 
+O. E. Barndorff
+-
+Nielsen 
+// Inverse Gaussian Processes and the Mod
+elling of 
+Stock Returns, Research Report 300, Department of Theoretical 
+Statistics, University of Aarhus. 
+–
+ 
+1995.
+ 
+3.
+ 
+Bibby B. M. Hyperbolic processes in finance 
+[Text] 
+/
+ 
+B.
+ 
+M.
+ 
+Bibby
+ 
+and M. Sorensen 
+// S. T. Radchev ed. Handbook
+-
+tailed 
+Distributions in 
+Finanse, North Holland. 
+–
+ 
+2003.
+ 
+4.
+ 
+Grabchak M. Do financial returns have finite or infinite 
+variance? A paradox and an explanation 
+[Text]
+ 
+/ M. Grabchak 
+and G. Samorodnitsky // Quantitative Finance. 
+–
+ 
+2010.
+ 
+5.
+ 
+Lev B. Klebanov. Heavy Tailed Distributions in Financ
+e: Reality 
+or Mith? Amateurs Viewpoint [Text] / Lev B. Klebanov, Irina 
+Volchenkova, 2015. 
+–
+ 
+http:// arXiv:1507.07735v1 [math.PR] 28 Jul 
+2015.

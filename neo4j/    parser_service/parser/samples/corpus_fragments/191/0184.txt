@@ -1,0 +1,43 @@
+187 
+ 
+Оконча
+ние листин
+га 2
+1 
+scal
+er = preprocessing.StandardScaler().fit(X) 
+train_data_scaled = scaler.transform(X) 
+test_data_scaled = scaler.transform(X_test) 
+print train_data_scaled 
+print test_data_scaled 
+Ка
+к было сказано в одном из предыдущих разделов, стандарти-
+зация смещает значения векторов (выравнивает относительного еди-
+ного центра в нуле), а также производит выравнивание разброса. 
+Однако значения разных векторов не будут в одинаковом диапазоне 
+(от –1 до 1, например). Они будут лишь иметь стандартный разброс 
+в рамках вектора\столбца\признака. Для того чтобы достичь одинако-
+вого масштаба всех векторов, необходима нормализация. 
+Средствами scikit-learn нормализацию можно выполнить следу-
+ющим образом (листинг 22). 
+Лист
+инг 22 
+#-*- codi
+ng: utf-8 -*- 
+from sklearn import preprocessing 
+import numpy as np 
+X=[[1., -1.,2.], 
+ [2., 0., 0.], 
+ [0., 1., -1.]] 
+ 
+#нормализация max-нормой 
+X_normalized_max = preprocessing.normalize(X, norm='max', axis=0) 
+ 
+#нормализация нормой l1 
+X_normalized_max = preprocessing.normalize(X, norm='l1', axis=0) 
+ 
+#нормализация нормой l2 
+X_normalized_max = preprocessing.normalize(X, norm='l2', axis=0) 
+Бо
+лее подробную информацию о методах библиотеки scikit-learn 
+по предобработке данных можно найти здесь: [38].

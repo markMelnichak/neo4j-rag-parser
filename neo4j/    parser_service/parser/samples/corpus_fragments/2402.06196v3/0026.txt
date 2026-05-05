@@ -1,0 +1,116 @@
+2) WordPieceEncoding: This algorithm is mainly used for
+very well-known models such as BERT and Electra. At the
+beginning of training, the algorithm takes all the alphabet from
+the training data to make sure that nothing will be left as UNK
+or unknown from the training dataset. This case happens when
+the model is given an input that can not be tokenized by the
+tokenizer. It mostly happens in cases where some characters are
+not tokenizable by it. Similar to BytePairEncoding, it tries to
+maximize the likelihood of putting all the tokens in vocabulary
+based on their frequency.
+3) SentencePieceEncoding: Although both tokenizers de-
+scribed before are strong and have many advantages compared
+to white-space tokenization, they still take assumption of
+words being always separated by white-space as granted. This
+assumption is not always true, in fact in some languages, words
+can be corrupted by many noisy elements such as unwanted
+spaces or even invented words. SentencePieceEncoding tries
+to address this issue.
+D. Positional Encoding
+1) Absolute Positional Embeddings : (APE) [44] has been
+used in the original Transformer model to preserve the infor-
+mation of sequence order. Therefore, the positional information
+of words is added to the input embeddings at the bottom of
+both the encoder and decoder stacks. There are various options
+for positional encodings, either learned or fixed. In the vanilla
+Transformer, sine and cosine functions are employed for this
+purpose. The main drawback of using APE in Transformers
+is the restriction to a certain number of tokens. Additionally,
+APE fails to account for the relative distances between tokens.
+2) Relative Positional Embeddings : (RPE) [126] involves
+extending self-attention to take into account the pairwise links
+between input elements. RPE is added to the model at two
+levels: first as an additional component to the keys, and
+subsequently as a sub-component of the values matrix. This
+approach looks at the input as a fully-connected graph with
+labels and directed edges. In the case of linear sequences, edges
+can capture information about the relative position differences
+between input elements. A clipping distance, represented as k
+2 ≤ k ≤ n − 4, specifies the maximum limit on relative lo-
+cations. This allows the model to make reasonable predictions
+for sequence lengths that are not part of the training data.
+3) Rotary Position Embeddings : Rotary Positional Em-
+bedding (RoPE) [127] tackles problems with existing ap-
+proaches. Learned absolute positional encodings can lack gen-
+eralizability and meaningfulness, particularly when sentences
+are short. Moreover, current methods like T5’s positional
+embedding face challenges with constructing a full attention
+matrix between positions. RoPE uses a rotation matrix to
+encode the absolute position of words and simultaneously in-
+cludes explicit relative position details in self-attention. RoPE
+brings useful features like flexibility with sentence lengths, a
+decrease in word dependency as relative distances increase,
+and the ability to improve linear self-attention with relative
+position encoding. GPT-NeoX-20B, PaLM, CODEGEN, and
+LLaMA are among models that take advantage of RoPE in
+their architectures.
+4) Relative Positional Bias : The concept behind this type
+of positional embedding is to facilitate extrapolation during
+inference for sequences longer than those encountered in train-
+ing. In [128] Press et al. proposed Attention with Linear Biases
+(ALiBi). Instead of simply adding positional embeddings to
+word embeddings, they introduced a bias to the attention scores
+of query-key pairs, imposing a penalty proportional to their
+distance. In the BLOOM model, ALiBi is leveraged.
+E. Model Pre-training
+Pre-training is the very first step in large language model
+training pipeline, and it helps LLMs to acquire fundamental
+language understanding capabilities, which can be useful in a
+wide range of language related tasks. During pre-training, the
+LLM is trained on a massive amount of (usually) unlabeled
+texts, usually in a self-supervised manner. There are different
+approaches used for pre-training like next sentence prediction
+[24], two most common ones include, next token prediction
+(autoregressive language modeling), and masked language
+modeling.
+In Autoregressive Language Modeling framework, given
+a sequence of n tokens x1, ..., xn, the model tries to predict
+next token xn+1 (and sometimes next sequence of tokens) in
+an auto-regressive fashion. One popular loss function in this
+case is the log-likelihood of predicted tokens as shown in Eq
+2
+LALM(x) =
+NX
+i=1
+p(xi+n|xi, ..., xi+n−1) (1)
+Given the auto-regressive nature of this framework, the
+decoder-only models are naturally better suited to learn how
+to accomplish these task.
+In Masked Language Modeling , some words are masked
+in a sequence and the model is trained to predict the masked
+words based on the surrounding context. Sometimes people
+refer to this approach as denoising autoencoding, too. If we
+denote the masked/corrupted samples in the sequence x, as ˜x,
+then the training objective of this approach can be written as:
+LM LM(x) =
+NX
+i=1
+p(˜x|x\˜x) (2)
+And more recently, Mixture of Experts (MoE) [130],
+[131] have become very popular in LLM space too. MoEs
+enable models to be pre-trained with much less compute,
+which means one can dramatically scale up the model or
+dataset size with the same compute budget as a dense model.
+MoE consists of two main elements: Sparse MoE layers ,
+which are used instead of dense feed-forward network (FFN)
+layers, and have a certain number of “experts” (e.g. 8), in
+which each expert is a neural network. In practice, the experts
+are FFNs, but they can also be more complex networks. A gate
+network or router , that determines which tokens are sent to
+which expert. It is worth noting that, one can send a token
+to more than one expert. How to route a token to an expert
+is one of the big decisions when working with MoEs - the
+router is composed of learned parameters and is pretrained at
+the same time as the rest of the network. Fig 29 provides an
+illustration of a Switch Transformer encoder block, which are
+used in MoE.

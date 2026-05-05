@@ -1,0 +1,19 @@
+В
+производственных сценариях Mixtral реализуется в PyTorch и vLLM. Кроме
+того, Mixtral связан с Concept Sparse Routing, потому что в архитектуре
+mixture-of-experts маршрутизация токенов играет важную роль. Если парсер
+работает устойчиво, то он должен корректно извлечь новые сущности
+Mixtral, Mixture of Experts, Sparse Routing и vLLM без ручного добавления
+каждой из них в seed-граф. Qwen является моделью Transformer и применяется для Question Answering и
+Retrieval-Augmented Generation. Qwen использует Instruction Tuning и
+Quantization. В ряде практических примеров Qwen реализуется в ONNX
+Runtime и PyTorch. Qwen также связан с Concept Vector Index, потому что в
+сценариях Retrieval-Augmented Generation важную роль играет
+индексирование эмбеддингов. Для графовой базы знаний полезно, чтобы
+Retrieval-Augmented Generation было распознано как Task, Quantization - как
+Method, ONNX Runtime - как Framework, а Vector Index - как Concept. Мультимодальные и визуальные модели
+CLIP является моделью Neural Network и используется для Image Retrieval и
+Zero-Shot Classification. CLIP использует Contrastive Learning и часто
+реализуется в PyTorch. В статьях по мультимодальному обучению CLIP связан
+с Concept Joint Embedding Space, поскольку изображения и тексты
+проецируются в общее пространство представлений. Если система

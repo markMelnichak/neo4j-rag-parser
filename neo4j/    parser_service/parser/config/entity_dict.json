@@ -1,0 +1,129 @@
+{
+  "entities": {
+    "Model": [
+      "BERT",
+      "RoBERTa",
+      "GPT",
+      "ResNet",
+      "T5",
+      "LLaMA",
+      "Whisper",
+      "U-Net",
+      "Diffusion Model"
+    ],
+    "Concept": [
+      "Transformer",
+      "Neural Network",
+      "Attention",
+      "Overfitting",
+      "Regularization",
+      "Embedding",
+      "Tokenization",
+      "Audio Embedding",
+      "Feature Map",
+      "Latent Space",
+      "Generative Model"
+    ],
+    "Task": [
+      "Text Classification",
+      "Question Answering",
+      "Named Entity Recognition",
+      "Machine Translation",
+      "Image Classification",
+      "Summarization",
+      "Speech Recognition",
+      "Speech Translation",
+      "Image Segmentation",
+      "Image Generation"
+    ],
+    "Method": [
+      "Self-Attention",
+      "Fine-tuning",
+      "Dropout",
+      "Weight Decay",
+      "Adam Optimizer",
+      "Backpropagation",
+      "Masked Language Modeling",
+      "LoRA",
+      "RLHF",
+      "Classifier-Free Guidance",
+      "Parameter-Efficient Fine-Tuning",
+      "Preference Optimization",
+      "Feature Extraction"
+    ],
+    "Framework": [
+      "PyTorch",
+      "TensorFlow",
+      "Hugging Face Transformers"
+    ]
+  },
+  "aliases": {
+    "qa": {"label": "Task", "canonical": "Question Answering"},
+    "ner": {"label": "Task", "canonical": "Named Entity Recognition"},
+    "mlm": {"label": "Method", "canonical": "Masked Language Modeling"},
+    "tf": {"label": "Framework", "canonical": "TensorFlow"},
+    "fine tuning": {"label": "Method", "canonical": "Fine-tuning"},
+    "fine-tuning": {"label": "Method", "canonical": "Fine-tuning"},
+    "fine-tuning.": {"label": "Method", "canonical": "Fine-tuning"},
+    "self attention": {"label": "Method", "canonical": "Self-Attention"},
+    "generative pre-trained transformer": {"label": "Model", "canonical": "GPT"},
+    "residual network": {"label": "Model", "canonical": "ResNet"},
+    "parameter efficient fine tuning": {"label": "Method", "canonical": "Parameter-Efficient Fine-Tuning"}
+  },
+  "relation_patterns": {
+    "IS_A_EN": [
+      "\\bis a\\b",
+      "\\bis an\\b",
+      "\\bbelongs to\\b",
+      "\\bbased on\\b"
+    ],
+    "IS_A_RU": [
+      "является",
+      "относится к классу",
+      "относится к типу"
+    ],
+    "USED_FOR_EN": [
+      "\\bused for\\b",
+      "\\bapplied to\\b",
+      "\\bperforms\\b"
+    ],
+    "USED_FOR_RU": [
+      "используется для",
+      "применяется для",
+      "широко используется для"
+    ],
+    "USES_EN": [
+      "\\buses\\b",
+      "\\bemploys\\b",
+      "\\brelies on\\b",
+      "\\butilizes\\b"
+    ],
+    "USES_RU": [
+      "использует",
+      "может использовать",
+      "часто использует"
+    ],
+    "IMPLEMENTED_IN_EN": [
+      "\\bimplemented in\\b",
+      "\\bavailable in\\b",
+      "\\bbuilt with\\b"
+    ],
+    "IMPLEMENTED_IN_RU": [
+      "реализуется в",
+      "реализован в",
+      "может быть реализован в",
+      "разворачивается через"
+    ],
+    "RELATED_TO_EN": [
+      "\\brelated to\\b",
+      "\\bassociated with\\b",
+      "\\bconnected to\\b"
+    ],
+    "RELATED_TO_RU": [
+      "связано с",
+      "связан с",
+      "тесно связан с",
+      "относится к"
+    ]
+  }
+}

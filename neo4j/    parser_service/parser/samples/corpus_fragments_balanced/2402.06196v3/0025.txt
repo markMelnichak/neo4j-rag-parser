@@ -1,0 +1,75 @@
+Fig. 26: High-level overview of transformer work. Courtesy of
+[44].
+CommonCrawl. They also released an extract of 600 billion
+tokens from our REFINEDWEB dataset, and 1.3/7.5B param-
+eters language models trained on it. 27 shows the Refinement
+process of CommonCrawl data by this work.
+Fig. 27: Subsequent stages of Macrodata Refinement remove
+nearly 90% of the documents originally in CommonCrawl.
+Courtesy of [124].
+1) Data Filtering: Data filtering aims to enhance the qual-
+ity of training data and the effectiveness of the trained LLMs.
+Common data filtering techniques include:
+Removing Noise: refers to eliminating irrelevant or noisy
+data that might impact the model’s ability to generalize well.
+As an example, one can think of removing false information
+from the training data, to lower the chance of model generating
+false responses. Two mainstream approaches for quality filter-
+ing includes: classifier-based, and heuristic-based frameworks.
+Handling Outliers: Identifying and handling outliers or
+anomalies in the data to prevent them from disproportionately
+influencing the model.
+Addressing Imbalances: Balancing the distribution of
+classes or categories in the dataset to avoid biases and ensure
+fair representation. This is specially useful for responsible
+model training and evaluation.
+Text Preprocessing: Cleaning and standardizing text data
+by removing stop words, punctuation, or other elements that
+may not contribute significantly to the model’s learning.
+Dealing with Ambiguities: Resolving or excluding am-
+biguous or contradictory data that might confuse the model
+during training. This can help the model to provide more
+definite and reliable answers.
+2) Deduplication: De-duplication refers to the process of
+removing duplicate instances or repeated occurrences of the
+same data in a dataset. Duplicate data points can introduce
+biases in the model training process and reduce the diversity, as
+the model may learn from the same examples multiple times,
+potentially leading to overfitting on those particular instances.
+Some works [125] have shown that de-duplication improves
+models’ ability to generalize to new, unseen data.
+The de-duplication process is particularly important when
+dealing with large datasets, as duplicates can unintentionally
+inflate the importance of certain patterns or characteristics.
+This is especially relevant in NLP tasks, where diverse and
+representative training data is crucial for building robust lan-
+guage models.
+The specific de-duplication method can vary based on
+the nature of the data and the requirements of the particular
+language model being trained. It may involve comparing entire
+data points or specific features to identify and eliminate du-
+plicates. At the document level, existing works mainly rely on
+the overlap ratio of high-level features (e.g. n-grams overlap)
+between documents to detect duplicate samples.
+C. Tokenizations
+Tokenization referes to the process of converting a se-
+quence of text into smaller parts, known as tokens. While
+the simplest tokenization tool simply chops text into tokens
+based on white space, most tokenization tools rely on a word
+dictionary. However, out-of-vocabulary (OOV) is a problem
+in this case because the tokenizer only knows words in its
+dictionary. To increase the coverage of dictionaries, popular
+tokenizers used for LLMs are based on sub-words, which can
+be combined to form a large number of words, including the
+words unseen in training data or words in different languages.
+In what follows, we describe three popular tokenizers.
+1) BytePairEncoding: BytePairEncoding is originally a
+type of data compression algorithm that uses frequent patterns
+at byte level to compress the data. By definition, this algorithm
+mainly tries to keep the frequent words in their original form
+and break down ones that are not common. This simple
+paradigm keeps the vocabulary not very large, but also good
+enough to represent common words at the same time. Also
+morphological forms of the frequent words can be represented
+very well if suffix or prefix is also commonly presented in the
+training data of the algorithm.

@@ -1,0 +1,38 @@
+Figure 4.16: Visual prompting via visual inpainting proposed in Bar et al. (2022). Image credit: Bar
+et al. (2022).
+4.4.2 In-context Prompting
+The in-context learning capability has been observed in many LLMs such as GPT-3 (Radford et al.,
+2019), which makes the model more configurable via prompting without any model parameter up-
+dates. In contrast, till now, the in-context learning capability for vision models is still less studied.
+Flamingo (Alayrac et al., 2022) is one of the pioneering works that demonstrate in-context language
+generation for multi-modal inputs, which is acquired by learning from interleaved image-text pair
+data. Likewise, Kosmos-1 (Huang et al., 2023b) is another work that takes visual inputs as a foreign
+language so that the in-context learning ability in LLMs can be naturally translated to multi-modal
+inputs. However, both methods take multi-modal data as inputs but merely generate texts as outputs.
+As we discussed earlier, vision tasks require outputs of different types beyond texts. How to endow
+the in-context learning ability for vision systems is still an open question. Below, we review some
+recent attempts toward the goal.
+Visual prompting via inpainting is proposed in Bar et al. (2022) to teach the model to predict
+dense outputs, such as edges, masks, depths, etc. as shown in Figure 4.16. Given an input image
+x ∈ R H×W ×3 and a binary mask m ∈ { 0, 1}H×W , an inpainting model is to predict the missing
+region y = f(x, m). The authors exploit a pre-trained VQ-GAN to encode the original image into
+discrete tokens and ask another ViT encoder to predict the masked regions. To make sure the model
+understands the visual “context” in the images, the authors collected a new dataset calledComputer
+Vision Figures dataset which consists of 88k images from Arxiv papers. After pre-training, the
+model is used to predict the content at the bottom-right corner.
+Concurrently, Painter (Wang et al., 2023i) extends a similar idea of visual in-context learning to
+more diverse datasets and benchmarks. Unlike Bar et al. (2022), it predicts the output in the contin-
+uous pixel space instead of discrete tokens. For different tasks, the authors define rules to convert the
+output spaces into image spaces. For example, it uses different colors to represent different individ-
+ual instances in the image for the segmentation task. After unifying the input and output format, the
+authors use vanilla ViT as the encoder and masked image modeling (He et al., 2022a). A follow-up
+work called SegGPT (Wang et al., 2023j) is built on top of Painter and designed specifically for
+image segmentation tasks. The pre-trained model can be easily extended for exemplar-based image
+segmentation tasks.
+Hummingbird (Balaˇzevi´c et al., 2023) resorts to a different method for in-context visual learning.
+Instead of using masked modeling, the authors propose to leverage attention across target and source
+images to aggregate the information. As shown in Figure 4.18, the models take multiple input images
+(first row) and corresponding semantic label maps (second row). Given a query image, it first finds
+the nearest neighbor feature locations in the prompt images for the query points and then projects
+the same matches to the semantic label maps so as to aggregate the label for the target query. This
+58

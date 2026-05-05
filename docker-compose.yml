@@ -1,0 +1,34 @@
+services:
+  neo4j:
+    image: neo4j:5
+    container_name: neo4j
+    restart: unless-stopped
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/password123
+    volumes:
+      - neo4j_data:/data
+      - ./neo4j/cypher:/cypher:ro
+
+  parser-service:
+    build:
+      context: ./neo4j/parser_service
+      dockerfile: Dockerfile
+    container_name: parser-service
+    depends_on:
+      - neo4j
+    environment:
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USER: neo4j
+      NEO4J_PASSWORD: password123
+      NEO4J_DATABASE: neo4j
+      USE_NER: "true"
+    volumes:
+      - ./neo4j/parser_service/parser/output:/app/parser/output
+      - ./neo4j/parser_service/parser/samples:/app/parser/samples
+    command: ["python", "-m", "parser.main", "--help"]
+
+volumes:
+  neo4j_data:

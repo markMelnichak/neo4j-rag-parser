@@ -1,0 +1,39 @@
+215 
+ 
+средние 
+оценки качества по метрике «neg_mean_squared_error» 
+(среднеквадратичная ошибка). Эти оценки будут получены с помо-
+щью объекта cross_val_score из sklearn.model_selection. Подробнее 
+о кросс-валидации в scikit можно почитать здесь: [54, 55]. 
+Объявление функции показано в листинге 56, с работой кото-
+рого вам предлагается разобраться самостоятельно. Единственно, 
+поясним назначение параметра cv в cross_val_score. Параметр cv 
+определяет, на сколько групп будет разбита тренировочная выборка. 
+Ка
+ждая группа будет содержать тренировочную часть А и тестовую Б. 
+Причем 
+эти множества (А и Б) не будут пересекаться. Так для следу-
+ющих данных: входа X = np.array([[11, 2], [3, 14], [1, 2], [3, 4]]), 
+выхода y = np.array([1, 2, 3, 4]) cross_val_score с параметром cv=2 даст 
+следующее разбиение на 2 группы\итерации (листинг 55). 
+Лист
+инг 55 
+T
+RAIN: [2 3] TEST: [0 1] 
+TRAIN: [0 1] TEST: [2 3] 
+Масcив TR
+AIN содержит это индексы тех объектов, которые 
+входят в тренировочную выборку. То есть TRAIN: [2 3] означает, что 
+в тренировочную выборку войдут второй и третий объекты из X: 
+[1,2], [3, 4]. Все остальные – в тестовую. 
+Лист
+инг 56 
+import ma
+tplotlib.pyplot as plt 
+from sklearn.pipeline import Pipeline 
+from sklearn.preprocessing import PolynomialFeatures 
+from sklearn.linear_model import LinearRegression, Ridge 
+from sklearn.model_selection import cross_val_score 
+def MakeExample(index, plt, model,k): 
+ polynomial_features = PolynomialFeatures(degree=degrees[index], 
+ include_bias=False)

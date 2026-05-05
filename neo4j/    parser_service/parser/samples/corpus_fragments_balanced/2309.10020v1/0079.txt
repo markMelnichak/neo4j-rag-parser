@@ -1,0 +1,111 @@
+Benchmark Capability to Evaluate Statistics Metric
+LLaV A-Bench
+(Liu et al., 2023c)
+Multi-turn QA, detailed description, rea-
+soning
+Two subsets: 90 samples
+on COCO and 60 samples
+on In-the-Wid
+Relative score via
+GPT-4 evaluation
+OCR-Bench
+(Liu et al., 2023k)
+Zero-shot OCR A suite of 23 OCR-related
+academic tasks
+Accuracy
+MMBench
+(Liu et al., 2023j)
+Perception (coarse, fine-grained single-
+instance and cross-instance) and Reason-
+ing (attribute, relation, logic)
+2974 multiple-choice sam-
+ples in 20 ability dimen-
+sions
+Circular evaluation
+via ChatGPT an-
+swer extraction
+M3Exam
+(Zhang et al., 2023l)
+Multilingual, multimodal, and multi-level
+assessment
+12,317 questions in 9 lan-
+guages, with 2,816 ques-
+tions involving images
+Accuracy on
+multiple-choice
+questions
+MME
+(Fu et al., 2023)
+Perception and Cognition 14 tasks Accuracy on “yes”
+or “no”
+LAMM
+(Yin et al., 2023)
+Various 2D/3D vision tasks 9 image task with 62K
+samples, and 3 point cloud
+tasks with 12K samples
+Traditional CV task
+metrics
+LVLM-eHub
+(Xu et al., 2023b)
+six multimodal capabilities such as VQA
+and embodied AI
+47 standard text-related vi-
+sual benchmarks
+CIDEr and accu-
+racy; Arena with
+human judgment
+SEED-Bench
+(Li et al., 2023b)
+Comprehension of both the image and
+video modality
+19K multiple choice ques-
+tions in 12 dimensions
+Accuracy on
+multiple-choice
+questions
+VisIT-Bench
+(Bitton et al., 2023)
+Real-life vision-language instructions 592 samples in 70 tasks Elo, matches
+MM-VET
+(Yu et al., 2023d)
+Integrated capabilities in recognition,
+OCR, spatial, knowledge, math, language
+200 samples GPT-4 evaluation
+TouchStone
+(Bai et al., 2023b)
+Five abilities: basic description, visual
+recognition, visual comprehension, visual
+storytelling, and multi-image analysis
+908 dialogues in 27 tasks GPT-4 evaluation
+SciGraphQA (Li
+and Tajbakhsh, 2023)
+Scientific graph question-answering 3K test samples CIDEr, BLEU-4,
+and ROUGE
+Table 5.2: Comparisons of recently proposed LMM evaluation benchmarks.
+•Evaluating Object Hallucination in Large Vision-Language Models•On Evaluating Adversarial Robustness of Large Vision-Language Models•On the Hidden Mystery of OCRin Large Multimodal Models
+Evaluations
+•LAMM: Language-Assisted Multi-Modal Instruction-Tuning Dataset, Framework, and Benchmark
+OCRPOPE: HallucinationAdversarial Robustness
+Evaluation
+LAMMLVM-eHUB
+14 tasks:OCR10 tasks:OCR + Reasoning
+Figure 5.13: Zero-shot OCR performance of LMMs on 24 datasets. Image credit: Liu et al. (2023k).
+lower severing cost; and(iii) the sensitive user prompt data can be maintained internally by serving
+the model locally, to avoid privacy issue.
+To improve text recognition ability of LMM, OCR-specific models have been developed, including
+BLIV A (Hu et al., 2023), LLaV AR (Zhang et al., 2023o), mPlug-DocWL (Ye et al., 2023a). LMMs
+have been recently explored in the biomedical domain (Sun et al., 2023c; Zhang et al., 2023m; Li
+et al., 2023e), where conversational generative AI has demonstrated remarkable promise for empow-
+ering biomedical practitioners. LLaV A-Med (Li et al., 2023e) is a cost-efficient approach for train-
+ing a vision-language conversational assistant that can answer open-ended research questions about
+biomedical images. The key idea is to leverage a large-scale, broad-coverage biomedical figure-
+caption dataset extracted from PubMed Central, use GPT-4 to self-instruct open-ended instruction-
+following data from the captions, and then finetune a large general-domain vision-language model
+LLaV A using a novel curriculum learning method. Specifically, the model first learns to align
+biomedical vocabulary using the image-caption pairs as is, then learns open-ended conversational
+semantics using GPT-4 generated instruction-following data, broadly mimicking how a layperson
+gradually acquires biomedical knowledge. In Figure 5.14, we provide examples of the biomed vi-
+sual conversations with different chatbots. LLaV A-Med precisely answers the questions requiring
+biomedical knowledge, while LLaV A behaves like a layperson, that hallucinates based on common-
+sense. LLaV A-Med has inspired several generalist biomedical AI models, including Google Med-
+75

@@ -1,0 +1,21 @@
+This phase can
+also suffer from irrelevance, toxicity, or bias in the outputs,
+detracting from the quality and reliability of the responses. Augmentation Hurdles . Integrating retrieved information
+with the different task can be challenging, sometimes resulting
+in disjointed or incoherent outputs. The process may also
+encounter redundancy when similar information is retrieved
+from multiple sources, leading to repetitive responses. Deter-
+mining the significance and relevance of various passages and
+ensuring stylistic and tonal consistency add further complexity. Facing complex issues, a single retrieval based on the original
+query may not suffice to acquire adequate context information. Moreover, there’s a concern that generation models might
+overly rely on augmented information, leading to outputs that
+simply echo retrieved content without adding insightful or
+synthesized information. B. Advanced RAG
+Advanced RAG introduces specific improvements to over-
+come the limitations of Naive RAG. Focusing on enhancing re-
+trieval quality, it employs pre-retrieval and post-retrieval strate-
+gies. To tackle the indexing issues, Advanced RAG refines
+its indexing techniques through the use of a sliding window
+approach, fine-grained segmentation, and the incorporation of
+metadata. Additionally, it incorporates several optimization
+methods to streamline the retrieval process [8].

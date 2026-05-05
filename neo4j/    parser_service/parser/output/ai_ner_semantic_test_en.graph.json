@@ -1,0 +1,826 @@
+{
+  "source": "ai_ner_semantic_test_en.pdf",
+  "nodes": [
+    {
+      "label": "Task",
+      "name": "Named Entity Recognition",
+      "normalized_name": "named entity recognition",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Transformer",
+      "normalized_name": "transformer",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Neural Network",
+      "normalized_name": "neural network",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Self-Attention",
+      "normalized_name": "self-attention",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Attention",
+      "normalized_name": "attention",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "BERT",
+      "normalized_name": "bert",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Masked Language Modeling",
+      "normalized_name": "masked language modeling",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Text Classification",
+      "normalized_name": "text classification",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Question Answering",
+      "normalized_name": "question answering",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "RoBERTa",
+      "normalized_name": "roberta",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GPT",
+      "normalized_name": "gpt",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Summarization",
+      "normalized_name": "summarization",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Machine Translation",
+      "normalized_name": "machine translation",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LLaMA",
+      "normalized_name": "llama",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "LoRA",
+      "normalized_name": "lora",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Parameter-Efficient Fine-Tuning",
+      "normalized_name": "parameter-efficient fine-tuning",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Whisper",
+      "normalized_name": "whisper",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Speech Recognition",
+      "normalized_name": "speech recognition",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Embedding",
+      "normalized_name": "embedding",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Fine-tuning",
+      "normalized_name": "fine-tuning",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "RLHF",
+      "normalized_name": "rlhf",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "PyTorch",
+      "normalized_name": "pytorch",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "TensorFlow",
+      "normalized_name": "tensorflow",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Hugging Face Transformers",
+      "normalized_name": "hugging face transformers",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "RAG",
+      "normalized_name": "rag",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "NER",
+      "normalized_name": "ner",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "autoregressive language modeling",
+      "normalized_name": "autoregressive language modeling",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "GPT-4",
+      "normalized_name": "gpt-4",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "BART",
+      "normalized_name": "bart",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Transformer architecture",
+      "normalized_name": "transformer architecture",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "SwiGLU activation function",
+      "normalized_name": "swiglu activation function",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Mistral-7B",
+      "normalized_name": "mistral-7b",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Transformer decoder architecture",
+      "normalized_name": "transformer decoder architecture",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "Mixtral-8x7B",
+      "normalized_name": "mixtral-8x7b",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Mixture of Experts",
+      "normalized_name": "mixture of experts",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "DeepSeek-Coder",
+      "normalized_name": "deepseek-coder",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "CLIP",
+      "normalized_name": "clip",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Contrastive Learning",
+      "normalized_name": "contrastive learning",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Joint Embedding Space",
+      "normalized_name": "joint embedding space",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "QLoRA",
+      "normalized_name": "qlora",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Quantization",
+      "normalized_name": "quantization",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Method",
+      "name": "Retrieval-Augmented Generation",
+      "normalized_name": "retrieval-augmented generation",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Vector Index",
+      "normalized_name": "vector index",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Milvus",
+      "normalized_name": "milvus",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Qdrant",
+      "normalized_name": "qdrant",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "Weaviate",
+      "normalized_name": "weaviate",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "LlamaIndex",
+      "normalized_name": "llamaindex",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "LangChain",
+      "normalized_name": "langchain",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Concept",
+      "name": "Vector Search",
+      "normalized_name": "vector search",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "Context Retrieval",
+      "normalized_name": "context retrieval",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "vLLM",
+      "normalized_name": "vllm",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "DeepSpeed",
+      "normalized_name": "deepspeed",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Task",
+      "name": "ZeRO optimization",
+      "normalized_name": "zero optimization",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Framework",
+      "name": "ZeRO",
+      "normalized_name": "zero",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "USES Masked Language Modeling",
+      "normalized_name": "uses masked language modeling",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "LLaMA USES SwiGLU",
+      "normalized_name": "llama uses swiglu",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    },
+    {
+      "label": "Model",
+      "name": "USES Vector Index",
+      "normalized_name": "uses vector index",
+      "aliases": [],
+      "source": "ai_ner_semantic_test_en.pdf",
+      "description": null
+    }
+  ],
+  "relations": [
+    {
+      "from_name": "Self-Attention",
+      "from_label": "Method",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Transformer-based language models The Transformer is a neural network architecture based on self-attention.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "Self-Attention",
+      "from_label": "Method",
+      "type": "USES",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Transformer-based language models The Transformer is a neural network architecture based on self-attention.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Masked Language Modeling",
+      "to_label": "Method",
+      "evidence": "BERT is a Model that uses Masked Language Modeling.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Named Entity Recognition",
+      "to_label": "Task",
+      "evidence": "BERT is used for Named Entity Recognition, Text Classification, and Question Answering.",
+      "confidence": 0.85,
+      "rule": "strict_used_for",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Text Classification",
+      "to_label": "Task",
+      "evidence": "BERT is used for Named Entity Recognition, Text Classification, and Question Answering.",
+      "confidence": 0.85,
+      "rule": "strict_used_for",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Question Answering",
+      "to_label": "Task",
+      "evidence": "BERT is used for Named Entity Recognition, Text Classification, and Question Answering.",
+      "confidence": 0.85,
+      "rule": "strict_used_for",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "BERT",
+      "to_label": "Model",
+      "evidence": "RoBERTa is a Model derived from BERT and also uses Masked Language Modeling for pretraining.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "RoBERTa",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Masked Language Modeling",
+      "to_label": "Method",
+      "evidence": "RoBERTa is a Model derived from BERT and also uses Masked Language Modeling for pretraining.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Question Answering",
+      "to_label": "Task",
+      "evidence": "GPT is used for Text Generation, Summarization, and Question Answering.",
+      "confidence": 0.85,
+      "rule": "strict_used_for",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "GPT",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Summarization",
+      "to_label": "Task",
+      "evidence": "GPT is used for Text Generation, Summarization, and Question Answering.",
+      "confidence": 0.85,
+      "rule": "strict_used_for",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "GPT-4",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "GPT",
+      "to_label": "Model",
+      "evidence": "GPT-4 is a Model from the GPT family and is often evaluated on reasoning and code generation tasks.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "BART",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Summarization",
+      "to_label": "Task",
+      "evidence": "BART is a Model used for Summarization and Text Generation.",
+      "confidence": 0.85,
+      "rule": "strict_used_for",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer architecture",
+      "to_label": "Concept",
+      "evidence": "Modern large language models LLaMA is a Model based on the Transformer architecture.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Modern large language models LLaMA is a Model based on the Transformer architecture.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Transformer architecture",
+      "to_label": "Concept",
+      "evidence": "Modern large language models LLaMA is a Model based on the Transformer architecture.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "SwiGLU activation function",
+      "to_label": "Method",
+      "evidence": "LLaMA uses Rotary Positional Embeddings and the SwiGLU activation function.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Parameter-Efficient Fine-Tuning",
+      "to_label": "Method",
+      "evidence": "LLaMA can be adapted with LoRA for parameter-efficient fine-tuning.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Fine-tuning",
+      "to_label": "Method",
+      "evidence": "LLaMA can be adapted with LoRA for parameter-efficient fine-tuning.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "LLaMA",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "LoRA",
+      "to_label": "Method",
+      "evidence": "LLaMA can be adapted with LoRA for parameter-efficient fine-tuning.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "Mistral-7B",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer decoder architecture",
+      "to_label": "Concept",
+      "evidence": "Mistral-7B is a Model that uses a Transformer decoder architecture.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "Mistral-7B",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Mistral-7B is a Model that uses a Transformer decoder architecture.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "Mistral-7B",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Transformer decoder architecture",
+      "to_label": "Concept",
+      "evidence": "Mistral-7B is a Model that uses a Transformer decoder architecture.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "Mixtral-8x7B",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Mixture of Experts",
+      "to_label": "Method",
+      "evidence": "Mixtral-8x7B is a Model that uses Mixture of Experts.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "Mixtral-8x7B",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Mixture of Experts",
+      "to_label": "Method",
+      "evidence": "Mixtral-8x7B is a Model that uses Mixture of Experts.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "Whisper",
+      "from_label": "Model",
+      "type": "USED_FOR",
+      "to_name": "Speech Recognition",
+      "to_label": "Task",
+      "evidence": "Whisper is a Model used for Speech Recognition.",
+      "confidence": 0.85,
+      "rule": "strict_used_for",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "CLIP",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Contrastive Learning",
+      "to_label": "Method",
+      "evidence": "CLIP is a Model that uses Contrastive Learning.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "CLIP",
+      "from_label": "Model",
+      "type": "USES",
+      "to_name": "Contrastive Learning",
+      "to_label": "Method",
+      "evidence": "CLIP is a Model that uses Contrastive Learning.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "Parameter-Efficient Fine-Tuning",
+      "from_label": "Method",
+      "type": "IS_A",
+      "to_name": "Fine-tuning",
+      "to_label": "Method",
+      "evidence": "LoRA is a Method for parameter-efficient fine-tuning.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "Parameter-Efficient Fine-Tuning",
+      "from_label": "Method",
+      "type": "IS_A",
+      "to_name": "LoRA",
+      "to_label": "Method",
+      "evidence": "LoRA is a Method for parameter-efficient fine-tuning.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "Retrieval-Augmented Generation",
+      "from_label": "Method",
+      "type": "USED_FOR",
+      "to_name": "Question Answering",
+      "to_label": "Task",
+      "evidence": "RAG architecture and vector search Retrieval-Augmented Generation, also called RAG, is a Method used for Question Answering over external knowledge sources.",
+      "confidence": 0.85,
+      "rule": "strict_used_for",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "RAG",
+      "from_label": "Method",
+      "type": "USES",
+      "to_name": "Vector Index",
+      "to_label": "Concept",
+      "evidence": "RAG uses a Vector Index to retrieve relevant chunks before generation.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "BERT",
+      "from_label": "Model",
+      "type": "IS_A",
+      "to_name": "Transformer",
+      "to_label": "Concept",
+      "evidence": "Hugging Face Transformers is a Framework used to load BERT, GPT, T5, BART, and many other models.",
+      "confidence": 0.8,
+      "rule": "strict_is_a",
+      "source": "ai_ner_semantic_test_en.pdf"
+    },
+    {
+      "from_name": "Fine-tuning",
+      "from_label": "Method",
+      "type": "USES",
+      "to_name": "LoRA",
+      "to_label": "Method",
+      "evidence": "LoRA USED_FOR Fine-tuning.",
+      "confidence": 0.82,
+      "rule": "strict_uses",
+      "source": "ai_ner_semantic_test_en.pdf"
+    }
+  ]
+}

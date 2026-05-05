@@ -1,0 +1,113 @@
+Large language models in some cases are hallucinating an-
+swers simply because they are next-token prediction machines.
+Hallucination is one of the important factors in measuring
+how much a large language model is trustworthy and reliable.
+Measuring hallucination on the other hand is also not easy as it
+seems because each fact can be written in different styles and
+even the smallest changes in writing make it hard to detect.
+It is fair to assume if any particular LLM is more capable
+to detect hallucination of false information in text, it is also
+more trustworthy. HaluEval is one of the datasets that aims to
+measure hallucination in this field [205]. Evaluation can also be
+performed by another model judging the response with regard
+to the actual answer [206]. Table X shows the evaluation of
+different models based on these datasets.
+VII. C HALLENGES AND FUTURE DIRECTIONS
+As we have seen in the previous sections, large language
+models have achieved impressive results in the past 1-2 years.
+At the same time this is still a new and extremely active
+research area where the pace of innovation is increasing rather
+than slowing down. As in any other evolving area though, there
+are still numerous challenges ahead. Here we briefly mention
+some of the challenges and main active areas which are known
+so far. It is worth noting that LLM challenges are discussed
+in details in a work by Kaddour et al. [207].
+A. Smaller and more efficient Language Models
+This is a survey on large language models, and there
+has been an initial push towards ”larger is better” that has
+clearly been rewarded with ever larger models like GPT-
+4 getting better accuracy and performance in benchmarks.
+However, those large models are costly and inefficient in
+several dimensions (e.g. high latency). In response to all of
+this, there is a current research trend to come up with Small
+Language Models (SLMs) as a cost-effective alternative to
+LLMs, particularly when used on specific tasks that might not
+require the full generality of larger models. Prominent works
+in this direction include Phi-1 [208], Phi-1.5 [209], and Phi-2
+from Microsoft.
+More generally, we should expect many research efforts in
+this area of how to train smaller and more efficient models.
+Techniques such as parameter-efficient fine-tuning (PEFT),
+teacher/student, and other forms of distillation – see section
+III-I – will continue to be used to build a smaller model out
+of larger ones.
+B. New Post-attention Architectural Paradigms
+Transformer blocks have been a crucial and constant part of
+most of current LLM frameworks, and it’s a big question mark
+how much longer this architecture will be in vogue, and what
+will be the next big architectural break-through in the field of
+deep learning (and NLP). Since AlexNet in 2012, we have seen
+many architectures go in and out of fashion, including LSTM,
+GRU, seq2seq, but Transformers have been the dominant
+approach since its inception. As described earlier, attention is
+the main mechanism driving transformers. More recently, there
+has been promising research in alternative approaches that are
+being labelled as post-attention.
+An important class of such class of post-attention models
+are the so called State Space Models (SSMs). While the notion
+of State Space Models has a long history in machine learning,
+it should be noted that in the context of language models, SSM
+is usually used in reference to the newer Structure State Space
+Model architecture or S4 for short (see Gu et al. [29]). Some
+recent models in this category are Mamba [30], Hyena [210],
+and Striped Hyena [211].
+While all of those models are very competitive in terms of
+performance in leaderboards and efficiency, they also address
+an important challenge in more traditional attention-based
+architectures: the lack of support for larger context windows .
+Having a good answer to many prompts requires context.
+For example, the response to ”Recommend some good movies
+for me” requires a lot of context about ”me” as well as what
+movies are available and which ones I have not watched.
+Context length is especially important for RAG, where large
+portions of text might be retrieved and injected into the prompt
+for generation (see section IV-C.
+The longer the context length, the more tokens we can
+squeeze into the context. The more information the model has
+access to, the better its response will be. But on the other
+hand, with very long context, it would be hard for the model
+to remember everything and efficiently process all the informa-
+tion. Attention-based models are highly inefficient for longer
+contexts and that is why we should expect more research in
+different mechanisms that enable processing longer contexts
+and generally come up with more efficient architectures.
+That being said, new architectures might not only propose
+alternatives for the attention mechanism but rather rethink the
+whole Transformer architecture. As an early example of this,
+Monarch Mixer [212] proposes a new architecture that uses
+the same sub-quadratic primitive that achieves high hardware
+efficiency on GPUs – Monarch matrices – along both sequence
+length and model dimension.
+On the other end of the spectrum, it is worth mentioning
+that there are some attention-compatible architectural mecha-
+nisms that have been recently gaining steam and proving their
+value in creating better and more powerful LLMs. Probably
+the best example of such mechanism is Mixture of Experts
+(MoE). MoEs have been around in machine learning for years,
+even before the Deep Learning Era [213], but they have been
+gaining popularity since then, and particularly in the context
+of Transformer models and LLMs.
+In LLMs, MoEs allow to train an extremely large model
+than is then only partially instantiated during inference
+when some of the experts are turned off wherever the gat-
+ing/weighting function has a low weight assigned to them. As
+an example, the GLaM model has 1.2 trillion parameters, but
+during inference only 2 out of the 64 experts are used [84].
+MoEs are nowadays an important component of the so-
+called frontier LLMs (i.e. the most advanced and capable
+models). GPT-4 itself is rumored to be based on a MoE
+architecture, and some of the best performing LLMs such as
+Mixtral [117], are basically an MoE version of pre-existing
+LLMs.
+Finally, it is important to note that MoEs can be used as a
+component of any architecture regardless of whether it is based

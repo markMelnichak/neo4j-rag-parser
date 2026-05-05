@@ -1,0 +1,24 @@
+AI agent possesses the self-improvement ability, engaging in self-assessment and introspection re-
+garding previous actions, enabling it to learn from errors and enhance its approach for subsequent
+endeavors, ultimately leading to better outcomes. Visual modality is a common channel to represent
+state of the environment. To facilitate planning, it raises challenges in improving the capability of
+the current visual understanding models in perceiving more fine-grained visual details and longer
+sequence videos. (ii) Memory. For short-term memory, in-context learning (or prompt engineering)
+is utilized as short-term memory for the model to learn. Interleaved multimodal prompts can enable
+new scenarios to clarify the human intents. For long-term memory, it provides the agent with the
+capability to recall external knowledge over extended sessions, which can be implemented by fast
+retrieving from a multi-modal vector space (Liu et al., 2023d). In term of modeling, foundation
+models are required to learn the new skills to effectively leverage both types of memory. ( iii) Tool
+use. The agent learns to utilize external APIs for knowledge that is missing from the foundation
+model weights. New capabilities are required to deal with the vision modality in several scenar-
+ios. For example, based on both the input visual signal and instructions, the model decides and
+plans whether certain external APIs are needed to complete the goal, such as code execution of
+detection/segmentation/OCR/generator experts.
+The field of multimodal foundation models is evolving at a rapid speed, with new directions/methods
+emerging frequently. There are many important research topics that are not discussed in this paper,
+mostly due to the daily-updated research innovation. We are optimistic about the future of mul-
+timodal foundation models, not only because we are convinced that foreseeable exciting research
+innovations/ideas in individual areas are becoming reality by following the path of LLM in the near
+future, but also because connecting computer vision with the broader AI community, and building
+general-purpose AI agents is going to significantly advance the daily life of human being.
+91

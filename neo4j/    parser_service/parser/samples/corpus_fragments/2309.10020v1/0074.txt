@@ -1,0 +1,52 @@
+Science QA: New SoTA with the synergy of LLaV A with GPT-4. LLaV A is finetuned on a
+multimodal reasoning dataset in the science domain (Lu et al., 2022b). LLaV A alone achieves
+90.92% in accuracy. We further explores with language-only GPT-4 as the judge, to predict the final
+answer based on its own previous answers and the LLaV A answers. This “GPT-4 as judge” scheme
+yields a new SoTA of 92.53%.
+OCR in the wild: An emerging property. LLaV A has never been explicitly trained on OCR data,
+i.e. images that contains scene text that is described in the corresponding caption. Surprisingly, the
+model shows strong zero-shot OCR task transfer ability in the wild.
+5.4 Advanced Topics
+The history of recent instruction-tuned LMMs are illustrated in Figure 5.11 (a). Due to the popularity
+of ChatGPT and GPT-4, instruction-tuned LMM appears as an emerging line of research in the past
+three months after GPT-4 was proposed. Alpaca (Taori et al., 2023) and Vicuna (Vicuna, 2023) were
+proposed to make LLaMA more instruction-following in the language domain in March. In two
+weeks, MiniGPT-4 (Zhu et al., 2023a) and LLaV A (Liu et al., 2023c) were proposed to make Vicuna
+to see and chat about the visual world. In ten days, LLaMA-Adapter v2 (Gao et al., 2023b) and
+mPlug-OWL (Ye et al., 2023b) started to compare performance with MiniGPT-4/LLaV A, indicating
+the beginning of model evolution. The data points in April are relatively sparse. In May, a large
+number of LMM papers appeared on arXiv, which improve this line of research from many different
+aspects. The momentum is till going in June.
+It is easy to lose track of all the recent papers for the readers, so as well in our literature re-
+view. To better organize the literature, we group them based on specific research topics, shown
+in Figure 5.11 (b). The early LMMs with billions of parameters include GPT-4 (OpenAI, 2023a),
+Flamingo (Alayrac et al., 2022), PaLM-E (Driess et al., 2023) and KOSMOS-1 (Huang et al.,
+2023b). In contrast to these proprietary LMMs, LLaV A and MiniGPT-4 open the opportunities
+to build LMMs with open-source resource. We will discuss several topics as below, in addition to
+the extensions of RLHF (Gunjal et al., 2023), dense prediction (Wang et al., 2023h; Zang et al.,
+2023; Chen et al., 2023d), video (Zhang et al., 2023f; Luo et al., 2023c; Li et al., 2023i), image
+generation (Koh et al., 2023) and embodied agent (Mu et al., 2023).
+More Modalities (Beyond VL)
+While LMM extends LLM by adding the vision modality, it is natural to further extend the frame-
+work to include more modalities beyond vision and language. Following this spirit, several at-
+tempts have been made, including ChatBridge (Zhao et al., 2023e), PandaGPT (Su et al., 2023),
+SpeechGPT (Zhang et al., 2023d) and X-LLM (Chen et al., 2023c). PandaGPT leverages Image-
+Bind to add more modalities into LMMs. The ImageBind model (Girdhar et al., 2023) learns a
+single, shared representation space for text, image/video, audio and sensors that record depth (3D),
+thermal (infrared radiation), or inertial measurement units (IMU), which calculate motion and po-
+sition. ImageBind provides a holistic understanding of the visual world that connects objects in a
+photo with how they will sound, their 3D shape, how warm or cold they are, and how they move.
+By training a projection layer for one modality in LMM, the model can zero-shot transfer to infer
+over other modalities, thanks to the shared multimodal embedding space. Another representative
+model is SpeechGPT, where language and speech modalities are enabled for both inputs and out-
+puts. Despite of rich model variations, the idea to connect diverse modalities is similar to LMM that
+adds images into LLMs. NExT-GPT (Wu et al., 2023c) connects an LLM with multimodal adap-
+tors and different diffusion decoders, enabling NExT-GPT to perceive inputs and generate outputs
+in arbitrary combinations of text, images, videos, and audio. The LMM framework has also been
+successfully extended to speech (Zhao et al., 2023c), 3D (Wang et al., 2023l; Hong et al., 2023), and
+point cloud (Xu et al., 2023c).
+Improving Visual Instruction Data Quantity and Quality
+Given the convergence of model architectures to GPT-like network, the performance of LMM is
+primarily determined by its training data. Therefore, it is cricial to improve the quantity and quality
+of visual instruction tuning data. SVIT (Zhao et al., 2023a) follows the same data generation pipeline
+70

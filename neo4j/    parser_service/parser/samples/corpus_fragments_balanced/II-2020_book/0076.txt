@@ -1,0 +1,235 @@
+79
+ 
+2.
+ 
+Kevin
+ 
+Ashton
+.
+ 
+That
+ 
+‘
+Internet
+ 
+of
+ 
+Things
+’ 
+Thing
+. 
+In
+ 
+the
+ 
+real
+ 
+world
+, 
+things
+ 
+matter
+ 
+more
+ 
+than
+ 
+ideas
+ 
+RFID
+ 
+Journal
+ 
+[Текст] / 
+Kevin
+ 
+Ashton
+. 
+–
+ 
+22
+ 
+June
+ 
+2009
+.
+ 
+3.
+ 
+Rob
+ 
+van Kranenburg. The Internet of Things: A critique of ambient 
+technology and the all
+-
+seeing network of RFID [Текст] / Rob van 
+Kranenburg.. 
+–
+ 
+Pijnacker: Telstar Media, 2008. 
+–
+ 
+62 p. 
+ 
+4.
+ 
+Hersent O. The Internet of Things: Key Applications and Protocols 
+[Текст] 
+/ O. Hersent, D. Boswarthick, O. Elloumi. 
+–
+ 
+Willey, 2012. 
+–
+ 
+370 p. 
+–
+ 
+ISBN 978
+-
+1119994350.
+ 
+5.
+ 
+Климов
+ 
+А. С. Роботизированные технологические комплексы
+ 
+и 
+автоматические линии в сварке: учебное пособие
+ 
+[Текст] / 
+А.
+ 
+С. Климов
+ 
+, Н. С. Машнин.
+ 
+–
+ 
+М. : Изд: Лань, 
+2017. 
+–
+ 
+236 с.
+ 
+6.
+ 
+Козырев
+ 
+Ю. Г. Применение промышленных роботов [Текст] / 
+Ю. Г. Козырев
+ 
+ 
+–
+ 
+М. : Изд. КноРус, 2016. 
+–
+ 
+485 с.
+ 
+7.
+ 
+К
+аляев
+ 
+И. А. Синтез структуры роботизированного 
+производ
+-
+ст
+ва с децентрализованным диспетчером [Текст] / И. А.
+ 
+Каляев
+, 
+А. И. 
+ 
+ 
+Каляев, Я. С. Коровин
+ 
+ 
+// Робототехника 
+и техническая 
+кибернетика
+. 
+–
+ 
+№
+ 
+4(13)
+. 
+–
+ 
+2016.
+ 
+–
+ 
+С. 4
+-
+12.
+ 
+8.
+ 
+Каляев
+ 
+И.
+ 
+А. Метод децентрализованного управления рас
+-
+пре
+де
+ленной системой при выполнении потока заданий 
+[Текст] / И. А.
+ 
+Каляев
+, А. И. 
+ 
+ 
+Каляев
+ 
+// 
+Мехатроника, автома
+-
+тизация, управление
+. 
+–
+ 
+Т.16, №
+ 
+19
+. 
+–
+ 
+2015. 
+–
+ 
+С. 585
+-
+598.
+ 
+9.
+ 
+Multiagent
+ 
+Management
+ 
+of
+ 
+Smart
+ 
+Internet
+ 
+Production
+. 
+Proceedings
+ 
+of
+ 
+2018 Global Smart Industry Conference 
+(GloSIC). 
+IEEE. 
+DOI:10.1109/GloSIC.2018.8570119
+ 
+[
+Текст
+] / 
+I. 
+A. Kalyaev, 
+S. G. Kapustyan, A. A. Dyachenko, L. Zh. Usachev.

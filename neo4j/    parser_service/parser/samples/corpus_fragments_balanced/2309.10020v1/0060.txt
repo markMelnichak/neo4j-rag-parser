@@ -1,0 +1,53 @@
+Uni-Perceiver-v2 (Li et al., 2023g) is another generalist model that unifies vision and vision-
+language tasks. Similar to X-Decoder, the model exploits a vision encoder, a text encoder and a
+general decoder. Differently, it introduces a region proposal network on top of the vision backbone
+to explicitly predict the boxes and masks, which are then encoded as “queries” for the general de-
+coder. To jointly train on datasets at different levels, it introduces a unified max-likelihood estimation
+strategy for tasks with localization and without localization.
+4.4 From Static to Promptable Models
+The success of Large Language Models (LLMs) such as ChatGPT (OpenAI, 2023b) have shown
+the importance of modern AI models in interacting with humans, and have provided a glimpse of
+AGI (Bubeck et al., 2023). The ability to interact with humans requires a user-friendly interface that
+can take as many types of human inputs as possible and generate responses that humans can easily
+understand. In NLP, such a universal interaction interface has emerged and evolved for a while
+from early models like GPT (Brown et al., 2020) and T5 (Raffel et al., 2020), to more advanced
+techniques like prompting (Shin et al., 2020; Zhao et al., 2021; Li and Liang, 2021) and chain-of-
+thought (Wei et al., 2022a; Kojima et al., 2022; Schick et al., 2023). However, most vision models
+are still static in that they are less flexible than LLMs to various prompts. Most recently, a number
+of works have proposed to enhance the static vision models with the capabilities to support: (i)
+multi-modal prompting; (ii) in-context prompting.
+4.4.1 Multi-modal Prompting
+Vision is different from language by nature. To enable a smooth interaction between humans and
+AI, a model requires not only language prompts but also other types of prompts to complement
+the missing information or resolve the ambiguity in language. Recently, a number of works have
+explored how to combine or augment language prompts with other types of prompts, such as spatial
+prompts (Kirillov et al., 2023), visual prompts (Zou et al., 2023b) and other modalities (Girdhar
+et al., 2023; Liu et al., 2023f). In the following, we review some representative works.
+Spatial prompting. Vision is rooted in the physical world, and as such it is not only semantic
+but also spatial by nature. Spatial prompting can be considered as a way to modulate the vision
+models through the inputs of location information, which could be a point, a box, or an arbitrary
+stroke, etc. Such clues have been heavily used in UI designs of computers (e.g., mouse) and mobile
+devices (e.g., touch screen). In computer vision, interactive segmentation (Mortensen and Barrett,
+1998; McGuinness and O’connor, 2010; Chen et al., 2021c, 2022i) naturally requires such capability
+so that the model can take multiple clicks from users and gradually refine the segmentation mask.
+However, most of these works are still designed task-specifically and lack enough flexibility to
+support different types of spatial prompts.
+SAM (Kirillov et al., 2023) is one of the pioneering works that propose a convenient spatial prompt-
+ing interface and learn a foundation model for image segmentation. As shown in Figure 4.14, the
+model can take points or boxes as the prompts, and segment images in arbitrary granularity. The
+ability to segment images following the user instructions from humans makes it readily a foundation
+to build many more models and applications (Zhang et al., 2023c). To name a few, a number of
+works (Ma and Wang, 2023; Roy et al., 2023) start with SAM and train a promptable segmentation
+model for the medical domain. Spatial prompting is particularly beneficial in that the textual anno-
+tations for medical images are usually limited and hard to interpret. Similar cases also happen in
+other industry domains (Tang et al., 2023a). To further improve point prompting, SAMAug (Dai
+et al., 2023a) proposes to refine the points using the max entropy criterion and saliency map, which
+can help to determine the most informative locations the model should look at.
+Visual prompting. In many cases, textual descriptions of objects are not necessarily clear to con-
+vey the information. For example, given an unrecognizable or indescribable object, people may fail
+to express themselves clearly about the object. In this case, showing one or a few examples would
+be more informative and straightforward. With this idea, a lineup of works have studied exemplar-
+based visual modeling, such as image-to-image retrieval (Yoon et al., 2021; Datta et al., 2008; Zhang
+et al., 2018), image co-segmentation (Joulin et al., 2010; Jerripothula et al., 2016) and visual object
+tracking (Yilmaz et al., 2006; Luo et al., 2021; Wu et al., 2013). Most recently, this strategy has
+56

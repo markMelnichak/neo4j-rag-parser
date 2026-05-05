@@ -1,0 +1,114 @@
+are a series of elementary calculations using basic
+arithmetic operations.
+• MATH [191] enables to assess how well models can
+solve math problems. MATH dataset hast 12, 500
+problems from high school math competitions. Each
+problem in the dataset has a step-by-step solution and
+a final answer enclosed in a box. The problems cover
+a wide range of topics and have different levels of
+complexity. There are seven subjects in total. Further-
+more, the difficulty of each problem is rated based
+on the AoPS standards on a scale from ′1′ to ′5′. A
+′1′ shows the easiest problems in a subject, while ′5′
+represents the most difficult. In terms of formatting,
+all problems and solutions are presented using LATEX
+and the Asymptote vector graphics language.
+• HellaSwag [192] is designed to assess commonsense
+reasoning in LLMs. This benchmark includes 70, 000
+multiple-choice questions. Each question is derived
+from one of two domains: ActivityNet or WikiHow,
+and presents four answer choices regarding what
+might happen in the following situation. The correct
+answer provides an actual statement describing the
+upcoming event, but the three wrong answers are
+created to confuse machines.
+• AI2 Reasoning Challenge (ARC) [193] is used
+for commonsense reasoning. This benchmark encom-
+passes 7, 787 science examination questions. These
+questions are in English, and most of them are set
+up in a multiple-choice format. The questions have
+been divided into two groups: a Challenge Set with
+2, 590 difficult questions and an Easy Set with 5,197
+questions. Each collection has also been pre-divided
+into Train, Development, and Test subsets.
+• PIQA [194] is intended to evaluate the language
+representations on their knowledge of physical com-
+monsense. In this dataset, the focus is on everyday
+situations with a preference for uncommon solutions.
+The central task is a multiple-choice question answer-
+ing, where a question (q) is provided along with two
+potential solutions (s1, s2). Then, the best solution is
+chosen by whether a model or a human. For each
+question, only one of the solutions is the correct
+answer.
+• SIQA [195] provides a framework for evaluating mod-
+els’ ability for commonsense reasoning about social
+situations. SIQA dataset has 38, 000 multiple-choice
+questions designed to assess emotional and social
+intelligence in everyday circumstances. This dataset
+covers a wide variety of social scenarios. In SIQA,
+the potential answers is a mixture of human-selected
+responses and machine-generated ones that have been
+filtered through adversarial processes.
+• OpenBookQA (OBQA) [196] is a new kind of
+question-answering dataset where answering its ques-
+tions requires additional common and commonsense
+knowledge not contained in the book and rich text
+comprehension. This dataset includes around 6,000
+multiple-choice questions. Each question is linked to
+one core fact, as well as an additional collection
+of over 6000 facts. The questions were developed
+using a multi-stage crowdsourcing and expert filter-
+ing procedure. OpenBookQA questions are difficult
+because they need multi-hop reasoning with limited
+background.
+• TruthfulQA [197] is designed specifically to eval-
+uate the truthfulness of language models in gen-
+erating answers to questions. This dataset includes
+817 questions, written by authors, from 38 different
+categories, including health, law, finance, and politics.
+These questions are purposefully designed to chal-
+lenge human responders, as they may contain common
+misunderstandings that lead to incorrect answers.
+• OPT-IML Bench [103] is a comprehensive bench-
+mark for Instruction Meta-Learning. It covers 2000
+NLP tasks from 8 existing benchmarks. The OPT-IML
+Bench consists of a training set with 17.9 M examples,
+a dev set with 145K samples, and a test set with 321K
+samples.
+C. Datasets for Augmented: using external knowledge/tools
+This section focuses on datasets designed for the aug-
+mented abilities of LLMs.
+• HotpotQA [198] is designed to cover a diverse and
+explainable question-answering dataset that necessi-
+tates multi-hop reasoning. This dataset is derived from
+the English Wikipedia. It consists of roughly 113, 000
+questions. Each question in the dataset comes with
+two paragraphs, called gold paragraphs, from two
+Wikipedia articles. Also, there is a list of sentences
+in those paragraphs that crowdworkers have picked as
+important for answering the question.
+• ToolQA [199] is a question answering benchmark
+to evaluate LLMs’ ability to use external tools for
+answering questions.
+• GPT4Tools serves as an instructional dataset, gener-
+ated by instructing advanced teachers (such as Chat-
+GPT), with instructions conditioned on visual content
+and tool descriptions. This process results in the
+generation of instructions related to the use of tools.
+There are three versions of this dataset. The first
+version comprises 71,000 instruction-following data
+points utilized to fine-tune the GPT4Tools model. The
+next version consists of manually cleaned instruction
+data used for validation, covering instructions related
+to the tools from the first version. The last version is
+cleaned instruction data used for testing and includes
+instructions related to some tools that are not present
+in the first version.
+VI. P ROMINENT LLM S’ PERFORMANCE ON
+BENCHMARKS
+In this section we first provide an overview of some of
+popular metrics used for evaluating the performance of LLMs
+under different scenarios. We then look at the performance
+of prominent large language models on some of the popular
+datasets and benchmarks.

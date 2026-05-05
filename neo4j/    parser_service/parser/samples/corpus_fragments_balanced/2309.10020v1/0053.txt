@@ -1,0 +1,50 @@
+(a)
+Box Annotation
+(COCO, O365)
+Mask Annotation
+(COCO, LVIS)
+Image Annotation
+(ImageNet, LAION)
+poor
+rich
+fine
+coarse (b)
+Figure 4.6: (a) CV task landscape: CV tasks can span different axes, including modality, space
+and time, which renders significant challenges to unify all of them in a single model. Image credit:
+Yuan et al. (2021). (b) The data scale pyramid: In particular, datasets in different tasks usually
+contain different types of supervision. Image-level datasets like ImageNet (Deng et al., 2009) and
+LAION Schuhmann et al. (2021) have annotations that have rich semantics coverage but are coarse-
+grained, while pixel-level datasets like COCO panoptic segmentation (Chen et al., 2015) provides
+fine-grained annotations but with limited concepts.
+4.3 From Task-Specific Models to Generic Models
+Above we have discussed the recent efforts of transforming closed-set models to open-set ones for
+detection and segmentation. Until recently, however, most vision tasks have been separately tackled
+with specialized model designs, preventing the synergy of tasks across different granularities or
+domains from being exploited. This is arguably due to two reasons:
+• Vision tasks are fragmented . As shown in Figure 4.6 (a), computer vision tasks span across
+different axes including space, time, and modality. From the space aspect, it can be image-level,
+region-level and pixel-level tasks as we discussed before. Along the time axis, we need to tackle
+not only static images but also temporal video sequences. Regarding the modality, the inputs and
+outputs can be images, texts, or other types ( e.g., human pose, depth map). Such diverse task
+formats significantly impede the development of a unified model for all tasks.
+• Data scales are different . In addition to the complicated task landscape, the scarcity of hu-
+man annotations and their different scales for different tasks also make building a unified model
+challenging. In Figure 4.6 (b), we can see a clear pyramid of data scale, where different lay-
+ers of human annotations have different semantics. More specifically, image-text datasets like
+LAION Schuhmann et al. (2021) contain up to 2B samples, while object detection datasets like
+Objects365 (Shao et al., 2019) have 1.7M images in total. More significant gap is observed in
+segmentation datasets due to the high cost of annotating masks.
+Despite the aforementioned challenges, we are now witnessing a growing interest in building unified,
+general-purpose models that can learn from and be applied to a diverse set of vision and vision-
+language tasks, thanks to the versatility of transformers (Vaswani et al., 2017). These attempts can
+be grouped into two main categories:
+• I/O Unification. Following the development of unified LLMs, a number of recent works reformu-
+late many vision tasks as a sequence-to-sequence problem (Wang et al., 2022b; Yang et al., 2022c;
+Chen et al., 2022d; Lu et al., 2022a). They typically use a tokenizer to tokenize the original inputs
+and outputs (I/O) in different modalities used in various tasks into a coherent sequence (visual or
+text) tokens and then exploit a unified, sequence-to-sequence model.
+• Functionality Unification. In addition to I/O unification, one might built a generic model via
+functionality unification. Extending multi-task learning methods (Lu et al., 2020; Gupta et al.,
+2022a; Hu and Singh, 2021a), many recent use a coherent encoder-decoder architectures (Yu
+et al., 2022a; Zhang et al., 2022b; Zou et al., 2023a). This line of work usually does not need task-
+49

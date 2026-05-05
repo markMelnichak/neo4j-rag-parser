@@ -1,0 +1,39 @@
+Chapter 4
+Unified Vision Models
+In this chapter, we discuss the unification of vision models. We start with an overview of the chal-
+lenges in the unification of vision models and the most recent efforts towards this goal in Section 4.1.
+What follows are detailed discussions on(i) how to transform closed-set models to open-set ones in
+Section 4.2; (ii) how to unify different granularities of vision tasks in Section 4.3; and (iii) how to
+build a more promptable interface for vision in Section 4.4. Finally, we summarize the chapter and
+discuss future trends in Section 4.5.
+4.1 Overview
+Before talking about general-purpose unified vision systems, we revisit how language models and
+natural language processing (NLP) have evolved in the past years. Before 2018, different NLP
+tasks are addressed with different task-specific models, such as translation (Bahdanau et al., 2015),
+semantic parsing (Berant et al., 2013), summarization (Allahyari et al., 2017), and so on. With
+the emergence of the transformer architecture (Vaswani et al., 2017), language models for different
+NLP tasks are unified with a decoder-only architecture, e.g., the GPT models (Brown et al., 2020).
+Afterwards, the GPT models learned using the next word prediction task are further finetuned to
+follow human instructions. This leads to ChatGPT 1, which fundamentally changes our expectations
+on what AI systems can do. The evolution as depicted in Figure 1.1 motivates us to wonder whether
+we can build a general-purpose vision system in a similar manner.
+Challenges. That computer vision tasks vary greatly presents a great challenge to build a unified
+vision model. First, vision tasks have different types of inputs, ranging from static images (Rus-
+sakovsky et al., 2015) to sequential videos (Miech et al., 2019), from pure vision inputs such as
+image dehazing (He et al., 2010) to multi-modality inputs that include e.g., vision and language An-
+tol et al. (2015). Second, different granularities are required for different tasks, such as image-level
+tasks like image classification (He et al., 2016) and captioning (Vinyals et al., 2016), region-level
+tasks like object detection (Girshick, 2015) and grounding (Plummer et al., 2015), and pixel-level
+tasks like image segmentation (He et al., 2017), super-resolution (Wang et al., 2020),etc. As a result,
+the outputs of vision systems are also of different formats, such as spatial information like edges,
+boxes, and masks, semantic information like class labels, multi-label tags, or detailed descriptions.
+In addition to the challenges in modeling, there are also challenges with data. First, the cost of
+annotation varies greatly among different types of labels. As shown in Figure 4.6, these labels are at
+different levels of granularity and semantic richness, ranging from whole images, regions (box an-
+notations), to masks (pixel annotations). Second, it is in general much more costly to collect image
+data than text data. So, the scale of vision data is often much smaller than that of text corpora.
+Towards a unified vision model. Despite these challenges, there is a growing interest in the com-
+puter vision community to develop a general-purpose, unified vision system, in particular for visual
+understanding tasks. As illustrated in Figure 4.1, we group these efforts in three categories:
+1https://chat.openai.com/
+42

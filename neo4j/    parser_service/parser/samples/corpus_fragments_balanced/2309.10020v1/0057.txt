@@ -1,0 +1,92 @@
+Transform
+er
+Decoder
+Patch
+embedding
+What is the color 
+of the cat?
+SentPiece
+encoder
+Localize the cat SentPiece
+encoder
+Segment the cat SentPiece
+encoder
+What is the depth 
+map
+of the image?
+SentPiece
+encoder
+VQVAE
+decoder
+SentPiece
+decoder brown
+VQVAE
+decoder
+SentPiece
+decoder
+loc750 loc940 
+loc480 loc980 
+cat
+Transform
+er
+Encoder
+Discrete 
+sequence 
+serves as 
+the target
+input 
+Embedding
+discrete 
+output 
+sequence
+VQ-VAE
+Encoder
+VQ-VAE
+Encoder
+VQ-VAE
+Encoder
+VQ-VAE
+Decoder
+VQ-VAE
+Decoder
+VQ-VAE
+Decoder
+Figure 4.11: Unified-IO (Lu et al., 2022a) unifies different vision tasks by first pre-training VQ-V AE
+for each task and then an encoder-decoder for tasks jointly. Image credit: Lu et al. (2022a).
+ent VQ-V AE models for different tasks, as depicted in Figure 4.11 left. After obtaining all VQ-V AE
+encoder-decoders, 90 datasets are combined to train another transformer encoder-decoder end-to-
+end, as shown on the right side. Similar to previous works, it also uses a language decoder to obtain
+the organic and numeric texts to generate coordinate outputs. After the second-stage pre-training, the
+model achieves state of the art on the GRIT benchmark (Gupta et al., 2022c) and exhibits compelling
+compositionality, although the performance still lags behind the strongest models on common tasks.
+As a follow-up, a soft-token strategy is proposed in Ning et al. (2023) to improve the accuracy for
+next token decoding. In addition, a masked modeling strategy is proposed to learn robust representa-
+tions. Evaluated on instance segmentation and depth estimation, the model achieves state-of-the-art
+performance on NYUv2 (Silberman et al., 2012) and competitive performance on segmentation. A
+recent work uses image inpainting as the general task to unify different pixel-level vision tasks (Bar
+et al., 2022). Given the target discrete tokens produced by VQ-GAN, the method exploits a masked
+autoencoder to decode the missed image regions, using the task input-output examples as prompts.
+Painter (Wang et al., 2023i) extends this pipeline to facilitate more vision tasks and obtains compet-
+itive performance on various standard benchmarks.
+Diffusion-augmented. Unlike the above works that learn their own decoding models, some re-
+cent works utilize the off-the-shelf stable diffusion model to build generalist vision models. For
+example, Prompt Diffusion (Wang et al., 2023m) initializes a model using Stable Diffusion and
+ControlNet (Zhang and Agrawala, 2023), and trains the in-context image-to-image model jointly
+on six different vision-language tasks, including segmentation, depth estimation, etc. InstructDiffu-
+sion Geng et al. (2023) also uses the diffusion model but explicitly introduces task-specific instruc-
+tions to the diffusion process. Moreover, it uses task-specific training and human alignment training
+to enable a generalist interface for vision tasks.
+4.3.2 Functionality Unification
+Unlike I/O unification, functionality unification attempts to unify different tasks based on the task
+characteristics, with the awareness that they are neither fully isolated nor fully aligned. At a high
+level, vision tasks produce three types of outputs: (i) location outputs, (ii) semantic outputs, and
+(iii) pixel-level outputs. For example, both object detection and phrase grounding need to localize
+objects in the image, while both generic segmentation and referring segmentation produce masks.
+On the other hand, many tasks require semantic (or text) outputs to represent either concept names
+or textual descriptions.
+Multi-task learning
+Some early works explore multi-task learning methods for unifying different vision or vision-
+language tasks.
+Vision models. A few works explore using CNNs for learning with different vision tasks at dif-
+ferent levels. For example, Cross-stitch Networks (Misra et al., 2016) develops a strategy to split
+53

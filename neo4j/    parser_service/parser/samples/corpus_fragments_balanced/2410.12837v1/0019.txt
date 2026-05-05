@@ -1,0 +1,16 @@
+Robertson, S.G., & Zaragoza,H., (2009). The Probabilistic Relevance Framework: BM25 and Beyond,FoundationsandTrendsinInformationRetrieval, 3(4), pp. 333-389.
+Roller, S., Dinan, E., Goyal, N., Ju, D., Williamson, M., Liu, Y., Xu, J., Ott, M., Shuster, K., Smith, E. M.,Boureau, Y., &Weston, J. (2020). Recipesfor buildinganopen-domainchatbot. ArXiv. /abs/2004.13637
+Salton, G., Wong, A., & Yang, C. S. (1975). A vector space model for automatic indexing.Communicationsof theACM, 18(11), 613-620.
+Sanh, V., Debut, L., Chaumond, J., & Wolf, T. (2019). DistilBERT, a distilled version of BERT: Smaller,faster, cheaper andlighter. ArXiv. /abs/1910.01108
+Sarthi, P., Abdullah, S., Tuli, A., Khanna, S., Goldie, A., &Manning, C. D. (2024). RAPTOR: RecursiveAbstractiveProcessingfor Tree-OrganizedRetrieval. ArXiv. /abs/2401.18059
+Shi, W., Min, S., Yasunaga, M., Seo, M., James, R., Lewis, M., Zettlemoyer, L., & Yih, W.-T. (2023).REPLUG: Retrieval-augmentedblack-boxlanguagemodels. arXivpreprint arXiv:2301.12652.
+Shrestha, R., Zou, Y., Chen, Q., Li, Z., Xie, Y., &Deng, S. (2024). FairRAG: Fair Human GenerationviaFair Retrieval Augmentation. ArXiv. /abs/2403.19964
+Sutskever, I., Vinyals, O., & Le, Q. V. (2014). Sequence to sequence learning with neural networks. InAdvancesinNeural InformationProcessingSystems(pp. 3104-3112).
+Thakur, N., Bonifacio, L., Zhang, X., Ogundepo, O., Kamalloo, E., Li, X., Liu, Q., Chen, B.,Rezagholizadeh, M., &Lin, J. (2023). NoMIRACL: KnowingWhenYouDon't Knowfor Robust MultilingualRetrieval-AugmentedGeneration. ArXiv. /abs/2312.11361
+Thakur, N., Reimers, N., Ruckl'e, A., Srivastava, A., & Gurevych, I. (2021). BEIR: A HeterogenousBenchmarkfor Zero-shot Evaluationof InformationRetrieval Models. ArXiv, abs/2104.08663.
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., &Polosukhin, I.(2017). Attentionisall youneed. InAdvancesinNeural InformationProcessingSystems(pp. 5998-6008).
+Wang, X., Wang, Z., Gao, X., Zhang, F., Wu, Y., Xu, Z., Shi, T., Wang, Z., Li, S., Qian, Q., Yin, R., Lv, C.,Zheng, X., &Huang, X. (2024). Searching for Best Practices in Retrieval-Augmented Generation. ArXiv./abs/2407.01219
+Wang, Z., Araki, J., Jiang, Z., Parvez, M. R., & Neubig, G. (2023). Learning to Filter Context forRetrieval-AugmentedGeneration. ArXiv. /abs/2311.08377
+Xia, P., Zhu, K., Li, H., Zhu, H., Li, Y., Li, G., Zhang, L., &Yao, H. (2024). RULE: ReliableMultimodal RAGfor FactualityinMedical VisionLanguageModels. ArXiv. /abs/2407.05131
+Xie, S., Sun, C., Huang, J., Tu, Z., & Murphy, K. (2017). Rethinking Spatiotemporal Feature Learning:Speed-AccuracyTrade-offsinVideoClassification. ArXiv. /abs/1712.04851
+Xiong, L., Xiong, C., Li, Y., Tang, K., Liu, J., Bennett, P., Ahmed, J., &Overwijk, A. (2020). ApproximateNearest Neighbor NegativeContrastiveLearningfor DenseText Retrieval. ArXiv. /abs/2007.00808

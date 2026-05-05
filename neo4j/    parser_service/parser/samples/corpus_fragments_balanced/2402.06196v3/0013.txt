@@ -1,0 +1,16 @@
+GPT-1 [50] demonstrates for the first time that good
+performance over a wide range of natural language tasks can be
+obtained by Generative Pre-Training (GPT) of a decoder-only
+Transformer model on a diverse corpus of unlabeled text in a
+self-supervised learning fashion (i.e., next word/token predic-
+tion), followed by discriminative fine-tuning on each specific
+downstream task (with much fewer samples), as illustrated in
+Fig 7. GPT-1 paves the way for subsequent GPT models, with
+each version improving upon the architecture and achieving
+better performance on various language tasks. GPT-2 [51] shows that language models are able to learn
+to perform specific natural language tasks without any explicit
+supervision when trained on a large WebText dataset consisting
+of millions of webpages. The GPT-2 model follows the model
+designs of GPT-1 with a few modifications: Layer normal-
+ization is moved to the input of each sub-block, additional
+layer normalization is added after the final self-attention block,

@@ -1,0 +1,35 @@
+free models can now understand customization instructions to extract visual concepts from the image
+inputs, and combine the concept with context text inputs for image generation.
+Incorporating the three elements of the input interface, the envisioned alignment-tuned T2I model
+can handle all previous tasks described in Section 3.2-3.5. Its behavior is steered by specific text
+instructions that dictate how the image and text inputs should be jointly processed as the genera-
+tion condition. Given the same image input, different text instructions can invoke different tasks:
+“generate a cat image with the same layout” for spatial control, “change the dog’s color” for editing,
+“generate the same dog sleeping” for concept customization, and the arbitrary mixture of the exist-
+ing modes. Achieving such a unified interface in generative foundational models may be possible
+through training on a consolidated dataset encompassing data from various tasks, drawing similar-
+ities to the success of supervised instruction tuning observed in LLMs. Furthermore, transitioning
+from processing a single image-text pair to handling interleaved image-text pairs could enable more
+intriguing capabilities like in-context visual demonstrations (Sun et al., 2023b). Another interest-
+ing direction is to build a generative model that is capable of generating any combination of output
+modalities, such as language, image, video, or audio, from any combination of input modalities, as
+demonstrated in Composable Diffusion (CoDi) (Tang et al., 2023b).
+Tuning with alignment-focused loss and rewards. In addition to the unified input interface, an-
+other noteworthy element deserving consideration is the alignment-focused loss and rewards. As
+mentioned in Section 3.4, the image generation loss based on image-text pairs enables models to
+produce images that match the target data distribution. Yet, it doesn’t always perfectly align with
+human intent. This is reminiscent of the language model loss in LLM training, which necessitates a
+separate alignment tuning phase (Ouyang et al., 2022). The recent success in supervised instruction
+tuning and reinforcement learning from human feedback methods (Black et al., 2023) on image gen-
+eration provides effective tools for similar alignment tuning in generative foundation models. An
+intriguing topic left for future exploration is how to balance the different target losses and rewards,
+such as jointly optimizing for higher aesthetic scores, better image-text alignment, fewer harmful
+contents, stronger instruction adherence, along with many other desired properties.
+Closed-loop of multimodal content understanding and generation. As we look ahead, one
+promising avenue of research is the closed-loop integration of multimodal content understanding
+and generation. Preliminary studies have shown the benefit of using synthesized data to benefit gen-
+eration from understanding (Li et al., 2023a; He et al., 2022b), and vice versa. An exciting prospect
+would be the development of an image-text-input, image-text-output foundational model for both
+understanding and generation tasks. The ideal balance in combining these two dimensions, and the
+most efficient approach to achieve it, are left for future explorations.
+41

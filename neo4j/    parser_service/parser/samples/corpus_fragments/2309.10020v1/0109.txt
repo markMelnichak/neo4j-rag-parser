@@ -1,0 +1,51 @@
+Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.-Y ., and Berg, A. C. (2016). Ssd:
+Single shot multibox detector. In Computer Vision–ECCV 2016: 14th European Conference, Am-
+sterdam, The Netherlands, October 11–14, 2016, Proceedings, Part I 14, pages 21–37. Springer.
+Liu, W. and Zuo, Y . (2023). Stone needle: A general multimodal large-scale model framework
+towards healthcare. arXiv preprint arXiv:2306.16034.
+Liu, X., Zhu, Z., Liu, H., Yuan, Y ., Cui, M., Huang, Q., Liang, J., Cao, Y ., Kong, Q., Plumbley,
+M. D., et al. (2023i). Wavjourney: Compositional audio creation with large language models.
+arXiv preprint arXiv:2307.14335.
+Liu, Y ., Duan, H., Zhang, Y ., Li, B., Zhang, S., Zhao, W., Yuan, Y ., Wang, J., He, C., Liu, Z.,
+et al. (2023j). Mmbench: Is your multi-modal model an all-around player? arXiv preprint
+arXiv:2307.06281.
+Liu, Y ., Li, Z., Li, H., Yu, W., Huang, M., Peng, D., Liu, M., Chen, M., Li, C., Jin, L., et al. (2023k).
+On the hidden mystery of ocr in large multimodal models. arXiv preprint arXiv:2305.07895.
+Liu, Y ., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L., and
+Stoyanov, V . (2019). Roberta: A robustly optimized bert pretraining approach. arXiv preprint
+arXiv:1907.11692.
+Liu, Z., He, Y ., Wang, W., Wang, W., Wang, Y ., Chen, S., Zhang, Q., Yang, Y ., Li, Q., Yu, J., et al.
+(2023l). Internchat: Solving vision-centric tasks by interacting with chatbots beyond language.
+arXiv preprint arXiv:2305.05662.
+Liu, Z., Lin, Y ., Cao, Y ., Hu, H., Wei, Y ., Zhang, Z., Lin, S., and Guo, B. (2021). Swin transformer:
+Hierarchical vision transformer using shifted windows. In ICCV.
+Liu, Z., Mao, H., Wu, C.-Y ., Feichtenhofer, C., Darrell, T., and Xie, S. (2022b). A convnet for the
+2020s. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition,
+pages 11976–11986.
+Long, A., Yin, W., Ajanthan, T., Nguyen, V ., Purkait, P., Garg, R., Blair, A., Shen, C., and van den
+Hengel, A. (2022). Retrieval augmented classification for long-tail visual recognition. In CVPR.
+Long, J., Shelhamer, E., and Darrell, T. (2015). Fully convolutional networks for semantic segmen-
+tation. In CVPR.
+Lu, C.-Z., Jin, X., Hou, Q., Liew, J. H., Cheng, M.-M., and Feng, J. (2023a). Delving deeper into
+data scaling in masked image modeling. arXiv preprint arXiv:2305.15248.
+Lu, J., Batra, D., Parikh, D., and Lee, S. (2019). Vilbert: Pretraining task-agnostic visiolinguistic
+representations for vision-and-language tasks. In NeurIPS.
+Lu, J., Clark, C., Zellers, R., Mottaghi, R., and Kembhavi, A. (2022a). Unified-io: A unified model
+for vision, language, and multi-modal tasks. arXiv preprint arXiv:2206.08916.
+Lu, J., Goswami, V ., Rohrbach, M., Parikh, D., and Lee, S. (2020). 12-in-1: Multi-task vision and
+language representation learning. In Proceedings of the IEEE/CVF conference on computer vision
+and pattern recognition, pages 10437–10446.
+Lu, P., Mishra, S., Xia, T., Qiu, L., Chang, K.-W., Zhu, S.-C., Tafjord, O., Clark, P., and Kalyan,
+A. (2022b). Learn to explain: Multimodal reasoning via thought chains for science question
+answering. Advances in Neural Information Processing Systems.
+Lu, P., Peng, B., Cheng, H., Galley, M., Chang, K.-W., Wu, Y . N., Zhu, S.-C., and Gao, J. (2023b).
+Chameleon: Plug-and-play compositional reasoning with large language models. arXiv preprint
+arXiv:2304.09842.
+Lu, Q., Kuen, J., Tiancheng, S., Jiuxiang, G., Weidong, G., Jiaya, J., Zhe, L., and Ming-Hsuan, Y .
+(2023c). High-quality entity segmentation. In ICCV.
+Lu, Y ., Li, C., Liu, H., Yang, J., Gao, J., and Shen, Y . (2023d). An empirical study of scaling
+instruction-tuned large multimodal models. arXiv preprint.
+L¨uddecke, T. and Ecker, A. (2022). Image segmentation using text and image prompts. In CVPR.
+Luo, G., Zhou, Y ., Ren, T., Chen, S., Sun, X., and Ji, R. (2023a). Cheap and quick: Efficient
+vision-language instruction tuning for large language models. arXiv preprint arXiv:2305.15023.
+105

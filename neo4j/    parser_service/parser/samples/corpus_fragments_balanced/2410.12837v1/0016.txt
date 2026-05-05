@@ -1,0 +1,15 @@
+References:
+Acharya, A., Murthy, R., Kumar, V., &Sen, J. (2024). NLLB-E5: AScalable Multilingual Retrieval Model.ArXiv. /abs/2409.05401
+Alayrac, J., Donahue, J., Luc, P., Miech, A., Barr, I., Hasson, Y., Lenc, K., Mensch, A., Millican, K.,Reynolds, M., Ring, R., Rutherford, E., Cabi, S., Han, T., Gong, Z., Samangooei, S., Monteiro, M.,Menick, J., Borgeaud, S., . . . Simonyan, K. (2022). Flamingo: AVisual Language Model for Few-ShotLearning. ArXiv. /abs/2204.14198
+Asai, A., Wu, Z., Wang, Y., Sil, A., &Hajishirzi, H. (2023). Self-RAG: Learning to retrieve, generate, andcritiquethroughself-reflection. arXivpreprint arXiv:2310.11511.
+Baevski, A., Zhou, H., Mohamed, A., &Auli, M. (2020). Wav2vec 2.0: AFramework for Self-SupervisedLearningof SpeechRepresentations. ArXiv. /abs/2006.11477
+Bertasius, G., Wang, H., & Torresani, L. (2021). Is Space-Time Attention All You Need for VideoUnderstanding?ArXiv. /abs/2102.05095
+Binns, R. (2018). Fairness in machine learning: Lessons from political philosophy. Proceedings of the2018ConferenceonFairness, Accountability, andTransparency(pp. 149-159).
+Borgeaud, S., Mensch, A., Hoffmann, J., Cai, T., Rutherford, E., Millican, K., Driessche, G. V., Lespiau, J.,Damoc, B., Clark, A., Casas, D. D., Guy, A., Menick, J., Ring, R., Hennigan, T., Huang, S., Maggiore, L.,Jones, C., Cassirer, A., . . . Sifre, L. (2021). Improving language models by retrieving from trillions oftokens. ArXiv. /abs/2112.04426
+Brown, T., et al. (2020). "LanguageModelsareFew-Shot Learners." arXivpreprint arXiv:2005.14165.
+Chang, R., & Zhang, J. (2024). CommunityKG-RAG: Leveraging Community Structures in KnowledgeGraphsfor AdvancedRetrieval-AugmentedGenerationinFact-Checking. ArXiv. /abs/2408.08535
+Chen, D., Fisch, A., Weston, J., & Bordes, A. (2017). Reading Wikipedia to answer open-domainquestions. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics(Volume1: LongPapers) (pp. 1870-1879).
+Chen, W., Hu, H., Chen, X., Verga, P., &Cohen, W. W. (2022). MuRAG: Multimodal Retrieval-AugmentedGenerator for OpenQuestionAnsweringover ImagesandText. ArXiv. /abs/2210.02928
+Chirkova, N., Rau, D., Déjean, H., Formal, T., Clinchant, S., &Nikoulina, V. (2024). Retrieval-augmentedgenerationinmultilingual settings. ArXiv. /abs/2407.01463
+Dai, Z., & Callan, J. (2019). Context-Aware Sentence/Passage Term Importance Estimation For FirstStageRetrieval. ArXiv. /abs/1910.10687
+Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of deep bidirectionaltransformers for language understanding. In Proceedings of the 2019 Conference of theNorthAmericanChapter of the Association for Computational Linguistics: Human Language Technologies (pp.4171-4186).

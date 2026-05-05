@@ -1,0 +1,68 @@
+Emerging
+Basic
+ Augmented
+LLM Capabilities
+Reasoning
+Coding
+Comprehension
+Multilingual
+Tool
+utilization
+World
+knowledge
+Instruction
+following
+ In-context
+learning
+Interacting
+with users
+Self-improvement
+Multi choice QA
+Wikipedia QA
+XNLI
+Crosslingual QA
+Crosslingual Tasks
+Translation
+Reading Comprehension
+Multi choice QA
+Boolean QA
+Simplification
+Summarization
+Function Calling
+API calling
+Logical
+Symbolic
+Common Sense
+Arithmetic
+Turn based
+Completion
+Task definition
+Few-shot
+Symbolic
+reference
+Pos/Neg example
+Step by step
+solving
+Tool planning
+Task
+decomposition
+Virtual acting
+Physical acting
+Knowledge base
+utilization
+Assignment
+planning
+Self-cirtisim
+Self-refinement
+Fig. 1: LLM Capabilities. larger mini-batches and learning rates. ALBERT [45] uses two
+parameter-reduction techniques to lower memory consumption
+and increase the training speed of BERT: (1) splitting the
+embedding matrix into two smaller matrices, and (2) using
+repeating layers split among groups. DeBERTa (Decoding-
+enhanced BERT with disentangled attention) [26] improves the
+BERT and RoBERTa models using two novel techniques. The
+first is the disentangled attention mechanism, where each word
+is represented using two vectors that encode its content and
+position, respectively, and the attention weights among words
+are computed using disentangled matrices on their contents and
+relative positions, respectively.

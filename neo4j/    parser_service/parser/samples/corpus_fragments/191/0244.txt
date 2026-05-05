@@ -1,0 +1,46 @@
+247 
+ 
+Лист
+инг 93 
+de
+f SaveToJSon(model, fileName): 
+ model_json = model.to_json() 
+with open(fileName + ".net", "w") as json_file: 
+ json_file.write(model_json) 
+ model.save_weights(fileName + ".wgt") 
+print("model saved to disk") 
+def LoadFromJSon(fileName): 
+ json_file = open(fileName + ".net", 'r') 
+ loaded_model_json = json_file.read() 
+ json_file.close() 
+ loaded_model = model_from_json(loaded_model_json) 
+ loaded_model.load_weights(fileName + ".wgt") 
+print("Loaded model from disk") 
+return loaded_model 
+ 
+Рекуррентные се
+ти для прогнозирования временных рядов 
+Те
+перь рассмотрим пример работы с рекуррентными сетями 
+средствами библиотеки Keras, а именно, их применение для решения 
+задачи прогнозирования временных рядов. Пусть в файле «interna-
+tional-airline-passengers.csv» (скачать его можно отсюда: [41]) нахо-
+дятся данные о ежемесячном количестве пассажиров международ-
+ного аэр
+опорта в в
+иде, пр
+едставленном на р
+исунке 70. Применим р
+екур-
+рентную сеть для прогнозирования количества пассажиро в будущем. 
+Глубину прогноза возьмем равной одному месяцу, как и количество 
+точек, по которому будем строить прогноз. Качество работы модели 
+оценим по величине среднеквадратичной ошибки. Данная задача 
+и код ее решения, показанный в листинге 94, взяты из [62]. 
+Лист
+инг 94 
+# -*- codi
+ng: utf-8 -*- 
+#Необходимые импорты 
+import numpy 
+import matplotlib.pyplot as plt

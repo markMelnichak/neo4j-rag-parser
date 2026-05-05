@@ -1,0 +1,52 @@
+Li, B., Weinberger, K. Q., Belongie, S., Koltun, V ., and Ranftl, R. (2022a). Language-driven seman-
+tic segmentation. In ICLR.
+Li, B., Zhang, Y ., Chen, L., Wang, J., Pu, F., Yang, J., Li, C., and Liu, Z. (2023c). Mimic-it:
+Multi-modal in-context instruction tuning. arXiv preprint arXiv:2306.05425.
+Li, B., Zhang, Y ., Chen, L., Wang, J., Yang, J., and Liu, Z. (2023d). Otter: A multi-modal model
+with in-context instruction tuning. arXiv preprint arXiv:2305.03726.
+Li, C., Liu, H., Li, L. H., Zhang, P., Aneja, J., Yang, J., Jin, P., Lee, Y . J., Hu, H., Liu, Z., et al.
+(2022b). Elevater: A benchmark and toolkit for evaluating language-augmented visual models.
+In NeurIPS, Track on Datasets and Benchmarks.
+Li, C., Wong, C., Zhang, S., Usuyama, N., Liu, H., Yang, J., Naumann, T., Poon, H., and Gao, J.
+(2023e). Llava-med: Training a large language-and-vision assistant for biomedicine in one day.
+arXiv preprint arXiv:2306.00890.
+Li, C., Yang, J., Zhang, P., Gao, M., Xiao, B., Dai, X., Yuan, L., and Gao, J. (2021a). Efficient self-
+supervised vision transformers for representation learning. arXiv preprint arXiv:2106.09785.
+Li, F., Zhang, H., Sun, P., Zou, X., Liu, S., Yang, J., Li, C., Zhang, L., and Gao, J. (2023f). Semantic-
+sam: Segment and recognize anything at any granularity. arXiv preprint arXiv:2307.04767.
+Li, F., Zhang, H., Zhang, Y .-F., Liu, S., Guo, J., Ni, L. M., Zhang, P., and Zhang, L. (2022c).
+Vision-language intelligence: Tasks, representation learning, and large models. arXiv preprint
+arXiv:2203.01922.
+Li, G., Duan, N., Fang, Y ., Gong, M., and Jiang, D. (2020a). Unicoder-vl: A universal encoder for
+vision and language by cross-modal pre-training. In AAAI.
+Li, H., Zhu, J., Jiang, X., Zhu, X., Li, H., Yuan, C., Wang, X., Qiao, Y ., Wang, X., Wang, W., et al.
+(2023g). Uni-perceiver v2: A generalist model for large-scale vision and vision-language tasks.
+In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages
+2691–2700.
+Li, J., Li, D., Savarese, S., and Hoi, S. (2023h). Blip-2: Bootstrapping language-image pre-training
+with frozen image encoders and large language models. arXiv preprint arXiv:2301.12597.
+Li, J., Li, D., Xiong, C., and Hoi, S. (2022d). Blip: Bootstrapping language-image pre-training for
+unified vision-language understanding and generation. In ICML.
+Li, J., Selvaraju, R. R., Gotmare, A. D., Joty, S., Xiong, C., and Hoi, S. (2021b). Align before fuse:
+Vision and language representation learning with momentum distillation. In NeurIPS.
+Li, K., He, Y ., Wang, Y ., Li, Y ., Wang, W., Luo, P., Wang, Y ., Wang, L., and Qiao, Y . (2023i).
+Videochat: Chat-centric video understanding. arXiv preprint arXiv:2305.06355.
+Li, L., Gan, Z., Cheng, Y ., and Liu, J. (2019a). Relation-aware graph attention network for visual
+question answering. In ICCV.
+Li, L., Yin, Y ., Li, S., Chen, L., Wang, P., Ren, S., Li, M., Yang, Y ., Xu, J., Sun, X., et al. (2023j).
+M3it: A large-scale dataset towards multi-modal multilingual instruction tuning. arXiv preprint
+arXiv:2306.04387.
+Li, L. H., Yatskar, M., Yin, D., Hsieh, C.-J., and Chang, K.-W. (2019b). VisualBERT: A simple and
+performant baseline for vision and language. arXiv preprint arXiv:1908.03557.
+Li, L. H., Zhang, P., Zhang, H., Yang, J., Li, C., Zhong, Y ., Wang, L., Yuan, L., Zhang, L., Hwang,
+J.-N., et al. (2022e). Grounded language-image pre-training. CVPR.
+Li, L. H., Zhang, P., Zhang, H., Yang, J., Li, C., Zhong, Y ., Wang, L., Yuan, L., Zhang, L., Hwang,
+J.-N., et al. (2022f). Grounded language-image pre-training. In CVPR.
+Li, M., Song, F., Yu, B., Yu, H., Li, Z., Huang, F., and Li, Y . (2023k). Api-bank: A benchmark for
+tool-augmented llms. arXiv preprint arXiv:2304.08244.
+Li, S. and Tajbakhsh, N. (2023). Scigraphqa: A large-scale synthetic multi-turn question-answering
+dataset for scientific graphs. arXiv preprint arXiv:2308.03349.
+Li, X., Yin, X., Li, C., Zhang, P., Hu, X., Zhang, L., Wang, L., Hu, H., Dong, L., Wei, F., Choi, Y .,
+and Gao, J. (2020b). Oscar: Object-semantics aligned pre-training for vision-language tasks. In
+ECCV.
+103

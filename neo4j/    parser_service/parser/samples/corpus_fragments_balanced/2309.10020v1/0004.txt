@@ -1,0 +1,40 @@
+4 Unified Vision Models 42
+4.1 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+4.2 From Closed-Set to Open-Set Models . . . . . . . . . . . . . . . . . . . . . . . . 43
+4.2.1 Object Detection and Grounding . . . . . . . . . . . . . . . . . . . . . . . 46
+4.2.2 Image Segmentation and Referring . . . . . . . . . . . . . . . . . . . . . 47
+4.3 From Task-Specific Models to Generic Models . . . . . . . . . . . . . . . . . . . 49
+4.3.1 I/O Unification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+4.3.2 Functionality Unification . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+4.4 From Static to Promptable Models . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+4.4.1 Multi-modal Prompting . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+4.4.2 In-context Prompting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+4.5 Summary and Discussion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59
+5 Large Multimodal Models:
+Training with LLM 61
+5.1 Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+5.1.1 Image-to-Text Generative Models . . . . . . . . . . . . . . . . . . . . . . 61
+5.1.2 Case Studies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+5.1.3 OpenAI Multimodal GPT-4 and Research Gaps . . . . . . . . . . . . . . . 63
+5.2 Pre-requisite: Instruction Tuning in Large Language Models . . . . . . . . . . . . 64
+5.2.1 Instruction Tuning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+5.2.2 Self-Instruct and Open-Source LLMs . . . . . . . . . . . . . . . . . . . . 66
+5.3 Instruction-Tuned Large Multimodal Models . . . . . . . . . . . . . . . . . . . . 68
+5.4 Advanced Topics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+5.5 How Close We Are To OpenAI Multimodal GPT-4? . . . . . . . . . . . . . . . . . 76
+6 Multimodal Agents:
+Chaining Tools with LLM 77
+6.1 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 77
+6.2 Multimodal Agent . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+6.3 Case Study: MM-R EACT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80
+6.3.1 System Design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81
+6.3.2 Capabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+6.3.3 Extensibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84
+6.4 Advanced Topics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85
+6.4.1 Comparison to Training with LLM in Chapter 5 . . . . . . . . . . . . . . . 85
+6.4.2 Improving Multimodal Agents . . . . . . . . . . . . . . . . . . . . . . . . 85
+6.4.3 Diverse Applications of Multimodal Agents . . . . . . . . . . . . . . . . . 86
+6.4.4 Evaluation of Multimodal Agents . . . . . . . . . . . . . . . . . . . . . . 87
+6.4.5 Tool Creation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 88
+6.4.6 Retrieval-Augmented Multimodal Agents . . . . . . . . . . . . . . . . . . 88
+3

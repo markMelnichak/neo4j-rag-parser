@@ -1,0 +1,13 @@
+(ii) With
+large-scale pre-training, language models achieve state-of-the-art performance on many established
+language understanding and generation tasks, such as BERT (Devlin et al., 2019), RoBERTa (Liu
+et al., 2019), T5 (Raffel et al., 2020), DeBERTa (He et al., 2021) and GPT-2 (Radford et al., 2019)). These pre-trained models serve the basis for downstream task adaptation. (iii) Exemplified by
+GPT-3 (Brown et al., 2020), large language models (LLMs) unify various language understanding
+and generation tasks into one model. With web-scale training and unification, some emerging ca-
+pabilities appear, such as in-context-learning and chain-of-thoughts. (iv) With recent advances in
+human-AI alignment, LLMs start to play the role of general-purpose assistants to follow human
+intents to complete a wide range of language tasks in the wild, such as ChatGPT (OpenAI, 2022)
+and GPT-4 (OpenAI, 2023a). These assistants exhibit interesting capabilities, such as interaction
+and tool use, and lay a foundation for developing general-purpose AI agents. It is important to note
+that the latest iterations of foundation models build upon the noteworthy features of their earlier
+counterparts while also providing additional capabilities.

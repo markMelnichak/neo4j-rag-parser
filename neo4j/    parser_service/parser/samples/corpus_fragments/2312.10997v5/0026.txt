@@ -1,0 +1,154 @@
+20
+planner for personalized knowledge-grounded dialogue,”arXiv preprint
+arXiv:2310.08840, 2023.
+[135] ——, “Large language models as source planner for personal-
+ized knowledge-grounded dialogue,” arXiv preprint arXiv:2310.08840,
+2023.
+[136] X. Xu, Z. Gou, W. Wu, Z.-Y . Niu, H. Wu, H. Wang, and S. Wang,
+“Long time no see! open-domain conversation with long-term persona
+memory,” arXiv preprint arXiv:2203.05797 , 2022.
+[137] T.-H. Wen, M. Gasic, N. Mrksic, L. M. Rojas-Barahona, P.-H.
+Su, S. Ultes, D. Vandyke, and S. Young, “Conditional generation
+and snapshot learning in neural dialogue systems,” arXiv preprint
+arXiv:1606.03352, 2016.
+[138] R. He and J. McAuley, “Ups and downs: Modeling the visual evolution
+of fashion trends with one-class collaborative filtering,” in proceedings
+of the 25th international conference on world wide web , 2016, pp.
+507–517.
+[139] S. Li, H. Ji, and J. Han, “Document-level event argument extraction
+by conditional generation,” arXiv preprint arXiv:2104.05919 , 2021.
+[140] S. Ebner, P. Xia, R. Culkin, K. Rawlins, and B. Van Durme, “Multi-
+sentence argument linking,” arXiv preprint arXiv:1911.03766 , 2019.
+[141] H. Elsahar, P. V ougiouklis, A. Remaci, C. Gravier, J. Hare, F. Laforest,
+and E. Simperl, “T-rex: A large scale alignment of natural language
+with knowledge base triples,” in Proceedings of the Eleventh Inter-
+national Conference on Language Resources and Evaluation (LREC
+2018), 2018.
+[142] O. Levy, M. Seo, E. Choi, and L. Zettlemoyer, “Zero-shot relation ex-
+traction via reading comprehension,” arXiv preprint arXiv:1706.04115,
+2017.
+[143] R. Zellers, A. Holtzman, Y . Bisk, A. Farhadi, and Y . Choi, “Hel-
+laswag: Can a machine really finish your sentence?” arXiv preprint
+arXiv:1905.07830, 2019.
+[144] S. Kim, S. J. Joo, D. Kim, J. Jang, S. Ye, J. Shin, and M. Seo,
+“The cot collection: Improving zero-shot and few-shot learning of
+language models via chain-of-thought fine-tuning,” arXiv preprint
+arXiv:2305.14045, 2023.
+[145] A. Saha, V . Pahuja, M. Khapra, K. Sankaranarayanan, and S. Chandar,
+“Complex sequential question answering: Towards learning to converse
+over linked question answer pairs with a knowledge graph,” inProceed-
+ings of the AAAI conference on artificial intelligence , vol. 32, no. 1,
+2018.
+[146] D. Hendrycks, C. Burns, S. Basart, A. Zou, M. Mazeika, D. Song, and
+J. Steinhardt, “Measuring massive multitask language understanding,”
+arXiv preprint arXiv:2009.03300 , 2020.
+[147] S. Merity, C. Xiong, J. Bradbury, and R. Socher, “Pointer sentinel
+mixture models,” arXiv preprint arXiv:1609.07843 , 2016.
+[148] M. Geva, D. Khashabi, E. Segal, T. Khot, D. Roth, and J. Berant,
+“Did aristotle use a laptop? a question answering benchmark with
+implicit reasoning strategies,” Transactions of the Association for
+Computational Linguistics, vol. 9, pp. 346–361, 2021.
+[149] J. Thorne, A. Vlachos, C. Christodoulopoulos, and A. Mittal, “Fever: a
+large-scale dataset for fact extraction and verification,” arXiv preprint
+arXiv:1803.05355, 2018.
+[150] N. Kotonya and F. Toni, “Explainable automated fact-checking for
+public health claims,” arXiv preprint arXiv:2010.09926 , 2020.
+[151] R. Lebret, D. Grangier, and M. Auli, “Neural text generation from
+structured data with application to the biography domain,” arXiv
+preprint arXiv:1603.07771, 2016.
+[152] H. Hayashi, P. Budania, P. Wang, C. Ackerson, R. Neervannan,
+and G. Neubig, “Wikiasp: A dataset for multi-domain aspect-based
+summarization,” Transactions of the Association for Computational
+Linguistics, vol. 9, pp. 211–225, 2021.
+[153] S. Narayan, S. B. Cohen, and M. Lapata, “Don’t give me the details,
+just the summary! topic-aware convolutional neural networks for ex-
+treme summarization,” arXiv preprint arXiv:1808.08745 , 2018.
+[154] S. Saha, J. A. Junaed, M. Saleki, A. S. Sharma, M. R. Rifat, M. Rahouti,
+S. I. Ahmed, N. Mohammed, and M. R. Amin, “Vio-lens: A novel
+dataset of annotated social network posts leading to different forms
+of communal violence and its evaluation,” in Proceedings of the First
+Workshop on Bangla Language Processing (BLP-2023), 2023, pp. 72–
+84.
+[155] X. Li and D. Roth, “Learning question classifiers,” in COLING 2002:
+The 19th International Conference on Computational Linguistics, 2002.
+[156] R. Socher, A. Perelygin, J. Wu, J. Chuang, C. D. Manning, A. Y . Ng,
+and C. Potts, “Recursive deep models for semantic compositionality
+over a sentiment treebank,” in Proceedings of the 2013 conference on
+empirical methods in natural language processing , 2013, pp. 1631–
+1642.
+[157] H. Husain, H.-H. Wu, T. Gazit, M. Allamanis, and M. Brockschmidt,
+“Codesearchnet challenge: Evaluating the state of semantic code
+search,” arXiv preprint arXiv:1909.09436 , 2019.
+[158] K. Cobbe, V . Kosaraju, M. Bavarian, M. Chen, H. Jun, L. Kaiser,
+M. Plappert, J. Tworek, J. Hilton, R. Nakano et al., “Training verifiers
+to solve math word problems,” arXiv preprint arXiv:2110.14168, 2021.
+[159] R. Steinberger, B. Pouliquen, A. Widiger, C. Ignat, T. Erjavec, D. Tufis,
+and D. Varga, “The jrc-acquis: A multilingual aligned parallel corpus
+with 20+ languages,” arXiv preprint cs/0609058 , 2006.
+[160] Y . Hoshi, D. Miyashita, Y . Ng, K. Tatsuno, Y . Morioka, O. Torii,
+and J. Deguchi, “Ralle: A framework for developing and eval-
+uating retrieval-augmented large language models,” arXiv preprint
+arXiv:2308.10633, 2023.
+[161] J. Liu, “Building production-ready rag applications,” https://www.ai.
+engineer/summit/schedule/building-production-ready-rag-applications,
+2023.
+[162] I. Nguyen, “Evaluating rag part i: How to evaluate document retrieval,”
+https://www.deepset.ai/blog/rag-evaluation-retrieval, 2023.
+[163] Q. Leng, K. Uhlenhuth, and A. Polyzotis, “Best practices for
+llm evaluation of rag applications,” https://www.databricks.com/blog/
+LLM-auto-eval-best-practices-RAG, 2023.
+[164] S. Es, J. James, L. Espinosa-Anke, and S. Schockaert, “Ragas: Au-
+tomated evaluation of retrieval augmented generation,” arXiv preprint
+arXiv:2309.15217, 2023.
+[165] J. Saad-Falcon, O. Khattab, C. Potts, and M. Zaharia, “Ares: An
+automated evaluation framework for retrieval-augmented generation
+systems,” arXiv preprint arXiv:2311.09476 , 2023.
+[166] C. Jarvis and J. Allard, “A survey of techniques for
+maximizing llm performance,” https://community.openai.
+com/t/openai-dev-day-2023-breakout-sessions/505213#
+a-survey-of-techniques-for-maximizing-llm-performance-2, 2023.
+[167] J. Chen, H. Lin, X. Han, and L. Sun, “Benchmarking large lan-
+guage models in retrieval-augmented generation,” arXiv preprint
+arXiv:2309.01431, 2023.
+[168] Y . Liu, L. Huang, S. Li, S. Chen, H. Zhou, F. Meng, J. Zhou, and
+X. Sun, “Recall: A benchmark for llms robustness against external
+counterfactual knowledge,” arXiv preprint arXiv:2311.08147 , 2023.
+[169] Y . Lyu, Z. Li, S. Niu, F. Xiong, B. Tang, W. Wang, H. Wu, H. Liu,
+T. Xu, and E. Chen, “Crud-rag: A comprehensive chinese benchmark
+for retrieval-augmented generation of large language models,” arXiv
+preprint arXiv:2401.17043, 2024.
+[170] P. Xu, W. Ping, X. Wu, L. McAfee, C. Zhu, Z. Liu, S. Subramanian,
+E. Bakhturina, M. Shoeybi, and B. Catanzaro, “Retrieval meets long
+context large language models,” arXiv preprint arXiv:2310.03025 ,
+2023.
+[171] C. Packer, V . Fang, S. G. Patil, K. Lin, S. Wooders, and J. E. Gon-
+zalez, “Memgpt: Towards llms as operating systems,” arXiv preprint
+arXiv:2310.08560, 2023.
+[172] G. Xiao, Y . Tian, B. Chen, S. Han, and M. Lewis, “Efficient
+streaming language models with attention sinks,” arXiv preprint
+arXiv:2309.17453, 2023.
+[173] T. Zhang, S. G. Patil, N. Jain, S. Shen, M. Zaharia, I. Stoica, and J. E.
+Gonzalez, “Raft: Adapting language model to domain specific rag,”
+arXiv preprint arXiv:2403.10131 , 2024.
+[174] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess,
+R. Child, S. Gray, A. Radford, J. Wu, and D. Amodei, “Scaling laws
+for neural language models,” arXiv preprint arXiv:2001.08361 , 2020.
+[175] U. Alon, F. Xu, J. He, S. Sengupta, D. Roth, and G. Neubig, “Neuro-
+symbolic language modeling with automaton-augmented retrieval,” in
+International Conference on Machine Learning . PMLR, 2022, pp.
+468–485.
+[176] M. Yasunaga, A. Aghajanyan, W. Shi, R. James, J. Leskovec, P. Liang,
+M. Lewis, L. Zettlemoyer, and W.-t. Yih, “Retrieval-augmented multi-
+modal language modeling,” arXiv preprint arXiv:2211.12561 , 2022.
+[177] J. Li, D. Li, S. Savarese, and S. Hoi, “Blip-2: Bootstrapping language-
+image pre-training with frozen image encoders and large language
+models,” arXiv preprint arXiv:2301.12597 , 2023.
+[178] W. Zhu, A. Yan, Y . Lu, W. Xu, X. E. Wang, M. Eckstein, and W. Y .
+Wang, “Visualize before you write: Imagination-guided open-ended
+text generation,” arXiv preprint arXiv:2210.03765 , 2022.
+[179] J. Zhao, G. Haffar, and E. Shareghi, “Generating synthetic speech from
+spokenvocab for speech translation,” arXiv preprint arXiv:2210.08174,
+2022.
+[180] D. M. Chan, S. Ghosh, A. Rastrow, and B. Hoffmeister, “Using external
+off-policy speech-to-text mappings in contextual end-to-end automated
+speech recognition,” arXiv preprint arXiv:2301.02736 , 2023.

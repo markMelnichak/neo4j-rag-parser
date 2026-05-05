@@ -1,0 +1,12 @@
+Chapter 1
+Introduction
+Vision is one of the primary channels for humans and many living creatures to perceive and interact
+with the world. One of the core aspirations in artificial intelligence (AI) is to develop AI agents to
+mimic such an ability to effectively perceive and generate visual signals, and thus reason over and
+interact with the visual world. Examples include recognition of the objects and actions in the scenes,
+and creation of sketches and pictures for communication. Building foundational models with visual
+capabilities is a prevalent research field striving to accomplish this objective. Over the last decade, the field of AI has experienced a fruitful trajectory in the development of
+models. We divide them into four categories, as illustrated in Figure 1.1. The categorization can
+be shared among different fields in AI, including language, vision and multimodality. We first use
+language models in NLP to illustrate the evolution process.(i) At the early years, task-specific mod-
+els are developed for individual datasets and tasks, typically being trained from scratch.

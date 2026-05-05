@@ -1,0 +1,154 @@
+19
+[89] Langchain, “Recursively split by character,” https://python.langchain.
+com/docs/modules/data connection/document transformers/recursive
+text splitter, 2023.
+[90] S. Yang, “Advanced rag 01: Small-to-
+big retrieval,” https://towardsdatascience.com/
+advanced-rag-01-small-to-big-retrieval-172181b396d4, 2023.
+[91] Y . Wang, N. Lipka, R. A. Rossi, A. Siu, R. Zhang, and T. Derr,
+“Knowledge graph prompting for multi-document question answering,”
+arXiv preprint arXiv:2308.11730 , 2023.
+[92] D. Zhou, N. Sch ¨arli, L. Hou, J. Wei, N. Scales, X. Wang, D. Schu-
+urmans, C. Cui, O. Bousquet, Q. Le et al., “Least-to-most prompting
+enables complex reasoning in large language models,” arXiv preprint
+arXiv:2205.10625, 2022.
+[93] S. Dhuliawala, M. Komeili, J. Xu, R. Raileanu, X. Li, A. Celikyilmaz,
+and J. Weston, “Chain-of-verification reduces hallucination in large
+language models,” arXiv preprint arXiv:2309.11495 , 2023.
+[94] X. Li and J. Li, “Angle-optimized text embeddings,” arXiv preprint
+arXiv:2309.12871, 2023.
+[95] V oyageAI, “V oyage’s embedding models,” https://docs.voyageai.com/
+embeddings/, 2023.
+[96] BAAI, “Flagembedding,” https://github.com/FlagOpen/
+FlagEmbedding, 2023.
+[97] P. Zhang, S. Xiao, Z. Liu, Z. Dou, and J.-Y . Nie, “Retrieve anything
+to augment large language models,” arXiv preprint arXiv:2310.07554 ,
+2023.
+[98] N. F. Liu, K. Lin, J. Hewitt, A. Paranjape, M. Bevilacqua, F. Petroni,
+and P. Liang, “Lost in the middle: How language models use long
+contexts,” arXiv preprint arXiv:2307.03172 , 2023.
+[99] Y . Gao, T. Sheng, Y . Xiang, Y . Xiong, H. Wang, and J. Zhang, “Chat-
+rec: Towards interactive and explainable llms-augmented recommender
+system,” arXiv preprint arXiv:2303.14524 , 2023.
+[100] N. Anderson, C. Wilson, and S. D. Richardson, “Lingua: Addressing
+scenarios for live interpretation and automatic dubbing,” inProceedings
+of the 15th Biennial Conference of the Association for Machine
+Translation in the Americas (Volume 2: Users and Providers Track
+and Government Track) , J. Campbell, S. Larocca, J. Marciano,
+K. Savenkov, and A. Yanishevsky, Eds. Orlando, USA: Association
+for Machine Translation in the Americas, Sep. 2022, pp. 202–209.
+[Online]. Available: https://aclanthology.org/2022.amta-upg.14
+[101] H. Jiang, Q. Wu, X. Luo, D. Li, C.-Y . Lin, Y . Yang, and L. Qiu,
+“Longllmlingua: Accelerating and enhancing llms in long context
+scenarios via prompt compression,” arXiv preprint arXiv:2310.06839 ,
+2023.
+[102] V . Karpukhin, B. O ˘guz, S. Min, P. Lewis, L. Wu, S. Edunov, D. Chen,
+and W.-t. Yih, “Dense passage retrieval for open-domain question
+answering,” arXiv preprint arXiv:2004.04906 , 2020.
+[103] Y . Ma, Y . Cao, Y . Hong, and A. Sun, “Large language model is
+not a good few-shot information extractor, but a good reranker for
+hard samples!” ArXiv, vol. abs/2303.08559, 2023. [Online]. Available:
+https://api.semanticscholar.org/CorpusID:257532405
+[104] J. Cui, Z. Li, Y . Yan, B. Chen, and L. Yuan, “Chatlaw: Open-source
+legal large language model with integrated external knowledge bases,”
+arXiv preprint arXiv:2306.16092 , 2023.
+[105] O. Yoran, T. Wolfson, O. Ram, and J. Berant, “Making retrieval-
+augmented language models robust to irrelevant context,” arXiv
+preprint arXiv:2310.01558, 2023.
+[106] X. Li, R. Zhao, Y . K. Chia, B. Ding, L. Bing, S. Joty, and S. Poria,
+“Chain of knowledge: A framework for grounding large language mod-
+els with structured knowledge bases,”arXiv preprint arXiv:2305.13269,
+2023.
+[107] H. Yang, S. Yue, and Y . He, “Auto-gpt for online decision
+making: Benchmarks and additional opinions,” arXiv preprint
+arXiv:2306.02224, 2023.
+[108] T. Schick, J. Dwivedi-Yu, R. Dess `ı, R. Raileanu, M. Lomeli, L. Zettle-
+moyer, N. Cancedda, and T. Scialom, “Toolformer: Language models
+can teach themselves to use tools,” arXiv preprint arXiv:2302.04761 ,
+2023.
+[109] J. Zhang, “Graph-toolformer: To empower llms with graph rea-
+soning ability via prompt augmented by chatgpt,” arXiv preprint
+arXiv:2304.11116, 2023.
+[110] R. Nakano, J. Hilton, S. Balaji, J. Wu, L. Ouyang, C. Kim,
+C. Hesse, S. Jain, V . Kosaraju, W. Saunders et al., “Webgpt: Browser-
+assisted question-answering with human feedback,” arXiv preprint
+arXiv:2112.09332, 2021.
+[111] T. Kwiatkowski, J. Palomaki, O. Redfield, M. Collins, A. Parikh,
+C. Alberti, D. Epstein, I. Polosukhin, J. Devlin, K. Lee et al., “Natural
+questions: a benchmark for question answering research,” Transactions
+of the Association for Computational Linguistics , vol. 7, pp. 453–466,
+2019.
+[112] Y . Liu, S. Yavuz, R. Meng, M. Moorthy, S. Joty, C. Xiong, and Y . Zhou,
+“Exploring the integration strategies of retriever and large language
+models,” arXiv preprint arXiv:2308.12574 , 2023.
+[113] M. Joshi, E. Choi, D. S. Weld, and L. Zettlemoyer, “Triviaqa: A large
+scale distantly supervised challenge dataset for reading comprehen-
+sion,” arXiv preprint arXiv:1705.03551 , 2017.
+[114] P. Rajpurkar, J. Zhang, K. Lopyrev, and P. Liang, “Squad: 100,000+
+questions for machine comprehension of text,” arXiv preprint
+arXiv:1606.05250, 2016.
+[115] J. Berant, A. Chou, R. Frostig, and P. Liang, “Semantic parsing on
+freebase from question-answer pairs,” in Proceedings of the 2013
+conference on empirical methods in natural language processing, 2013,
+pp. 1533–1544.
+[116] A. Mallen, A. Asai, V . Zhong, R. Das, H. Hajishirzi, and D. Khashabi,
+“When not to trust language models: Investigating effectiveness and
+limitations of parametric and non-parametric memories,”arXiv preprint
+arXiv:2212.10511, 2022.
+[117] T. Nguyen, M. Rosenberg, X. Song, J. Gao, S. Tiwary, R. Majumder,
+and L. Deng, “Ms marco: A human-generated machine reading com-
+prehension dataset,” 2016.
+[118] Z. Yang, P. Qi, S. Zhang, Y . Bengio, W. W. Cohen, R. Salakhutdi-
+nov, and C. D. Manning, “Hotpotqa: A dataset for diverse, explain-
+able multi-hop question answering,” arXiv preprint arXiv:1809.09600,
+2018.
+[119] X. Ho, A.-K. D. Nguyen, S. Sugawara, and A. Aizawa, “Constructing a
+multi-hop qa dataset for comprehensive evaluation of reasoning steps,”
+arXiv preprint arXiv:2011.01060 , 2020.
+[120] H. Trivedi, N. Balasubramanian, T. Khot, and A. Sabharwal, “Musique:
+Multihop questions via single-hop question composition,” Transactions
+of the Association for Computational Linguistics , vol. 10, pp. 539–554,
+2022.
+[121] A. Fan, Y . Jernite, E. Perez, D. Grangier, J. Weston, and M. Auli, “Eli5:
+Long form question answering,” arXiv preprint arXiv:1907.09190 ,
+2019.
+[122] T. Ko ˇcisk`y, J. Schwarz, P. Blunsom, C. Dyer, K. M. Hermann, G. Melis,
+and E. Grefenstette, “The narrativeqa reading comprehension chal-
+lenge,” Transactions of the Association for Computational Linguistics ,
+vol. 6, pp. 317–328, 2018.
+[123] K.-H. Lee, X. Chen, H. Furuta, J. Canny, and I. Fischer, “A human-
+inspired reading agent with gist memory of very long contexts,” arXiv
+preprint arXiv:2402.09727, 2024.
+[124] I. Stelmakh, Y . Luan, B. Dhingra, and M.-W. Chang, “Asqa: Factoid
+questions meet long-form answers,” arXiv preprint arXiv:2204.06092 ,
+2022.
+[125] M. Zhong, D. Yin, T. Yu, A. Zaidi, M. Mutuma, R. Jha, A. H.
+Awadallah, A. Celikyilmaz, Y . Liu, X. Qiu et al. , “Qmsum: A new
+benchmark for query-based multi-domain meeting summarization,”
+arXiv preprint arXiv:2104.05938 , 2021.
+[126] P. Dasigi, K. Lo, I. Beltagy, A. Cohan, N. A. Smith, and M. Gardner,
+“A dataset of information-seeking questions and answers anchored in
+research papers,” arXiv preprint arXiv:2105.03011 , 2021.
+[127] T. M ¨oller, A. Reina, R. Jayakumar, and M. Pietsch, “Covid-qa: A
+question answering dataset for covid-19,” in ACL 2020 Workshop on
+Natural Language Processing for COVID-19 (NLP-COVID) , 2020.
+[128] X. Wang, G. H. Chen, D. Song, Z. Zhang, Z. Chen, Q. Xiao, F. Jiang,
+J. Li, X. Wan, B. Wang et al. , “Cmb: A comprehensive medical
+benchmark in chinese,” arXiv preprint arXiv:2308.08833 , 2023.
+[129] H. Zeng, “Measuring massive multitask chinese understanding,” arXiv
+preprint arXiv:2304.12986, 2023.
+[130] R. Y . Pang, A. Parrish, N. Joshi, N. Nangia, J. Phang, A. Chen, V . Pad-
+makumar, J. Ma, J. Thompson, H. He et al. , “Quality: Question an-
+swering with long input texts, yes!” arXiv preprint arXiv:2112.08608 ,
+2021.
+[131] P. Clark, I. Cowhey, O. Etzioni, T. Khot, A. Sabharwal, C. Schoenick,
+and O. Tafjord, “Think you have solved question answering? try arc,
+the ai2 reasoning challenge,” arXiv preprint arXiv:1803.05457 , 2018.
+[132] A. Talmor, J. Herzig, N. Lourie, and J. Berant, “Commonsenseqa:
+A question answering challenge targeting commonsense knowledge,”
+arXiv preprint arXiv:1811.00937 , 2018.
+[133] E. Dinan, S. Roller, K. Shuster, A. Fan, M. Auli, and J. Weston,
+“Wizard of wikipedia: Knowledge-powered conversational agents,”
+arXiv preprint arXiv:1811.01241 , 2018.
+[134] H. Wang, M. Hu, Y . Deng, R. Wang, F. Mi, W. Wang, Y . Wang, W.-
+C. Kwan, I. King, and K.-F. Wong, “Large language models as source

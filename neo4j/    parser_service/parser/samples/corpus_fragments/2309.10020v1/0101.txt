@@ -1,0 +1,53 @@
+Chowdhery, A., Narang, S., Devlin, J., Bosma, M., Mishra, G., Roberts, A., Barham, P., Chung,
+H. W., Sutton, C., Gehrmann, S., et al. (2022). Palm: Scaling language modeling with pathways.
+arXiv preprint arXiv:2204.02311.
+Computer, T. (2023). Redpajama-data: An open source recipe to reproduce llama training dataset.
+Crawshaw, M. (2020). Multi-task learning with deep neural networks: A survey. arXiv preprint
+arXiv:2009.09796.
+Creswell, A., White, T., Dumoulin, V ., Arulkumaran, K., Sengupta, B., and Bharath, A. A. (2018).
+Generative adversarial networks: An overview. IEEE signal processing magazine, 35(1):53–65.
+Dai, H., Ma, C., Liu, Z., Li, Y ., Shu, P., Wei, X., Zhao, L., Wu, Z., Zhu, D., Liu, W., et al.
+(2023a). Samaug: Point prompt augmentation for segment anything model. arXiv preprint
+arXiv:2307.01187.
+Dai, W., Li, J., Li, D., Tiong, A. M. H., Zhao, J., Wang, W., Li, B., Fung, P., and Hoi, S. (2023b).
+Instructblip: Towards general-purpose vision-language models with instruction tuning. arXiv
+preprint arXiv:2305.06500.
+Dai, X., Chen, Y ., Xiao, B., Chen, D., Liu, M., Yuan, L., and Zhang, L. (2021). Dynamic head:
+Unifying object detection heads with attentions. In Proceedings of the IEEE/CVF conference on
+computer vision and pattern recognition, pages 7373–7382.
+Datta, R., Joshi, D., Li, J., and Wang, J. Z. (2008). Image retrieval: Ideas, influences, and trends of
+the new age. ACM Computing Surveys (Csur), 40(2):1–60.
+Deng, C., Wu, Q., Wu, Q., Hu, F., Lyu, F., and Tan, M. (2018). Visual grounding via accumulated
+attention. In CVPR.
+Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., and Fei-Fei, L. (2009). Imagenet: A large-scale
+hierarchical image database. In CVPR.
+Desai, K. and Johnson, J. (2021). Virtex: Learning visual representations from textual annotations.
+In CVPR.
+Desai, K., Kaul, G., Aysola, Z., and Johnson, J. (2021). Redcaps: Web-curated image-text data
+created by the people, for the people. In NeurIPS, Track on Datasets and Benchmarks.
+Dettmers, T., Pagnoni, A., Holtzman, A., and Zettlemoyer, L. (2023). Qlora: Efficient finetuning of
+quantized llms. arXiv preprint arXiv:2305.14314.
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. (2019). Bert: Pre-training of deep bidirectional
+transformers for language understanding. In NAACL.
+Dhariwal, P. and Nichol, A. (2021). Diffusion models beat gans on image synthesis. In NeurIPS.
+Ding, J., Xue, N., Xia, G.-S., and Dai, D. (2022a). Decoupling zero-shot semantic segmentation.
+Ding, Z., Wang, J., and Tu, Z. (2022b). Open-vocabulary panoptic segmentation with maskclip.
+arXiv preprint arXiv:2208.08984.
+Dong, B., Zeng, F., Wang, T., Zhang, X., and Wei, Y . (2021). Solq: Segmenting objects by learning
+queries. Advances in Neural Information Processing Systems, 34:21898–21909.
+Dong, X., Bao, J., Zhang, T., Chen, D., Zhang, W., Yuan, L., Chen, D., Wen, F., and Yu, N. (2022).
+Bootstrapped masked autoencoders for vision bert pretraining. In ECCV.
+Dong, X., Bao, J., Zhang, T., Chen, D., Zhang, W., Yuan, L., Chen, D., Wen, F., Yu, N., and Guo, B.
+(2023). Peco: Perceptual codebook for bert pre-training of vision transformers. In AAAI.
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., Dehghani,
+M., Minderer, M., Heigold, G., Gelly, S., et al. (2021). An image is worth 16x16 words: Trans-
+formers for image recognition at scale. In ICLR.
+Dou, Z.-Y ., Kamath, A., Gan, Z., Zhang, P., Wang, J., Li, L., Liu, Z., Liu, C., LeCun, Y ., Peng,
+N., Gao, J., and Wang, L. (2022a). Coarse-to-fine vision-language pre-training with fusion in the
+backbone. In NeurIPS.
+Dou, Z.-Y ., Xu, Y ., Gan, Z., Wang, J., Wang, S., Wang, L., Zhu, C., Liu, Z., Zeng, M., et al. (2022b).
+An empirical study of training end-to-end vision-and-language transformers. In CVPR.
+Driess, D., Xia, F., Sajjadi, M. S., Lynch, C., Chowdhery, A., Ichter, B., Wahid, A., Tompson, J.,
+Vuong, Q., Yu, T., et al. (2023). PaLM-E: An embodied multimodal language model. arXiv
+preprint arXiv:2303.03378.
+97

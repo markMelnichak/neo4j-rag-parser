@@ -1,0 +1,55 @@
+with aligned CLIP features via knowledge-distillation. MaskCLIP (Ding et al., 2022b) and Mask-
+Adapted CLIP Liang et al. (2023a) rely on the pre-trained CLIP model to provide features and
+scores, respectively, during the course of model training.
+• Other works learn a visual-semantic feature space using supervised pre-trained models or from
+scratch. For example, GLIP (Li et al., 2022f) and OpenSeeD (Zhang et al., 2023e) use a pre-trained
+BERT model (Devlin et al., 2019) and the CLIP text encoder, respectively, and use a vision back-
+bone pre-trained on ImageNet for image encoding. Though these separately pre-trained image and
+text encoders do not explicitly learn the alignment between image and language, it turns out that
+these models still give good representations for images and texts, and are instrumental to efficient
+model training. Differently, GroupViT (Xu et al., 2022a) is trained jointly using an open-set se-
+mantic segmentation task and a global image-text alignment task from scratch. ODISE (Xu et al.,
+2023a) exploits pre-trained Stable Diffusion models (Rombach et al., 2022) to extract compact
+masks.
+Model design. Open-set models can be either multi-stage or end-to-end.
+• Two-stage models. These models usually follow the design of the pre-DETR based models (Ren
+et al., 2015; He et al., 2017), which decouples localization and recognition. For object detection, a
+region proposal network is typically pre-trained for localizing the object of interest (Zhong et al.,
+2022b; Gu et al., 2021), and a mask proposal network for extracting masks (Ghiasi et al., 2022a;
+Yao et al., 2022a). Given the localization results, a pre-trained CLIP model is used to measure
+the similarity between visual contents and language concepts. A clear advantage for two-stage
+models is that they can inherit the open-set semantic understanding capacity without additional
+training so as to devote modeling training to requiring a well-performed localization network.
+• End-to-end models. Different from two-stage models, the end-to-end models follow the DETR-
+based methods (Carion et al., 2020; Cheng et al., 2022) or other one-stage models (Dai et al.,
+2021). GLIP (Li et al., 2022f) is one of the representative works. GLIP formulates object detec-
+tion as textual grounding and is trained end-to-end on image-text pairs with detection and ground-
+ing labels. Follow-up works enhance GLIP by enabling deeper vision-language interactions (Liu
+et al., 2023h) or using DETR-like model design (Zang et al., 2022; Minderer et al., 2022). For
+segmentation, both ZegFormer (Ding et al., 2022a) and OpenSeeD (Zhang et al., 2023e) exploit
+a DETR-like architecture and predict the masks and categories based on the outputs of their de-
+coders.
+Model pre-training. There are mainly three learning methods for pre-training open-set vision
+models.
+• Supervised learning. By converting label supervision to language supervision, many works di-
+rectly leverage the existing supervised annotations for training open-set models. For example,
+OVR-CNN (Zareian et al., 2021) trains a model with COCO categories and then evaluates its per-
+formance on novel categories. Likewise, ViLD (Gu et al., 2021) trains and evaluates two separate
+models on COCO and LVIS datasets, respectively. Following a similar protocol, many works
+train the open-set segmentation models on a subset of annotated segmentation data and evaluate
+the generalization ability on held-out data (Ding et al., 2022a,b; Zhang et al., 2023e; Xu et al.,
+2023a).
+• Semi-supervised learning. One might use both annotated data and unlabeled or weakly-labeled
+data. For example, both RegionCLIP (Zhong et al., 2022b) and GLIP (Li et al., 2022f) use a
+teacher model to extract fine-grained region-text alignments from image-text pairs to augment
+the training data for better open-set detection performance. Differently, OpenSeg (Ghiasi et al.,
+2022b) exploits Localized Narrative datasets (Pont-Tuset et al., 2020) as weakly-labeled data,
+which provides coarse correspondence between language phrases and strokes in images. Empir-
+ically, such semi-supervised learning methods often help improve models’ generalization ability
+because they can effectively leverage rich semantics from noisy data.
+• Weakly-supervised learning. Some works solely use weakly-labeled data for modeling. For
+example, GroupViT (Xu et al., 2022a) uses a contrastive learning method where all supervisions
+for model training are from positive and negative image-text pairs. Following the same contrastive
+learning method, SegCLIP (Luo et al., 2023b) uses a gathering mechanism to learn to merge image
+patches through the training on image-text pairs.
+45

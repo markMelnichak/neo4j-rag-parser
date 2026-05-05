@@ -1,0 +1,42 @@
+219 
+ 
+ко
+вый масштаб. Если это не так, и масштаб одного признака сильно 
+превосходит масштаб других, то качество может резко упасть. 
+Один из способов достижения нужного свойства признаков 
+заключается в их стандартизации. Для этого берется набор значений 
+признака на всех объектах, вычисляется их среднее значение и стан-
+дартное отклонение. После этого из всех значений признака вычи-
+тается среднее, и затем полученная разность делится на стандартное 
+отклонение. В ходе нашего эксперимента мы выясним, улучшает ли 
+нормализация качество работы модели. Код решения задачи (с ком-
+ментариями) представлен в листинге 58. Результат программы, выда-
+ваемый в ко
+нсоль, пр
+едставлен на рисунке 63, а построенный график – 
+на 
+рисунке 64. 
+Лист
+инг 58 
+# -*- codi
+ng: utf-8 -*- 
+#Необходимые импорты 
+import numpy as np 
+import pandas 
+from sklearn.linear_model import Perceptron 
+from sklearn.preprocessing import StandardScaler 
+from sklearn.metrics import accuracy_score 
+from sklearn.neural_network import MLPClassifier 
+import matplotlib.pyplot as plt 
+from matplotlib.colors import ListedColormap 
+#функция расчета медианы 
+def median(lst): 
+ return np.median(np.array(lst)) 
+#Загрузка тренировочных данных 
+data_train = pandas.read_csv('perceptron-train.csv') 
+X_train = data_train.ix[:, 1:3].values 
+y_train = data_train.ix[:, 0].values 
+#Загрузка тестовых данных 
+data_test = pandas.read_csv('perceptron-test.csv') 
+X_test = data_test.ix[:, 1:3].values 
+y_test = data_test.ix[:, 0].values

@@ -1,0 +1,43 @@
+Bibliography
+(2022). Stable diffusion. https://github.com/CompVis/stable-diffusion.
+Agarwal, A., Karanam, S., Joseph, K., Saxena, A., Goswami, K., and Srinivasan, B. V . (2023).
+A-star: Test-time attention segregation and retention for text-to-image synthesis. arXiv preprint
+arXiv:2306.14544.
+Agrawal, H., Desai, K., Wang, Y ., Chen, X., Jain, R., Johnson, M., Batra, D., Parikh, D., Lee, S.,
+and Anderson, P. (2019). nocaps: novel object captioning at scale. In ICCV.
+Ahn, M., Brohan, A., Brown, N., Chebotar, Y ., Cortes, O., David, B., Finn, C., Gopalakrishnan, K.,
+Hausman, K., Herzog, A., et al. (2022). Do as i can, not as i say: Grounding language in robotic
+affordances. arXiv preprint arXiv:2204.01691.
+Alayrac, J.-B., Donahue, J., Luc, P., Miech, A., Barr, I., Hasson, Y ., Lenc, K., Mensch, A., Millican,
+K., Reynolds, M., et al. (2022). Flamingo: a visual language model for few-shot learning. arXiv
+preprint arXiv:2204.14198.
+Allahyari, M., Pouriyeh, S., Assefi, M., Safaei, S., Trippe, E. D., Gutierrez, J. B., and Kochut, K.
+(2017). Text summarization techniques: a brief survey. arXiv preprint arXiv:1707.02268.
+Amrani, E., Karlinsky, L., and Bronstein, A. (2022). Self-supervised classification network. In
+ECCV.
+Anderson, P., He, X., Buehler, C., Teney, D., Johnson, M., Gould, S., and Zhang, L. (2018). Bottom-
+up and top-down attention for image captioning and visual question answering. In CVPR.
+Antol, S., Agrawal, A., Lu, J., Mitchell, M., Batra, D., Zitnick, C. L., and Parikh, D. (2015). Vqa:
+Visual question answering. In ICCV.
+Arora, S., Khandeparkar, H., Khodak, M., Plevrakis, O., and Saunshi, N. (2019). A theoretical
+analysis of contrastive unsupervised representation learning. arXiv preprint arXiv:1902.09229.
+Assran, M., Caron, M., Misra, I., Bojanowski, P., Bordes, F., Vincent, P., Joulin, A., Rabbat, M., and
+Ballas, N. (2022). Masked siamese networks for label-efficient learning. In ECCV.
+Avrahami, O., Aberman, K., Fried, O., Cohen-Or, D., and Lischinski, D. (2023a). Break-a-scene:
+Extracting multiple concepts from a single image. arXiv preprint arXiv:2305.16311.
+Avrahami, O., Fried, O., and Lischinski, D. (2022a). Blended latent diffusion. arXiv preprint
+arXiv:2206.02779.
+Avrahami, O., Hayes, T., Gafni, O., Gupta, S., Taigman, Y ., Parikh, D., Lischinski, D., Fried, O.,
+and Yin, X. (2023b). Spatext: Spatio-textual representation for controllable image generation. In
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages
+18370–18380.
+Avrahami, O., Lischinski, D., and Fried, O. (2022b). Blended diffusion for text-driven editing of
+natural images. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+Recognition, pages 18208–18218.
+Awadalla, A., Gao, I., Gardner, J., Hessel, J., Hanafy, Y ., Zhu, W., Marathe, K., Bitton, Y ., Gadre,
+S., Jitsev, J., Kornblith, S., Koh, P. W., Ilharco, G., Wortsman, M., and Schmidt, L. (2023).
+Openflamingo.
+Awais, M., Naseer, M., Khan, S., Anwer, R. M., Cholakkal, H., Shah, M., Yang, M.-H., and Khan,
+F. S. (2023). Foundational models defining a new era in vision: A survey and outlook. arXiv
+preprint arXiv:2307.13721.
+93

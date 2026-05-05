@@ -1,0 +1,79 @@
+share with researchers. The OPT models’ parameters are
+shown in 20
+Fig. 20: Different OPT Models’ architecture details. Courtesy
+of [86].
+Chinchilla: In [2], Hoffmann et al. investigated the optimal
+model size and number of tokens for training a transformer
+language model under a given compute budget. By training
+over 400 language models ranging from 70 million to over
+16 billion parameters on 5 to 500 billion tokens, they found
+that for compute-optimal training, the model size and the
+number of training tokens should be scaled equally: for every
+doubling of model size the number of training tokens should
+also be doubled. They tested this hypothesis by training a
+predicted compute-optimal model, Chinchilla, that uses the
+same compute budget as Gopher but with 70B parameters and
+4% more more data.
+Galactica: In [87], Taylor et al. introduced Galactica, a
+large language model that can store, combine and reason about
+scientific knowledge. They trained on a large scientific corpus
+of papers, reference material, knowledge bases and many other
+sources. Galactica performed well on reasoning, outperforming
+Chinchilla on mathematical MMLU by 41.3% to 35.7%, and
+PaLM 540B on MATH with a score of 20.4% versus 8.8%.
+CodeGen: In [88], Nijkamp et al. trained and released
+a family of large language models up to 16.1B parameters,
+called CODEGEN, on natural language and programming
+language data, and open sourced the training library JAX-
+FORMER. They showed the utility of the trained model by
+demonstrating that it is competitive with the previous state-of-
+the-art on zero-shot Python code generation on HumanEval.
+They further investigated the multi-step paradigm for program
+synthesis, where a single program is factorized into multi-
+ple prompts specifying sub-problems. They also constructed
+an open benchmark, Multi-Turn Programming Benchmark
+(MTPB), consisting of 115 diverse problem sets that are
+factorized into multi-turn prompts.
+AlexaTM: In [89], Soltan et al. demonstrated that mul-
+tilingual large-scale sequence-to-sequence (seq2seq) models,
+pre-trained on a mixture of denoising and Causal Language
+Modeling (CLM) tasks, are more efficient few-shot learners
+than decoder-only models on various task. They trained a
+20 billion parameter multilingual seq2seq model called Alexa
+Teacher Model (AlexaTM 20B) and showed that it achieves
+state-of-the-art (SOTA) performance on 1-shot summarization
+tasks, outperforming a much larger 540B PaLM decoder
+model. AlexaTM consist of 46 encoder layers, 32 decoder
+layers, 32 attention heads, and dmodel = 4096.
+Sparrow: In [90], Glaese et al. presented Sparrow, an
+information-seeking dialogue agent trained to be more helpful,
+correct, and harmless compared to prompted language model
+baselines. They used reinforcement learning from human feed-
+back to train their models with two new additions to help
+human raters judge agent behaviour. The high-level pipeline
+of Sparrow model is shown in Fig 21.
+Fig. 21: Sparrow pipeline relies on human participation to
+continually expand a training set. Courtesy of [90].
+Minerva: In [91], Lewkowycz et al. introduced Minerva,
+a large language model pretrained on general natural language
+data and further trained on technical content, to tackle previous
+LLM struggle with quantitative reasoning (such as solving
+mathematics, science, and engineering problems).
+MoD: In [92], Tay et al. presented a generalized and
+unified perspective for self-supervision in NLP and show how
+different pre-training objectives can be cast as one another
+and how interpolating between different objectives can be
+effective. They proposed Mixture-of-Denoisers (MoD), a pre-
+training objective that combines diverse pre-training paradigms
+together. This framework is known as Unifying Language
+Learning (UL2). An overview of UL2 pretraining paradigm
+is shown in Fig 21.
+Fig. 22: An overview of UL2 pretraining paradigm. Courtesy
+of [92].
+BLOOM: In [93], Scao et al. presented BLOOM, a 176B-
+parameter open-access language model designed and built
+thanks to a collaboration of hundreds of researchers. BLOOM
+is a decoder-only Transformer language model trained on the
+ROOTS corpus, a dataset comprising hundreds of sources in
+46 natural and 13 programming languages (59 in total). An
+overview of BLOOM architecture is shown in Fig 23.

@@ -1,0 +1,114 @@
+Visual Math and Text Reasoning
+Multi-Image Reasoning
+Open-World Concept Understanding Video Summarization/Event Localization
+Multi-Hop Document Understanding
+Visual-Conditioned Joke/Meme Spatial/Coordinate Understanding
+Visual Planning and Prediction
+What is “a” in the ﬁrst equation?
+What is y in the last equation?
+The value of “a” in the ﬁrst equation 
+“5 + a = 7” is 2.
+The value of “y” in the last equation 
+“34 + y = 39” is 5.
+How much in total did I spend on travel?
+How much in total did I pay for taxes?
+You spent $1299.90 on airfare and 
+$43.83 on an Uber ride for a total of 
+$1343.73 on travel. 
+You paid $323.23 in total for taxes. 
+This includes $321.90 for taxes and 
+fees for the ﬂight purchase and $1.33 
+for sales tax for the Windmill Family 
+Restaurant.
+Excluding the regular cab, what is the average total 
+fueling cost?
+The average total fueling cost 
+excluding the Ford F150 (Regular Cab) 
+is $76.55. This is calculated by taking 
+the sum of the total fueling cost of 
+Toyota RAV4 and Honda Civic and 
+dividing it by 2. ($82.56 + $70.55) / 2 
+= $76.55.
+Where is the frisbee?
+What is the relative position of the frisbee and the man?
+ The frisbee is located at coordinates 
+(63,119,133,177).
+The frisbee is located above the man 
+in the image. The man is falling on the 
+ground while the frisbee is in the air. 
+The frisbee is also closer to the top of 
+the image than the man.
+What is funny about it?
+The humor in the comic may come 
+from the situation, the characters, or 
+the dialogue. The person is feeling 
+unwell and is asked if they are 
+pregnant or have the coronavirus, 
+which is a current and relevant topic. 
+The humor may come from the 
+absurdity of the situation or the 
+unexpectedness of the question. 
+What should I do after kneading the dough, before 
+dividing it into pieces? For how long?
+After kneading the dough, you 
+should put it in a warm place before 
+dividing it into pieces, according to 
+the recipe in the image.
+You should put the dough in a 
+warm place for 1 hour.
+Can you breakdown this video tutorial to step-by-step 
+instructions, with start and end time?
+Here's a step-by-step breakdown of 
+the tutorial with start and end time.
+What is the brand of these drink? 
+Which one is unsweetened?
+The brand of these 
+drinks is “BETTER 
+THAN MILK”. The 
+unsweetened one is 
+“BETTER THAN MILK 
+organic OAT DRINK”.
+Who are the celebrities in this 
+image?
+Keira Knightley and 
+Natalie Portman are 
+the celebrities in this 
+image.
+Is it safe to eat this mushroom?
+Morel mushrooms are 
+generally considered 
+safe to eat when 
+properly cooked. 
+Add Lettuce Add Tomato Add Bacon
+… …
+Figure 6.6: Emerging capabilities of MM-R EACT for multimodal reasoning and action. Image
+credit: Yang* et al. (2023).
+MM-ReAct encourages ChatGPT to show thethought (reasoning) process to highlight why an exter-
+nal tool is needed, which has been proven beneficial in NLP studies (Yao et al., 2022c). In addition,
+for generating proper calling to each tool, both instructions and in-context examples are added as the
+prefix when prompting ChatGPT. Each tool is described with the model name, a general description
+of its capability, the input data format, and the output information. After describing each tool, a few
+in-context dialogue examples are also included for enhanced performance.
+Execution. Given the action request from ChatGPT, the tool name and the file path can be parsed
+via regular expression matching, which are used to invoke the tool (action execution).
+Take the example shown in Figure 6.5, upon receiving the input image, ChatGPT first invokes a se-
+ries of tools for a general understanding about the image. The invoked tools include image caption-
+ing for an overall description of the image; dense captioning to get the region-level, more detailed
+description about the objects in the image; object tagging to get the tags of the objects in the image;
+face detection to get the box coordinates of the two faces mentioned in the object tags. The outputs
+from the tools (i.e. observations) are serialized as text, and fed back to ChatGPT.
+Combining observations with the chat history, ChatGPT can further invoke additional experts or
+return the final answer to the user. In this specific example, ChatGPT invokes a second round of
+thought-action-observation over the two faces detected in the image and calls celebrity recognition
+to get the names of these two persons.
+Response generation. When ChatGPT decides no external tools are needed, it takes consideration
+of all observations gathered and summarize them as the response to the user, which is “This image
+contains two celebrities, Kobe Bryant and Paul Pierce. They are both basketball players.” for the
+example shown in Figure 6.5.
+If the user continues to interact with MM-R EACT, it repeats the process described above, but with
+all observations and chat history available when planning for the tools needed. For instance, if the
+user then asks “how many championship rings did the player on the left win in his career”, it is
+not available in the existing observations nor chat history, but ChatGPT has the bounding boxes to
+decide who is on the left, and also the names of the players. It plans to invoke Bing Search to find
+the right answer, which should be 5.
+82

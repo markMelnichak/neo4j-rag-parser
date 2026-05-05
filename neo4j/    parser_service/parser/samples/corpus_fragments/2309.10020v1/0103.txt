@@ -1,0 +1,51 @@
+Gao, P., Han, J., Zhang, R., Lin, Z., Geng, S., Zhou, A., Zhang, W., Lu, P., He, C., Yue, X.,
+et al. (2023b). Llama-adapter v2: Parameter-efficient visual instruction model. arXiv preprint
+arXiv:2304.15010.
+Gao, P., Ma, T., Li, H., Lin, Z., Dai, J., and Qiao, Y . (2022). Convmae: Masked convolution meets
+masked autoencoders. arXiv preprint arXiv:2205.03892.
+Ge, Y ., Ge, Y ., Zeng, Z., Wang, X., and Shan, Y . (2023). Planting a seed of vision in large language
+model. arXiv preprint arXiv:2307.08041.
+Geng, X. and Liu, H. (2023). Openllama: An open reproduction of llama.
+Geng, Z., Yang, B., Hang, T., Li, C., Gu, S., Zhang, T., Bao, J., Zhang, Z., Hu, H., Chen, D.,
+et al. (2023). Instructdiffusion: A generalist modeling interface for vision tasks. arXiv preprint
+arXiv:2309.03895.
+Ghiasi, G., Gu, X., Cui, Y ., and Lin, T.-Y . (2022a). Open-vocabulary image segmentation. InECCV.
+Ghiasi, G., Gu, X., Cui, Y ., and Lin, T.-Y . (2022b). Scaling open-vocabulary image segmentation
+with image-level labels. In European Conference on Computer Vision, pages 540–557. Springer.
+Girdhar, R., El-Nouby, A., Liu, Z., Singh, M., Alwala, K. V ., Joulin, A., and Misra, I. (2023).
+Imagebind: One embedding space to bind them all. In CVPR.
+Girshick, R. (2015). Fast r-cnn. In ICCV.
+Girshick, R., Donahue, J., Darrell, T., and Malik, J. (2015). Region-based convolutional networks for
+accurate object detection and segmentation. IEEE transactions on pattern analysis and machine
+intelligence, 38(1):142–158.
+Gong, T., Lyu, C., Zhang, S., Wang, Y ., Zheng, M., Zhao, Q., Liu, K., Zhang, W., Luo, P., and
+Chen, K. (2023). Multimodal-gpt: A vision and language model for dialogue with humans. arXiv
+preprint arXiv:2305.04790.
+Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., and
+Bengio, Y . (2020). Generative adversarial networks.Communications of the ACM.
+Grill, J.-B., Strub, F., Altch ´e, F., Tallec, C., Richemond, P., Buchatskaya, E., Doersch, C.,
+Avila Pires, B., Guo, Z., Gheshlaghi Azar, M., et al. (2020). Bootstrap your own latent-a new
+approach to self-supervised learning. NeurIPS.
+Gu, X., Cui, Y ., Huang, J., Rashwan, A., Yang, X., Zhou, X., Ghiasi, G., Kuo, W., Chen, H., Chen,
+L.-C., et al. (2023). Dataseg: Taming a universal multi-dataset multi-task segmentation model.
+arXiv preprint arXiv:2306.01736.
+Gu, X., Lin, T.-Y ., Kuo, W., and Cui, Y . (2021). Open-vocabulary object detection via vision and
+language knowledge distillation. arXiv preprint arXiv:2104.13921.
+Gu, X., Lin, T.-Y ., Kuo, W., and Cui, Y . (2022). Open-vocabulary object detection via vision and
+language knowledge distillation. In ICLR.
+Gudibande, A., Wallace, E., Snell, C., Geng, X., Liu, H., Abbeel, P., Levine, S., and Song, D. (2023).
+The false promise of imitating proprietary llms. arXiv preprint arXiv:2305.15717.
+Gunjal, A., Yin, J., and Bas, E. (2023). Detecting and preventing hallucinations in large vision
+language models. arXiv preprint arXiv:2308.06394.
+Gupta, T., Kamath, A., Kembhavi, A., and Hoiem, D. (2022a). Towards general purpose vision
+systems: An end-to-end task-agnostic vision-language architecture. In CVPR.
+Gupta, T., Kamath, A., Kembhavi, A., and Hoiem, D. (2022b). Towards general purpose vision sys-
+tems: An end-to-end task-agnostic vision-language architecture. In Proceedings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition (CVPR), pages 16399–16409.
+Gupta, T. and Kembhavi, A. (2022a). Visual programming: Compositional visual reasoning without
+training. arXiv preprint arXiv:2211.11559.
+Gupta, T. and Kembhavi, A. (2022b). Visual programming: Compositional visual reasoning without
+training. ArXiv, abs/2211.11559.
+Gupta, T. and Kembhavi, A. (2023). Visual programming: Compositional visual reasoning without
+training. In CVPR.
+99

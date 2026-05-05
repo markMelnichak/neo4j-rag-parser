@@ -1,0 +1,29 @@
+Example 1: LMMwithImage-Text Pairs•BLIP2
+Q-Former: Lightweight Querying Transformer
+•GIT
+GIT: A Generative Image-to-text Transformer for Vision and LanguageBlip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models
+Vision EncoderConnection ModuleLanguage Model
+Contrastive pre-trained: Florence/CLIP
+From ScratchPre-trained: FLAN-T5/OPT
+Contrastive pre-trained: EVA/CLIP
+(a) Example 1: LMM trained with image-text pairs.
+•Flamingo
+Vision EncoderConnection ModuleLanguage ModelPerceiver ResamplerGated Cross-attention + DensePre-trained: Nonrmalizer-Free ResNet(NFNet)
+Pre-trained: 70B Chinchilla
+Example 2: LMM with Interleaved Image-Text Data
+(b) Example 2: LMM trained with image-text pairs and interleaved image-text data.
+Figure 5.2: Examples of image-to-text generation models. Image credit: Wang et al. (2022a); Li
+et al. (2023h); Alayrac et al. (2022).
+•Flamingo: Multimodal In-Context-Learning
+Emerging Property
+Example 2: LMM with Interleaved Image-Text Data
+Figure 5.3: The emerging property of pre-training on web-scale interleaved image-text data: multi-
+modal in-context-learning. Examples are adopted from Alayrac et al. (2022).
+5.1.3 OpenAI Multimodal GPT-4 and Research Gaps
+In March 2023, OpenAI released GPT-4 (OpenAI, 2023a), with impressive capability in visual un-
+derstanding and reasoning. Though the model details are not revealed, there is no doubt that GPT-4
+enables many new scenarios, based on the examples highlighted in the technique report. For in-
+stance, two popular visual examples are illustrated in Figure 5.4. The first one identifies the uncom-
+mon visual region and exhibits strong complex reasoning performance. The second one recognizes
+text in the image and captures the mere across image-text. For a while, the research community had
+63

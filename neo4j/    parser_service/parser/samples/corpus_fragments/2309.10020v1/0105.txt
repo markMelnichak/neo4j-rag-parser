@@ -1,0 +1,52 @@
+Hu, W., Xu, Y ., Li, Y ., Li, W., Chen, Z., and Tu, Z. (2023). Bliva: A simple multimodal llm for
+better handling of text-rich visual questions. arXiv preprint arXiv:2308.09936.
+Huang, L., You, S., Zheng, M., Wang, F., Qian, C., and Yamasaki, T. (2022a). Green hierarchical
+vision transformer for masked image modeling. NeurIPS.
+Huang, R., Li, M., Yang, D., Shi, J., Chang, X., Ye, Z., Wu, Y ., Hong, Z., Huang, J., Liu, J., et al.
+(2023a). Audiogpt: Understanding and generating speech, music, sound, and talking head. arXiv
+preprint arXiv:2304.12995.
+Huang, S., Dong, L., Wang, W., Hao, Y ., Singhal, S., Ma, S., Lv, T., Cui, L., Mohammed, O. K.,
+Liu, Q., et al. (2023b). Language is not all you need: Aligning perception with language models.
+arXiv preprint arXiv:2302.14045.
+Huang, S., Jiang, Z., Dong, H., Qiao, Y ., Gao, P., and Li, H. (2023c). Instruct2act: Map-
+ping multi-modality instructions to robotic actions with large language model. arXiv preprint
+arXiv:2305.11176.
+Huang, W., Abbeel, P., Pathak, D., and Mordatch, I. (2022b). Language models as zero-shot plan-
+ners: Extracting actionable knowledge for embodied agents. In International Conference on
+Machine Learning, pages 9118–9147. PMLR.
+Huang, Y ., Meng, Z., Liu, F., Su, Y ., Collier, N., and Lu, Y . (2023d). Sparkles: Unlock-
+ing chats across multiple images for multimodal instruction-following models. arXiv preprint
+arXiv:2308.16463.
+Huang, Z., Zeng, Z., Huang, Y ., Liu, B., Fu, D., and Fu, J. (2021). Seeing out of the box: End-to-end
+pre-training for vision-language representation learning. In CVPR.
+Huang, Z., Zeng, Z., Liu, B., Fu, D., and Fu, J. (2020). Pixel-BERT: Aligning image pixels with
+text by deep multi-modal transformers. arXiv preprint arXiv:2004.00849.
+Huynh, D., Kuen, J., Lin, Z., Gu, J., and Elhamifar, E. (2022). Open-vocabulary instance segmen-
+tation via robust cross-modal pseudo-labeling. In Proceedings of the IEEE/CVF Conference on
+Computer Vision and Pattern Recognition, pages 7020–7031.
+Ilharco, G., Wortsman, M., Wightman, R., Gordon, C., Carlini, N., Taori, R., Dave, A., Shankar, V .,
+Namkoong, H., Miller, J., Hajishirzi, H., Farhadi, A., and Schmidt, L. (2021). Openclip. If you
+use this software, please cite it as below.
+Jain, J., Li, J., Chiu, M. T., Hassani, A., Orlov, N., and Shi, H. (2023). Oneformer: One transformer
+to rule universal image segmentation. In CVPR.
+Jaiswal, A., Babu, A. R., Zadeh, M. Z., Banerjee, D., and Makedon, F. (2020). A survey on con-
+trastive self-supervised learning. Technologies.
+Jerripothula, K. R., Cai, J., and Yuan, J. (2016). Image co-segmentation via saliency co-fusion.
+IEEE Transactions on Multimedia, 18(9):1896–1909.
+Jia, C., Yang, Y ., Xia, Y ., Chen, Y .-T., Parekh, Z., Pham, H., Le, Q. V ., Sung, Y ., Li, Z., and Duerig, T.
+(2021). Scaling up visual and vision-language representation learning with noisy text supervision.
+In ICML.
+Jing, L. and Tian, Y . (2020). Self-supervised visual feature learning with deep neural networks: A
+survey. IEEE transactions on pattern analysis and machine intelligence.
+Joulin, A., Bach, F., and Ponce, J. (2010). Discriminative clustering for image co-segmentation.
+In 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition, pages
+1943–1950. IEEE.
+Kamath, A., Singh, M., LeCun, Y ., Synnaeve, G., Misra, I., and Carion, N. (2021). Mdetr-modulated
+detection for end-to-end multi-modal understanding. In ICCV.
+Kang, M., Zhu, J.-Y ., Zhang, R., Park, J., Shechtman, E., Paris, S., and Park, T. (2023). Scaling
+up gans for text-to-image synthesis. In Proceedings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition, pages 10124–10134.
+Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., Gray, S., Radford,
+A., Wu, J., and Amodei, D. (2020). Scaling laws for neural language models. arXiv preprint
+arXiv:2001.08361.
+101

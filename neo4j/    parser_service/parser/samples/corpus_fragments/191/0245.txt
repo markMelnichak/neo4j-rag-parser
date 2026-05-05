@@ -1,0 +1,46 @@
+248 
+ 
+Про
+должение листинга 9
+4 
+fr
+om pandas import read_csv 
+import math 
+from keras.models import Sequential 
+from keras.layers import Dense 
+from keras.layers import LSTM 
+from sklearn.preprocessing import MinMaxScaler 
+from sklearn.metrics import mean_squared_error 
+# функция для создания выборки из исходного массива данных 
+def create_dataset(dataset, look_back=1): 
+ dataX, dataY = [], [] 
+ for i in range(len(dataset)-look_back-1): 
+ a = dataset[i:(i+look_back), 0] 
+ dataX.append(a) 
+ dataY.append(dataset[i + look_back, 0]) 
+ return numpy.array(dataX), numpy.array(dataY) 
+# фиксация состояния рандома для получения предсказуемого результата 
+numpy.random.seed(7) 
+# загрузка данных 
+dataframe = read_csv('international-airline-passengers.csv', usecols=[1], engine='python', 
+skipfooter=3) 
+dataset = dataframe.values 
+dataset = dataset.astype('float32') 
+# нормализация данных 
+scaler = MinMaxScaler(feature_range=(0, 1)) 
+dataset = scaler.fit_transform(dataset) 
+# ручное разделение данных на обучающую и тестовую выборку 
+train_size = int(len(dataset) * 0.67) 
+test_size = len(dataset) - train_size 
+train, test = dataset[0:train_size,:], dataset[train_size:len(dataset),:] 
+# Изменение исходного набора данных для того, чтобы в каждой строке X оказался 
+# временной ряд размером look_back, начиная от момента времени t0. А в Y 
+# временной ряд единичного размера от момента времени t0 + look_back. 
+# В данном примере, для look_back=4 X1 будет состоять из объектов: Data[t0], 
+# Data[t1], Data[t2], Data[t4], а Y1 из объектов: Data[t5]. X2 начнется с элемента 
+# Data[t1] и т.д. 
+ trainX, trainY = create_dataset(train, look_back) 
+testX, testY = create_dataset(test, look_back) 
+# изменение формы входных данных и приведение их к виду 
+# [количество объектов, размер временного ряда из объектов, количество признаков 
+каждого объекта]

@@ -1,0 +1,61 @@
+Fig. 37: An example of synthesizing RAG with LLMs for question answering application [166].
+Fig. 38: This is one example of synthesizing the KG as a
+retriever with LLMs [167].
+a) RAG-aware prompting techniques: Because of the
+importance of RAG to build advanced LLM systems, several
+RAG-aware prompting techniques have been developed re-
+cently. One such technique is Forward-looking Active Retrieval
+Augmented Generation (FLARE)
+Forward-looking Active Retrieval Augmented Generation
+(FLARE) [168] enhances the capabilities of Large Language
+Models (LLMs) by iteratively combining prediction and in-
+formation retrieval. FLARE represents an evolution in the
+use of retrieval-augmented generation, aimed at improving the
+accuracy and relevance of LLM responses.
+FLARE involves an iterative process where the LLM
+actively predicts upcoming content and uses these predictions
+as queries to retrieve relevant information. This method con-
+trasts with traditional retrieval-augmented models that typically
+retrieve information once and then proceed with generation. In
+FLARE, this process is dynamic and ongoing throughout the
+generation phase. In FLARE, each sentence or segment gener-
+ated by the LLM is evaluated for confidence. If the confidence
+level is below a certain threshold, the model uses the generated
+content as a query to retrieve relevant information, which is
+then used to regenerate or refine the sentence. This iterative
+process ensures that each part of the response is informed by
+the most relevant and current information available.
+For more details on RAG framework and its relevant works,
+we refer the readers to this survey of retrieval augmented
+generations [165].
+D. Using External T ools
+Retrieving information from an external knowledge source
+as described above is only one of the potential ways to augment
+an LLM. More generally, an LLM can access any number
+of external tools (e.g. an API to a service) to augment its
+functionality. In that regards, RAG can be seen as a specific
+instance of the broader category of the so called ”tools”.
+Tools in this context are external functions or services that
+LLMs can utilize. These tools extend the range of tasks an
+LLM can perform, from basic information retrieval to complex
+interactions with external databases or APIs.
+In the paper ”Toolformer: Language Models Can Teach
+Themselves to Use Tools” [169], the authors go beyond simple
+tool usage by training an LLM to decide what tool to use
+when, and even what parameters the API needs. Tools include
+two different search engines, or a calculator. In the following
+examples, the LLM decides to call an external Q&A tool,
+a calculator, and a Wikipedia Search Engine More recently,
+researchers at Berkeley have trained a new LLM called Gorilla
+[67] that beats GPT-4 at the use of APIs, a specific but quite
+general tool.
+a) Tool-aware prompting techniques: Similarly to what
+was described with RAG, several tool-aware prompting ap-
+proaches have been developed to make usage of tools more
+scalable. A popular technique is the so called Automatic Multi-
+step Reasoning and Tool-use (ART).
+Automatic Multi-step Reasoning and Tool-use (ART) [170]
+is a prompt engineering technique that combines automated
+chain of thought prompting with the use of external tools.
+ART represents a convergence of multiple prompt engineering
+strategies, enhancing the ability of Large Language Models

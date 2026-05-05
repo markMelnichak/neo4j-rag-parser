@@ -1,0 +1,32 @@
+289 
+ 
+g
+enerated/sklearn.ensemble.RandomForestRegressor.html (режим дос-
+тупа – свобод-ный), (дата обращения: 08.07.2017). 
+52. [Электронный ресурс]: Документация по Scikit-learn: 
+f_regression. URL: http://scikit-learn.org/stable/modules/generated/ 
+sklearn.feature_selection.f_regression.html(режим доступа – свобод-
+ный), (дата обращения: 08.07.2017). 
+53. [Электронный ресурс]: Документация по Scikit-learn: 
+Pipeline. URL: http://scikit-learn.org/stable/modules/generated/sklearn. 
+pipeline.Pipeline.html(режим доступа – свободный), (дата обращения: 
+08.07.2017). 
+54. [Электронный ресурс]: Документация по Scikit-learn: 
+Cross-validation. URL: http://scikit-learn.org/stable/modules/cross_ 
+validation.html#cross-validation(режим доступа – свободный), (дата 
+обращения: 08.07.2017). 
+55. [Электронный ресурс]: Документация по Scikit-learn: 
+Cross_val_score. URL: http://scikit-learn.org/stable/modules/generated/ 
+sklearn.model_selection.cross_val_score.html, (режим доступа – свобод-
+ный), (дата обращения: 08.07.2017). 
+56. [Электронный ресурс]: Документация по Scikit-learn: 
+Perceptron. URL: http://scikit-learn.org/stable/modules/generated/sklearn. 
+linear_model.Perceptron.html, (режим доступа – свободный), (дата 
+обращения: 08.07.2017). 
+57. [Электронный ресурс]: Документация по Scikit-learn: 
+MLPClassifier. URL: http://scikit-learn.org/stable/modules/generated/ 
+sklearn.neural_network.MLPClassifier.html, (режим доступа – свобод-
+ный), (дата обращения: 08.07.2017). 
+58. [Электронный ресурс]: Официальный сайт NVIDIA. 
+Проверка видеокарты. URL: https://developer.nvidia.com/cuda-gpus 
+(режим доступа – свободный), (дата обращения: 08.07.2017).

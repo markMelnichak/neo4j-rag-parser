@@ -1,0 +1,137 @@
+[83] O. Lieber, O. Sharir, B. Lenz, and Y . Shoham, “Jurassic-1: Technical
+details and evaluation,” White Paper. AI21 Labs, vol. 1, p. 9, 2021.
+[84] N. Du, Y . Huang, A. M. Dai, S. Tong, D. Lepikhin, Y . Xu, M. Krikun,
+Y . Zhou, A. W. Yu, O. Firat et al. , “Glam: Efficient scaling of
+language models with mixture-of-experts,” inInternational Conference
+on Machine Learning . PMLR, 2022, pp. 5547–5569.
+[85] R. Thoppilan, D. De Freitas, J. Hall, N. Shazeer, A. Kulshreshtha, H.-
+T. Cheng, A. Jin, T. Bos, L. Baker, Y . Du et al. , “Lamda: Language
+models for dialog applications,” arXiv preprint arXiv:2201.08239 ,
+2022.
+[86] S. Zhang, S. Roller, N. Goyal, M. Artetxe, M. Chen, S. Chen,
+C. Dewan, M. Diab, X. Li, X. V . Lin et al. , “Opt: Open pre-trained
+transformer language models,”arXiv preprint arXiv:2205.01068, 2022.
+[87] R. Taylor, M. Kardas, G. Cucurull, T. Scialom, A. Hartshorn, E. Sar-
+avia, A. Poulton, V . Kerkez, and R. Stojnic, “Galactica: A large
+language model for science,” arXiv preprint arXiv:2211.09085 , 2022.
+[88] E. Nijkamp, B. Pang, H. Hayashi, L. Tu, H. Wang, Y . Zhou,
+S. Savarese, and C. Xiong, “Codegen: An open large language
+model for code with multi-turn program synthesis,” arXiv preprint
+arXiv:2203.13474, 2022.
+[89] S. Soltan, S. Ananthakrishnan, J. FitzGerald, R. Gupta, W. Hamza,
+H. Khan, C. Peris, S. Rawls, A. Rosenbaum, A. Rumshisky et al. ,
+“Alexatm 20b: Few-shot learning using a large-scale multilingual
+seq2seq model,” arXiv preprint arXiv:2208.01448 , 2022.
+[90] A. Glaese, N. McAleese, M. Trebacz, J. Aslanides, V . Firoiu,
+T. Ewalds, M. Rauh, L. Weidinger, M. Chadwick, P. Thacker et al. ,
+“Improving alignment of dialogue agents via targeted human judge-
+ments,” arXiv preprint arXiv:2209.14375 , 2022.
+[91] A. Lewkowycz, A. Andreassen, D. Dohan, E. Dyer, H. Michalewski,
+V . Ramasesh, A. Slone, C. Anil, I. Schlag, T. Gutman-Solo et al. ,
+“Solving quantitative reasoning problems with language models,”
+Advances in Neural Information Processing Systems , vol. 35, pp.
+3843–3857, 2022.
+[92] Y . Tay, M. Dehghani, V . Q. Tran, X. Garcia, D. Bahri, T. Schuster,
+H. S. Zheng, N. Houlsby, and D. Metzler, “Unifying language learning
+paradigms,” arXiv preprint arXiv:2205.05131 , 2022.
+[93] T. L. Scao, A. Fan, C. Akiki, E. Pavlick, S. Ili ´c, D. Hesslow,
+R. Castagn´e, A. S. Luccioni, F. Yvon, M. Gall´e et al., “Bloom: A 176b-
+parameter open-access multilingual language model,” arXiv preprint
+arXiv:2211.05100, 2022.
+[94] A. Zeng, X. Liu, Z. Du, Z. Wang, H. Lai, M. Ding, Z. Yang, Y . Xu,
+W. Zheng, X. Xia et al. , “Glm-130b: An open bilingual pre-trained
+model,” arXiv preprint arXiv:2210.02414 , 2022.
+[95] S. Biderman, H. Schoelkopf, Q. G. Anthony, H. Bradley, K. O’Brien,
+E. Hallahan, M. A. Khan, S. Purohit, U. S. Prashanth, E. Raff et al.,
+“Pythia: A suite for analyzing large language models across train-
+ing and scaling,” in International Conference on Machine Learning .
+PMLR, 2023, pp. 2397–2430.
+[96] S. Mukherjee, A. Mitra, G. Jawahar, S. Agarwal, H. Palangi, and
+A. Awadallah, “Orca: Progressive learning from complex explanation
+traces of gpt-4,” arXiv preprint arXiv:2306.02707 , 2023.
+[97] R. Li, L. B. Allal, Y . Zi, N. Muennighoff, D. Kocetkov, C. Mou,
+M. Marone, C. Akiki, J. Li, J. Chim et al., “Starcoder: may the source
+be with you!” arXiv preprint arXiv:2305.06161 , 2023.
+[98] S. Huang, L. Dong, W. Wang, Y . Hao, S. Singhal, S. Ma, T. Lv,
+L. Cui, O. K. Mohammed, Q. Liu et al. , “Language is not all you
+need: Aligning perception with language models,” arXiv preprint
+arXiv:2302.14045, 2023.
+[99] G. Team, R. Anil, S. Borgeaud, Y . Wu, J.-B. Alayrac, J. Yu, R. Soricut,
+J. Schalkwyk, A. M. Dai, A. Hauth et al., “Gemini: a family of highly
+capable multimodal models,” arXiv preprint arXiv:2312.11805 , 2023.
+[100] W. Huang, F. Xia, T. Xiao, H. Chan, J. Liang, P. Florence, A. Zeng,
+J. Tompson, I. Mordatch, Y . Chebotar et al. , “Inner monologue:
+Embodied reasoning through planning with language models,” arXiv
+preprint arXiv:2207.05608, 2022.
+[101] S. Smith, M. Patwary, B. Norick, P. LeGresley, S. Rajbhandari,
+J. Casper, Z. Liu, S. Prabhumoye, G. Zerveas, V . Korthikanti
+et al. , “Using deepspeed and megatron to train megatron-turing
+nlg 530b, a large-scale generative language model,” arXiv preprint
+arXiv:2201.11990, 2022.
+[102] I. Beltagy, M. E. Peters, and A. Cohan, “Longformer: The long-
+document transformer,” arXiv preprint arXiv:2004.05150 , 2020.
+[103] S. Iyer, X. V . Lin, R. Pasunuru, T. Mihaylov, D. Simig, P. Yu, K. Shus-
+ter, T. Wang, Q. Liu, P. S. Koura et al. , “Opt-iml: Scaling language
+model instruction meta learning through the lens of generalization,”
+arXiv preprint arXiv:2212.12017 , 2022.
+[104] Y . Hao, H. Song, L. Dong, S. Huang, Z. Chi, W. Wang, S. Ma,
+and F. Wei, “Language models are general-purpose interfaces,” arXiv
+preprint arXiv:2206.06336, 2022.
+[105] Z. Sun, Y . Shen, Q. Zhou, H. Zhang, Z. Chen, D. Cox, Y . Yang,
+and C. Gan, “Principle-driven self-alignment of language mod-
+els from scratch with minimal human supervision,” arXiv preprint
+arXiv:2305.03047, 2023.
+[106] W. E. team, “Palmyra-base Parameter Autoregressive Language
+Model,” https://dev.writer.com, 2023.
+[107] ——, “Camel-5b instructgpt,” https://dev.writer.com, 2023.
+[108] Yandex. Yalm. [Online]. Available: https://github.com/yandex/
+YaLM-100B
+[109] M. Team et al., “Introducing mpt-7b: a new standard for open-source,
+commercially usable llms,” 2023.
+[110] A. Mitra, L. D. Corro, S. Mahajan, A. Codas, C. Simoes, S. Agarwal,
+X. Chen, A. Razdaibiedina, E. Jones, K. Aggarwal, H. Palangi,
+G. Zheng, C. Rosset, H. Khanpour, and A. Awadallah, “Orca 2:
+Teaching small language models how to reason,” 2023.
+[111] L. Gao, A. Madaan, S. Zhou, U. Alon, P. Liu, Y . Yang, J. Callan, and
+G. Neubig, “Pal: Program-aided language models,” in International
+Conference on Machine Learning . PMLR, 2023, pp. 10 764–10 799.
+[112] Anthropic. claude. [Online]. Available: https://www.anthropic.com/
+news/introducing-claude
+[113] E. Nijkamp, H. Hayashi, C. Xiong, S. Savarese, and Y . Zhou,
+“Codegen2: Lessons for training llms on programming and natural
+languages,” arXiv preprint arXiv:2305.02309 , 2023.
+[114] L. Tunstall, E. Beeching, N. Lambert, N. Rajani, K. Rasul, Y . Belkada,
+S. Huang, L. von Werra, C. Fourrier, N. Habib et al., “Zephyr: Direct
+distillation of lm alignment,” arXiv preprint arXiv:2310.16944 , 2023.
+[115] X. team. Grok. [Online]. Available: https://grok.x.ai/
+[116] J. Bai, S. Bai, S. Yang, S. Wang, S. Tan, P. Wang, J. Lin, C. Zhou,
+and J. Zhou, “Qwen-vl: A frontier large vision-language model with
+versatile abilities,” arXiv preprint arXiv:2308.12966 , 2023.
+[117] mixtral. mixtral. [Online]. Available: https://mistral.ai/news/
+mixtral-of-experts/
+[118] D. Wang, N. Raman, M. Sibue, Z. Ma, P. Babkin, S. Kaur, Y . Pei,
+A. Nourbakhsh, and X. Liu, “Docllm: A layout-aware generative
+language model for multimodal document understanding,” 2023.
+[119] D. Guo, Q. Zhu, D. Yang, Z. Xie, K. Dong, W. Zhang, G. Chen, X. Bi,
+Y . Wu, Y . K. Li, F. Luo, Y . Xiong, and W. Liang, “Deepseek-coder:
+When the large language model meets programming – the rise of code
+intelligence,” 2024.
+[120] F. Wan, X. Huang, D. Cai, X. Quan, W. Bi, and S. Shi, “Knowledge
+fusion of large language models,” 2024.
+[121] P. Zhang, G. Zeng, T. Wang, and W. Lu, “Tinyllama: An open-source
+small language model,” 2024.
+[122] C. Wu, Y . Gan, Y . Ge, Z. Lu, J. Wang, Y . Feng, P. Luo, and Y . Shan,
+“Llama pro: Progressive llama with block expansion,” 2024.
+[123] X. Amatriain, A. Sankar, J. Bing, P. K. Bodigutla, T. J. Hazen, and
+M. Kazi, “Transformer models: an introduction and catalog,” 2023.
+[124] G. Penedo, Q. Malartic, D. Hesslow, R. Cojocaru, A. Cappelli,
+H. Alobeidli, B. Pannier, E. Almazrouei, and J. Launay, “The refined-
+web dataset for falcon llm: outperforming curated corpora with web
+data, and web data only,” arXiv preprint arXiv:2306.01116 , 2023.
+[125] D. Hernandez, T. Brown, T. Conerly, N. DasSarma, D. Drain, S. El-
+Showk, N. Elhage, Z. Hatfield-Dodds, T. Henighan, T. Hume et al. ,
+“Scaling laws and interpretability of learning from repeated data,”
+arXiv preprint arXiv:2205.10487 , 2022.
+[126] P. Shaw, J. Uszkoreit, and A. Vaswani, “Self-attention with relative
+position representations,” arXiv preprint arXiv:1803.02155 , 2018.
+[127] J. Su, Y . Lu, S. Pan, B. Wen, and Y . Liu, “Roformer: En-
