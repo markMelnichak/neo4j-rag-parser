@@ -86,3 +86,35 @@ class Neo4jImporter(AbstractContextManager):
 
         for rel in payload["relations"]:
             self.upsert_relation(rel)
+
+def main() -> None:
+    import argparse
+    import json
+    from pathlib import Path
+
+    parser = argparse.ArgumentParser(description="Import graph JSON payload to Neo4j")
+    parser.add_argument("--input", required=True, help="Path to graph JSON file")
+    args = parser.parse_args()
+
+    input_path = Path(args.input)
+
+    if not input_path.exists():
+        raise FileNotFoundError(f"Input file not found: {input_path}")
+
+    payload = json.loads(input_path.read_text(encoding="utf-8"))
+
+    config = load_neo4j_config()
+
+    with Neo4jImporter(config) as importer:
+        importer.import_payload(payload)
+
+    print(
+        f"Imported graph payload: "
+        f"nodes={len(payload.get('nodes', []))}, "
+        f"relations={len(payload.get('relations', []))}, "
+        f"source={payload.get('source')}"
+    )
+
+
+if __name__ == "__main__":
+    main()
