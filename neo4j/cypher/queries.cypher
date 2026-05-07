@@ -129,3 +129,12 @@ MATCH (n)
 WHERE n.source = $source
   AND NOT (n)--()
 DELETE n;
+
+MATCH (a)-[r]->(b)
+WHERE r.source = 'ai_ner_semantic_test_en.pdf'
+RETURN a.name AS from,
+       type(r) AS relation,
+       b.name AS to,
+       r.confidence AS confidence,
+       r.rule AS rule
+ORDER BY from, relation, to;
